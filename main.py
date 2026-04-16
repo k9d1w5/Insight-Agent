@@ -5,9 +5,11 @@ main.py - 인사이트 리포트 생성 메인 오케스트레이터
 import asyncio
 import json
 import os
-from datetime import datetime
+from datetime import datetime, timezone, timedelta
 from crawler import fetch_all_sources
 from summarizer import summarize_articles, generate_final_report
+
+KST = timezone(timedelta(hours=9))  # 한국 시간대
 
 REPORTS_DIR = os.path.join("web", "data", "reports")
 
@@ -16,8 +18,8 @@ def save_report(articles: list[dict], final_report: str) -> str:
     """리포트를 JSON으로 저장하고 파일 경로 반환"""
     os.makedirs(REPORTS_DIR, exist_ok=True)
 
-    today = datetime.now().strftime("%Y-%m-%d")
-    now_str = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    today = datetime.now(KST).strftime("%Y-%m-%d")
+    now_str = datetime.now(KST).strftime("%Y-%m-%d %H:%M:%S")
 
     # 카테고리별 통계
     categories = {}
@@ -68,7 +70,7 @@ def save_report(articles: list[dict], final_report: str) -> str:
 
 
 def main():
-    start = datetime.now()
+    start = datetime.now(KST)
     print("=" * 60)
     print(f"  IT 인사이트 리포트 생성 시작")
     print(f"  {start.strftime('%Y-%m-%d %H:%M:%S')}")
