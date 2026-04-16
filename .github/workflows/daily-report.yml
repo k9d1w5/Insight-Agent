@@ -37,7 +37,7 @@ jobs:
         run: |
           git config --local user.email "insight-bot@itcen.com"
           git config --local user.name "Insight Bot"
+          git pull origin studyMS
           git add web/data/
           git diff --staged --quiet || git commit -m "📊 리포트 자동 생성 - $(date +'%Y-%m-%d')"
-          git pull --rebase origin studyMS
           git push origin studyMS
