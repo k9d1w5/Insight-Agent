@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IT 인사이트 리포트 | ITCEN</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- 헤더 -->
+  <header>
+    <div class="container header-inner">
+      <div>
+        <div class="header-logo">ITCEN</div>
+        <h1>IT 인사이트 리포트</h1>
+        <p class="header-sub">IT 컨설턴트 &amp; 전략사업팀을 위한 일일 AI 인사이트</p>
+      </div>
+      <div class="header-meta">
+        <div class="report-date" id="report-date">불러오는 중...</div>
+        <div class="update-badge">매일 오전 8시 자동 업데이트</div>
+      </div>
+    </div>
+  </header>
+
+  <!-- 메인 -->
+  <main class="container">
+
+    <!-- 로딩 -->
+    <div id="loading" class="state-box">
+      <div class="spinner"></div>
+      <p>리포트를 불러오는 중...</p>
+    </div>
+
+    <!-- 오류 -->
+    <div id="error" class="state-box hidden">
+      <div class="state-icon">⚠️</div>
+      <p>리포트를 불러올 수 없습니다.<br>잠시 후 다시 시도해주세요.</p>
+    </div>
+
+    <!-- 콘텐츠 -->
+    <div id="content" class="hidden">
+
+      <!-- 통계 카드 -->
+      <div class="stats-row">
+        <div class="stat-card">
+          <span class="stat-num" id="stat-articles">-</span>
+          <span class="stat-label">수집된 아티클</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-num" id="stat-sources">-</span>
+          <span class="stat-label">분석 소스</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-num" id="stat-categories">-</span>
+          <span class="stat-label">카테고리</span>
+        </div>
+      </div>
+
+      <!-- 종합 리포트 -->
+      <section class="card report-card">
+        <div class="card-header">
+          <span class="card-icon">📊</span>
+          <h2>오늘의 종합 인사이트</h2>
+        </div>
+        <div id="final-report" class="report-body"></div>
+      </section>
+
+      <!-- 카테고리 필터 -->
+      <div class="filter-bar">
+        <button class="filter-btn active" data-cat="all">전체</button>
+        <button class="filter-btn" data-cat="글로벌 컨설팅">글로벌 컨설팅</button>
+        <button class="filter-btn" data-cat="한국 대기업">한국 대기업</button>
+        <button class="filter-btn" data-cat="플랫폼 테크">플랫폼 테크</button>
+      </div>
+
+      <!-- 아티클 그리드 -->
+      <div id="articles-grid" class="articles-grid"></div>
+
+      <!-- 과거 리포트 -->
+      <section class="card archive-card">
+        <div class="card-header">
+          <span class="card-icon">📁</span>
+          <h2>과거 리포트</h2>
+        </div>
+        <div id="archive-list" class="archive-list"></div>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- 푸터 -->
+  <footer>
+    <div class="container footer-inner">
+      <span>Powered by <strong>Claude AI</strong></span>
+      <span>ITCEN 전략사업팀 내부용</span>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
