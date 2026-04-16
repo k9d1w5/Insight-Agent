@@ -38,11 +38,6 @@ jobs:
         run: |
           git config --local user.email "insight-bot@itcen.com"
           git config --local user.name "Insight Bot"
-          cp -r web/data/reports /tmp/reports_backup
-          git fetch origin
-          git reset --hard origin/studyMS
-          mkdir -p web/data/reports
-          cp -r /tmp/reports_backup/. web/data/reports/
           git add web/data/
           git diff --staged --quiet || git commit -m "📊 리포트 자동 생성 - $(date +'%Y-%m-%d')"
           git push --force origin studyMS
