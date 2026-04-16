@@ -18,6 +18,7 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           ref: studyMS
+          fetch-depth: 0
 
       - name: Set up Python 3.11
         uses: actions/setup-python@v5
@@ -37,7 +38,8 @@ jobs:
         run: |
           git config --local user.email "insight-bot@itcen.com"
           git config --local user.name "Insight Bot"
-          git pull origin studyMS
+          git fetch origin studyMS
+          git rebase origin/studyMS
           git add web/data/
           git diff --staged --quiet || git commit -m "📊 리포트 자동 생성 - $(date +'%Y-%m-%d')"
           git push origin studyMS
