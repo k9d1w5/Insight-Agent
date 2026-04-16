@@ -19,20 +19,32 @@ SOURCES = [
      "url": "https://kpmg.com/rss/rss.xml"},
     {"name": "PwC", "category": "글로벌 컨설팅",
      "url": "https://www.pwc.com/gx/en/insights/rss.html"},
-    {"name": "EY", "category": "글로벌 컨설팅",
+    {"name": "EY Global", "category": "글로벌 컨설팅",
      "url": "https://www.ey.com/en_gl/rss/insights-feed"},
+    {"name": "EY 한영", "category": "글로벌 컨설팅",
+     "url": "https://www.ey.com/ko_kr/rss/insights-feed"},
     {"name": "Accenture", "category": "글로벌 컨설팅",
      "url": "https://newsroom.accenture.com/rss/all-news.rss"},
+    {"name": "Gartner", "category": "글로벌 컨설팅",
+     "url": "https://www.gartner.com/en/rss/feed"},
+    {"name": "IDC", "category": "글로벌 컨설팅",
+     "url": "https://www.idc.com/getdoc.jsp?containerId=rss"},
 
-    # ─── 한국 대기업 ───────────────────────────────────────────
+    # ─── 한국 대기업 IT ────────────────────────────────────────
     {"name": "Samsung Newsroom KR", "category": "한국 대기업",
      "url": "https://news.samsung.com/kr/feed"},
+    {"name": "Samsung SDS Insight", "category": "한국 대기업",
+     "url": "https://www.samsungsds.com/kr/rss/insights.xml"},
     {"name": "LG CNS Blog", "category": "한국 대기업",
      "url": "https://blog.lgcns.com/rss"},
     {"name": "SK Telecom Blog", "category": "한국 대기업",
      "url": "https://blog.sktelecom.com/feed"},
+    {"name": "SK AX (구 SK C&C)", "category": "한국 대기업",
+     "url": "https://www.skax.com/rss"},
     {"name": "KT Enterprise", "category": "한국 대기업",
      "url": "https://enterprise.kt.com/bt/rss.do"},
+    {"name": "POSCO ICT", "category": "한국 대기업",
+     "url": "https://www.poscoict.com/rss/news.xml"},
 
     # ─── 플랫폼 테크 ───────────────────────────────────────────
     {"name": "Naver D2", "category": "플랫폼 테크",
@@ -43,6 +55,18 @@ SOURCES = [
      "url": "https://toss.tech/rss.xml"},
     {"name": "우아한형제들 (배민)", "category": "플랫폼 테크",
      "url": "https://techblog.woowahan.com/feed/"},
+    {"name": "당근마켓 Tech", "category": "플랫폼 테크",
+     "url": "https://medium.com/feed/daangn"},
+    {"name": "라인 엔지니어링", "category": "플랫폼 테크",
+     "url": "https://engineering.linecorp.com/ko/feed/"},
+
+    # ─── 국내 IT 미디어 ────────────────────────────────────────
+    {"name": "IT조선", "category": "IT 미디어",
+     "url": "https://it.chosun.com/rss/allList.html"},
+    {"name": "ZDNet Korea", "category": "IT 미디어",
+     "url": "https://zdnet.co.kr/rss/"},
+    {"name": "전자신문", "category": "IT 미디어",
+     "url": "https://www.etnews.com/rss/allArticleRss.xml"},
 ]
 
 HEADERS = {
