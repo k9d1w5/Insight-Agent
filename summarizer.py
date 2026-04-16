@@ -6,7 +6,7 @@ import time
 import anthropic
 
 client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
-MODEL = "claude-sonnet-4-6"
+MODEL = "claude-3-5-sonnet-20241022"
 
 
 def _call_claude(prompt: str, max_tokens: int = 400) -> str:

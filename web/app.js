@@ -38,6 +38,15 @@ function renderReport(data) {
   document.getElementById('stat-sources').textContent = sources.length;
   document.getElementById('stat-categories').textContent = Object.keys(data.categories || {}).length;
   document.getElementById('final-report').innerHTML = markdownToHtml(data.final_report || '리포트가 없습니다.');
+
+  // 실제 데이터면 샘플 배너 숨김
+  const notice = document.getElementById('demo-notice');
+  if (notice) {
+    const today = new Date().toISOString().slice(0, 10);
+    const isRealData = data.articles && data.articles.length > 0 &&
+      data.articles.some(a => a.url && !a.url.includes('mckinsey.com/capabilities'));
+    if (isRealData || data.date === today) notice.style.display = 'none';
+  }
   allArticles = data.articles || [];
   renderArticles(allArticles);
 }

@@ -102,7 +102,7 @@ async def _fetch_rss(client: httpx.AsyncClient, source: dict) -> list[dict]:
         resp = await client.get(source["url"], timeout=20.0, follow_redirects=True)
         resp.raise_for_status()
         feed = feedparser.parse(resp.text)
-        cutoff = datetime.now() - timedelta(days=2)
+        cutoff = datetime.now() - timedelta(days=7)
 
         for entry in feed.entries[:8]:
             pub_date = None
