@@ -2,10 +2,11 @@ name: Daily IT Insight Report
 
 on:
   schedule:
-    # 매일 KST 오전 8시 = UTC 23:00 (전날)
     - cron: '0 23 * * *'
   workflow_dispatch:
-    # 수동 실행 버튼 (테스트 시 사용)
+
+permissions:
+  contents: write
 
 jobs:
   generate-report:
@@ -16,6 +17,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+          ref: studyMS
 
       - name: Set up Python 3.11
         uses: actions/setup-python@v5
@@ -37,4 +39,4 @@ jobs:
           git config --local user.name "Insight Bot"
           git add web/data/
           git diff --staged --quiet || git commit -m "📊 리포트 자동 생성 - $(date +'%Y-%m-%d')"
-          git push
+          git push origin studyMS
