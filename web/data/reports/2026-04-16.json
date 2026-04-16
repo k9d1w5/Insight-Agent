@@ -1,247 +1,92 @@
 {
   "date": "2026-04-16",
-  "generated_at": "2026-04-16 07:46:08",
-  "total_articles": 29,
+  "generated_at": "2026-04-16 07:55:18",
+  "total_articles": 21,
   "categories": {
-    "글로벌 컨설팅": 3,
-    "한국 대기업": 8,
-    "플랫폼 테크": 18
+    "플랫폼 테크": 11,
+    "한국 대기업": 10
   },
   "final_report": "최종 리포트 생성 중 오류가 발생했습니다. 개별 아티클 요약을 참고하세요.",
   "articles": [
-    {
-      "source": "McKinsey & Company",
-      "category": "글로벌 컨설팅",
-      "title": "Goldman Sachs’ David Solomon on adapting to disruption",
-      "url": "https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights/goldman-sachs-david-solomon-on-adapting-to-disruption",
-      "summary": "The chair and CEO reflects on an AI-fueled future, how he got through tough challenges early in his tenure, and how he sees the future.",
-      "published": "2026-04-15 00:00",
-      "ai_summary": "The chair and CEO reflects on an AI-fueled future, how he got through tough challenges early in his tenure, and how he sees the future."
-    },
-    {
-      "source": "McKinsey & Company",
-      "category": "글로벌 컨설팅",
-      "title": "Beyond $1 trillion: The next chapter for insurance and private capital",
-      "url": "https://www.mckinsey.com/industries/financial-services/our-insights/beyond-one-trillion-dollar-the-next-chapter-for-insurance-and-private-capital",
-      "summary": "Private-capital-backed insurers, whose assets totaled nearly $1.5 trillion in 2025, have reshaped the life insurance industry over the past decade. As growth matures and returns compress, sustaining advantage will require integration—not just scale.",
-      "published": "2026-04-15 00:00",
-      "ai_summary": "Private-capital-backed insurers, whose assets totaled nearly $1.5 trillion in 2025, have reshaped the life insurance industry over the past decade. As growth matures and returns compress, sustaining a"
-    },
-    {
-      "source": "McKinsey & Company",
-      "category": "글로벌 컨설팅",
-      "title": "Australia’s AI moment: Building Asia–Pacific’s compute hub",
-      "url": "https://www.mckinsey.com/au/our-insights/australias-ai-moment-building-asia-pacifics-compute-hub",
-      "summary": "Australia has an opportunity to become an Asia–Pacific AI hub, unlocking economic growth and productivity—though a number of constraints need to be addressed.",
-      "published": "2026-04-15 00:00",
-      "ai_summary": "Australia has an opportunity to become an Asia–Pacific AI hub, unlocking economic growth and productivity—though a number of constraints need to be addressed."
-    },
-    {
-      "source": "Samsung Newsroom KR",
-      "category": "한국 대기업",
-      "title": "삼성전자, 에버랜드서 삼성 헬스와 함께하는 ‘갤럭시 워치런 @사파리’ 러닝 이벤트 개최",
-      "url": "https://news.samsung.com/kr/%ec%82%bc%ec%84%b1%ec%a0%84%ec%9e%90-%ec%97%90%eb%b2%84%eb%9e%9c%eb%93%9c%ec%84%9c-%ec%82%bc%ec%84%b1-%ed%97%ac%ec%8a%a4%ec%99%80-%ed%95%a8%ea%bb%98%ed%95%98%eb%8a%94-%ea%b0%a4%eb%9f%ad%ec%8b%9c",
-      "summary": "삼성전자가 5월 17일 용인 에버랜드에서 러닝 이벤트 ‘갤럭시 워치런 @사파리’를 개최한다. ‘갤럭시 워치런 @사파리’는 참가자들이 갤럭시 워치를 착용하고 에버랜드의 ▲로스트밸리 ▲사파리월드 ▲장미원으로 구성된 4.82km 러닝 코스를 달리면서, 갤럭시 워치의 다양한 기능을 색다르게 체험할 수 있는 행사다. 참가자들은 에버랜드에서 차량에 탑승해 동물들을 만날 수 있었던 로스트밸리와 사파리월드를 직접 달리는 특별한 코스를 경험할 수 있다. 참가 접수는 […]",
-      "published": "2026-04-16 08:00",
-      "ai_summary": "삼성전자가 5월 17일 용인 에버랜드에서 러닝 이벤트 ‘갤럭시 워치런 @사파리’를 개최한다. ‘갤럭시 워치런 @사파리’는 참가자들이 갤럭시 워치를 착용하고 에버랜드의 ▲로스트밸리 ▲사파리월드 ▲장미원으로 구성된 4.82km 러닝 코스를 달리면서, 갤럭시 워치의 다양한 기능을 색다르게 체험할 수 있는 행사다. 참가자들은 에버랜드에서 차량에 탑승해 동물들을 만"
-    },
-    {
-      "source": "Samsung Newsroom KR",
-      "category": "한국 대기업",
-      "title": "삼성전자, 독일 프랑크푸르트서 ‘2026 유럽 테크 세미나’ 개최",
-      "url": "https://news.samsung.com/kr/%ec%82%bc%ec%84%b1%ec%a0%84%ec%9e%90-%eb%8f%85%ec%9d%bc-%ed%94%84%eb%9e%91%ed%81%ac%ed%91%b8%eb%a5%b4%ed%8a%b8%ec%84%9c-2026-%ec%9c%a0%eb%9f%bd-%ed%85%8c%ed%81%ac-%ec%84%b8%eb%af%b8%eb%82%98",
-      "summary": "삼성전자가 15일부터 16일(현지 시간)까지 독일 프랑크푸르트에 위치한 쉐라톤 공항 호텔에서 고도화된 AI 기능을 탑재한 2026년형 TV와 오디오 신제품을 소개하는 ‘2026 유럽 테크 세미나’를 개최한다. 테크 세미나는 글로벌 영상·음향 전문가를 대상으로 삼성전자의 최신 기술과 서비스를 소개하는 행사로 2012년부터 매년 개최해오고 있다. 삼성전자는 이번 행사에 유럽 주요 테크 미디어 및 업계 관계자들을 초청해, 독보적인 AI 기술이 적용된 […]",
-      "published": "2026-04-16 08:00",
-      "ai_summary": "삼성전자가 15일부터 16일(현지 시간)까지 독일 프랑크푸르트에 위치한 쉐라톤 공항 호텔에서 고도화된 AI 기능을 탑재한 2026년형 TV와 오디오 신제품을 소개하는 ‘2026 유럽 테크 세미나’를 개최한다. 테크 세미나는 글로벌 영상·음향 전문가를 대상으로 삼성전자의 최신 기술과 서비스를 소개하는 행사로 2012년부터 매년 개최해오고 있다. 삼성전자는 이"
-    },
-    {
-      "source": "Samsung Newsroom KR",
-      "category": "한국 대기업",
-      "title": "삼성전자, 스마트싱스 업데이트 통해 나와 가족의 일상을 돌보는 경험 강화",
-      "url": "https://news.samsung.com/kr/%ec%82%bc%ec%84%b1%ec%a0%84%ec%9e%90-%ec%8a%a4%eb%a7%88%ed%8a%b8%ec%8b%b1%ec%8a%a4-%ec%97%85%eb%8d%b0%ec%9d%b4%ed%8a%b8-%ed%86%b5%ed%95%b4-%eb%82%98%ec%99%80-%ea%b0%80%ec%a1%b1%ec%9d%98-%ec%9d%bc",
-      "summary": "삼성전자가 글로벌 스마트홈 플랫폼 스마트싱스(SmartThings) 업데이트를 통해 나와 가족의 일상을 돌보는 기능을 한층 강화했다. 삼성전자는 이번 업데이트를 통해 부모님 등 떨어져 사는 가족의 일상을 돌볼 수 있도록 돕는 ‘패밀리 케어’ 서비스에 신규 기능을 대폭 추가했다. ‘패밀리 케어’는 스마트싱스로 집 안의 다양한 가전 및 모바일 기기를 연동해 따로 사는 가족의 활동 알림, 복약∙통원 등 일정 알림, […]",
-      "published": "2026-04-16 08:00",
-      "ai_summary": "삼성전자가 글로벌 스마트홈 플랫폼 스마트싱스(SmartThings) 업데이트를 통해 나와 가족의 일상을 돌보는 기능을 한층 강화했다. 삼성전자는 이번 업데이트를 통해 부모님 등 떨어져 사는 가족의 일상을 돌볼 수 있도록 돕는 ‘패밀리 케어’ 서비스에 신규 기능을 대폭 추가했다. ‘패밀리 케어’는 스마트싱스로 집 안의 다양한 가전 및 모바일 기기를 연동해 따"
-    },
-    {
-      "source": "Samsung Newsroom KR",
-      "category": "한국 대기업",
-      "title": "“사람 많은데 어떻게 찍었지?” 봄꽃 인증샷 트렌드 바꾼 ‘갤럭시 S26 시리즈’",
-      "url": "https://news.samsung.com/kr/%ec%82%ac%eb%9e%8c-%eb%a7%8e%ec%9d%80%eb%8d%b0-%ec%96%b4%eb%96%bb%ea%b2%8c-%ec%b0%8d%ec%97%88%ec%a7%80-%eb%b4%84%ea%bd%83-%ec%9d%b8%ec%a6%9d%ec%83%b7-%ed%8a%b8%eb%a0%8c%eb%93%9c-%eb%b0%94",
-      "summary": "개나리와 벚꽃을 시작으로 튤립, 유채꽃까지 잇따라 개화하며 봄나들이 시즌이 본격적으로 시작됐다. 서울 여의도와 석촌호수는 물론, 창녕 낙동강과 제주 녹산로 등 전국 봄꽃 명소에는 연일 인증샷을 남기려는 사람들로 북적이고 있다. 최근 SNS에서 인파가 몰리는 명소에서도 주변 사람들 없이 주인공과 꽃만 담긴 사진들이 화제를 모으고 있다. 촬영 방법과 기기를 묻는 댓글이 이어지고 있는데, 그 비결은 비싼 카메라도, […]",
-      "published": "2026-04-16 08:00",
-      "ai_summary": "개나리와 벚꽃을 시작으로 튤립, 유채꽃까지 잇따라 개화하며 봄나들이 시즌이 본격적으로 시작됐다. 서울 여의도와 석촌호수는 물론, 창녕 낙동강과 제주 녹산로 등 전국 봄꽃 명소에는 연일 인증샷을 남기려는 사람들로 북적이고 있다. 최근 SNS에서 인파가 몰리는 명소에서도 주변 사람들 없이 주인공과 꽃만 담긴 사진들이 화제를 모으고 있다. 촬영 방법과 기기를 묻"
-    },
-    {
-      "source": "Samsung Newsroom KR",
-      "category": "한국 대기업",
-      "title": "삼성전자, 2026년형 TV 신제품 출시…AI TV 대중화 시대 연다",
-      "url": "https://news.samsung.com/kr/%ec%82%bc%ec%84%b1%ec%a0%84%ec%9e%90-2026%eb%85%84%ed%98%95-tv-%ec%8b%a0%ec%a0%9c%ed%92%88-%ec%b6%9c%ec%8b%9cai-tv-%eb%8c%80%ec%a4%91%ed%99%94-%ec%8b%9c%eb%8c%80-%ec%97%b0%eb%8b%a4",
-      "summary": "삼성전자가 혁신적인 AI 기능을 탑재한 2026년형 TV 신제품을 출시하며 AI TV 대중화 시대를 이끈다. 삼성전자는 15일 신제품 출시 행사 ‘더 퍼스트룩 서울 2026(The First Look Seoul 2026)’을 열고 이날 출시되는 2026년 TV 라인업과 스피커 신제품을 소개했다. 2026년 신제품은 ▲마이크로 RGB·OLED·네오 QLED·미니 LED·UHD등 TV 라인업 ▲라이프스타일 TV ‘더 프레임 프로·더 프레임’ ▲이동형 스크린 ‘무빙스타일’ ▲와이파이 스피커 […]",
-      "published": "2026-04-15 11:00",
-      "ai_summary": "삼성전자가 혁신적인 AI 기능을 탑재한 2026년형 TV 신제품을 출시하며 AI TV 대중화 시대를 이끈다. 삼성전자는 15일 신제품 출시 행사 ‘더 퍼스트룩 서울 2026(The First Look Seoul 2026)’을 열고 이날 출시되는 2026년 TV 라인업과 스피커 신제품을 소개했다. 2026년 신제품은 ▲마이크로 RGB·OLED·네오 QLED·"
-    },
-    {
-      "source": "Samsung Newsroom KR",
-      "category": "한국 대기업",
-      "title": "[기고문] 당신의 모바일폰 영상이 ‘영화’가 되는 순간…APV 코덱으로 현실이 되다",
-      "url": "https://news.samsung.com/kr/%ea%b8%b0%ea%b3%a0%eb%ac%b8-%eb%8b%b9%ec%8b%a0%ec%9d%98-%eb%aa%a8%eb%b0%94%ec%9d%bc%ed%8f%b0-%ec%98%81%ec%83%81%ec%9d%b4-%ec%98%81%ed%99%94%ea%b0%80-%eb%90%98%eb%8a%94-%ec%88%9c",
-      "summary": "모바일폰 하나로 영화를 찍는 시대 요즘은 누구나 손안의 모바일폰으로 영화 같은 일상을 기록합니다. 여행지에서의 생생한 풍경이나 아이의 웃음소리를 고화질 영상으로 담아 전 세계 사람들과 공유하곤 하죠. 이제 사용자들은 단순히 ‘찍히는 것’을 넘어, 영화 제작자처럼 정교한 색감을 입히고 세밀한 편집까지 할 수 있는 경험을 원하고 있습니다. 삼성전자는 이러한 사용자의 기대를 현실로 만들기 위해, 영상 기술의 핵심인 […]",
-      "published": "2026-04-15 08:00",
-      "ai_summary": "모바일폰 하나로 영화를 찍는 시대 요즘은 누구나 손안의 모바일폰으로 영화 같은 일상을 기록합니다. 여행지에서의 생생한 풍경이나 아이의 웃음소리를 고화질 영상으로 담아 전 세계 사람들과 공유하곤 하죠. 이제 사용자들은 단순히 ‘찍히는 것’을 넘어, 영화 제작자처럼 정교한 색감을 입히고 세밀한 편집까지 할 수 있는 경험을 원하고 있습니다. 삼성전자는 이러한 사"
-    },
-    {
-      "source": "Samsung Newsroom KR",
-      "category": "한국 대기업",
-      "title": "[인터뷰] “머리카락 굵기 수천 분의 일까지 차단”…국내 최다 NSF 인증받은 ‘비스포크 AI 얼음정수기’",
-      "url": "https://news.samsung.com/kr/%ec%9d%b8%ed%84%b0%eb%b7%b0-%eb%a8%b8%eb%a6%ac%ec%b9%b4%eb%9d%bd-%ea%b5%b5%ea%b8%b0-%ec%88%98%ec%b2%9c-%eb%b6%84%ec%9d%98-%ec%9d%bc%ea%b9%8c%ec%a7%80-%ec%b0%a8%eb%8b%a8",
-      "summary": "최근 미세플라스틱과 신종 미량 오염물질에 대한 우려가 커지면서, 정수기는 단순한 편의 가전을 넘어 가족의 건강한 일상을 돕는 안심 가전으로 자리잡고 있다. 맑고 투명한 얼음 한 조각이 유리잔에 담기기까지, 정수기 내부의 보이지 않는 곳에서는 미세한 불순물도 허용하지 않는 정교한 필터 기술이 작동한다. 삼성전자는 ‘누구든 걱정 없이 물을 마실 수 있어야 한다’는 원칙 아래 ‘비스포크 AI 얼음정수기’를 […]",
-      "published": "2026-04-14 09:00",
-      "ai_summary": "최근 미세플라스틱과 신종 미량 오염물질에 대한 우려가 커지면서, 정수기는 단순한 편의 가전을 넘어 가족의 건강한 일상을 돕는 안심 가전으로 자리잡고 있다. 맑고 투명한 얼음 한 조각이 유리잔에 담기기까지, 정수기 내부의 보이지 않는 곳에서는 미세한 불순물도 허용하지 않는 정교한 필터 기술이 작동한다. 삼성전자는 ‘누구든 걱정 없이 물을 마실 수 있어야 한다"
-    },
-    {
-      "source": "Samsung Newsroom KR",
-      "category": "한국 대기업",
-      "title": "[영상] [2026 삼성 명장 3편] CMP 설비 국산화의 꿈 실현! 제조 혁신을 이끈 이동우 명장",
-      "url": "https://news.samsung.com/kr/%ec%98%81%ec%83%81-2026-%ec%82%bc%ec%84%b1-%eb%aa%85%ec%9e%a5-3%ed%8e%b8-cmp-%ec%84%a4%eb%b9%84-%ea%b5%ad%ec%82%b0%ed%99%94%ec%9d%98-%ea%bf%88-%ec%8b%a4%ed%98%84-%ec%a0%9c%ec%a1%b0-%ed%98%81",
-      "summary": "2026 ‘삼성 명장’의 끊임없는 도전과 장인정신을 조명하는 영상 시리즈 세 번째 편 공개 미세한 굴곡 하나에도 영향을 받는 반도체 공정. 그 중 CMP(화학 기계적 평탄화) 공정은 반도체에 회로를 그려 넣기 전 웨이퍼 표면을 거울처럼 매끄럽게 다듬어, 다음 공정이 안정적으로 이뤄질 수 있도록 하는 핵심 과정이다. 반도체가 고도화될수록 CMP의 중요성도 더욱 커지고 있다. 삼성 명장 영상 […]",
-      "published": "2026-04-14 08:00",
-      "ai_summary": "2026 ‘삼성 명장’의 끊임없는 도전과 장인정신을 조명하는 영상 시리즈 세 번째 편 공개 미세한 굴곡 하나에도 영향을 받는 반도체 공정. 그 중 CMP(화학 기계적 평탄화) 공정은 반도체에 회로를 그려 넣기 전 웨이퍼 표면을 거울처럼 매끄럽게 다듬어, 다음 공정이 안정적으로 이뤄질 수 있도록 하는 핵심 과정이다. 반도체가 고도화될수록 CMP의 중요성도 더"
-    },
     {
       "source": "Naver D2",
       "category": "플랫폼 테크",
       "title": "NAVER SECURITY SEMINAR 참가 신청을 시작합니다!",
       "url": "https://d2.naver.com/news/6236639",
-      "summary": "NAVER SECURITY SEMINAR 참가 신청이 시작되었습니다. 4월 30일(목), 네이버 그린팩토리에서 열리는 이번 세미나는 팀 네이버 보안팀이 직접 현장의 고민과 경험을 나누는 자리입니다. 보안 기술, LLM 시대의 AI 레드팀, 피싱 트렌드까지 — 실무에서 활용할 수 있는 인사이트를 만나보세요! 행사 개요 ※ 발표 세션 제목은 변경될 수 있으며, 최종 프로그램은 선정된 참석자에 한해 별도 안내드리겠습니다. 일시 4월 30일(목) 오후 1시 30분 - 6시 30분 장소 네이버 그린팩토리 ( 지도보기 ) 참가 대상 IT 보안 실무자, 보안에 관심 있는 개발자 및 학생 프로그램 제목 발표자 지속 가능한 AI 레드티밍 파이프라인 구축하기 NAVER 박현준 네이버 대상 피싱 캠페인 분석: 피싱 공격 체인과 탐지 회피 기법의 진화 NAVER 이민수 위협 모델링으로 구현한 Npay커넥트 페이스사인의 보안 아키텍처 NAVER FINANCIAL 김동율 TLS 인증서부터 양자내성까지: 네이버의 Cryptographic Agility 전략 NAVER Cloud 장동원 NASM(NAVER Attack Surface Management) - 외부 공격 표면 자동 탐지 및",
+      "summary": "NAVER SECURITY SEMINAR 참가 신청이 시작되었습니다. 4월 30일(목), 네이버 그린팩토리에서 열리는 이번 세미나는 팀 네이버 보안팀이 직접 현장의 고민과 경험을 나누는 자리입니다. 보안 기술, LLM 시대의 AI 레드팀, 피싱 트렌드까지 — 실무에서 활용할 수 있는 인사이트를 만나보세요! 행사 개요 ※ 발표 세션 제목은 변경될 수 있으며, 최종 프로그램은 선정된 참석자에 한해 별도 안내드리겠습니다. 일시 4월 30일(목) 오후 1시 30분 - 6시 30분 장소 네이버 그린팩토리 ( 지도보기 ) 참가 대상 IT 보안 실무자, 보안에 관심 있는 개발자 및 학생 프로그램 제목 발표자 지속 가능한 AI 레드티밍 파이프라인 구축하기 NAVER 박현준 네이버 대상 피싱 캠페인 분석: 피싱 공격 체인과 탐지 회피 기법의 진화 NAVER 이민수 위협 모델링으로 구현한 Npay커넥트 페이스사인의 보안 아키텍처 NAVER FINANCIAL 김동율 TLS 인증서부터 양자내성까지: 네이",
       "published": null,
-      "ai_summary": "NAVER SECURITY SEMINAR 참가 신청이 시작되었습니다. 4월 30일(목), 네이버 그린팩토리에서 열리는 이번 세미나는 팀 네이버 보안팀이 직접 현장의 고민과 경험을 나누는 자리입니다. 보안 기술, LLM 시대의 AI 레드팀, 피싱 트렌드까지 — 실무에서 활용할 수 있는 인사이트를 만나보세요! 행사 개요 ※ 발표 세션 제목은 변경될 수 있으며,"
+      "logo_domain": "naver.com",
+      "ai_summary": "NAVER SECURITY SEMINAR 참가 신청이 시작되었습니다. 4월 30일(목), 네이버 그린팩토리에서 열리는 이번 세미나는 팀 네이버 보안팀이 직접 현장의 고민과 경험을 나누는 자리입니다. 보안 기술, LLM 시대의 AI 레드팀, 피싱 트렌드까지 — 실무에서 "
     },
     {
       "source": "Naver D2",
       "category": "플랫폼 테크",
       "title": "[사전 안내] 첫 번째 'NAVER SECURITY SEMINAR'가 열립니다.",
       "url": "https://d2.naver.com/news/2009415",
-      "summary": "네이버는 수많은 사용자가 매일 신뢰하며 이용하는 서비스를 운영합니다. 그 신뢰의 근간에는 보안이 있습니다. 끊임없이 진화하는 위협 환경 속에서 네이버 보안 조직이 어떤 고민을 하고, 어떻게 대응하는지 그 경험과 인사이트를 나누는 첫 번째 자리를 마련했습니다. 네이버의 보안을 지키기 위한 활동중 하나로 매년 참여자들을 대상으로 개최해온 네이버 Security 의 버그바운티 프로그램 이 있습니다. 그간 온라인으로 진행되어 온 시상식을 올해에는 오프라인으로 NAVER SECURITY SEMINAR에서도 함께 축하하고자 합니다. IT 보안 실무자들과 현장의 이야기를 직접 나눌 수 있는 이 행사에 보안을 고민하는 모든 분들의 많은 관심 부탁드립니다. 행사 개요 일시 4월 30일(목) 오후 1시 30분 - 6시 30분 장소 네이버 그린팩토리 ( 지도보기 ) 참가 대상 IT 보안 실무자, 보안에 관심 있는 개발자 및 학생 프로그램 요약 발표자 : 팀네이버 보안팀 - 네이버 서비스 및 사용자를 안전하게 보호하기 위해 노력하고 있는 다양한 보안 기술 소개 - 안전한 LLM 모델을 만들기 위한 AI 레드티밍 전략과 네이버 서비스에서 발견된 피싱 트렌드 소개 - 안전한 오프라인",
+      "summary": "네이버는 수많은 사용자가 매일 신뢰하며 이용하는 서비스를 운영합니다. 그 신뢰의 근간에는 보안이 있습니다. 끊임없이 진화하는 위협 환경 속에서 네이버 보안 조직이 어떤 고민을 하고, 어떻게 대응하는지 그 경험과 인사이트를 나누는 첫 번째 자리를 마련했습니다. 네이버의 보안을 지키기 위한 활동중 하나로 매년 참여자들을 대상으로 개최해온 네이버 Security 의 버그바운티 프로그램 이 있습니다. 그간 온라인으로 진행되어 온 시상식을 올해에는 오프라인으로 NAVER SECURITY SEMINAR에서도 함께 축하하고자 합니다. IT 보안 실무자들과 현장의 이야기를 직접 나눌 수 있는 이 행사에 보안을 고민하는 모든 분들의 많은 관심 부탁드립니다. 행사 개요 일시 4월 30일(목) 오후 1시 30분 - 6시 30분 장소 네이버 그린팩토리 ( 지도보기 ) 참가 대상 IT 보안 실무자, 보안에 관심 있는 개발자 및 학생 프로그램 요약 발표자 : 팀네이버 보안팀 - 네이버 서비스 및 사용자를 안",
       "published": null,
-      "ai_summary": "네이버는 수많은 사용자가 매일 신뢰하며 이용하는 서비스를 운영합니다. 그 신뢰의 근간에는 보안이 있습니다. 끊임없이 진화하는 위협 환경 속에서 네이버 보안 조직이 어떤 고민을 하고, 어떻게 대응하는지 그 경험과 인사이트를 나누는 첫 번째 자리를 마련했습니다. 네이버의 보안을 지키기 위한 활동중 하나로 매년 참여자들을 대상으로 개최해온 네이버 Security"
+      "logo_domain": "naver.com",
+      "ai_summary": "네이버는 수많은 사용자가 매일 신뢰하며 이용하는 서비스를 운영합니다. 그 신뢰의 근간에는 보안이 있습니다. 끊임없이 진화하는 위협 환경 속에서 네이버 보안 조직이 어떤 고민을 하고, 어떻게 대응하는지 그 경험과 인사이트를 나누는 첫 번째 자리를 마련했습니다. 네이버의 "
     },
     {
       "source": "Naver D2",
       "category": "플랫폼 테크",
       "title": "FE News 26년 4월 소식을 전해드립니다!",
       "url": "https://d2.naver.com/news/6428522",
-      "summary": "주요소식 Temporal: The 9-Year Journey to Fix Time in JavaScript JavaScript의 Date 객체를 대체하는 Temporal API가 9년간의 표준화 과정을 거쳐 TC39 Stage 4에 도달하고 ES2026에 포함될 예정이다. 불변(immutable) 값, ZonedDateTime·Instant 등 다양한 타입, 명시적 타임존 지원, 나노초 정밀도, 다중 캘린더 지원 등을 제공한다. 현재 Firefox 139+, Chrome/Edge 144+, TypeScript 6.0 Beta, Node.js 26에서 지원된다. Announcing TypeScript 6.0 TypeScript 6.0이 출시되었다. 현재 JavaScript 코드베이스 기반의 마지막 버전으로, TypeScript 7.0부터는 Go로 재작성된 새 컴파일러가 기반이 된다. this를 실제로 사용하지 않는 함수의 타입 추론 정확도 개선, 서브패스 임포트 지원, --moduleResolution bundler와 --module commonjs 조합 허용 등이 포함된다. Node.js Moves to Annual Major Releases Starting",
+      "summary": "주요소식 Temporal: The 9-Year Journey to Fix Time in JavaScript JavaScript의 Date 객체를 대체하는 Temporal API가 9년간의 표준화 과정을 거쳐 TC39 Stage 4에 도달하고 ES2026에 포함될 예정이다. 불변(immutable) 값, ZonedDateTime·Instant 등 다양한 타입, 명시적 타임존 지원, 나노초 정밀도, 다중 캘린더 지원 등을 제공한다. 현재 Firefox 139+, Chrome/Edge 144+, TypeScript 6.0 Beta, Node.js 26에서 지원된다. Announcing TypeScript 6.0 TypeScript 6.0이 출시되었다. 현재 JavaScript 코드베이스 기반의 마지막 버전으로, TypeScript 7.0부터는 Go로 재작성된 새 컴파일러가 기반이 된다. this를 실제로 사용하지 않는 함수의 타입 추론 정확도 개선, 서브패스 임포트 지원, --module",
       "published": null,
-      "ai_summary": "주요소식 Temporal: The 9-Year Journey to Fix Time in JavaScript JavaScript의 Date 객체를 대체하는 Temporal API가 9년간의 표준화 과정을 거쳐 TC39 Stage 4에 도달하고 ES2026에 포함될 예정이다. 불변(immutable) 값, ZonedDateTime·Instant 등 다양한 타입"
+      "logo_domain": "naver.com",
+      "ai_summary": "주요소식 Temporal: The 9-Year Journey to Fix Time in JavaScript JavaScript의 Date 객체를 대체하는 Temporal API가 9년간의 표준화 과정을 거쳐 TC39 Stage 4에 도달하고 ES2026에 포함될 예정이"
     },
     {
       "source": "Naver D2",
       "category": "플랫폼 테크",
       "title": "C++ 객체 수명과 암묵적 객체 생성",
       "url": "https://d2.naver.com/helloworld/7997284",
-      "summary": "이전 글 에서는 엄격한 앨리어싱 규칙의 관점에서 reinterpret_cast 를 안전하게 사용하는 방법을 알아보았습니다. 이번 글에서는 한 걸음 더 나아가, 디스크나 네트워크에서 읽어 온 바이트 표현을 특정 타입으로 해석할 때 reinterpret_cast 를 사용하는 패턴을 C++의 엄격한 표준에 비추어 살펴보겠습니다. 결론부터 말씀드리면, 이런 패턴의 상당수는 엄밀히 따지면 미정의 동작(UB, undefined behavior)에 해당합니다. 예를 들어 malloc() 으로 할당받은 메모리를 구조체 포인터로 캐스팅해 곧바로 접근하는 방식은 C 언어에서는 합법적이지만, C++17까지는 미정의 동작으로 간주되었습니다. C와 C++의 이 차이는 C++의 객체 수명(object lifetime) 이라는 개념에서 비롯됩니다. C에서 포인터는 단순한 메모리 주소이므로, 해당 주소의 바이트 표현을 원하는 타입으로 해석하기만 하면 됩니다. 반면 C++은 포인터가 가리키는 주소에 해당 타입의 살아 있는 객체 가 존재해야 한다는 조건을 추가로 요구합니다. 이 규칙에 따르면 malloc() 으로 할당받은 메모리에는 아직 살아 있는 객체가 없으므로, 여기에 접근하는 것은 미",
+      "summary": "이전 글 에서는 엄격한 앨리어싱 규칙의 관점에서 reinterpret_cast 를 안전하게 사용하는 방법을 알아보았습니다. 이번 글에서는 한 걸음 더 나아가, 디스크나 네트워크에서 읽어 온 바이트 표현을 특정 타입으로 해석할 때 reinterpret_cast 를 사용하는 패턴을 C++의 엄격한 표준에 비추어 살펴보겠습니다. 결론부터 말씀드리면, 이런 패턴의 상당수는 엄밀히 따지면 미정의 동작(UB, undefined behavior)에 해당합니다. 예를 들어 malloc() 으로 할당받은 메모리를 구조체 포인터로 캐스팅해 곧바로 접근하는 방식은 C 언어에서는 합법적이지만, C++17까지는 미정의 동작으로 간주되었습니다. C와 C++의 이 차이는 C++의 객체 수명(object lifetime) 이라는 개념에서 비롯됩니다. C에서 포인터는 단순한 메모리 주소이므로, 해당 주소의 바이트 표현을 원하는 타입으로 해석하기만 하면 됩니다. 반면 C++은 포인터가 가리키는 주소에 해당 타입의 ",
       "published": null,
-      "ai_summary": "이전 글 에서는 엄격한 앨리어싱 규칙의 관점에서 reinterpret_cast 를 안전하게 사용하는 방법을 알아보았습니다. 이번 글에서는 한 걸음 더 나아가, 디스크나 네트워크에서 읽어 온 바이트 표현을 특정 타입으로 해석할 때 reinterpret_cast 를 사용하는 패턴을 C++의 엄격한 표준에 비추어 살펴보겠습니다. 결론부터 말씀드리면, 이런 패턴의"
+      "logo_domain": "naver.com",
+      "ai_summary": "이전 글 에서는 엄격한 앨리어싱 규칙의 관점에서 reinterpret_cast 를 안전하게 사용하는 방법을 알아보았습니다. 이번 글에서는 한 걸음 더 나아가, 디스크나 네트워크에서 읽어 온 바이트 표현을 특정 타입으로 해석할 때 reinterpret_cast 를 사용하"
     },
     {
       "source": "Naver D2",
       "category": "플랫폼 테크",
       "title": "C++ std::bit_cast와 reinterpret_cast — 언제 어떤 것을 써야 하는가",
       "url": "https://d2.naver.com/helloworld/1155434",
-      "summary": "저희 팀은 네이버의 고성능 검색 엔진 기술을 계승한 분산 데이터베이스인 Dot을 개발하고 있습니다. 스토리지 계층을 직접 다루다 보니 디스크에서 읽어 온 바이트 패턴을 uint64_t , float , 혹은 사용자 정의 구조체로 해석하는 일이 일상이고, 코드 리뷰에서 reinterpret_cast 를 마주치는 일도 잦습니다. 볼 때마다 느끼는 불안함, 즉 '이것은 되도록 쓰지 말라고 배웠는데 괜찮을까?' 하는 감정은 C++ 개발자라면 공감하실 것입니다. C++20에서 등장한 std::bit_cast 는 그 불안에 대한 해답처럼 보였습니다. 표준 라이브러리가 제공하는 함수라는 점, 위험해 보이는 타입 퍼닝(type punning)까지 척척 해낸다는 점이 '이것은 안전하다'라는 착각을 심어 주었습니다. 그 착각이 퍼지면서 팀은 std::bit_cast 가 주는 안도감에 젖어 들었고, 예전 같으면 reinterpret_cast 를 썼을 자리를 std::bit_cast 가 차지하기 시작했습니다. 그러다 어느 날, 다음과 같은 코드를 보았습니다. const uint8_t* src = ...; float* dst = std::bit_cast<float*>(src); /",
+      "summary": "저희 팀은 네이버의 고성능 검색 엔진 기술을 계승한 분산 데이터베이스인 Dot을 개발하고 있습니다. 스토리지 계층을 직접 다루다 보니 디스크에서 읽어 온 바이트 패턴을 uint64_t , float , 혹은 사용자 정의 구조체로 해석하는 일이 일상이고, 코드 리뷰에서 reinterpret_cast 를 마주치는 일도 잦습니다. 볼 때마다 느끼는 불안함, 즉 '이것은 되도록 쓰지 말라고 배웠는데 괜찮을까?' 하는 감정은 C++ 개발자라면 공감하실 것입니다. C++20에서 등장한 std::bit_cast 는 그 불안에 대한 해답처럼 보였습니다. 표준 라이브러리가 제공하는 함수라는 점, 위험해 보이는 타입 퍼닝(type punning)까지 척척 해낸다는 점이 '이것은 안전하다'라는 착각을 심어 주었습니다. 그 착각이 퍼지면서 팀은 std::bit_cast 가 주는 안도감에 젖어 들었고, 예전 같으면 reinterpret_cast 를 썼을 자리를 std::bit_cast 가 차지하기 시작했습",
       "published": null,
-      "ai_summary": "저희 팀은 네이버의 고성능 검색 엔진 기술을 계승한 분산 데이터베이스인 Dot을 개발하고 있습니다. 스토리지 계층을 직접 다루다 보니 디스크에서 읽어 온 바이트 패턴을 uint64_t , float , 혹은 사용자 정의 구조체로 해석하는 일이 일상이고, 코드 리뷰에서 reinterpret_cast 를 마주치는 일도 잦습니다. 볼 때마다 느끼는 불안함, 즉 "
+      "logo_domain": "naver.com",
+      "ai_summary": "저희 팀은 네이버의 고성능 검색 엔진 기술을 계승한 분산 데이터베이스인 Dot을 개발하고 있습니다. 스토리지 계층을 직접 다루다 보니 디스크에서 읽어 온 바이트 패턴을 uint64_t , float , 혹은 사용자 정의 구조체로 해석하는 일이 일상이고, 코드 리뷰에서 "
     },
     {
       "source": "Naver D2",
       "category": "플랫폼 테크",
       "title": "FE News 26년 3월 소식을 전해드립니다!",
       "url": "https://d2.naver.com/news/0407747",
-      "summary": "주요소식 React Foundation React 생태계를 지속 가능하게 유지하고 발전시키기 위한 커뮤니티 주도 재단이다. \"Building the future of React, together\"라는 슬로건 아래, 코드 기여, 커뮤니티 조직화, 교육 콘텐츠 제작, 지속 가능한 자금 조달을 통해 수백만 개발자가 의존하는 도구의 유지보수자들을 지원하는 것을 목표로 한다. CSS Day 2025 CSS Day 2025 컨퍼런스의 발표 영상 모음 플레이리스트다. CSS의 철학부터 새로운 HTML UI 기능 스타일링, 폼 컨트롤 스타일링, CSS 리팩토링 등 다양한 주제를 다루고 있으며, John Allsopp, Rachel Andrew, Ahmad Shadeed 등 저명한 웹 개발자들이 발표자로 참여했다. Head of Claude Code: What happens after coding is solved Anthropic의 Claude Code 책임자인 Boris Cherny가 Lenny's Podcast에 출연하여 Claude Code의 탄생부터 현재까지의 성장 과정을 이야기한다. Claude Code는 1년 전 단순한 터미널 프로토타입에서 시작하여 현재 공개 ",
+      "summary": "주요소식 React Foundation React 생태계를 지속 가능하게 유지하고 발전시키기 위한 커뮤니티 주도 재단이다. \"Building the future of React, together\"라는 슬로건 아래, 코드 기여, 커뮤니티 조직화, 교육 콘텐츠 제작, 지속 가능한 자금 조달을 통해 수백만 개발자가 의존하는 도구의 유지보수자들을 지원하는 것을 목표로 한다. CSS Day 2025 CSS Day 2025 컨퍼런스의 발표 영상 모음 플레이리스트다. CSS의 철학부터 새로운 HTML UI 기능 스타일링, 폼 컨트롤 스타일링, CSS 리팩토링 등 다양한 주제를 다루고 있으며, John Allsopp, Rachel Andrew, Ahmad Shadeed 등 저명한 웹 개발자들이 발표자로 참여했다. Head of Claude Code: What happens after coding is solved Anthropic의 Claude Code 책임자인 Boris Cherny가 Lenny",
       "published": null,
-      "ai_summary": "주요소식 React Foundation React 생태계를 지속 가능하게 유지하고 발전시키기 위한 커뮤니티 주도 재단이다. \"Building the future of React, together\"라는 슬로건 아래, 코드 기여, 커뮤니티 조직화, 교육 콘텐츠 제작, 지속 가능한 자금 조달을 통해 수백만 개발자가 의존하는 도구의 유지보수자들을 지원하는 것을 목"
+      "logo_domain": "naver.com",
+      "ai_summary": "주요소식 React Foundation React 생태계를 지속 가능하게 유지하고 발전시키기 위한 커뮤니티 주도 재단이다. \"Building the future of React, together\"라는 슬로건 아래, 코드 기여, 커뮤니티 조직화, 교육 콘텐츠 제작, 지속"
     },
     {
       "source": "Naver D2",
       "category": "플랫폼 테크",
       "title": "FE News 26년 2월 소식을 전해드립니다!",
       "url": "https://d2.naver.com/news/2922082",
-      "summary": "주요소식 웹퍼블리셔라는 말을 만든 이유 2000년대 초반 한국에서 \"웹 퍼블리셔\"라는 용어가 어떻게 탄생했는지를 다룬 글이다. 당시 HTML 코딩을 담당하던 \"코더\"라는 직책은 그 역할의 중요성에 비해 전문성을 인정받지 못했고, 이를 개선하기 위해 웹 표준과 접근성에 초점을 맞춘 새로운 직무 명칭이 필요했다. 저자는 \"퍼블리셔\"라는 용어를 제안하며, 이 역할이 단순한 코딩을 넘어 웹 표준 준수, 접근성 구현, 디자인과 개발 사이의 가교 역할을 포함한다고 설명했다. 이 명칭은 이후 국내 웹 업계에서 널리 채택되어 현재까지 사용되고 있다. 한국 웹 개발 역사에서 직무 전문화가 어떻게 이루어졌는지를 보여주는 흥미로운 사례로, 글이 작성된 시점이 2007년임을 감안하고 읽어보기를 바란다. Introducing: React Best Practices Vercel Labs에서 10년 이상의 React 및 Next.js 최적화 경험을 담은 react-best-practices 저장소를 공개했다. 이 가이드는 8개 카테고리에 걸쳐 40개 이상의 규칙을 제공하며, 워터폴 제거, 번들 크기 감소, 서버 사이드 성능, 클라이언트 데이터 페칭, 리렌더링 최적화 등 중요도순으로 우",
+      "summary": "주요소식 웹퍼블리셔라는 말을 만든 이유 2000년대 초반 한국에서 \"웹 퍼블리셔\"라는 용어가 어떻게 탄생했는지를 다룬 글이다. 당시 HTML 코딩을 담당하던 \"코더\"라는 직책은 그 역할의 중요성에 비해 전문성을 인정받지 못했고, 이를 개선하기 위해 웹 표준과 접근성에 초점을 맞춘 새로운 직무 명칭이 필요했다. 저자는 \"퍼블리셔\"라는 용어를 제안하며, 이 역할이 단순한 코딩을 넘어 웹 표준 준수, 접근성 구현, 디자인과 개발 사이의 가교 역할을 포함한다고 설명했다. 이 명칭은 이후 국내 웹 업계에서 널리 채택되어 현재까지 사용되고 있다. 한국 웹 개발 역사에서 직무 전문화가 어떻게 이루어졌는지를 보여주는 흥미로운 사례로, 글이 작성된 시점이 2007년임을 감안하고 읽어보기를 바란다. Introducing: React Best Practices Vercel Labs에서 10년 이상의 React 및 Next.js 최적화 경험을 담은 react-best-practices 저장소를 공개했다.",
       "published": null,
-      "ai_summary": "주요소식 웹퍼블리셔라는 말을 만든 이유 2000년대 초반 한국에서 \"웹 퍼블리셔\"라는 용어가 어떻게 탄생했는지를 다룬 글이다. 당시 HTML 코딩을 담당하던 \"코더\"라는 직책은 그 역할의 중요성에 비해 전문성을 인정받지 못했고, 이를 개선하기 위해 웹 표준과 접근성에 초점을 맞춘 새로운 직무 명칭이 필요했다. 저자는 \"퍼블리셔\"라는 용어를 제안하며, 이 역"
+      "logo_domain": "naver.com",
+      "ai_summary": "주요소식 웹퍼블리셔라는 말을 만든 이유 2000년대 초반 한국에서 \"웹 퍼블리셔\"라는 용어가 어떻게 탄생했는지를 다룬 글이다. 당시 HTML 코딩을 담당하던 \"코더\"라는 직책은 그 역할의 중요성에 비해 전문성을 인정받지 못했고, 이를 개선하기 위해 웹 표준과 접근성에 "
     },
     {
       "source": "Naver D2",
       "category": "플랫폼 테크",
       "title": "스마트스토어센터 Oracle에서 MySQL로의 무중단 전환기",
       "url": "https://d2.naver.com/helloworld/6512234",
-      "summary": "스마트스토어 플랫폼 내 여러 파트가 공동으로 사용하던 Oracle DBMS는 비즈니스 성장에 따라 리소스 경합이 심화되면서 서비스 성능 불안정을 초래했습니다. 기존 Oracle 인프라의 확장은 막대한 라이선스 비용 증가로 이어지기 때문에, 스마트스토어 회원 파트는 운영 비효율성과 비용 압박을 해소하고자 오픈소스인 MySQL로 DBMS 마이그레이션을 결정했습니다. 이 글에서는 10년 이상의 레거시 프로젝트가 서비스 중단 없이 Oracle 공동 환경에서 벗어나 MySQL로 전환하며 채택한 전략과 기술적 해결 과정을 공유합니다. 마이그레이션 준비 및 전략 수립 기존 서비스는 Oracle DBMS 환경에서 JPA와 MyBatis를 사용하고 있었습니다. 기존 서비스 아키텍처 회원 파트의 모듈은 타 부서 시스템과 광범위하게 연계되어 있어 서비스 중단이 불가능했습니다. 따라서 Oracle에서 MySQL로의 DB 전환에는 무중단 배포가 필수였습니다. 또한 사소한 기능 버그에는 핫픽스로 대응할 수 있지만, DB 전환 후 치명적인 성능 저하나 서비스 장애가 발생하는 경우에는 재배포만으로 해결할 수 없으므로 신속한 롤백 능력도 확보해야 했습니다. 전환 전략: 이중 쓰기 Kube",
+      "summary": "스마트스토어 플랫폼 내 여러 파트가 공동으로 사용하던 Oracle DBMS는 비즈니스 성장에 따라 리소스 경합이 심화되면서 서비스 성능 불안정을 초래했습니다. 기존 Oracle 인프라의 확장은 막대한 라이선스 비용 증가로 이어지기 때문에, 스마트스토어 회원 파트는 운영 비효율성과 비용 압박을 해소하고자 오픈소스인 MySQL로 DBMS 마이그레이션을 결정했습니다. 이 글에서는 10년 이상의 레거시 프로젝트가 서비스 중단 없이 Oracle 공동 환경에서 벗어나 MySQL로 전환하며 채택한 전략과 기술적 해결 과정을 공유합니다. 마이그레이션 준비 및 전략 수립 기존 서비스는 Oracle DBMS 환경에서 JPA와 MyBatis를 사용하고 있었습니다. 기존 서비스 아키텍처 회원 파트의 모듈은 타 부서 시스템과 광범위하게 연계되어 있어 서비스 중단이 불가능했습니다. 따라서 Oracle에서 MySQL로의 DB 전환에는 무중단 배포가 필수였습니다. 또한 사소한 기능 버그에는 핫픽스로 대응할 수 ",
       "published": null,
-      "ai_summary": "스마트스토어 플랫폼 내 여러 파트가 공동으로 사용하던 Oracle DBMS는 비즈니스 성장에 따라 리소스 경합이 심화되면서 서비스 성능 불안정을 초래했습니다. 기존 Oracle 인프라의 확장은 막대한 라이선스 비용 증가로 이어지기 때문에, 스마트스토어 회원 파트는 운영 비효율성과 비용 압박을 해소하고자 오픈소스인 MySQL로 DBMS 마이그레이션을 결정했습"
-    },
-    {
-      "source": "Naver D2",
-      "category": "플랫폼 테크",
-      "title": "네이버 통합검색 AIB 도입과 웹 성능 변화 분석",
-      "url": "https://d2.naver.com/helloworld/4241703",
-      "summary": "AIB(AI Briefing)는 네이버 통합검색에서 AI 기반 요약·브리핑 경험을 제공하는 기능입니다. 2025년 3월부터 단계적으로 도입되었으며, 초기에는 정적인 요약 형태 중심이었고 2025년 7월 채팅 UI 기반의 애니메이션 인터페이스가 추가되면서 상호작용 요소가 확장되었습니다. 이러한 변화와 함께 트래픽에서 AIB가 차지하는 비중도 점차 증가하고 있습니다. 현재 네이버 통합검색에서 LCP(Largest Contentful Paint)로 측정되는 영역 중 AIB 영역이 약 10%를 차지하며, LCP 후보 영역으로 선택되는 빈도 또한 상위권입니다. 즉, AIB는 더 이상 일부 사용자에게만 노출되는 부가 기능이 아니라, 그 렌더링 방식이 검색 성능 지표 전반에 영향을 주는 단계라고 볼 수 있습니다. 이 글에서는 AIB의 UI 특성이 LCP에 어떤 영향을 주는지 정리하고, 채팅 UI에서 성능 지표를 해석할 때 주의할 점과 개선 방향을 제안합니다. AIB 도입 이후 성능 지표 변화 최근 네이버 통합검색의 LCP p95는 약 3.1초 수준으로 관측됩니다. 95%의 경우 뷰포트에서 가장 큰 콘텐츠가 3.1초 이내에 그려진다는 의미입니다. 이는 목표인 ‘LCP p9",
-      "published": null,
-      "ai_summary": "AIB(AI Briefing)는 네이버 통합검색에서 AI 기반 요약·브리핑 경험을 제공하는 기능입니다. 2025년 3월부터 단계적으로 도입되었으며, 초기에는 정적인 요약 형태 중심이었고 2025년 7월 채팅 UI 기반의 애니메이션 인터페이스가 추가되면서 상호작용 요소가 확장되었습니다. 이러한 변화와 함께 트래픽에서 AIB가 차지하는 비중도 점차 증가하고 있"
-    },
-    {
-      "source": "Naver D2",
-      "category": "플랫폼 테크",
-      "title": "FE News 26년 1월 소식을 전해드립니다!",
-      "url": "https://d2.naver.com/news/5798505",
-      "summary": "주요소식 다음과 같은 유용한 정보들을 만나보실 수 있습니다. RSC Explorer - React Server Components 시각화 도구 Dan Abramov가 React Server Components(RSC) 프로토콜을 시각화하는 도구를 공개했다. 브라우저에서 RSC 스트림을 단계별로 재생하고 분해할 수 있으며, 서버·클라이언트·flight·preview 4개 패널로 데이터 흐름을 표시한다. 네트워크 요청 없이 동작하고 React가 제공하는 reader/writer를 그대로 사용하기 때문에 출력 결과는 실제 프로토콜과 동일하다. 스트리밍(Suspense), Client Reference, Server Actions, Router refresh 같은 프레임워크 내부 동작 원리를 이해할 수 있는 RSC 디버깅과 교육 자료로 활용하기 좋은 도구다.. Web AI Summit 2025 - 클라이언트 사이드 AI의 새로운 흐름 클라이언트 사이드 모델과 에이전트를 주제로 하는 행사다. \"웹에서 AI\" 흐름이 서버 호출 중심에서 점점 브라우저 실행과 에이전트 상호작용 쪽으로 이동하는 분위기를 보여준다. Transformers.js로 브라우저에서 100% 로컬로 ",
-      "published": null,
-      "ai_summary": "주요소식 다음과 같은 유용한 정보들을 만나보실 수 있습니다. RSC Explorer - React Server Components 시각화 도구 Dan Abramov가 React Server Components(RSC) 프로토콜을 시각화하는 도구를 공개했다. 브라우저에서 RSC 스트림을 단계별로 재생하고 분해할 수 있으며, 서버·클라이언트·flight·pre"
-    },
-    {
-      "source": "Naver D2",
-      "category": "플랫폼 테크",
-      "title": "비용, 성능, 안정성을 목표로 한 지능형 로그 파이프라인 도입",
-      "url": "https://d2.naver.com/helloworld/0004394",
-      "summary": "Logiss는 AIDA(Advanced Interface for Data & AI)라는 네이버 사내 통합 데이터 플랫폼의 일부로, 로그 수집과 실시간 검색을 통해 문제를 추적하고 데이터를 분석하도록 지원합니다. 또한 Cuve와 CQuery라는 대용량 데이터 저장소 및 분석 설루션과 데이터를 연동합니다. 이 글에서는 로그 파이프라인을 운영하면서 겪은 문제점과 지능형 로그 파이프라인을 도입해 이를 해결한 과정을 공유합니다. 관련 발표는 팀네이버 컨퍼런스 DAN25 ' 하루 수백억 건을 처리하는 똑똑한 로그 파이프라인 만들기: 비용·성능·안정성 삼박자 '에서도 살펴보실 수 있습니다. 로그 파이프라인의 역할 로그 파이프라인을 설명하기 전에 먼저 AIDA의 주요 컴포넌트 구성을 간단히 알아보겠습니다. AIDA의 주요 컴포넌트 구성 AIDA Project : 각 컴포넌트의 리소스 사용 관리, 데이터 권한 관리 담당 Cuve : HBase, Kafka 기반의 검색에 필요한 모든 문서를 중심으로 데이터 저장 및 유통 Hades : 검색 결과에서 문서 노출 여부 제어 Deathnote : 서버 실시간 문서 삭제 C3 : Apache Hadoop(+보안 패치, C3 패치) 기",
-      "published": null,
-      "ai_summary": "Logiss는 AIDA(Advanced Interface for Data & AI)라는 네이버 사내 통합 데이터 플랫폼의 일부로, 로그 수집과 실시간 검색을 통해 문제를 추적하고 데이터를 분석하도록 지원합니다. 또한 Cuve와 CQuery라는 대용량 데이터 저장소 및 분석 설루션과 데이터를 연동합니다. 이 글에서는 로그 파이프라인을 운영하면서 겪은 문제점과"
-    },
-    {
-      "source": "Naver D2",
-      "category": "플랫폼 테크",
-      "title": "[인턴십] 2026 NAVER AI CHALLENGE를 소개합니다.",
-      "url": "https://d2.naver.com/news/7477295",
-      "summary": "네이버의 개발 문화와 함께 프로젝트 협업 방식을 체험할 수 있는 2026 NAVER AI CHALLENGE 인턴십 모집 을 시작했습니다. 실무에서 다루는 AI 문제를 네이버의 현업 엔지니어와 함께 아이디어 설계 단계부터 기술적 방향성, 검증 과정까지 전 과정을 함께 학습하고 성장 할 수 있는 좋은 기회입니다. 원활한 협업과 멘토링을 위해 전용 좌석을 제공하며, 수행 기간 동안 프로젝트 활동비 및 최신 OA 장비도 지급됩니다. 학년, 전공 상관 없이 학/석사 재학생이면 누구나 지원할 수 있으니, 네이버와 AI 프로젝트에 관심 있는 분들은 모두 지원해보세요! 접수 기간 : 12.10(수) - 12.16(화) 오전 11시 서류 전형 : 12월 3주 - 12월 4주 직무 인터뷰 : 2026년 1월 1주 - 1월 2주 합격자 발표 : 2026년 1월 3주 중 인턴십 기간 : 1.19(월) - 2.13(금) / 4주 과제 안내 (아래 2개 과제 중 1개 과제 선택) AI 기반 데이터 파이프라인 로그 분석을 통한 Data Asset 자동 매핑 및 End-to-End Data Lineage 구축 ( 링크 ) VLM 기반 사용자 경험 중심 검색/추천 품질 자동 평가 시스템 ",
-      "published": null,
-      "ai_summary": "네이버의 개발 문화와 함께 프로젝트 협업 방식을 체험할 수 있는 2026 NAVER AI CHALLENGE 인턴십 모집 을 시작했습니다. 실무에서 다루는 AI 문제를 네이버의 현업 엔지니어와 함께 아이디어 설계 단계부터 기술적 방향성, 검증 과정까지 전 과정을 함께 학습하고 성장 할 수 있는 좋은 기회입니다. 원활한 협업과 멘토링을 위해 전용 좌석을 제공하"
-    },
-    {
-      "source": "Naver D2",
-      "category": "플랫폼 테크",
-      "title": "디자인시스템이 AI를 만났을 때: FE 개발 패러다임의 변화",
-      "url": "https://d2.naver.com/helloworld/3442203",
-      "summary": "네이버 사내 기술 교류 행사인 NAVER ENGINEERING DAY 2025(10월)에서 발표되었던 세션을 공개합니다. 발표 내용 네이버파이낸셜 디자인시스템과 AI를 이용하여 마크업 자동화 작업에 대한 소소한 경험을 공유합니다. 발표 대상 AI를 이용한 마크업 등 디자인 작업관련 관심 있으신 모든 분들 목차 오늘 이야기의 키워드 知彼知己 네이버파이낸셜 디자인시스템 디자인 토큰 디자인 시스템 컴포넌트 우리를 도와 줄 AI 는? 百戰不殆 Let's Try 마크업 작업을 위한 사전 준비 디자인시스템 Code Connect 디자인시스템 instruction 이제 FE 개발 시작해도 될 마크업, 하지만 아쉬웠던 점 그 외로 힘들었던 점 현실 개발에서는 어떻게 해야하는가? 마크업 직업 개발했더니 어떠니? ◎ NAVER ENGINEERING DAY란? NAVER에서는 사내 개발 경험과 기술 트렌드를 교류를 할 수 있는 프로그램이 많이 있습니다. 그중 매회 평균 70개 이상의 발표가 이루어지는 NAVER ENGINEERING DAY를 빼놓을 수 없는데요. 2016년부터 시작된 ENGINEERING DAY는 실무에서의 기술 개발 경험과 새로운 기술과 플랫폼 도입 시 유용하",
-      "published": null,
-      "ai_summary": "네이버 사내 기술 교류 행사인 NAVER ENGINEERING DAY 2025(10월)에서 발표되었던 세션을 공개합니다. 발표 내용 네이버파이낸셜 디자인시스템과 AI를 이용하여 마크업 자동화 작업에 대한 소소한 경험을 공유합니다. 발표 대상 AI를 이용한 마크업 등 디자인 작업관련 관심 있으신 모든 분들 목차 오늘 이야기의 키워드 知彼知己 네이버파이낸셜 디"
-    },
-    {
-      "source": "Naver D2",
-      "category": "플랫폼 테크",
-      "title": "LLM이지만 PDF는 읽고 싶어: 복잡한 PDF를 LLM이 이해하는 방법",
-      "url": "https://d2.naver.com/helloworld/9036125",
-      "summary": "네이버 사내 기술 교류 행사인 NAVER ENGINEERING DAY 2025(10월)에서 발표되었던 세션을 공개합니다. 발표 내용 LLM-friendly PDF parser PaLADIN을 소개합니다. 발표 대상 AI/LLM을 적극적으로 활용하고 싶으신 분 문서 처리에 관심이 있으신 분 웹검색에 관심이 있으신 분 목차 PDF가 왜 중요한가요? LLM-friendly PDF Parser 기술 탐색 및 PoC (with NVIDIA) 관련 기술 탐색 PoC with NVIDIA PaLADIN: 표와 차트, 숫자를 정확히 이해하고 표현하는 LLM-friendly PDF Parser 아키텍쳐 설계 - nv-ingest 아키텍쳐 설계 - PaLADIN Model 소개 - Element-Detector: Doclayout-Yolo Model 소개 - Table-Extractor: nemoretriever-table-structure-v1 Model 소개 - Chart-Extractor: google/gemma3-27b-it Model 소개 - Papago OCR PDF parsing 예제 속도 개선 및 최적화 성능 평가 Parsing 평가셋 구축 Parsing 능력 ",
-      "published": null,
-      "ai_summary": "네이버 사내 기술 교류 행사인 NAVER ENGINEERING DAY 2025(10월)에서 발표되었던 세션을 공개합니다. 발표 내용 LLM-friendly PDF parser PaLADIN을 소개합니다. 발표 대상 AI/LLM을 적극적으로 활용하고 싶으신 분 문서 처리에 관심이 있으신 분 웹검색에 관심이 있으신 분 목차 PDF가 왜 중요한가요? LLM-fr"
-    },
-    {
-      "source": "Naver D2",
-      "category": "플랫폼 테크",
-      "title": "VLOps:Event-driven MLOps & Omni-Evaluator",
-      "url": "https://d2.naver.com/helloworld/0931890",
-      "summary": "네이버 사내 기술 교류 행사인 NAVER ENGINEERING DAY 2025(10월)에서 발표되었던 세션을 공개합니다. 발표 내용 Event-driven MLOps는 학습·평가·배포를 Typed Message 단위로 정의하고, Event Sensor가 이를 감지해 자율적으로 실행하는 구조입니다. Kubeflow 같은 파이프라인처럼 전체 버전 관리가 필요하지 않으며, 메시지를 추가하는 것만으로 기능 확장이 가능합니다. 사용자는 내부 오케스트레이션을 몰라도 메시지 발행만으로 동일한 파이프라인을 구동할 수 있습니다. 이를 통해 평가·배포 시스템 간 느슨한 결합(Loose Coupling)과 클라우드 간 호환성을 확보했습니다. Omni-Evaluator와 Dashboard는 다양한 엔진·벤치마크를 통합하고, 실시간 모니터링과 사용자 주도 트리거 기능을 제공합니다. 발표 대상 MLOps 엔지니어, ML 리서처, 데이터 사이언티스트 클라우드 인프라/DevOps 개발자, 모델 배포 및 평가 담당자 목차 MLOps가 필요한 이유 Event-driven MLOps의 등장 Event Sensor: 핵심 로직 EvalOps에서 Omni-Evaluator로 VLOps Dashb",
-      "published": null,
-      "ai_summary": "네이버 사내 기술 교류 행사인 NAVER ENGINEERING DAY 2025(10월)에서 발표되었던 세션을 공개합니다. 발표 내용 Event-driven MLOps는 학습·평가·배포를 Typed Message 단위로 정의하고, Event Sensor가 이를 감지해 자율적으로 실행하는 구조입니다. Kubeflow 같은 파이프라인처럼 전체 버전 관리가 필요하"
+      "logo_domain": "naver.com",
+      "ai_summary": "스마트스토어 플랫폼 내 여러 파트가 공동으로 사용하던 Oracle DBMS는 비즈니스 성장에 따라 리소스 경합이 심화되면서 서비스 성능 불안정을 초래했습니다. 기존 Oracle 인프라의 확장은 막대한 라이선스 비용 증가로 이어지기 때문에, 스마트스토어 회원 파트는 운영"
     },
     {
       "source": "Toss Tech",
@@ -250,6 +95,7 @@
       "url": "https://toss.tech/article/flink-realtime-frequency-capping",
       "summary": "1분부터 7일까지 슬라이딩 윈도우 Frequency Capping을 세 Flink 앱으로 분리하고 각각의 병목을 해결한 기록을 공유합니다.",
       "published": "2026-04-16 02:48",
+      "logo_domain": "toss.im",
       "ai_summary": "1분부터 7일까지 슬라이딩 윈도우 Frequency Capping을 세 Flink 앱으로 분리하고 각각의 병목을 해결한 기록을 공유합니다."
     },
     {
@@ -257,9 +103,10 @@
       "category": "플랫폼 테크",
       "title": "Job 워크로드를 위한 EKS Node Group 오토스케일링 도입기",
       "url": "https://medium.com/daangn/job-%EC%9B%8C%ED%81%AC%EB%A1%9C%EB%93%9C%EB%A5%BC-%EC%9C%84%ED%95%9C-eks-node-group-%EC%98%A4%ED%86%A0%EC%8A%A4%EC%BC%80%EC%9D%BC%EB%A7%81-%EB%8F%84%EC%9E%85%EA%B8%B0-a6a28376d153?source=rss----4505f82a2dbd---4",
-      "summary": "안녕하세요. SRE팀 클러스터 파트에서 근무하고 있는 Ssup(썹)이에요. 저희 클러스터 파트는 AWS EKS 클러스터 운영부터 Istio 기반의 서비스 메쉬 네트워크 구성, Prometheus, Loki와 같은 모니터링 컴포넌트 관리까지 다양한 업무를 담당하고 있어요. 당근의 대부분의 워크로드는 AWS EKS 클러스터 위에서 실행되고 있어요. 워크로드는 다양한 기준으로 분류할 수 있는데, 그 중 대표적인 유형 중 하나가 Job이에요. Job 워크로드는 Server 워크로드와 달리 시작과 끝이 명확하게 존재하는 워크로드를 의미해요. Job 워크로드의 중요한 특징 중 하나는 한번 시작되면 중단하기 어렵다는 점이에요. 대부분의 Job 워크로드는 중단되면 처음부터 동일한 작업을 다시 수행해야 하기 때문이에요. 특히 1시간 이상 장시간 수행되는 Job 워크로드는 중단 시 재실행에 상당한 시간이 소요되기 때문에 더욱 중단하기 어려워요. 이처럼 중단하기 어려운 Job 워크로드의 특성은 EKS Node Group의 오토스케일링을 어렵게 만드는 대표적인 원인 중 하나예요. 이번 글에서는 이러한 Job 워크로드의 제약을 당근에서는 어떻게 우회하여, Job 워크로드가 실행되는",
+      "summary": "안녕하세요. SRE팀 클러스터 파트에서 근무하고 있는 Ssup(썹)이에요. 저희 클러스터 파트는 AWS EKS 클러스터 운영부터 Istio 기반의 서비스 메쉬 네트워크 구성, Prometheus, Loki와 같은 모니터링 컴포넌트 관리까지 다양한 업무를 담당하고 있어요. 당근의 대부분의 워크로드는 AWS EKS 클러스터 위에서 실행되고 있어요. 워크로드는 다양한 기준으로 분류할 수 있는데, 그 중 대표적인 유형 중 하나가 Job이에요. Job 워크로드는 Server 워크로드와 달리 시작과 끝이 명확하게 존재하는 워크로드를 의미해요. Job 워크로드의 중요한 특징 중 하나는 한번 시작되면 중단하기 어렵다는 점이에요. 대부분의 Job 워크로드는 중단되면 처음부터 동일한 작업을 다시 수행해야 하기 때문이에요. 특히 1시간 이상 장시간 수행되는 Job 워크로드는 중단 시 재실행에 상당한 시간이 소요되기 때문에 더욱 중단하기 어려워요. 이처럼 중단하기 어려운 Job 워크로드의 특성은 EKS ",
       "published": "2026-04-16 06:01",
-      "ai_summary": "안녕하세요. SRE팀 클러스터 파트에서 근무하고 있는 Ssup(썹)이에요. 저희 클러스터 파트는 AWS EKS 클러스터 운영부터 Istio 기반의 서비스 메쉬 네트워크 구성, Prometheus, Loki와 같은 모니터링 컴포넌트 관리까지 다양한 업무를 담당하고 있어요. 당근의 대부분의 워크로드는 AWS EKS 클러스터 위에서 실행되고 있어요. 워크로드는 "
+      "logo_domain": "daangn.com",
+      "ai_summary": "안녕하세요. SRE팀 클러스터 파트에서 근무하고 있는 Ssup(썹)이에요. 저희 클러스터 파트는 AWS EKS 클러스터 운영부터 Istio 기반의 서비스 메쉬 네트워크 구성, Prometheus, Loki와 같은 모니터링 컴포넌트 관리까지 다양한 업무를 담당하고 있어요"
     },
     {
       "source": "라인 엔지니어링",
@@ -268,7 +115,108 @@
       "url": "https://techblog.lycorp.co.jp/ko/developing-single-and-multi-agent-systems-with-adk-and-integrating-into-internal-systems",
       "summary": "안녕하세요. 2024년 4월에 신입 사원으로 LY Corporation에 입사한 Inoue Shuichi입니다. 현재 사내용 Kubernetes as a Service인 FKE 팀...",
       "published": "2026-04-15 06:30",
+      "logo_domain": "linecorp.com",
       "ai_summary": "안녕하세요. 2024년 4월에 신입 사원으로 LY Corporation에 입사한 Inoue Shuichi입니다. 현재 사내용 Kubernetes as a Service인 FKE 팀..."
+    },
+    {
+      "source": "Samsung Newsroom",
+      "category": "한국 대기업",
+      "title": "삼성전자, 에버랜드서 삼성 헬스와 함께하는 ‘갤럭시 워치런 @사파리’ 러닝 이벤트 개최",
+      "url": "https://news.samsung.com/kr/%ec%82%bc%ec%84%b1%ec%a0%84%ec%9e%90-%ec%97%90%eb%b2%84%eb%9e%9c%eb%93%9c%ec%84%9c-%ec%82%bc%ec%84%b1-%ed%97%ac%ec%8a%a4%ec%99%80-%ed%95%a8%ea%bb%98%ed%95%98%eb%8a%94-%ea%b0%a4%eb%9f%ad%ec%8b%9c",
+      "summary": "삼성전자가 5월 17일 용인 에버랜드에서 러닝 이벤트 ‘갤럭시 워치런 @사파리’를 개최한다. ‘갤럭시 워치런 @사파리’는 참가자들이 갤럭시 워치를 착용하고 에버랜드의 ▲로스트밸리 ▲사파리월드 ▲장미원으로 구성된 4.82km 러닝 코스를 달리면서, 갤럭시 워치의 다양한 기능을 색다르게 체험할 수 있는 행사다. 참가자들은 에버랜드에서 차량에 탑승해 동물들을 만날 수 있었던 로스트밸리와 사파리월드를 직접 달리는 특별한 코스를 경험할 수 있다. 참가 접수는 […]",
+      "published": "2026-04-16 08:00",
+      "logo_domain": "samsung.com",
+      "ai_summary": "삼성전자가 5월 17일 용인 에버랜드에서 러닝 이벤트 ‘갤럭시 워치런 @사파리’를 개최한다. ‘갤럭시 워치런 @사파리’는 참가자들이 갤럭시 워치를 착용하고 에버랜드의 ▲로스트밸리 ▲사파리월드 ▲장미원으로 구성된 4.82km 러닝 코스를 달리면서, 갤럭시 워치의 다양한 "
+    },
+    {
+      "source": "Samsung Newsroom",
+      "category": "한국 대기업",
+      "title": "삼성전자, 독일 프랑크푸르트서 ‘2026 유럽 테크 세미나’ 개최",
+      "url": "https://news.samsung.com/kr/%ec%82%bc%ec%84%b1%ec%a0%84%ec%9e%90-%eb%8f%85%ec%9d%bc-%ed%94%84%eb%9e%91%ed%81%ac%ed%91%b8%eb%a5%b4%ed%8a%b8%ec%84%9c-2026-%ec%9c%a0%eb%9f%bd-%ed%85%8c%ed%81%ac-%ec%84%b8%eb%af%b8%eb%82%98",
+      "summary": "삼성전자가 15일부터 16일(현지 시간)까지 독일 프랑크푸르트에 위치한 쉐라톤 공항 호텔에서 고도화된 AI 기능을 탑재한 2026년형 TV와 오디오 신제품을 소개하는 ‘2026 유럽 테크 세미나’를 개최한다. 테크 세미나는 글로벌 영상·음향 전문가를 대상으로 삼성전자의 최신 기술과 서비스를 소개하는 행사로 2012년부터 매년 개최해오고 있다. 삼성전자는 이번 행사에 유럽 주요 테크 미디어 및 업계 관계자들을 초청해, 독보적인 AI 기술이 적용된 […]",
+      "published": "2026-04-16 08:00",
+      "logo_domain": "samsung.com",
+      "ai_summary": "삼성전자가 15일부터 16일(현지 시간)까지 독일 프랑크푸르트에 위치한 쉐라톤 공항 호텔에서 고도화된 AI 기능을 탑재한 2026년형 TV와 오디오 신제품을 소개하는 ‘2026 유럽 테크 세미나’를 개최한다. 테크 세미나는 글로벌 영상·음향 전문가를 대상으로 삼성전자의"
+    },
+    {
+      "source": "Samsung Newsroom",
+      "category": "한국 대기업",
+      "title": "삼성전자, 스마트싱스 업데이트 통해 나와 가족의 일상을 돌보는 경험 강화",
+      "url": "https://news.samsung.com/kr/%ec%82%bc%ec%84%b1%ec%a0%84%ec%9e%90-%ec%8a%a4%eb%a7%88%ed%8a%b8%ec%8b%b1%ec%8a%a4-%ec%97%85%eb%8d%b0%ec%9d%b4%ed%8a%b8-%ed%86%b5%ed%95%b4-%eb%82%98%ec%99%80-%ea%b0%80%ec%a1%b1%ec%9d%98-%ec%9d%bc",
+      "summary": "삼성전자가 글로벌 스마트홈 플랫폼 스마트싱스(SmartThings) 업데이트를 통해 나와 가족의 일상을 돌보는 기능을 한층 강화했다. 삼성전자는 이번 업데이트를 통해 부모님 등 떨어져 사는 가족의 일상을 돌볼 수 있도록 돕는 ‘패밀리 케어’ 서비스에 신규 기능을 대폭 추가했다. ‘패밀리 케어’는 스마트싱스로 집 안의 다양한 가전 및 모바일 기기를 연동해 따로 사는 가족의 활동 알림, 복약∙통원 등 일정 알림, […]",
+      "published": "2026-04-16 08:00",
+      "logo_domain": "samsung.com",
+      "ai_summary": "삼성전자가 글로벌 스마트홈 플랫폼 스마트싱스(SmartThings) 업데이트를 통해 나와 가족의 일상을 돌보는 기능을 한층 강화했다. 삼성전자는 이번 업데이트를 통해 부모님 등 떨어져 사는 가족의 일상을 돌볼 수 있도록 돕는 ‘패밀리 케어’ 서비스에 신규 기능을 대폭 "
+    },
+    {
+      "source": "Samsung Newsroom",
+      "category": "한국 대기업",
+      "title": "“사람 많은데 어떻게 찍었지?” 봄꽃 인증샷 트렌드 바꾼 ‘갤럭시 S26 시리즈’",
+      "url": "https://news.samsung.com/kr/%ec%82%ac%eb%9e%8c-%eb%a7%8e%ec%9d%80%eb%8d%b0-%ec%96%b4%eb%96%bb%ea%b2%8c-%ec%b0%8d%ec%97%88%ec%a7%80-%eb%b4%84%ea%bd%83-%ec%9d%b8%ec%a6%9d%ec%83%b7-%ed%8a%b8%eb%a0%8c%eb%93%9c-%eb%b0%94",
+      "summary": "개나리와 벚꽃을 시작으로 튤립, 유채꽃까지 잇따라 개화하며 봄나들이 시즌이 본격적으로 시작됐다. 서울 여의도와 석촌호수는 물론, 창녕 낙동강과 제주 녹산로 등 전국 봄꽃 명소에는 연일 인증샷을 남기려는 사람들로 북적이고 있다. 최근 SNS에서 인파가 몰리는 명소에서도 주변 사람들 없이 주인공과 꽃만 담긴 사진들이 화제를 모으고 있다. 촬영 방법과 기기를 묻는 댓글이 이어지고 있는데, 그 비결은 비싼 카메라도, […]",
+      "published": "2026-04-16 08:00",
+      "logo_domain": "samsung.com",
+      "ai_summary": "개나리와 벚꽃을 시작으로 튤립, 유채꽃까지 잇따라 개화하며 봄나들이 시즌이 본격적으로 시작됐다. 서울 여의도와 석촌호수는 물론, 창녕 낙동강과 제주 녹산로 등 전국 봄꽃 명소에는 연일 인증샷을 남기려는 사람들로 북적이고 있다. 최근 SNS에서 인파가 몰리는 명소에서도 "
+    },
+    {
+      "source": "Samsung Newsroom",
+      "category": "한국 대기업",
+      "title": "삼성전자, 2026년형 TV 신제품 출시…AI TV 대중화 시대 연다",
+      "url": "https://news.samsung.com/kr/%ec%82%bc%ec%84%b1%ec%a0%84%ec%9e%90-2026%eb%85%84%ed%98%95-tv-%ec%8b%a0%ec%a0%9c%ed%92%88-%ec%b6%9c%ec%8b%9cai-tv-%eb%8c%80%ec%a4%91%ed%99%94-%ec%8b%9c%eb%8c%80-%ec%97%b0%eb%8b%a4",
+      "summary": "삼성전자가 혁신적인 AI 기능을 탑재한 2026년형 TV 신제품을 출시하며 AI TV 대중화 시대를 이끈다. 삼성전자는 15일 신제품 출시 행사 ‘더 퍼스트룩 서울 2026(The First Look Seoul 2026)’을 열고 이날 출시되는 2026년 TV 라인업과 스피커 신제품을 소개했다. 2026년 신제품은 ▲마이크로 RGB·OLED·네오 QLED·미니 LED·UHD등 TV 라인업 ▲라이프스타일 TV ‘더 프레임 프로·더 프레임’ ▲이동형 스크린 ‘무빙스타일’ ▲와이파이 스피커 […]",
+      "published": "2026-04-15 11:00",
+      "logo_domain": "samsung.com",
+      "ai_summary": "삼성전자가 혁신적인 AI 기능을 탑재한 2026년형 TV 신제품을 출시하며 AI TV 대중화 시대를 이끈다. 삼성전자는 15일 신제품 출시 행사 ‘더 퍼스트룩 서울 2026(The First Look Seoul 2026)’을 열고 이날 출시되는 2026년 TV 라인업과"
+    },
+    {
+      "source": "Samsung Newsroom",
+      "category": "한국 대기업",
+      "title": "[기고문] 당신의 모바일폰 영상이 ‘영화’가 되는 순간…APV 코덱으로 현실이 되다",
+      "url": "https://news.samsung.com/kr/%ea%b8%b0%ea%b3%a0%eb%ac%b8-%eb%8b%b9%ec%8b%a0%ec%9d%98-%eb%aa%a8%eb%b0%94%ec%9d%bc%ed%8f%b0-%ec%98%81%ec%83%81%ec%9d%b4-%ec%98%81%ed%99%94%ea%b0%80-%eb%90%98%eb%8a%94-%ec%88%9c",
+      "summary": "모바일폰 하나로 영화를 찍는 시대 요즘은 누구나 손안의 모바일폰으로 영화 같은 일상을 기록합니다. 여행지에서의 생생한 풍경이나 아이의 웃음소리를 고화질 영상으로 담아 전 세계 사람들과 공유하곤 하죠. 이제 사용자들은 단순히 ‘찍히는 것’을 넘어, 영화 제작자처럼 정교한 색감을 입히고 세밀한 편집까지 할 수 있는 경험을 원하고 있습니다. 삼성전자는 이러한 사용자의 기대를 현실로 만들기 위해, 영상 기술의 핵심인 […]",
+      "published": "2026-04-15 08:00",
+      "logo_domain": "samsung.com",
+      "ai_summary": "모바일폰 하나로 영화를 찍는 시대 요즘은 누구나 손안의 모바일폰으로 영화 같은 일상을 기록합니다. 여행지에서의 생생한 풍경이나 아이의 웃음소리를 고화질 영상으로 담아 전 세계 사람들과 공유하곤 하죠. 이제 사용자들은 단순히 ‘찍히는 것’을 넘어, 영화 제작자처럼 정교한"
+    },
+    {
+      "source": "Samsung Newsroom",
+      "category": "한국 대기업",
+      "title": "[인터뷰] “머리카락 굵기 수천 분의 일까지 차단”…국내 최다 NSF 인증받은 ‘비스포크 AI 얼음정수기’",
+      "url": "https://news.samsung.com/kr/%ec%9d%b8%ed%84%b0%eb%b7%b0-%eb%a8%b8%eb%a6%ac%ec%b9%b4%eb%9d%bd-%ea%b5%b5%ea%b8%b0-%ec%88%98%ec%b2%9c-%eb%b6%84%ec%9d%98-%ec%9d%bc%ea%b9%8c%ec%a7%80-%ec%b0%a8%eb%8b%a8",
+      "summary": "최근 미세플라스틱과 신종 미량 오염물질에 대한 우려가 커지면서, 정수기는 단순한 편의 가전을 넘어 가족의 건강한 일상을 돕는 안심 가전으로 자리잡고 있다. 맑고 투명한 얼음 한 조각이 유리잔에 담기기까지, 정수기 내부의 보이지 않는 곳에서는 미세한 불순물도 허용하지 않는 정교한 필터 기술이 작동한다. 삼성전자는 ‘누구든 걱정 없이 물을 마실 수 있어야 한다’는 원칙 아래 ‘비스포크 AI 얼음정수기’를 […]",
+      "published": "2026-04-14 09:00",
+      "logo_domain": "samsung.com",
+      "ai_summary": "최근 미세플라스틱과 신종 미량 오염물질에 대한 우려가 커지면서, 정수기는 단순한 편의 가전을 넘어 가족의 건강한 일상을 돕는 안심 가전으로 자리잡고 있다. 맑고 투명한 얼음 한 조각이 유리잔에 담기기까지, 정수기 내부의 보이지 않는 곳에서는 미세한 불순물도 허용하지 않"
+    },
+    {
+      "source": "Samsung Newsroom",
+      "category": "한국 대기업",
+      "title": "[영상] [2026 삼성 명장 3편] CMP 설비 국산화의 꿈 실현! 제조 혁신을 이끈 이동우 명장",
+      "url": "https://news.samsung.com/kr/%ec%98%81%ec%83%81-2026-%ec%82%bc%ec%84%b1-%eb%aa%85%ec%9e%a5-3%ed%8e%b8-cmp-%ec%84%a4%eb%b9%84-%ea%b5%ad%ec%82%b0%ed%99%94%ec%9d%98-%ea%bf%88-%ec%8b%a4%ed%98%84-%ec%a0%9c%ec%a1%b0-%ed%98%81",
+      "summary": "2026 ‘삼성 명장’의 끊임없는 도전과 장인정신을 조명하는 영상 시리즈 세 번째 편 공개 미세한 굴곡 하나에도 영향을 받는 반도체 공정. 그 중 CMP(화학 기계적 평탄화) 공정은 반도체에 회로를 그려 넣기 전 웨이퍼 표면을 거울처럼 매끄럽게 다듬어, 다음 공정이 안정적으로 이뤄질 수 있도록 하는 핵심 과정이다. 반도체가 고도화될수록 CMP의 중요성도 더욱 커지고 있다. 삼성 명장 영상 […]",
+      "published": "2026-04-14 08:00",
+      "logo_domain": "samsung.com",
+      "ai_summary": "2026 ‘삼성 명장’의 끊임없는 도전과 장인정신을 조명하는 영상 시리즈 세 번째 편 공개 미세한 굴곡 하나에도 영향을 받는 반도체 공정. 그 중 CMP(화학 기계적 평탄화) 공정은 반도체에 회로를 그려 넣기 전 웨이퍼 표면을 거울처럼 매끄럽게 다듬어, 다음 공정이 안"
+    },
+    {
+      "source": "Samsung SDS",
+      "category": "한국 대기업",
+      "title": "6.4조 현금 쥔 삼성SDS, KKR과 1.2조 전략적 협력 나선 이유는? - 지디넷코리아",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE56X3BkWnpRN3M1V1VYYVRXMWVndHd6NkQwdW90Z1h0aUZNNnJFMnVzbDdkV1RCRkltbmxaQi15b3NTYlRpc2NTSnRfeWl2TGttbTFiV1RR?oc=5",
+      "summary": "6.4조 현금 쥔 삼성SDS, KKR과 1.2조 전략적 협력 나선 이유는? 지디넷코리아",
+      "published": "2026-04-15 00:59",
+      "logo_domain": "samsungsds.com",
+      "ai_summary": "6.4조 현금 쥔 삼성SDS, KKR과 1.2조 전략적 협력 나선 이유는? 지디넷코리아"
+    },
+    {
+      "source": "Samsung SDS",
+      "category": "한국 대기업",
+      "title": "삼성SDS, KKR 손잡고 AI 풀스택 경쟁력 강화…1.2조원 규모 전환사채 발행 - 뉴스저널리즘",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE0zdFVrUFBuakowQmxXVEFGVjZJR2doSFJodTBnb0RuY2dlVW93OTlMUS1GS1E3N200LVNuWkozTGgzbC1MTTRxdTJwWFJQUlltTTN6V1preVFNR2ZwN0NZeEIxcXB3VVoxTGRz?oc=5",
+      "summary": "삼성SDS, KKR 손잡고 AI 풀스택 경쟁력 강화…1.2조원 규모 전환사채 발행 뉴스저널리즘",
+      "published": "2026-04-15 01:52",
+      "logo_domain": "samsungsds.com",
+      "ai_summary": ""
     }
   ]
 }
