@@ -13,29 +13,27 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: Checkout
         uses: actions/checkout@v4
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
           ref: studyMS
 
-      - name: Set up Python 3.11
+      - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-          cache: 'pip'
 
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Generate insight report
+      - name: Generate report
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python main.py
 
-      - name: Auto commit and push
+      - name: Commit report
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "📊 리포트 자동 생성 - ${{ github.run_id }}"
+          commit_message: "📊 리포트 자동 생성"
           branch: studyMS
-          file_pattern: "web/data/**"
+          file_pattern: web/data/**
