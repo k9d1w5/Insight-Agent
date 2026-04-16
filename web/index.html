@@ -3,98 +3,148 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>IT 인사이트 리포트 | ITCEN</title>
+  <title>IT 인사이트 리포트 | ITCEN 전략사업팀</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
   <!-- 헤더 -->
   <header>
-    <div class="container header-inner">
-      <div>
-        <div class="header-logo">ITCEN</div>
-        <h1>IT 인사이트 리포트</h1>
-        <p class="header-sub">IT 컨설턴트 &amp; 전략사업팀을 위한 일일 AI 인사이트</p>
+    <div class="header-top">
+      <div class="header-brand">
+        <div class="brand-logo">ITCEN</div>
+        <div>
+          <div class="brand-title">IT 인사이트 리포트</div>
+          <div class="brand-sub">전략사업팀 · IT 컨설턴트 전용</div>
+        </div>
       </div>
-      <div class="header-meta">
-        <div class="report-date" id="report-date">불러오는 중...</div>
-        <div class="update-badge">매일 오전 8시 자동 업데이트</div>
+      <div class="header-right">
+        <div class="live-badge">
+          <div class="live-dot"></div>
+          매일 오전 8시 자동 업데이트
+        </div>
+        <div class="report-date-badge" id="report-date">-</div>
       </div>
     </div>
   </header>
 
+  <!-- 히어로 -->
+  <div class="hero">
+    <div class="container hero-inner">
+      <div>
+        <div class="hero-label">Daily AI Insight Report</div>
+        <h1>오늘의 IT 시장 동향을<br>한눈에 파악하세요</h1>
+        <p class="hero-desc">맥킨지·BCG·딜로이트 등 글로벌 컨설팅펌과 삼성·LG CNS·네이버 등 국내 주요 기업의 최신 인사이트를 AI가 매일 분석합니다.</p>
+      </div>
+      <div class="hero-stats">
+        <div class="hero-stat">
+          <span class="hero-stat-num" id="stat-articles">-</span>
+          <div class="hero-stat-label">수집 아티클</div>
+        </div>
+        <div class="hero-stat">
+          <span class="hero-stat-num" id="stat-sources">-</span>
+          <div class="hero-stat-label">분석 소스</div>
+        </div>
+        <div class="hero-stat">
+          <span class="hero-stat-num" id="stat-categories">-</span>
+          <div class="hero-stat-label">카테고리</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <!-- 메인 -->
-  <main class="container">
+  <main>
+    <div class="container">
 
-    <!-- 로딩 -->
-    <div id="loading" class="state-box">
-      <div class="spinner"></div>
-      <p>리포트를 불러오는 중...</p>
-    </div>
-
-    <!-- 오류 -->
-    <div id="error" class="state-box hidden">
-      <div class="state-icon">⚠️</div>
-      <p>리포트를 불러올 수 없습니다.<br>잠시 후 다시 시도해주세요.</p>
-    </div>
-
-    <!-- 콘텐츠 -->
-    <div id="content" class="hidden">
-
-      <!-- 통계 카드 -->
-      <div class="stats-row">
-        <div class="stat-card">
-          <span class="stat-num" id="stat-articles">-</span>
-          <span class="stat-label">수집된 아티클</span>
-        </div>
-        <div class="stat-card">
-          <span class="stat-num" id="stat-sources">-</span>
-          <span class="stat-label">분석 소스</span>
-        </div>
-        <div class="stat-card">
-          <span class="stat-num" id="stat-categories">-</span>
-          <span class="stat-label">카테고리</span>
-        </div>
+      <!-- 로딩 -->
+      <div id="loading" class="state-box">
+        <div class="spinner"></div>
+        <div class="state-title">리포트를 불러오는 중...</div>
       </div>
 
-      <!-- 종합 리포트 -->
-      <section class="card report-card">
-        <div class="card-header">
-          <span class="card-icon">📊</span>
-          <h2>오늘의 종합 인사이트</h2>
-        </div>
-        <div id="final-report" class="report-body"></div>
-      </section>
-
-      <!-- 카테고리 필터 -->
-      <div class="filter-bar">
-        <button class="filter-btn active" data-cat="all">전체</button>
-        <button class="filter-btn" data-cat="글로벌 컨설팅">글로벌 컨설팅</button>
-        <button class="filter-btn" data-cat="한국 대기업">한국 대기업</button>
-        <button class="filter-btn" data-cat="플랫폼 테크">플랫폼 테크</button>
-        <button class="filter-btn" data-cat="IT 미디어">IT 미디어</button>
+      <!-- 오류 -->
+      <div id="error" class="state-box hidden">
+        <div class="state-icon">⚠️</div>
+        <div class="state-title">리포트를 불러올 수 없습니다</div>
+        <div class="state-desc">잠시 후 다시 시도해주세요.<br>문제가 지속되면 관리자에게 문의하세요.</div>
       </div>
 
-      <!-- 아티클 그리드 -->
-      <div id="articles-grid" class="articles-grid"></div>
+      <!-- 콘텐츠 -->
+      <div id="content" class="hidden">
 
-      <!-- 과거 리포트 -->
-      <section class="card archive-card">
-        <div class="card-header">
-          <span class="card-icon">📁</span>
-          <h2>과거 리포트</h2>
+        <!-- 데모 안내 배너 -->
+        <div class="notice-banner" id="demo-notice">
+          💡 <span><strong>현재 샘플 데이터입니다.</strong> 실제 AI 크롤링은 매일 오전 8시에 자동 실행되며, 내일부터 실제 기사 데이터가 표시됩니다.</span>
         </div>
-        <div id="archive-list" class="archive-list"></div>
-      </section>
 
+        <!-- 종합 리포트 -->
+        <div class="section-header">
+          <div class="section-title">
+            <div class="section-icon blue">📊</div>
+            오늘의 종합 인사이트
+          </div>
+        </div>
+        <div class="report-card">
+          <div class="report-card-header">
+            <span style="font-size:20px">📊</span>
+            <h2>AI 종합 분석 리포트</h2>
+          </div>
+          <div class="report-body" id="final-report"></div>
+        </div>
+
+        <!-- 아티클 -->
+        <div class="section-header" style="margin-top:8px">
+          <div class="section-title">
+            <div class="section-icon purple">📰</div>
+            수집된 아티클
+          </div>
+        </div>
+
+        <div class="filter-wrap">
+          <div class="filter-bar">
+            <button class="filter-btn active" data-cat="all">전체</button>
+            <button class="filter-btn" data-cat="글로벌 컨설팅">글로벌 컨설팅</button>
+            <button class="filter-btn" data-cat="한국 대기업">한국 대기업</button>
+            <button class="filter-btn" data-cat="플랫폼 테크">플랫폼 테크</button>
+            <button class="filter-btn" data-cat="IT 미디어">IT 미디어</button>
+          </div>
+          <div class="article-count-badge" id="article-count">0개 아티클</div>
+        </div>
+
+        <div id="articles-grid" class="articles-grid"></div>
+
+        <!-- 과거 리포트 -->
+        <div class="section-header">
+          <div class="section-title">
+            <div class="section-icon green">📁</div>
+            과거 리포트 아카이브
+          </div>
+        </div>
+        <div class="archive-card">
+          <div class="archive-card-header">
+            <span style="font-size:18px">📁</span>
+            <h2>지난 리포트</h2>
+          </div>
+          <div class="archive-list" id="archive-list">
+            <p style="padding:16px;color:var(--text-sm);font-size:13px">아직 과거 리포트가 없습니다. 내일부터 자동으로 쌓입니다.</p>
+          </div>
+        </div>
+
+      </div>
     </div>
   </main>
 
   <!-- 푸터 -->
   <footer>
     <div class="container footer-inner">
-      <span>Powered by <strong>Claude AI</strong></span>
-      <span>ITCEN 전략사업팀 내부용</span>
+      <div>
+        <div class="footer-brand">ITCEN 전략사업팀</div>
+        <div style="margin-top:4px">Powered by Claude AI · 매일 오전 8시 자동 업데이트</div>
+      </div>
+      <div class="footer-links">
+        <span>IT 컨설턴트 & 전략사업팀 전용</span>
+      </div>
     </div>
   </footer>
 
