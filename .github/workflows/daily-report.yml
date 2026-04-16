@@ -18,7 +18,6 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           ref: studyMS
-          fetch-depth: 0
 
       - name: Set up Python 3.11
         uses: actions/setup-python@v5
@@ -34,10 +33,9 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python main.py
 
-      - name: Commit and push generated report
-        run: |
-          git config --local user.email "insight-bot@itcen.com"
-          git config --local user.name "Insight Bot"
-          git add web/data/
-          git diff --staged --quiet || git commit -m "📊 리포트 자동 생성 - $(date +'%Y-%m-%d')"
-          git push --force origin studyMS
+      - name: Auto commit and push
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "📊 리포트 자동 생성 - ${{ github.run_id }}"
+          branch: studyMS
+          file_pattern: "web/data/**"
