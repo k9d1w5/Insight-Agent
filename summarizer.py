@@ -73,10 +73,10 @@ def generate_final_report(articles: list[dict]) -> str:
     lines = []
     for cat, items in by_category.items():
         lines.append(f"\n## {cat}")
-        for item in items[:6]:  # 카테고리당 최대 6개
+        for item in items[:4]:  # 카테고리당 최대 4개
             lines.append(f"- [{item['source']}] {item['title']}")
             if item.get("ai_summary"):
-                lines.append(f"  → {item['ai_summary'][:180]}")
+                lines.append(f"  → {item['ai_summary'][:120]}")
 
     articles_text = "\n".join(lines)
 
@@ -157,7 +157,18 @@ def generate_final_report(articles: list[dict]) -> str:
 (오늘 트렌드를 바탕으로 내일/이번 주 follow-up 해야 할 사항)"""
 
     try:
-        return _call_claude(prompt, max_tokens=2000)
+        return _call_claude(prompt, max_tokens=3000)
     except Exception as e:
-        print(f"[최종 리포트 생성 오류]: {e}")
-        return "최종 리포트 생성 중 오류가 발생했습니다. 개별 아티클 요약을 참고하세요."
+        print(f"[최종 리포트 생성 오류]: {type(e).__name__}: {e}")
+        # 프롬프트가 너무 길면 축약해서 재시도
+        try:
+            short_lines = []
+            for cat, items in by_category.items():
+                short_lines.append(f"\n## {cat}")
+                for item in items[:2]:
+                    short_lines.append(f"- [{item['source']}] {item['title']}")
+            short_prompt = prompt.replace(articles_text, "\n".join(short_lines))
+            return _call_claude(short_prompt, max_tokens=2000)
+        except Exception as e2:
+            print(f"[최종 리포트 재시도 오류]: {e2}")
+            return "최종 리포트 생성 중 오류가 발생했습니다. 개별 아티클 요약을 참고하세요."
