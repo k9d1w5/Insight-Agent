@@ -38,8 +38,19 @@ jobs:
         run: |
           git config --local user.email "insight-bot@itcen.com"
           git config --local user.name "Insight Bot"
-          git fetch origin studyMS
-          git rebase origin/studyMS
+
+          # 생성된 파일 임시 저장
+          cp -r web/data/reports /tmp/reports_backup
+
+          # 원격 최신 상태로 완전히 리셋
+          git fetch origin
+          git reset --hard origin/studyMS
+
+          # 생성된 파일 복원
+          mkdir -p web/data/reports
+          cp -r /tmp/reports_backup/. web/data/reports/
+
+          # 커밋 & 푸시
           git add web/data/
           git diff --staged --quiet || git commit -m "📊 리포트 자동 생성 - $(date +'%Y-%m-%d')"
           git push origin studyMS
