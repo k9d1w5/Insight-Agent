@@ -365,18 +365,38 @@ const KO_STOPWORDS = new Set([
   'said','says','use','used','using','one','two','get','got','per',
 ]);
 
+// 한국어 조사 제거 (긴 것 먼저)
+const KO_PARTICLES = [
+  '에서의','으로의','로부터','로서의','에서부터','이라는','라는','이라고','라고',
+  '에서','에게','한테','부터','까지','처럼','만큼','보다','으로','이며',
+  '이고','이나','이랑','이다','로서','에서','에는','에도','에만',
+  '에서','에게','에도','에만','에서','에만','에서','에게','에도',
+  '로','를','을','은','는','이','가','와','과','의','도','만','에',
+];
+
+function stripParticle(word) {
+  // 한글로만 구성된 단어에만 적용
+  if (!/^[가-힣]+$/.test(word)) return word;
+  for (const p of KO_PARTICLES) {
+    if (word.endsWith(p) && word.length - p.length >= 2) {
+      return word.slice(0, word.length - p.length);
+    }
+  }
+  return word;
+}
+
 function extractKeywords(articles) {
   const freq = {};
   articles.forEach(a => {
     [a.title_ko || a.title || '', a.ai_summary || ''].forEach(text => {
       text.replace(/[^\wㄱ-ㅎㅏ-ㅣ가-힣\s]/g, ' ')
         .split(/\s+/)
-        .map(w => w.trim())
+        .map(w => stripParticle(w.trim()))   // 조사 제거
         .filter(w => {
           if (w.length < 2 || w.length > 15) return false;
           if (/^\d+$/.test(w)) return false;
-          // 한글 동사 어미로 끝나는 것 제외 (다/는/고/며/서/면/여/야/지/게/도)
-          if (/[다는고며서면여야지게도]$/.test(w) && /[가-힣]{3,}/.test(w)) return false;
+          // 동사 어미로 끝나는 것 제외
+          if (/[다는고며서면여야지게]$/.test(w) && /[가-힣]{3,}/.test(w)) return false;
           const lower = w.toLowerCase();
           return !KO_STOPWORDS.has(w) && !KO_STOPWORDS.has(lower);
         })
@@ -390,6 +410,40 @@ function extractKeywords(articles) {
     .map(([word, cnt]) => [word, cnt]);
 }
 
+// 구름 모양 마스크 캔버스 생성
+function createCloudMask(width, height) {
+  const mc  = document.createElement('canvas');
+  mc.width  = width;
+  mc.height = height;
+  const ctx = mc.getContext('2d');
+
+  ctx.fillStyle = '#000';
+  ctx.fillRect(0, 0, width, height);
+  ctx.fillStyle = '#fff';
+
+  // 구름 = 여러 원을 겹쳐서 표현
+  const cx = width / 2, cy = height / 2;
+  const r  = Math.min(width, height);
+  const circles = [
+    { x: 0.50, y: 0.58, r: 0.28 },
+    { x: 0.30, y: 0.65, r: 0.20 },
+    { x: 0.70, y: 0.65, r: 0.20 },
+    { x: 0.40, y: 0.48, r: 0.22 },
+    { x: 0.62, y: 0.46, r: 0.22 },
+    { x: 0.50, y: 0.38, r: 0.20 },
+    { x: 0.18, y: 0.70, r: 0.14 },
+    { x: 0.82, y: 0.70, r: 0.14 },
+    { x: 0.25, y: 0.58, r: 0.16 },
+    { x: 0.75, y: 0.58, r: 0.16 },
+  ];
+  circles.forEach(c => {
+    ctx.beginPath();
+    ctx.arc(c.x * width, c.y * height, c.r * r, 0, Math.PI * 2);
+    ctx.fill();
+  });
+  return mc;
+}
+
 function renderWordCloud(articles) {
   const canvas  = document.getElementById('wordcloud-canvas');
   const emptyEl = document.getElementById('wordcloud-empty');
@@ -401,20 +455,22 @@ function renderWordCloud(articles) {
     return;
   }
   const parent = canvas.parentElement;
-  canvas.width  = Math.min(parent.offsetWidth - 48, 900);
-  canvas.height = 260;
+  canvas.width  = Math.min(parent.offsetWidth - 48, 860);
+  canvas.height = Math.round(canvas.width * 0.5);  // 구름 비율
   const maxCnt   = words[0][1];
-  const wordList = words.map(([w,cnt]) => [w, Math.round(13 + (cnt/maxCnt) * 50)]);
+  const wordList = words.map(([w,cnt]) => [w, Math.round(12 + (cnt/maxCnt) * 48)]);
   const colors   = ['#2563eb','#7c3aed','#0891b2','#059669','#d97706','#dc2626','#0f1f3d'];
+  const maskCanvas = createCloudMask(canvas.width, canvas.height);
   try {
     WordCloud(canvas, {
       list: wordList,
-      gridSize: Math.round(8 * canvas.width / 600),
+      gridSize: Math.round(6 * canvas.width / 600),
       weightFactor: 1,
       fontFamily: 'Inter, Apple SD Gothic Neo, sans-serif',
       color: () => colors[Math.floor(Math.random() * colors.length)],
-      rotateRatio: 0.2, rotationSteps: 2,
+      rotateRatio: 0.15, rotationSteps: 2,
       backgroundColor: '#f8fafc',
+      maskImage: maskCanvas,
       drawOutOfBound: false, shrinkToFit: true,
     });
   } catch {

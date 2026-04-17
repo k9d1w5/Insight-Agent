@@ -109,7 +109,17 @@
         </div>
         <div id="articles-grid" class="articles-grid"></div>
 
-        <!-- ④ 과거 리포트 아카이브 -->
+        <!-- ④ 카테고리별 주간 트렌드 -->
+        <div class="section-header" style="margin-top:8px">
+          <div class="section-title"><div class="section-icon orange">📈</div>카테고리별 주간 트렌드</div>
+          <div class="section-sub">최근 7일간 카테고리별 수집 현황</div>
+        </div>
+        <div class="chart-card">
+          <canvas id="trend-chart" height="90"></canvas>
+          <div class="chart-empty hidden" id="chart-empty">데이터가 쌓이면 차트가 표시됩니다 (내일부터)</div>
+        </div>
+
+        <!-- ⑤ 과거 리포트 아카이브 -->
         <div class="section-header">
           <div class="section-title"><div class="section-icon green">📁</div>과거 리포트 아카이브</div>
         </div>
@@ -118,16 +128,6 @@
           <div class="archive-list" id="archive-list">
             <p style="padding:16px;color:var(--text-sm);font-size:13px">아직 과거 리포트가 없습니다. 내일부터 자동으로 쌓입니다.</p>
           </div>
-        </div>
-
-        <!-- ⑤ 카테고리별 주간 트렌드 (맨 밑) -->
-        <div class="section-header" style="margin-top:8px">
-          <div class="section-title"><div class="section-icon orange">📈</div>카테고리별 주간 트렌드</div>
-          <div class="section-sub">최근 7일간 카테고리별 수집 현황</div>
-        </div>
-        <div class="chart-card">
-          <canvas id="trend-chart" height="90"></canvas>
-          <div class="chart-empty hidden" id="chart-empty">데이터가 쌓이면 차트가 표시됩니다 (내일부터)</div>
         </div>
 
       </div>

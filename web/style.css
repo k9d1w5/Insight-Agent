@@ -290,7 +290,7 @@ main { padding: 32px 0 60px; }
 .rpt-exec-body p {
   font-size: 14.5px;
   line-height: 1.9;
-  color: rgba(255,255,255,.88);
+  color: #ffffff;
   margin: 0 0 10px;
 }
 .rpt-exec-body p:last-child { margin-bottom: 0; }
@@ -950,7 +950,7 @@ footer {
   box-shadow: var(--shadow-sm);
   padding: 20px 24px;
   margin-bottom: 28px;
-  min-height: 300px;
+  min-height: 240px;
   display: flex;
   align-items: center;
   justify-content: center;
