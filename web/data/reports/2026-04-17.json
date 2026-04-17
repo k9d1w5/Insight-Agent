@@ -1,14 +1,14 @@
 {
   "date": "2026-04-17",
-  "generated_at": "2026-04-17 13:30:51",
-  "total_articles": 30,
+  "generated_at": "2026-04-17 13:39:49",
+  "total_articles": 31,
   "categories": {
     "플랫폼 테크": 25,
-    "글로벌 컨설팅": 2,
     "한국 대기업": 1,
-    "IT 미디어": 2
+    "글로벌 컨설팅": 2,
+    "IT 미디어": 3
   },
-  "final_report": "# 📊 오늘의 IT 인사이트 리포트\n\n## 🔍 Executive Summary\nIT 시장은 AI, 클라우드, 플랫폼 등의 기술 혁신과 더불어 지속적인 변화를 겪고 있습니다. 특히 기업들은 데이터와 인공지능 역량을 강화하여 새로운 고객경험을 창출하고, 플랫폼 생태계에서 경쟁우위를 확보하기 위해 노력하고 있습니다. 또한 기술 보안과 윤리 이슈도 부상하면서, 기업들은 이에 대한 선제적 대응이 필요할 것으로 보입니다. 이러한 IT 시장의 거시 트렌드를 면밀히 모니터링하고, 각 기업의 전략적 방향성을 이해하는 것이 중요할 것으로 판단됩니다.\n\n## 1. 핵심 트렌드 Top 3\n\n### 🥇 AI 기반 고객경험 혁신\nAI 기술이 발전하면서 기업들은 이를 활용해 고객 데이터 분석, 개인화된 추천, 챗봇 등의 서비스를 제공하여 고객경험을 혁신하고 있습니다. 네이버는 검색 서비스에 AI 기술을 적용해 검색 성능을 개선하였고, KT는 클라우드 서비스에 AI를 도입해 고객 맞춤형 솔루션을 제공하고 있습니다. 향후 AI가 고객 서비스와 경험 강화의 핵심 기술로 자리잡을 것으로 전망됩니다.\n\n### 🥈 플랫폼 생태계 확장\n네이버, 카카오 등 국내 플랫폼 기업들은 자사 플랫폼을 중심으로 다양한 서비스와 콘텐츠를 확장하며 생태계를 강화하고 있습니다. 특히 웹툰, 동영상, 커머스 등 다양한 영역으로 사업을 확대하고 있으며, 이를 통해 고객 데이터를 통합하고 새로운 수익원을 창출하고 있습니다. 글로벌 tech 기업들 또한 플랫폼 전략을 통해 시너지를 극대화하고자 노력하고 있어, 플랫폼 경쟁은 더욱 치열해질 전망입니다.\n\n### 🥉 기술 보안과 윤리의 부상\nAI, 블록체인 등 새로운 기술이 발전하면서 이에 대한 보안 및 윤리 이슈가 부각되고 있습니다. 특히 AI의 편향성 문제, 개인정보 보호, 알고리즘의 투명성 등이 주요 관심사로 떠오르고 있습니다. 네이버는 웹툰 창작자 보호를 위한 연구를 진행하는 등 기술 발전과 함께 윤리적 고려사항을 함께 다루고 있습니다. 향후 기업들은 기술 혁신과 더불어 보안과 윤리 이슈에 대한 선제적 대응이 필요할 것으로 보입니다.\n\n## 2. 기관별 동향\n\n### 🌐 글로벌 컨설팅펌\n글로벌 컨설팅펌들은 기업의 디지털 혁신과 미래 기술 도입을 강조하고 있습니다. 딜로이트는 블록체인과 AI 기술의 융합 및 소비자 트렌드 변화에 주목하고 있으며, 이를 통해 기업이 새로운 기회를 발굴하고 경쟁력을 확보할 수 있다고 조언하고 있습니다.\n\n### 🏢 한국 대기업 IT\n국내 대기업 IT 기업들은 클라우드 서비스 강화, AI 기술 활용, 플랫폼 생태계 구축 등에 주력하고 있습니다. KT는 클라우드 사업 확대로 1조 원 수익을 달성할 것으로 전망되며, 삼성SDS와 LG CNS 등은 AI 기반 솔루션 개발에 힘쓰고 있습니다.\n\n### 📱 플랫폼·테크 기업\n국내 주요 플랫폼 및 테크 기업들은 AI, 보안, 콘텐츠 등 핵심 기술 및 서비스 역량을 강화하고 있습니다. 네이버는 AI 기반 검색 개선, 웹툰 생태",
+  "final_report": "# 📊 오늘의 IT 인사이트 리포트\n\n## 🔍 Executive Summary\nIT 업계 전반에 걸친 주요 동향을 살펴보면, 플랫폼 기업들의 보안 강화, 대기업 IT의 클라우드 사업 확대, 에듀테크와 AI 보안 솔루션 분야의 성장이 두드러지고 있습니다. 이는 사이버 위협 대응, 데이터 및 인프라 관리 효율화, 새로운 혁신 기술 적용 등 IT 서비스의 고도화와 고객 가치 향상을 지향하는 산업 전반의 전략적 방향성을 반영하고 있습니다. 이러한 트렌드를 반영하여 IT 컨설턴트는 고객 니즈에 맞는 맞춤형 솔루션을 제안하고, 신규 사업 기회를 발굴하며, 잠재적 위험 요인에 선제적으로 대응할 필요가 있습니다.\n\n---\n\n## 1. 핵심 트렌드 Top 3\n\n### 🥇 사이버 보안 강화와 플랫폼 서비스 고도화\n네이버, 카카오 등 국내 주요 플랫폼 기업들은 사이버 공격에 대한 선제적 대응을 위해 보안 세미나 개최, 실시간 거래 모니터링 등 다양한 보안 강화 활동을 전개하고 있습니다. 이는 플랫폼 서비스의 안정성과 신뢰성 제고를 통해 사용자 경험을 향상시키고자 하는 전략적 움직임으로 볼 수 있습니다. 향후 AI 및 데이터 분석 기술을 활용한 지능형 보안 솔루션 개발이 가속화될 것으로 예상되며, 이는 기업들의 사이버 위협 대응 역량 강화에 기여할 것으로 기대됩니다.\n\n### 🥈 대기업 IT의 클라우드 사업 확대\n국내 주요 대기업 IT 계열사들은 기업용 클라우드 서비스 사업에 주력하며 매출 증대를 도모하고 있습니다. KT의 경우 데이터센터 임대 사업을 통해 1조 원 규모의 매출을 달성했다고 보도되었는데, 이는 국내 기업들의 클라우드 전환 및 IT 인프라 아웃소싱 수요가 지속적으로 증가하고 있음을 보여줍니다. 향후 대기업 IT 계열사들은 클라우드 플랫폼, 데이터 관리, 보안 솔루션 등 다양한 서비스를 통해 기업 고객의 디지털 전환을 지원할 것으로 전망됩니다.\n\n### 🥉 에듀테크와 AI 보안 솔루션의 부상\n교육 분야에서는 AI 기술이 수업 지원, 개인화 학습, 평가 등에 활용되며 에듀테크 솔루션의 도입이 확산되고 있습니다. 또한 보안 업체 소프트캠프는 AI 기반 보안 솔루션을 선보이며 글로벌 시장 진출을 모색하고 있습니다. 이는 교육과 보안 분야에서 AI 기술의 실효성이 검증되고 있음을 시사하며, 향후 AI 기반 서비스와 솔루션이 다양한 산업군으로 확산될 것으로 예상됩니다.\n\n---\n\n## 2. 기관별 동향\n\n### 🌐 글로벌 컨설팅펌\n글로벌 컨설팅 기업들은 최근 블록체인과 인공지능 기술의 가치와 한계, 활용 방안 등을 깊이 있게 분석하며, 이들 기술이 기업의 혁신과 성장을 견인할 수 있는 핵심 요소로 주목하고 있습니다. 또한 소비자 행동 변화와 시장 동향에 대한 심층적인 이해를 바탕으로 고객사의 비즈니스 전략 수립을 지원하고 있습니다.\n\n### 🏢 한국 대기업 IT\n국내 주요 대기업 IT 계열사들은 클라우드 컴퓨팅, 데이터 관리, 보안 솔루션 등 기업용 IT 서비스 사업에 주력하며 성과를 거두고 있습니다. 특히 KT의 경우 데이터센터",
   "articles": [
     {
       "source": "Naver D2",
@@ -16,9 +16,9 @@
       "title": "[사전 안내] 첫 번째 'NAVER SECURITY SEMINAR'가 열립니다.",
       "url": "https://d2.naver.com/news/2009415",
       "summary": "네이버는 수많은 사용자가 매일 신뢰하며 이용하는 서비스를 운영합니다. 그 신뢰의 근간에는 보안이 있습니다. 끊임없이 진화하는 위협 환경 속에서 네이버 보안 조직이 어떤 고민을 하고, 어떻게 대응하는지 그 경험과 인사이트를 나누는 첫 번째 자리를 마련했습니다. 네이버의 보안을 지키기 위한 활동중 하나로 매년 참여자들을 대상으로 개최해온 네이버 Security 의 버그바운티 프로그램 이 있습니다. 그간 온라인으로 진행되어 온 시상식을 올해에는 오프라인으로 NAVER SECURITY SEMINAR에서도 함께 축하하고자 합니다. IT 보안 실무자들과 현장의 이야기를 직접 나눌 수 있는 이 행사에 보안을 고민하는 모든 분들의 많은 관심 부탁드립니다. 행사 개요 일시 4월 30일(목) 오후 1시 30분 - 6시 30분 장소 네이버 그린팩토리 ( 지도보기 ) 참가 대상 IT 보안 실무자, 보안에 관심 있는 개발자 및 학생 프로그램 요약 발표자 : 팀네이버 보안팀 - 네이버 서비스 및 사용자를 안",
-      "published": "2026-04-17 04:29",
+      "published": "2026-04-17 04:38",
       "logo_domain": "naver.com",
-      "ai_summary": "네이버는 사용자 신뢰를 위해 지속적으로 보안을 강화하고 있으며, 이번 행사를 통해 보안 실무자들과 경험과 인사이트를 공유하고자 한다. 이는 네이버의 IT 보안 전략을 수립하고 강화하는 데 도움이 될 것으로 보인다.",
+      "ai_summary": "네이버는 보안을 매우 중요하게 여기며, 보안 조직이 끊임없이 진화하는 위협 환경에 어떻게 대응하는지 공유하는 \"NAVER SECURITY SEMINAR\" 행사를 개최한다. 이를 통해 IT 보안 실무자들과 현장의 이야기를 나누고, 버그바운티 프로그램의 시상식도 함께 진행할 예정이다.",
       "importance_score": 9
     },
     {
@@ -27,31 +27,31 @@
       "title": "네이버 통합검색 AIB 도입과 웹 성능 변화 분석",
       "url": "https://d2.naver.com/helloworld/4241703",
       "summary": "AIB(AI Briefing)는 네이버 통합검색에서 AI 기반 요약·브리핑 경험을 제공하는 기능입니다. 2025년 3월부터 단계적으로 도입되었으며, 초기에는 정적인 요약 형태 중심이었고 2025년 7월 채팅 UI 기반의 애니메이션 인터페이스가 추가되면서 상호작용 요소가 확장되었습니다. 이러한 변화와 함께 트래픽에서 AIB가 차지하는 비중도 점차 증가하고 있습니다. 현재 네이버 통합검색에서 LCP(Largest Contentful Paint)로 측정되는 영역 중 AIB 영역이 약 10%를 차지하며, LCP 후보 영역으로 선택되는 빈도 또한 상위권입니다. 즉, AIB는 더 이상 일부 사용자에게만 노출되는 부가 기능이 아니라, 그 렌더링 방식이 검색 성능 지표 전반에 영향을 주는 단계라고 볼 수 있습니다. 이 글에서는 AIB의 UI 특성이 LCP에 어떤 영향을 주는지 정리하고, 채팅 UI에서 성능 지표를 해석할 때 주의할 점과 개선 방향을 제안합니다. AIB 도입 이후 성능 지표 변화 최",
-      "published": "2026-04-17 04:29",
+      "published": "2026-04-17 04:38",
       "logo_domain": "naver.com",
-      "ai_summary": "네이버 통합검색의 AIB 도입은 사용자 경험 향상과 동시에 검색 성능 지표에 상당한 영향을 미치고 있다. 이에 따라 AIB 기능의 확장과 최적화가 네이버 검색 플랫폼 전략에 핵심 요소로 부상하고 있다.",
+      "ai_summary": "네이버 통합검색의 AIB 도입은 사용자 경험과 웹 성능 지표에 점차 큰 영향을 미치고 있다. 이는 단순한 부가 기능이 아니라 검색 품질 향상을 위한 전략적 선택으로 볼 수 있다.",
       "importance_score": 9
     },
     {
       "source": "Naver D2",
       "category": "플랫폼 테크",
-      "title": "웹툰 창작 생태계 보호를 위한 연구",
-      "url": "https://d2.naver.com/helloworld/4571155",
-      "summary": "네이버 웹툰은 웹툰, 웹소설 등 다양한 창작물을 독자에게 제공하는 플랫폼을 구축하고, 이를 통해 창작자가 전 세계 독자와 만나 소통하며 안정적인 수익을 바탕으로 창작 활동에 온전히 집중할 수 있는 환경을 만들기 위해 노력하고 있습니다. 특히 하나의 스토리를 다양한 IP(intellectual property)로 확장해 글로벌 시장의 규모를 지속적으로 키우고 있으며, 창작자와 독자, 플랫폼이 상생하며 지속 가능한 가치를 창출하는 디지털 창작 생태계를 만들어 나가는 데 주력하고 있습니다. 하지만 창작 생태계가 활성화되고 성장할수록 이를 훼손하는 위협도 심화되고 있습니다. 콘텐츠 불법 유출 : 저작권자의 허가 없이 디지털 콘텐츠를 무단으로 복제, 배포 또는 공유하는 행위로, 창작자의 정당한 수익을 침해할 뿐만 아니라 플랫폼의 신뢰성과 비즈니스 모델 자체를 훼손할 수 있습니다. 이로 인해 저작권자의 경제적 손실과 더불어 창작 생태계 위기가 초래될 수 있습니다. 생성형 AI의 무단 학습 : ",
-      "published": "2026-04-17 04:29",
+      "title": "Iceberg Low-Latency Queries with Materialized Views  (feat. 실시간 거래 리포트)",
+      "url": "https://d2.naver.com/helloworld/9290684",
+      "summary": "네이버 사내 기술 교류 행사인 NAVER ENGINEERING DAY 2025(10월)에서 발표되었던 세션을 공개합니다. 발표 내용 본 영상에서는 “실시간 거래 리포트를 어떻게 하면 사용자가 원하는 다양한 조건으로 빠르게 조회할 수 있을까?” 라는 질문에서 출발한 기술적 여정을 다룹니다. 단순히 데이터를 쌓고 조회하는 단계를 넘어, 거래 데이터의 최신성과 응답 속도, 그리고 확장성을 동시에 확보하기 위한 여러 시도를 공유합니다. 발표 대상 데이터 플랫폼 엔지니어 / 데이터 아키텍트 – 대용량 실시간 데이터 처리 및 저지연 설계에 관심 있는 분 분석 플랫폼 운영자 / BI 개발자 – 다차원 필터 조회 속도 및 Freshness 향상 전략을 찾고 있는 분 Spark, Iceberg, StarRocks 활용자 – 실제 조합 운영 사례를 통해 운영 팁을 얻고자 하는 분 목차 소개 (Introduction) 문제 정의 (Problem Definition) 도전 과제 (Challenges) 리",
+      "published": "2026-04-17 04:38",
       "logo_domain": "naver.com",
-      "ai_summary": "네이버 웹툰은 창작자와 독자, 플랫폼이 상생하는 지속 가능한 디지털 창작 생태계를 구축하고 있으나, 불법 유출과 같은 위협으로 인해 창작자의 권리와 수익이 침해되고 있는 상황이다.",
+      "ai_summary": "이 기사는 실시간 거래 리포트 생성을 위한 기술적 솔루션을 소개하고 있습니다. 거래 데이터의 최신성, 응답 속도, 확장성을 확보하기 위해 Iceberg, StarRocks 등의 기술을 활용하는 내용을 다루고 있습니다.",
       "importance_score": 9
     },
     {
-      "source": "Deloitte",
-      "category": "글로벌 컨설팅",
-      "title": "블록체인과 인공지능 - Deloitte",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQY0ZfMDF2UkZUTE9yUEhWUVpZNmRVRmxXalh0cGwzUXVrSXB5dHVmRGkxbkpxdTNoaHl1NTBteUZqVGFmODhiU2pnX09GX2R1UWdtMHhMT1prWHNsZjJVRW9DTHFxcW1FMnR0U25QRVR2UnRtak5yaC1tUGctM3pWN3REWE1RNVRiLTJ0OFotVWF1dnAyaFlJMGdVQm9QVzZFUWpXTXYzYm54YWRpd2Fnd1ljNGE2UWVlOWhGeXFCaTUxSG5WZ05fTFA5SmtXOGhCMWtN?oc=5",
-      "summary": "블록체인과 인공지능 Deloitte",
-      "published": "2026-04-10 06:54",
-      "logo_domain": "deloitte.com",
-      "ai_summary": "블록체인과 인공지능은 기업의 혁신과 효율성 향상에 중요한 역할을 할 것이며, IT 전략 컨설턴트는 이를 활용한 새로운 비즈니스 모델을 제안할 수 있다.",
+      "source": "KT",
+      "category": "한국 대기업",
+      "title": "KT클라우드, 데이터센터 임대로 1조 번다 - 한국금융신문",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFA4bFgyd0tNckU4bE1PUWhvNFFVU2dJcnA1RHdXMGJ6WEJtc3JTeHl1YURQNFRpOHluT3VGUFR2eFJGdUhjc2l6ZlBtbThCRHNBMWpNQjR3OWNqdDl5M0EwNlRzaURLdHRHZWxteDJIOTFjcXBxVERMcjU0SjE?oc=5",
+      "summary": "KT클라우드, 데이터센터 임대로 1조 번다 한국금융신문",
+      "published": "2026-04-16 02:33",
+      "logo_domain": "kt.com",
+      "ai_summary": "KT가 데이터센터 임대 사업을 통해 막대한 수익을 올리고 있다. 이는 클라우드 및 디지털 전환 트렌드에 빠르게 대응하여 시장을 선점한 전략적 성과로 볼 수 있다.",
       "importance_score": 9
     },
     {
@@ -60,9 +60,9 @@
       "title": "NAVER SECURITY SEMINAR 참가 신청을 시작합니다!",
       "url": "https://d2.naver.com/news/6236639",
       "summary": "NAVER SECURITY SEMINAR 참가 신청이 시작되었습니다. 4월 30일(목), 네이버 그린팩토리에서 열리는 이번 세미나는 팀 네이버 보안팀이 직접 현장의 고민과 경험을 나누는 자리입니다. 보안 기술, LLM 시대의 AI 레드팀, 피싱 트렌드까지 — 실무에서 활용할 수 있는 인사이트를 만나보세요! 행사 개요 ※ 발표 세션 제목은 변경될 수 있으며, 최종 프로그램은 선정된 참석자에 한해 별도 안내드리겠습니다. 일시 4월 30일(목) 오후 1시 30분 - 6시 30분 장소 네이버 그린팩토리 ( 지도보기 ) 참가 대상 IT 보안 실무자, 보안에 관심 있는 개발자 및 학생 프로그램 제목 발표자 지속 가능한 AI 레드티밍 파이프라인 구축하기 NAVER 박현준 네이버 대상 피싱 캠페인 분석: 피싱 공격 체인과 탐지 회피 기법의 진화 NAVER 이민수 위협 모델링으로 구현한 Npay커넥트 페이스사인의 보안 아키텍처 NAVER FINANCIAL 김동율 TLS 인증서부터 양자내성까지: 네이",
-      "published": "2026-04-17 04:29",
+      "published": "2026-04-17 04:38",
       "logo_domain": "naver.com",
-      "ai_summary": "이번 NAVER SECURITY SEMINAR는 실무에서 활용할 수 있는 보안 기술, AI 레드팀, 피싱 트렌드 등의 인사이트를 제공하는 유익한 행사로, IT 보안 실무자와 개발자 및 학생들에게 실용적인 정보를 전달할 것으로 기대됩니다.",
+      "ai_summary": "이번 NAVER SECURITY SEMINAR는 보안 실무자와 개발자를 대상으로 AI 레드팀 구축, 피싱 공격 분석 등 현장에서 활용할 수 있는 보안 인사이트를 제공합니다. 기업의 보안 역량 강화와 실무 대응력 향상에 도움이 될 것으로 판단됩니다.",
       "importance_score": 8
     },
     {
@@ -71,11 +71,11 @@
       "title": "FE News 26년 4월 소식을 전해드립니다!",
       "url": "https://d2.naver.com/news/6428522",
       "summary": "주요소식 Temporal: The 9-Year Journey to Fix Time in JavaScript JavaScript의 Date 객체를 대체하는 Temporal API가 9년간의 표준화 과정을 거쳐 TC39 Stage 4에 도달하고 ES2026에 포함될 예정이다. 불변(immutable) 값, ZonedDateTime·Instant 등 다양한 타입, 명시적 타임존 지원, 나노초 정밀도, 다중 캘린더 지원 등을 제공한다. 현재 Firefox 139+, Chrome/Edge 144+, TypeScript 6.0 Beta, Node.js 26에서 지원된다. Announcing TypeScript 6.0 TypeScript 6.0이 출시되었다. 현재 JavaScript 코드베이스 기반의 마지막 버전으로, TypeScript 7.0부터는 Go로 재작성된 새 컴파일러가 기반이 된다. this를 실제로 사용하지 않는 함수의 타입 추론 정확도 개선, 서브패스 임포트 지원, --module",
-      "published": "2026-04-17 04:29",
+      "published": "2026-04-17 04:38",
       "logo_domain": "naver.com",
-      "ai_summary": "Temporal API와 TypeScript 6.0 출시는 JavaScript 생태계에 중요한 변화를 가져올 것으로, 개발자들의 생산성과 코드 품질 향상에 기여할 것으로 예상됩니다.",
+      "ai_summary": "새로운 Temporal API와 TypeScript 6.0 출시가 JavaScript 생태계에 중요한 변화를 가져올 것으로 보입니다. Temporal API는 날짜 및 시간 처리에 대한 혁신적인 기능을 제공하여 개발자들에게 더 나은 도구를 제공할 것입니다.",
       "importance_score": 8,
-      "title_ko": "FE News 4월 소식 안내"
+      "title_ko": "FE News 4월 뉴스를 알려드립니다!"
     },
     {
       "source": "Naver D2",
@@ -83,9 +83,20 @@
       "title": "C++ 객체 수명과 암묵적 객체 생성",
       "url": "https://d2.naver.com/helloworld/7997284",
       "summary": "이전 글 에서는 엄격한 앨리어싱 규칙의 관점에서 reinterpret_cast 를 안전하게 사용하는 방법을 알아보았습니다. 이번 글에서는 한 걸음 더 나아가, 디스크나 네트워크에서 읽어 온 바이트 표현을 특정 타입으로 해석할 때 reinterpret_cast 를 사용하는 패턴을 C++의 엄격한 표준에 비추어 살펴보겠습니다. 결론부터 말씀드리면, 이런 패턴의 상당수는 엄밀히 따지면 미정의 동작(UB, undefined behavior)에 해당합니다. 예를 들어 malloc() 으로 할당받은 메모리를 구조체 포인터로 캐스팅해 곧바로 접근하는 방식은 C 언어에서는 합법적이지만, C++17까지는 미정의 동작으로 간주되었습니다. C와 C++의 이 차이는 C++의 객체 수명(object lifetime) 이라는 개념에서 비롯됩니다. C에서 포인터는 단순한 메모리 주소이므로, 해당 주소의 바이트 표현을 원하는 타입으로 해석하기만 하면 됩니다. 반면 C++은 포인터가 가리키는 주소에 해당 타입의 ",
-      "published": "2026-04-17 04:29",
+      "published": "2026-04-17 04:38",
       "logo_domain": "naver.com",
-      "ai_summary": "IT 컨설턴트 관점에서 이 기사는 C++ 객체 수명과 메모리 관리의 중요성을 강조하고 있다. C/C++ 개발 시 엄격한 표준 준수가 필요하며, 이를 통해 안전하고 신뢰성 있는 시스템을 구축할 수 있다.",
+      "ai_summary": "이 기사는 C++ 객체 수명과 암묵적 객체 생성에 대해 설명하며, 특히 reinterpret_cast를 사용하는 패턴이 미정의 동작에 해당할 수 있음을 지적하고 있습니다. 이는 C++의 엄격한 표준을 준수하는 것이 중요함을 시사합니다.",
+      "importance_score": 8
+    },
+    {
+      "source": "Naver D2",
+      "category": "플랫폼 테크",
+      "title": "C++ std::bit_cast와 reinterpret_cast — 언제 어떤 것을 써야 하는가",
+      "url": "https://d2.naver.com/helloworld/1155434",
+      "summary": "저희 팀은 네이버의 고성능 검색 엔진 기술을 계승한 분산 데이터베이스인 Dot을 개발하고 있습니다. 스토리지 계층을 직접 다루다 보니 디스크에서 읽어 온 바이트 패턴을 uint64_t , float , 혹은 사용자 정의 구조체로 해석하는 일이 일상이고, 코드 리뷰에서 reinterpret_cast 를 마주치는 일도 잦습니다. 볼 때마다 느끼는 불안함, 즉 '이것은 되도록 쓰지 말라고 배웠는데 괜찮을까?' 하는 감정은 C++ 개발자라면 공감하실 것입니다. C++20에서 등장한 std::bit_cast 는 그 불안에 대한 해답처럼 보였습니다. 표준 라이브러리가 제공하는 함수라는 점, 위험해 보이는 타입 퍼닝(type punning)까지 척척 해낸다는 점이 '이것은 안전하다'라는 착각을 심어 주었습니다. 그 착각이 퍼지면서 팀은 std::bit_cast 가 주는 안도감에 젖어 들었고, 예전 같으면 reinterpret_cast 를 썼을 자리를 std::bit_cast 가 차지하기 시작했습",
+      "published": "2026-04-17 04:38",
+      "logo_domain": "naver.com",
+      "ai_summary": "IT 전략 컨설턴트 관점에서 이 기사는 C++ 프로그래밍에서 타입 변환 기능의 효율적인 사용에 대해 설명하고 있다. 이는 분산 데이터베이스 개발 등의 고성능 시스템 구축에 중요한 기술적 통찰을 제공한다.",
       "importance_score": 8
     },
     {
@@ -94,20 +105,9 @@
       "title": "FE News 26년 3월 소식을 전해드립니다!",
       "url": "https://d2.naver.com/news/0407747",
       "summary": "주요소식 React Foundation React 생태계를 지속 가능하게 유지하고 발전시키기 위한 커뮤니티 주도 재단이다. \"Building the future of React, together\"라는 슬로건 아래, 코드 기여, 커뮤니티 조직화, 교육 콘텐츠 제작, 지속 가능한 자금 조달을 통해 수백만 개발자가 의존하는 도구의 유지보수자들을 지원하는 것을 목표로 한다. CSS Day 2025 CSS Day 2025 컨퍼런스의 발표 영상 모음 플레이리스트다. CSS의 철학부터 새로운 HTML UI 기능 스타일링, 폼 컨트롤 스타일링, CSS 리팩토링 등 다양한 주제를 다루고 있으며, John Allsopp, Rachel Andrew, Ahmad Shadeed 등 저명한 웹 개발자들이 발표자로 참여했다. Head of Claude Code: What happens after coding is solved Anthropic의 Claude Code 책임자인 Boris Cherny가 Lenny",
-      "published": "2026-04-17 04:29",
+      "published": "2026-04-17 04:38",
       "logo_domain": "naver.com",
-      "ai_summary": "React 생태계를 지속 가능하게 발전시키기 위한 커뮤니티 주도 재단이 설립되었으며, CSS Day 2025 컨퍼런스의 다양한 주제에 대한 발표 영상이 공개되었다.",
-      "importance_score": 8
-    },
-    {
-      "source": "Naver D2",
-      "category": "플랫폼 테크",
-      "title": "FE News 26년 2월 소식을 전해드립니다!",
-      "url": "https://d2.naver.com/news/2922082",
-      "summary": "주요소식 웹퍼블리셔라는 말을 만든 이유 2000년대 초반 한국에서 \"웹 퍼블리셔\"라는 용어가 어떻게 탄생했는지를 다룬 글이다. 당시 HTML 코딩을 담당하던 \"코더\"라는 직책은 그 역할의 중요성에 비해 전문성을 인정받지 못했고, 이를 개선하기 위해 웹 표준과 접근성에 초점을 맞춘 새로운 직무 명칭이 필요했다. 저자는 \"퍼블리셔\"라는 용어를 제안하며, 이 역할이 단순한 코딩을 넘어 웹 표준 준수, 접근성 구현, 디자인과 개발 사이의 가교 역할을 포함한다고 설명했다. 이 명칭은 이후 국내 웹 업계에서 널리 채택되어 현재까지 사용되고 있다. 한국 웹 개발 역사에서 직무 전문화가 어떻게 이루어졌는지를 보여주는 흥미로운 사례로, 글이 작성된 시점이 2007년임을 감안하고 읽어보기를 바란다. Introducing: React Best Practices Vercel Labs에서 10년 이상의 React 및 Next.js 최적화 경험을 담은 react-best-practices 저장소를 공개했다.",
-      "published": "2026-04-17 04:29",
-      "logo_domain": "naver.com",
-      "ai_summary": "IT 전략 컨설턴트 관점에서 이 기사는 웹 개발 직무의 전문화 과정을 보여준다. 새로운 직무 명칭 \"웹 퍼블리셔\"의 도입은 웹 표준과 접근성의 중요성 부각을 반영하며, 이는 웹 개발 산업의 성숙도 향상을 시사한다.",
+      "ai_summary": "React Foundation은 React 생태계를 지속 가능하게 유지하고 발전시키기 위해 커뮤니티 주도로 설립된 재단이다. CSS Day 2025 컨퍼런스 영상 플레이리스트는 CSS의 다양한 주제를 다루며, 저명한 웹 개발자들의 발표 내용을 제공한다.",
       "importance_score": 8
     },
     {
@@ -116,9 +116,9 @@
       "title": "스마트스토어센터 Oracle에서 MySQL로의 무중단 전환기",
       "url": "https://d2.naver.com/helloworld/6512234",
       "summary": "스마트스토어 플랫폼 내 여러 파트가 공동으로 사용하던 Oracle DBMS는 비즈니스 성장에 따라 리소스 경합이 심화되면서 서비스 성능 불안정을 초래했습니다. 기존 Oracle 인프라의 확장은 막대한 라이선스 비용 증가로 이어지기 때문에, 스마트스토어 회원 파트는 운영 비효율성과 비용 압박을 해소하고자 오픈소스인 MySQL로 DBMS 마이그레이션을 결정했습니다. 이 글에서는 10년 이상의 레거시 프로젝트가 서비스 중단 없이 Oracle 공동 환경에서 벗어나 MySQL로 전환하며 채택한 전략과 기술적 해결 과정을 공유합니다. 마이그레이션 준비 및 전략 수립 기존 서비스는 Oracle DBMS 환경에서 JPA와 MyBatis를 사용하고 있었습니다. 기존 서비스 아키텍처 회원 파트의 모듈은 타 부서 시스템과 광범위하게 연계되어 있어 서비스 중단이 불가능했습니다. 따라서 Oracle에서 MySQL로의 DB 전환에는 무중단 배포가 필수였습니다. 또한 사소한 기능 버그에는 핫픽스로 대응할 수 ",
-      "published": "2026-04-17 04:29",
+      "published": "2026-04-17 04:38",
       "logo_domain": "naver.com",
-      "ai_summary": "스마트스토어 플랫폼의 Oracle DBMS 환경이 비즈니스 성장으로 인한 리소스 경합으로 서비스 성능 불안정 문제가 발생하였고, 이에 따라 비용 효율적이고 안정적인 오픈소스 MySQL로의 마이그레이션을 결정하고 시행하였다.",
+      "ai_summary": "비즈니스 성장에 따른 Oracle DBMS의 성능 불안정과 비용 증가 문제를 해결하기 위해 오픈소스 MySQL로의 무중단 마이그레이션을 성공적으로 수행하였다. 이를 통해 운영 효율성과 비용 압박 해소에 성공했다.",
       "importance_score": 8
     },
     {
@@ -127,9 +127,9 @@
       "title": "FE News 26년 1월 소식을 전해드립니다!",
       "url": "https://d2.naver.com/news/5798505",
       "summary": "주요소식 다음과 같은 유용한 정보들을 만나보실 수 있습니다. RSC Explorer - React Server Components 시각화 도구 Dan Abramov가 React Server Components(RSC) 프로토콜을 시각화하는 도구를 공개했다. 브라우저에서 RSC 스트림을 단계별로 재생하고 분해할 수 있으며, 서버·클라이언트·flight·preview 4개 패널로 데이터 흐름을 표시한다. 네트워크 요청 없이 동작하고 React가 제공하는 reader/writer를 그대로 사용하기 때문에 출력 결과는 실제 프로토콜과 동일하다. 스트리밍(Suspense), Client Reference, Server Actions, Router refresh 같은 프레임워크 내부 동작 원리를 이해할 수 있는 RSC 디버깅과 교육 자료로 활용하기 좋은 도구다.. Web AI Summit 2025 - 클라이언트 사이드 AI의 새로운 흐름 클라이언트 사이드 모델과 에이전트를 주제로 하는 행사다.",
-      "published": "2026-04-17 04:29",
+      "published": "2026-04-17 04:38",
       "logo_domain": "naver.com",
-      "ai_summary": "이 도구는 React Server Components(RSC) 프로토콜을 효과적으로 시각화하여 개발자들이 프레임워크의 내부 동작 원리를 이해할 수 있게 해줍니다. 이를 통해 개발 프로세스를 개선하고 애플리케이션의 성능을 최적화할 수 있을 것으로 기대됩니다.",
+      "ai_summary": "React Server Components(RSC) 프로토콜의 내부 동작 원리를 시각화하는 도구가 공개되어, 개발자들이 React 프레임워크의 새로운 기술을 이해하고 활용하는 데 도움이 될 것으로 보입니다. 이는 React 생태계의 발전과 함께 프로젝트 관리 및 기술 선정에 참고할 만한 정보를 제공할 것으로 판단됩니다.",
       "importance_score": 8
     },
     {
@@ -138,9 +138,9 @@
       "title": "비용, 성능, 안정성을 목표로 한 지능형 로그 파이프라인 도입",
       "url": "https://d2.naver.com/helloworld/0004394",
       "summary": "Logiss는 AIDA(Advanced Interface for Data & AI)라는 네이버 사내 통합 데이터 플랫폼의 일부로, 로그 수집과 실시간 검색을 통해 문제를 추적하고 데이터를 분석하도록 지원합니다. 또한 Cuve와 CQuery라는 대용량 데이터 저장소 및 분석 설루션과 데이터를 연동합니다. 이 글에서는 로그 파이프라인을 운영하면서 겪은 문제점과 지능형 로그 파이프라인을 도입해 이를 해결한 과정을 공유합니다. 관련 발표는 팀네이버 컨퍼런스 DAN25 ' 하루 수백억 건을 처리하는 똑똑한 로그 파이프라인 만들기: 비용·성능·안정성 삼박자 '에서도 살펴보실 수 있습니다. 로그 파이프라인의 역할 로그 파이프라인을 설명하기 전에 먼저 AIDA의 주요 컴포넌트 구성을 간단히 알아보겠습니다. AIDA의 주요 컴포넌트 구성 AIDA Project : 각 컴포넌트의 리소스 사용 관리, 데이터 권한 관리 담당 Cuve : HBase, Kafka 기반의 검색에 필요한 모든 문서를 중심으로 ",
-      "published": "2026-04-17 04:29",
+      "published": "2026-04-17 04:38",
       "logo_domain": "naver.com",
-      "ai_summary": "Logiss는 네이버 내부 데이터 플랫폼 AIDA의 일부로, 대용량 데이터 저장 및 분석 솔루션을 활용하여 로그 수집 및 실시간 분석을 수행하고 있다. 이 기사는 이들이 로그 파이프라인 운영 과정에서 겪은 문제점을 해결하기 위해 지능형 로그 파이프라인을 도입한 내용을 공유한다.",
+      "ai_summary": "Logiss 팀이 AIDA 플랫폼의 일부로 구축한 지능형 로그 파이프라인은 비용, 성능, 안정성을 달성하기 위해 설계되었으며, 이를 통해 대용량 로그 데이터를 효과적으로 수집, 저장, 분석할 수 있게 되었다.",
       "importance_score": 8
     },
     {
@@ -149,20 +149,9 @@
       "title": "[인턴십] 2026 NAVER AI CHALLENGE를 소개합니다.",
       "url": "https://d2.naver.com/news/7477295",
       "summary": "네이버의 개발 문화와 함께 프로젝트 협업 방식을 체험할 수 있는 2026 NAVER AI CHALLENGE 인턴십 모집 을 시작했습니다. 실무에서 다루는 AI 문제를 네이버의 현업 엔지니어와 함께 아이디어 설계 단계부터 기술적 방향성, 검증 과정까지 전 과정을 함께 학습하고 성장 할 수 있는 좋은 기회입니다. 원활한 협업과 멘토링을 위해 전용 좌석을 제공하며, 수행 기간 동안 프로젝트 활동비 및 최신 OA 장비도 지급됩니다. 학년, 전공 상관 없이 학/석사 재학생이면 누구나 지원할 수 있으니, 네이버와 AI 프로젝트에 관심 있는 분들은 모두 지원해보세요! 접수 기간 : 12.10(수) - 12.16(화) 오전 11시 서류 전형 : 12월 3주 - 12월 4주 직무 인터뷰 : 2026년 1월 1주 - 1월 2주 합격자 발표 : 2026년 1월 3주 중 인턴십 기간 : 1.19(월) - 2.13(금) / 4주 과제 안내 (아래 2개 과제 중 1개 과제 선택) AI 기반 데이터 파이프라인",
-      "published": "2026-04-17 04:29",
+      "published": "2026-04-17 04:38",
       "logo_domain": "naver.com",
-      "ai_summary": "네이버는 AI 분야 인턴십 프로그램인 '2026 NAVER AI CHALLENGE'를 통해 학생들에게 실무 경험과 멘토링을 제공하여, AI 기술 개발과 협업 능력 향상의 기회를 제공하고 있다. 이는 미래 AI 인재 육성을 위한 전략적 투자로 볼 수 있다.",
-      "importance_score": 8
-    },
-    {
-      "source": "Naver D2",
-      "category": "플랫폼 테크",
-      "title": "디자인시스템이 AI를 만났을 때: FE 개발 패러다임의 변화",
-      "url": "https://d2.naver.com/helloworld/3442203",
-      "summary": "네이버 사내 기술 교류 행사인 NAVER ENGINEERING DAY 2025(10월)에서 발표되었던 세션을 공개합니다. 발표 내용 네이버파이낸셜 디자인시스템과 AI를 이용하여 마크업 자동화 작업에 대한 소소한 경험을 공유합니다. 발표 대상 AI를 이용한 마크업 등 디자인 작업관련 관심 있으신 모든 분들 목차 오늘 이야기의 키워드 知彼知己 네이버파이낸셜 디자인시스템 디자인 토큰 디자인 시스템 컴포넌트 우리를 도와 줄 AI 는? 百戰不殆 Let's Try 마크업 작업을 위한 사전 준비 디자인시스템 Code Connect 디자인시스템 instruction 이제 FE 개발 시작해도 될 마크업, 하지만 아쉬웠던 점 그 외로 힘들었던 점 현실 개발에서는 어떻게 해야하는가? 마크업 직업 개발했더니 어떠니? ◎ NAVER ENGINEERING DAY란? NAVER에서는 사내 개발 경험과 기술 트렌드를 교류를 할 수 있는 프로그램이 많이 있습니다. 그중 매회 평균 70개 이상의 발표가 이루어지는 ",
-      "published": "2026-04-17 04:29",
-      "logo_domain": "naver.com",
-      "ai_summary": "네이버에서 개발한 AI 기반 마크업 자동화 기술은 프런트엔드 개발 프로세스를 혁신할 수 있는 잠재력을 가지고 있다. 이를 활용하면 개발 시간과 비용을 절감하고 일관성 있는 사용자 경험을 제공할 수 있다.",
+      "ai_summary": "네이버의 AI 프로젝트에 관심 있는 학/석사 재학생들이 실무 엔지니어와 협업하며 AI 문제 해결과 기술 검증을 경험할 수 있는 인턴십 프로그램을 소개하고 있다. 이를 통해 네이버의 개발 문화와 프로젝트 협업 방식을 직접 체험할 수 있는 좋은 기회를 제공한다.",
       "importance_score": 8
     },
     {
@@ -171,9 +160,9 @@
       "title": "LLM이지만 PDF는 읽고 싶어: 복잡한 PDF를 LLM이 이해하는 방법",
       "url": "https://d2.naver.com/helloworld/9036125",
       "summary": "네이버 사내 기술 교류 행사인 NAVER ENGINEERING DAY 2025(10월)에서 발표되었던 세션을 공개합니다. 발표 내용 LLM-friendly PDF parser PaLADIN을 소개합니다. 발표 대상 AI/LLM을 적극적으로 활용하고 싶으신 분 문서 처리에 관심이 있으신 분 웹검색에 관심이 있으신 분 목차 PDF가 왜 중요한가요? LLM-friendly PDF Parser 기술 탐색 및 PoC (with NVIDIA) 관련 기술 탐색 PoC with NVIDIA PaLADIN: 표와 차트, 숫자를 정확히 이해하고 표현하는 LLM-friendly PDF Parser 아키텍쳐 설계 - nv-ingest 아키텍쳐 설계 - PaLADIN Model 소개 - Element-Detector: Doclayout-Yolo Model 소개 - Table-Extractor: nemoretriever-table-structure-v1 Model 소개 - Chart-Extractor: go",
-      "published": "2026-04-17 04:29",
+      "published": "2026-04-17 04:38",
       "logo_domain": "naver.com",
-      "ai_summary": "네이버가 PDF 문서 처리를 위해 LLM(Large Language Model) 기반의 PaLADIN 기술을 개발했다는 내용입니다. 이는 웹검색 및 문서 처리에 있어 LLM 기술의 활용성을 높이고자 하는 시도로 볼 수 있습니다.",
+      "ai_summary": "LLM(Large Language Model)을 활용하여 복잡한 PDF 문서를 효과적으로 처리하고 이해할 수 있는 방법을 제시하고 있다. 이를 통해 웹 검색 및 문서 처리 업무에 대한 효율성 제고가 가능할 것으로 판단된다.",
       "importance_score": 8
     },
     {
@@ -182,11 +171,11 @@
       "title": "VLOps:Event-driven MLOps & Omni-Evaluator",
       "url": "https://d2.naver.com/helloworld/0931890",
       "summary": "네이버 사내 기술 교류 행사인 NAVER ENGINEERING DAY 2025(10월)에서 발표되었던 세션을 공개합니다. 발표 내용 Event-driven MLOps는 학습·평가·배포를 Typed Message 단위로 정의하고, Event Sensor가 이를 감지해 자율적으로 실행하는 구조입니다. Kubeflow 같은 파이프라인처럼 전체 버전 관리가 필요하지 않으며, 메시지를 추가하는 것만으로 기능 확장이 가능합니다. 사용자는 내부 오케스트레이션을 몰라도 메시지 발행만으로 동일한 파이프라인을 구동할 수 있습니다. 이를 통해 평가·배포 시스템 간 느슨한 결합(Loose Coupling)과 클라우드 간 호환성을 확보했습니다. Omni-Evaluator와 Dashboard는 다양한 엔진·벤치마크를 통합하고, 실시간 모니터링과 사용자 주도 트리거 기능을 제공합니다. 발표 대상 MLOps 엔지니어, ML 리서처, 데이터 사이언티스트 클라우드 인프라/DevOps 개발자, 모델 배포 및 평가 담",
-      "published": "2026-04-17 04:29",
+      "published": "2026-04-17 04:38",
       "logo_domain": "naver.com",
-      "ai_summary": "이벤트 주도형 MLOps와 다양한 평가 엔진을 통합하는 Omni-Evaluator 기술은 ML 모델 개발 프로세스의 자동화와 효율성 향상을 가능하게 하여, 기업의 AI 역량 강화에 기여할 것으로 보입니다.",
+      "ai_summary": "이벤트 기반 MLOps 아키텍처와 다양한 평가 엔진을 통합하는 Omni-Evaluator를 통해 ML 모델 개발 프로세스의 유연성과 확장성을 높일 수 있다.",
       "importance_score": 8,
-      "title_ko": "VLOps: 이벤트 기반 MLOps와 옴니-평가자"
+      "title_ko": "VLOps: 이벤트 기반 MLOps와 Omni-Evaluator"
     },
     {
       "source": "Naver D2",
@@ -194,9 +183,9 @@
       "title": "FE News 25년 12월 소식을 전해드립니다!",
       "url": "https://d2.naver.com/news/3740852",
       "summary": "주요소식 다음과 같은 유용한 정보들을 만나보실 수 있습니다. Wasm Does Not Stand for WebAssembly WebAssembly라는 이름 때문에 많은 개발자들이 Wasm을 웹 기술이자 어셈블리 언어로 오해한다. 하지만 웹 어셈블리는 웹만을 위한 기술도 아니고 어셈블리도 아니다. WebAssembly라는 이름은 프로젝트 펀딩을 위한 네이밍이었다. Wasm은 가상 머신에서 실행되는 바이트코드로, JVM이나 .NET 바이트코드와 더 유사하다. LLM 시대, React의 자기 강화 피드백 루프 LLM 훈련 데이터와 개발자 출력 사이의 피드백 루프로 React가 사실상 플랫폼이 되었다. 지난 12개월간 1,300만 개 이상의 React 사이트가 배포되었으며, Replit과 Bolt 같은 LLM 도구들은 시스템 프롬프트에 React를 명시적으로 하드코딩한다. 새로운 프레임워크가 성공하려면 LLM 훈련 데이터 포함부터 시작해야 하는데, 이는 최소 12~18개월이 소요되며 그 사",
-      "published": "2026-04-17 04:29",
+      "published": "2026-04-17 04:38",
       "logo_domain": "naver.com",
-      "ai_summary": "웹 개발에서 WebAssembly의 활용도가 높아지고 있으며, React가 LLM(Large Language Model) 기반 도구와 연계되면서 플랫폼으로 자리잡고 있다.",
+      "ai_summary": "Wasm은 웹 기술이 아니며, 어셈블리 언어도 아닌 가상 머신용 바이트코드이다. React는 LLM 훈련 데이터와 개발자 출력 간의 피드백 루프로 인해 사실상 플랫폼이 되었다.",
       "importance_score": 8
     },
     {
@@ -205,20 +194,20 @@
       "title": "사용자의 목소리를 AI로 재현하다: LLM기반 Multi Agent UX플랫폼 개발기",
       "url": "https://d2.naver.com/helloworld/2678553",
       "summary": "네이버 사내 기술 교류 행사인 NAVER ENGINEERING DAY 2025(10월)에서 발표되었던 세션을 공개합니다. 해당 발표는 팀네이버 컨퍼런스 DAN25 홈페이지 에서도 살펴보실 수 있습니다. 발표 내용 “사용자에 진심인 3명이 모여, Persona가 말하게 만들다” 이 세션은 잘 만든 AI 시스템을. 넘어, 디자이너·AI 리서처·개발자가 경험한 AI 시대의 협업 가능성을 제안합니다. 사용자 페르소나봇 NSona의 기획부터 구현, 평가까지 전 과정을 공유합니다. AI로 사용자 리서치 데이터를 실시간 협업 자원으로 전환하며, Multi-Party 대화 시스템에서 사용자와 함께 일하는 방식을 실험했습니다. 세 명은 함께 AI를 만들며 역할과 협업 구조가 바뀌는 경험을 했습니다. 디자이너는 프롬프트를 설계하고, 리서처는 로직을 에이전트 구조로 바꾸었으며, 프론트 개발자는 AI를 비평 대상으로 다뤘습니다. 중요한 건 ‘어디까지 만들었느냐’가 아니라 ‘어디서 시작점을 찍느냐’임을 깨",
-      "published": "2026-04-17 04:29",
+      "published": "2026-04-17 04:38",
       "logo_domain": "naver.com",
-      "ai_summary": "이 기사는 네이버가 개발한 사용자 페르소나봇 NSona 프로젝트를 소개합니다. 이 프로젝트는 디자이너, AI 연구원, 개발자가 협업하여 AI 기술을 활용해 사용자 리서치 데이터를 실시간으로 활용하고, Multi-Party 대화 시스템을 통해 사용자와 함께 일하는 방식을 실험한 사례입니다.",
+      "ai_summary": "이 기사는 네이버 엔지니어링 데이 2025에서 발표된 세션을 소개합니다. 디자이너, AI 연구원, 개발자가 협업하여 사용자 페르소나봇 NSona를 개발한 내용을 공유합니다. 이를 통해 AI 시대에 필요한 새로운 협업 방식을 제안합니다.",
       "importance_score": 8
     },
     {
       "source": "Naver D2",
       "category": "플랫폼 테크",
-      "title": "Iceberg Low-Latency Queries with Materialized Views  (feat. 실시간 거래 리포트)",
-      "url": "https://d2.naver.com/helloworld/9290684",
-      "summary": "네이버 사내 기술 교류 행사인 NAVER ENGINEERING DAY 2025(10월)에서 발표되었던 세션을 공개합니다. 발표 내용 본 영상에서는 “실시간 거래 리포트를 어떻게 하면 사용자가 원하는 다양한 조건으로 빠르게 조회할 수 있을까?” 라는 질문에서 출발한 기술적 여정을 다룹니다. 단순히 데이터를 쌓고 조회하는 단계를 넘어, 거래 데이터의 최신성과 응답 속도, 그리고 확장성을 동시에 확보하기 위한 여러 시도를 공유합니다. 발표 대상 데이터 플랫폼 엔지니어 / 데이터 아키텍트 – 대용량 실시간 데이터 처리 및 저지연 설계에 관심 있는 분 분석 플랫폼 운영자 / BI 개발자 – 다차원 필터 조회 속도 및 Freshness 향상 전략을 찾고 있는 분 Spark, Iceberg, StarRocks 활용자 – 실제 조합 운영 사례를 통해 운영 팁을 얻고자 하는 분 목차 소개 (Introduction) 문제 정의 (Problem Definition) 도전 과제 (Challenges) 리",
-      "published": "2026-04-17 04:29",
+      "title": "웹툰 창작 생태계 보호를 위한 연구",
+      "url": "https://d2.naver.com/helloworld/4571155",
+      "summary": "네이버 웹툰은 웹툰, 웹소설 등 다양한 창작물을 독자에게 제공하는 플랫폼을 구축하고, 이를 통해 창작자가 전 세계 독자와 만나 소통하며 안정적인 수익을 바탕으로 창작 활동에 온전히 집중할 수 있는 환경을 만들기 위해 노력하고 있습니다. 특히 하나의 스토리를 다양한 IP(intellectual property)로 확장해 글로벌 시장의 규모를 지속적으로 키우고 있으며, 창작자와 독자, 플랫폼이 상생하며 지속 가능한 가치를 창출하는 디지털 창작 생태계를 만들어 나가는 데 주력하고 있습니다. 하지만 창작 생태계가 활성화되고 성장할수록 이를 훼손하는 위협도 심화되고 있습니다. 콘텐츠 불법 유출 : 저작권자의 허가 없이 디지털 콘텐츠를 무단으로 복제, 배포 또는 공유하는 행위로, 창작자의 정당한 수익을 침해할 뿐만 아니라 플랫폼의 신뢰성과 비즈니스 모델 자체를 훼손할 수 있습니다. 이로 인해 저작권자의 경제적 손실과 더불어 창작 생태계 위기가 초래될 수 있습니다. 생성형 AI의 무단 학습 : ",
+      "published": "2026-04-17 04:38",
       "logo_domain": "naver.com",
-      "ai_summary": "본 기사는 대규모 실시간 데이터에 대한 저지연 쿼리 처리 및 다차원 필터 조회 속도 향상을 위해 Iceberg와 StarRocks 기술을 활용한 사례를 다룹니다. 이는 IT 서비스 제공 기업의 실시간 데이터 분석 및 보고 기능을 고도화하는 데 도움이 될 수 있습니다.",
+      "ai_summary": "네이버가 웹툰 생태계 보호를 위해 노력하고 있지만, 불법 유출 등 위협이 심화되고 있어 플랫폼 운영에 전략적 과제가 되고 있음.",
       "importance_score": 8
     },
     {
@@ -227,9 +216,9 @@
       "title": "[DAN25] 기술세션 영상이 모두 공개되었습니다.",
       "url": "https://d2.naver.com/news/9333656",
       "summary": "지난 11월 6일, 7일 양일간 진행된 팀네이버 컨퍼런스 DAN25에서는 네이버의 기술뿐만 아니라 크리에이티브, 서비스와 비즈니스를 유기적으로 융합해 일상의 작은 변화부터 새로운 생태계로의 도약까지, 끝없이 확장되는 경험의 로드맵을 함께 나누는 자리로 진행되었습니다. 현장에서는 AI 에이전트, 소버린 AI, AX 등 네이버가 제시하는 미래 전략과 실제 서비스·비즈니스에 적용된 다양한 사례들이 공유 되며, 참가자들이 변화된 사용자 경험을 직접 확인하고 인사이트를 얻을 수 있었습니다. 컨퍼런스에서 선보인 다양한 세션과 발표들은 많은 관심을 모았는데요, 현장의 그 생생한 분위기를 온라인에서도 만나볼 수 있도록 모든 발표영상이 DAN25 홈페이지 와 NAVER 네이버 TV 채널 에 공개 되었습니다. 총 35개의 기술세션 중 오프라인 현장에서 가장 참여율(참석 및 질문)이 높았던 기술 세션 5개 를 뽑아보았습니다. [DAN25 Tech 세션 TOP 5] 1. 네이버 PersonA - 지금 나",
-      "published": "2026-04-17 04:29",
+      "published": "2026-04-17 04:38",
       "logo_domain": "naver.com",
-      "ai_summary": "네이버 DAN25 컨퍼런스는 AI, 서비스, 비즈니스의 융합을 통해 새로운 사용자 경험을 선보였으며, 이러한 기술과 서비스 혁신 사례들이 온라인으로 공개되어 IT 전략 수립에 유용한 인사이트를 제공한다.",
+      "ai_summary": "네이버의 DAN25 컨퍼런스는 기술, 크리에이티브, 서비스와 비즈니스를 유기적으로 융합하여 새로운 생태계로의 도약을 모색하는 자리였으며, 관련 발표 영상들이 온라인에 공개되어 많은 관심을 받았다.",
       "importance_score": 8
     },
     {
@@ -240,7 +229,7 @@
       "summary": "1분부터 7일까지 슬라이딩 윈도우 Frequency Capping을 세 Flink 앱으로 분리하고 각각의 병목을 해결한 기록을 공유합니다.",
       "published": "2026-04-16 02:48",
       "logo_domain": "toss.im",
-      "ai_summary": "기업이 광고 Frequency Capping을 실시간으로 확장할 수 있도록 Apache Flink와 RocksDB를 활용한 기술적 접근을 공유한 사례로, 이를 통해 IT 시스템 성능과 확장성을 높일 수 있는 솔루션을 제시하였습니다.",
+      "ai_summary": "[Apache Flink와 RocksDB를 활용하여 광고 Frequency Capping 실시간 집계를 확장한 사례를 다룸. 다양한 시간 단위의 집계를 분리하고 병목을 해결하여 확장성을 높였다.]",
       "importance_score": 8
     },
     {
@@ -251,9 +240,9 @@
       "summary": "Hello! My name is Ssup, and I work as an engineer on the Cluster team within Karrot’s SRE organization. Our team handles a wide range of responsibilities — from operating AWS EKS clusters and configuring Istio-based service mesh networks, to managing monitoring components like Prometheus and Loki. Most of Karrot’s workloads run on AWS EKS clusters. While workloads can be classified in many ways, one of the most common distinctions is between Server workloads and Job workloads. Unlike Server work",
       "published": "2026-04-16 09:35",
       "logo_domain": "daangn.com",
-      "ai_summary": "당근마켓은 AWS EKS 클러스터에서 다양한 워크로드를 운영하며, 자동 스케일링 기능을 통해 비용 효율성과 시스템 안정성을 달성하고자 노력하고 있다.",
+      "ai_summary": "당근마켓은 AWS EKS 클러스터 운영에 있어 효율적인 오토스케일링 전략을 추구하고 있으며, 다양한 워크로드 관리를 위해 노력하고 있다.",
       "importance_score": 8,
-      "title_ko": "당근마켓의 EKS 노드 그룹 자동 스케일링 여정"
+      "title_ko": "우리의 EKS 노드 그룹 오토스케일링 여정"
     },
     {
       "source": "당근마켓 Tech",
@@ -263,7 +252,7 @@
       "summary": "안녕하세요. SRE팀 클러스터 파트에서 근무하고 있는 Ssup(썹)이에요. 저희 클러스터 파트는 AWS EKS 클러스터 운영부터 Istio 기반의 서비스 메쉬 네트워크 구성, Prometheus, Loki와 같은 모니터링 컴포넌트 관리까지 다양한 업무를 담당하고 있어요. 당근의 대부분의 워크로드는 AWS EKS 클러스터 위에서 실행되고 있어요. 워크로드는 다양한 기준으로 분류할 수 있는데, 그 중 대표적인 유형 중 하나가 Job이에요. Job 워크로드는 Server 워크로드와 달리 시작과 끝이 명확하게 존재하는 워크로드를 의미해요. Job 워크로드의 중요한 특징 중 하나는 한번 시작되면 중단하기 어렵다는 점이에요. 대부분의 Job 워크로드는 중단되면 처음부터 동일한 작업을 다시 수행해야 하기 때문이에요. 특히 1시간 이상 장시간 수행되는 Job 워크로드는 중단 시 재실행에 상당한 시간이 소요되기 때문에 더욱 중단하기 어려워요. 이처럼 중단하기 어려운 Job 워크로드의 특성은 EKS ",
       "published": "2026-04-16 06:01",
       "logo_domain": "daangn.com",
-      "ai_summary": "당근마켓의 주요 워크로드가 AWS EKS 클러스터에서 실행되고 있으며, 특히 중단하기 어려운 Job 워크로드의 오토스케일링 전략이 중요한 과제로 다루어지고 있다.",
+      "ai_summary": "당근마켓은 AWS EKS 클러스터에서 다양한 워크로드를 운영하고 있으며, 그 중 Job 워크로드의 중단 방지와 자동 확장을 위해 Node Group 오토스케일링을 도입한 사례이다. 이는 기업의 IT 자동화와 운영 효율성 제고에 도움이 될 것으로 보인다.",
       "importance_score": 8
     },
     {
@@ -274,7 +263,7 @@
       "summary": "안녕하세요. 2024년 4월에 신입 사원으로 LY Corporation에 입사한 Inoue Shuichi입니다. 현재 사내용 Kubernetes as a Service인 FKE 팀...",
       "published": "2026-04-15 06:30",
       "logo_domain": "linecorp.com",
-      "ai_summary": "사내 Kubernetes 클라우드 환경을 활용하여 싱글/멀티 에이전트 기반의 시스템 통합을 수행하는 사례를 소개하고 있으며, 이는 IT 기술의 효율적 활용을 통한 기업 운영 효율성 제고에 도움이 될 것으로 보입니다.",
+      "ai_summary": "LY Corporation에서 FKE 팀에 소속된 Inoue Shuichi는 ADK를 활용하여 싱글/멀티 에이전트를 개발하고 사내 시스템과 통합하는 프로젝트를 진행하고 있다. 이는 IT 전략적으로 사내 시스템의 효율성과 생산성 향상을 위한 중요한 프로젝트로 볼 수 있다.",
       "importance_score": 8
     },
     {
@@ -285,19 +274,19 @@
       "summary": "Consumer Signals 2025 4분기 Deloitte",
       "published": "2026-04-11 04:54",
       "logo_domain": "deloitte.com",
-      "ai_summary": "IT 전략 컨설턴트 관점에서 이 기사는 2025년 소비자 행동 변화와 트렌드를 분석하여 기업의 IT 전략 수립에 도움이 될 것으로 보인다. 이를 통해 기업은 새로운 소비자 요구에 대응할 수 있는 혁신적인 IT 솔루션을 개발할 수 있을 것이다.",
+      "ai_summary": "IT 전략 컨설턴트 관점에서 이 보고서는 미래 소비자 트렌드에 대한 통찰력을 제공하며, 기업이 변화하는 소비자 행동에 대응하고 혁신적인 전략을 수립하는 데 도움이 될 수 있다.",
       "importance_score": 8,
-      "title_ko": "2025년 4분기 소비자 신호등 - Deloitte"
+      "title_ko": "소비자 신호 2025년 4분기 - Deloitte"
     },
     {
-      "source": "KT",
-      "category": "한국 대기업",
-      "title": "KT클라우드, 데이터센터 임대로 1조 번다 - 한국금융신문",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFA4bFgyd0tNckU4bE1PUWhvNFFVU2dJcnA1RHdXMGJ6WEJtc3JTeHl1YURQNFRpOHluT3VGUFR2eFJGdUhjc2l6ZlBtbThCRHNBMWpNQjR3OWNqdDl5M0EwNlRzaURLdHRHZWxteDJIOTFjcXBxVERMcjU0SjE?oc=5",
-      "summary": "KT클라우드, 데이터센터 임대로 1조 번다 한국금융신문",
-      "published": "2026-04-16 02:33",
-      "logo_domain": "kt.com",
-      "ai_summary": "KT가 데이터센터 임대 사업을 통해 큰 수익을 올리고 있으며, 이는 클라우드 서비스 사업 확장에 중요한 기반이 될 것으로 보인다.",
+      "source": "Deloitte",
+      "category": "글로벌 컨설팅",
+      "title": "블록체인과 인공지능 - Deloitte",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQY0ZfMDF2UkZUTE9yUEhWUVpZNmRVRmxXalh0cGwzUXVrSXB5dHVmRGkxbkpxdTNoaHl1NTBteUZqVGFmODhiU2pnX09GX2R1UWdtMHhMT1prWHNsZjJVRW9DTHFxcW1FMnR0U25QRVR2UnRtak5yaC1tUGctM3pWN3REWE1RNVRiLTJ0OFotVWF1dnAyaFlJMGdVQm9QVzZFUWpXTXYzYm54YWRpd2Fnd1ljNGE2UWVlOWhGeXFCaTUxSG5WZ05fTFA5SmtXOGhCMWtN?oc=5",
+      "summary": "블록체인과 인공지능 Deloitte",
+      "published": "2026-04-10 06:54",
+      "logo_domain": "deloitte.com",
+      "ai_summary": "블록체인과 인공지능은 기업에 새로운 기회를 제공하며, IT 전략 컨설턴트는 이를 활용하여 기업의 효율성과 경쟁력을 향상시킬 수 있다.",
       "importance_score": 8
     },
     {
@@ -308,7 +297,7 @@
       "summary": "[기업家] 카카오 ㅣ 'AI·핀테크·모빌리티 전방위 확장…글로벌 협력 가속' 네이트",
       "published": "2026-04-10 07:08",
       "logo_domain": "kakao.com",
-      "ai_summary": "카카오가 AI, 핀테크, 모빌리티 등 다양한 영역에서 글로벌 협력을 가속화하며 전방위적으로 사업을 확장하고 있다. 이는 카카오가 핵심 기술을 기반으로 새로운 성장 동력을 발굴하고자 하는 전략으로 판단된다.",
+      "ai_summary": "카카오는 AI, 핀테크, 모빌리티 분야에서 전방위적으로 사업을 확장하고 있으며, 글로벌 기업들과의 협력을 가속화하고 있다. 이는 카카오가 신기술 분야에서의 경쟁력을 강화하고 시너지 창출을 도모하는 전략으로 볼 수 있다.",
       "importance_score": 8
     },
     {
@@ -319,19 +308,41 @@
       "summary": "교실로 들어온 AI 수업… 에듀테크 ‘도입’ 넘어 ‘검증’ 단계로 IT조선",
       "published": "2026-04-14 05:13",
       "logo_domain": "it.chosun.com",
-      "ai_summary": "",
-      "importance_score": 5
+      "ai_summary": "IT 전략 컨설턴트 관점에서 볼 때, 교실로 도입된 AI 기반 에듀테크 솔루션들은 단순한 도입을 넘어 교육 현장에서의 검증 단계로 접어들고 있다. 향후 AI 기반 에듀테크의 실효성과 교육적 효과에 대한 면밀한 검토가 필요할 것으로 보인다.",
+      "importance_score": 8
     },
     {
       "source": "Naver D2",
       "category": "플랫폼 테크",
-      "title": "C++ std::bit_cast와 reinterpret_cast — 언제 어떤 것을 써야 하는가",
-      "url": "https://d2.naver.com/helloworld/1155434",
-      "summary": "저희 팀은 네이버의 고성능 검색 엔진 기술을 계승한 분산 데이터베이스인 Dot을 개발하고 있습니다. 스토리지 계층을 직접 다루다 보니 디스크에서 읽어 온 바이트 패턴을 uint64_t , float , 혹은 사용자 정의 구조체로 해석하는 일이 일상이고, 코드 리뷰에서 reinterpret_cast 를 마주치는 일도 잦습니다. 볼 때마다 느끼는 불안함, 즉 '이것은 되도록 쓰지 말라고 배웠는데 괜찮을까?' 하는 감정은 C++ 개발자라면 공감하실 것입니다. C++20에서 등장한 std::bit_cast 는 그 불안에 대한 해답처럼 보였습니다. 표준 라이브러리가 제공하는 함수라는 점, 위험해 보이는 타입 퍼닝(type punning)까지 척척 해낸다는 점이 '이것은 안전하다'라는 착각을 심어 주었습니다. 그 착각이 퍼지면서 팀은 std::bit_cast 가 주는 안도감에 젖어 들었고, 예전 같으면 reinterpret_cast 를 썼을 자리를 std::bit_cast 가 차지하기 시작했습",
-      "published": "2026-04-17 04:29",
+      "title": "FE News 26년 2월 소식을 전해드립니다!",
+      "url": "https://d2.naver.com/news/2922082",
+      "summary": "주요소식 웹퍼블리셔라는 말을 만든 이유 2000년대 초반 한국에서 \"웹 퍼블리셔\"라는 용어가 어떻게 탄생했는지를 다룬 글이다. 당시 HTML 코딩을 담당하던 \"코더\"라는 직책은 그 역할의 중요성에 비해 전문성을 인정받지 못했고, 이를 개선하기 위해 웹 표준과 접근성에 초점을 맞춘 새로운 직무 명칭이 필요했다. 저자는 \"퍼블리셔\"라는 용어를 제안하며, 이 역할이 단순한 코딩을 넘어 웹 표준 준수, 접근성 구현, 디자인과 개발 사이의 가교 역할을 포함한다고 설명했다. 이 명칭은 이후 국내 웹 업계에서 널리 채택되어 현재까지 사용되고 있다. 한국 웹 개발 역사에서 직무 전문화가 어떻게 이루어졌는지를 보여주는 흥미로운 사례로, 글이 작성된 시점이 2007년임을 감안하고 읽어보기를 바란다. Introducing: React Best Practices Vercel Labs에서 10년 이상의 React 및 Next.js 최적화 경험을 담은 react-best-practices 저장소를 공개했다.",
+      "published": "2026-04-17 04:38",
       "logo_domain": "naver.com",
-      "ai_summary": "[IT 컨설팅 관점 2문장 한국어 요약]",
-      "importance_score": 1
+      "ai_summary": "웹 퍼블리셔라는 직무명이 등장한 배경은 단순 HTML 코딩을 넘어 웹 표준 준수, 접근성 구현, 디자인과 개발 사이의 가교 역할을 포함하는 전문성 있는 직무 명칭이 필요했기 때문이다. 이는 한국 웹 개발 역사에서 직무 전문화가 어떻게 이루어졌는지를 보여주는 사례이다.",
+      "importance_score": 7
+    },
+    {
+      "source": "Naver D2",
+      "category": "플랫폼 테크",
+      "title": "디자인시스템이 AI를 만났을 때: FE 개발 패러다임의 변화",
+      "url": "https://d2.naver.com/helloworld/3442203",
+      "summary": "네이버 사내 기술 교류 행사인 NAVER ENGINEERING DAY 2025(10월)에서 발표되었던 세션을 공개합니다. 발표 내용 네이버파이낸셜 디자인시스템과 AI를 이용하여 마크업 자동화 작업에 대한 소소한 경험을 공유합니다. 발표 대상 AI를 이용한 마크업 등 디자인 작업관련 관심 있으신 모든 분들 목차 오늘 이야기의 키워드 知彼知己 네이버파이낸셜 디자인시스템 디자인 토큰 디자인 시스템 컴포넌트 우리를 도와 줄 AI 는? 百戰不殆 Let's Try 마크업 작업을 위한 사전 준비 디자인시스템 Code Connect 디자인시스템 instruction 이제 FE 개발 시작해도 될 마크업, 하지만 아쉬웠던 점 그 외로 힘들었던 점 현실 개발에서는 어떻게 해야하는가? 마크업 직업 개발했더니 어떠니? ◎ NAVER ENGINEERING DAY란? NAVER에서는 사내 개발 경험과 기술 트렌드를 교류를 할 수 있는 프로그램이 많이 있습니다. 그중 매회 평균 70개 이상의 발표가 이루어지는 ",
+      "published": "2026-04-17 04:38",
+      "logo_domain": "naver.com",
+      "ai_summary": "네이버 디자인시스템에서 AI를 활용하여 마크업 자동화 작업을 시도했으나, 실제 개발 환경에서는 여전히 개선의 여지가 있는 것으로 보인다. IT 전략적으로 AI를 활용한 자동화는 개발 생산성 향상에 도움이 될 수 있지만, 현실적인 적용 과정에서 한계와 과제가 존재함을 보여준다.",
+      "importance_score": 7
+    },
+    {
+      "source": "전자신문",
+      "category": "IT 미디어",
+      "title": "소프트캠프, 日 'IT 위크 2026' 참가…AI 보안 솔루션 전시 - 전자신문",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFB6Qm5CMVZsYjl5WVktUEtuYV9VVjJmR3BVc09CZXZ3Mk5YUG9uVXF5M0FJUnlGcFZqQVJpTDMzVkhodEh0ZTdKU1kwZWxaQQ?oc=5",
+      "summary": "소프트캠프, 日 'IT 위크 2026' 참가…AI 보안 솔루션 전시 전자신문",
+      "published": "2026-04-13 04:55",
+      "logo_domain": "etnews.com",
+      "ai_summary": "소프트캠프는 일본 최대 IT 전시회인 'IT 위크 2026'에 참가하여 AI 기반 보안 솔루션을 선보임. 이는 일본 시장 진출을 위한 전략적 움직임으로 볼 수 있다.",
+      "importance_score": 7
     },
     {
       "source": "인공지능신문",
@@ -341,8 +352,8 @@
       "summary": "AGI·LLM·환각까지…헷갈리는 AI 용어 짚어보니 디지털투데이",
       "published": "2026-04-13 11:00",
       "logo_domain": "aitimes.kr",
-      "ai_summary": "[IT 컨설팅 관점 2문장 한국어 요약]",
-      "importance_score": 1
+      "ai_summary": "",
+      "importance_score": 0
     }
   ]
 }
