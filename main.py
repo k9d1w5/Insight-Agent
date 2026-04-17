@@ -8,6 +8,8 @@ import os
 from datetime import datetime, timezone, timedelta
 from crawler import fetch_all_sources
 from summarizer import summarize_articles, generate_final_report
+from pdf_crawler import fetch_pdf_sources
+from sources_config import ALL_SOURCES
 
 KST = timezone(timedelta(hours=9))  # 한국 시간대
 
@@ -76,8 +78,14 @@ def main():
     print(f"  {start.strftime('%Y-%m-%d %H:%M:%S')}")
     print("=" * 60)
 
-    # 1. 크롤링
+    # 1. 웹 크롤링
     articles = asyncio.run(fetch_all_sources())
+
+    # 1b. PDF 크롤링 (web_pdf / pdf 타입 소스)
+    pdf_articles = asyncio.run(fetch_pdf_sources(ALL_SOURCES))
+    if pdf_articles:
+        print(f"[PDF] {len(pdf_articles)}개 아티클 추가")
+        articles = articles + pdf_articles
 
     if not articles:
         print("\n수집된 아티클이 없습니다. 종료합니다.")

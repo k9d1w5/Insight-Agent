@@ -2,12 +2,14 @@
 
 const CAT_COLORS = {
   '글로벌 컨설팅': '#7c3aed',
+  '국내 연구기관': '#0891b2',
   '한국 대기업':   '#0284c7',
   '플랫폼 테크':   '#059669',
   'IT 미디어':     '#d97706',
 };
 
 let allArticles = [];
+let allSources  = [];
 
 // ── 데이터 로드 ──────────────────────────────────────────
 async function loadReport(file = 'data/reports/latest.json') {
@@ -23,6 +25,16 @@ async function loadReport(file = 'data/reports/latest.json') {
 async function loadIndex() {
   try {
     const res = await fetch('data/reports/index.json?t=' + Date.now());
+    if (!res.ok) return null;
+    return await res.json();
+  } catch {
+    return null;
+  }
+}
+
+async function loadSources() {
+  try {
+    const res = await fetch('data/sources.json?t=' + Date.now());
     if (!res.ok) return null;
     return await res.json();
   } catch {
@@ -138,13 +150,110 @@ async function renderArchive() {
   });
 }
 
-// ── 필터 ────────────────────────────────────────────────
+// ── 소스 현황 탭 ─────────────────────────────────────────
+function renderSources(sourcesData, filterCat = 'all') {
+  const grid = document.getElementById('sources-grid');
+  const totalEl = document.getElementById('sources-total');
+  if (!grid || !sourcesData) return;
+
+  const sources = filterCat === 'all'
+    ? sourcesData.sources
+    : sourcesData.sources.filter(s => s.category === filterCat);
+
+  if (totalEl) totalEl.textContent = sourcesData.total;
+  grid.innerHTML = '';
+
+  // 카테고리별로 그룹핑
+  const groups = {};
+  sources.forEach(s => {
+    if (!groups[s.category]) groups[s.category] = [];
+    groups[s.category].push(s);
+  });
+
+  Object.entries(groups).forEach(([cat, items]) => {
+    const color = CAT_COLORS[cat] || '#2563eb';
+    const groupEl = document.createElement('div');
+    groupEl.className = 'sources-group';
+    groupEl.innerHTML = `
+      <div class="sources-group-title" style="border-left-color:${color}">
+        <span class="sources-group-dot" style="background:${color}"></span>
+        ${esc(cat)} <span class="sources-group-count">${items.length}개</span>
+      </div>
+      <div class="sources-group-grid">
+        ${items.map(s => {
+          const logoUrl = `https://www.google.com/s2/favicons?sz=64&domain_url=${esc(s.logo_domain)}`;
+          const typeLabel = { web: 'WEB', pdf: 'PDF', web_pdf: 'WEB+PDF', rss: 'RSS' }[s.type] || s.type.toUpperCase();
+          const typeBg = { web: '#eff6ff', pdf: '#fef3c7', web_pdf: '#f0fdf4', rss: '#fdf4ff' }[s.type] || '#f1f5f9';
+          const typeColor = { web: '#1d4ed8', pdf: '#d97706', web_pdf: '#059669', rss: '#7c3aed' }[s.type] || '#475569';
+          return `
+          <a class="source-card" href="${esc(s.url)}" target="_blank" rel="noopener">
+            <div class="source-card-accent" style="background:${color}"></div>
+            <div class="source-card-body">
+              <div class="source-card-logo-wrap">
+                <img class="source-card-logo"
+                     src="${logoUrl}"
+                     alt="${esc(s.name_ko)}"
+                     onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 32 32%22><rect width=%2232%22 height=%2232%22 rx=%224%22 fill=%22%23e2e8f0%22/><text x=%2216%22 y=%2221%22 text-anchor=%22middle%22 font-size=%2214%22 fill=%22%2394a3b8%22>📄</text></svg>'">
+              </div>
+              <div class="source-card-info">
+                <div class="source-card-name">${esc(s.name_ko)}</div>
+                <div class="source-card-en">${esc(s.name)}</div>
+                <div class="source-card-desc">${esc(s.description)}</div>
+              </div>
+              <div class="source-card-type" style="background:${typeBg};color:${typeColor}">${typeLabel}</div>
+            </div>
+            <div class="source-card-url">${esc(s.url)}</div>
+          </a>`;
+        }).join('')}
+      </div>
+    `;
+    grid.appendChild(groupEl);
+  });
+}
+
+// ── 탭 전환 ──────────────────────────────────────────────
+function switchTab(tabName) {
+  const mainEl   = document.querySelector('main');
+  const sourceEl = document.getElementById('tab-sources');
+  const hero     = document.querySelector('.hero');
+
+  document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('active'));
+  document.querySelector(`.nav-btn[data-tab="${tabName}"]`)?.classList.add('active');
+
+  if (tabName === 'sources') {
+    mainEl.classList.add('hidden');
+    sourceEl.classList.remove('hidden');
+    if (hero) hero.style.display = 'none';
+    // 소스 렌더
+    if (allSources) renderSources(allSources);
+  } else {
+    mainEl.classList.remove('hidden');
+    sourceEl.classList.add('hidden');
+    if (hero) hero.style.display = '';
+  }
+}
+
+// ── 필터 (아티클 + 소스 공용) ─────────────────────────────
 document.addEventListener('click', e => {
-  if (!e.target.matches('.filter-btn')) return;
-  document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-  e.target.classList.add('active');
-  const cat = e.target.dataset.cat;
-  renderArticles(cat === 'all' ? allArticles : allArticles.filter(a => a.category === cat));
+  // 아티클 필터
+  if (e.target.matches('.filter-btn[data-cat]')) {
+    document.querySelectorAll('.filter-btn[data-cat]').forEach(b => b.classList.remove('active'));
+    e.target.classList.add('active');
+    const cat = e.target.dataset.cat;
+    renderArticles(cat === 'all' ? allArticles : allArticles.filter(a => a.category === cat));
+    return;
+  }
+  // 소스 필터
+  if (e.target.matches('.filter-btn[data-scat]')) {
+    document.querySelectorAll('.filter-btn[data-scat]').forEach(b => b.classList.remove('active'));
+    e.target.classList.add('active');
+    renderSources(allSources, e.target.dataset.scat);
+    return;
+  }
+  // 탭 버튼
+  if (e.target.matches('.nav-btn[data-tab]')) {
+    switchTab(e.target.dataset.tab);
+  }
 });
 
 // ── 마크다운 변환 ────────────────────────────────────────
@@ -183,6 +292,10 @@ function showError() {
 }
 
 (async function init() {
+  // 소스 데이터는 항상 미리 로드
+  const sourcesData = await loadSources();
+  if (sourcesData) allSources = sourcesData;
+
   showLoading();
   const data = await loadReport();
   if (!data) { showError(); return; }

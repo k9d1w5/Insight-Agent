@@ -19,9 +19,13 @@
         </div>
       </div>
       <div class="header-right">
+        <nav class="header-nav">
+          <button class="nav-btn active" data-tab="report">📊 리포트</button>
+          <button class="nav-btn" data-tab="sources">🗂️ 소스 현황</button>
+        </nav>
         <div class="live-badge">
           <div class="live-dot"></div>
-          매일 오전 8시 자동 업데이트
+          매일 오전 8시 자동
         </div>
         <div class="report-date-badge" id="report-date">-</div>
       </div>
@@ -147,6 +151,25 @@
       </div>
     </div>
   </footer>
+
+  <!-- 소스 현황 탭 -->
+  <div id="tab-sources" class="tab-panel hidden">
+    <div class="container" style="padding-top:32px;padding-bottom:60px">
+      <div class="sources-header">
+        <h2>🗂️ 데이터 소스 현황</h2>
+        <p class="sources-desc">AI 인사이트 리포트가 매일 수집·분석하는 <strong id="sources-total">-</strong>개의 출처입니다.</p>
+      </div>
+      <div class="sources-filter">
+        <button class="filter-btn active" data-scat="all">전체</button>
+        <button class="filter-btn" data-scat="글로벌 컨설팅">글로벌 컨설팅</button>
+        <button class="filter-btn" data-scat="국내 연구기관">국내 연구기관</button>
+        <button class="filter-btn" data-scat="한국 대기업">한국 대기업</button>
+        <button class="filter-btn" data-scat="플랫폼 테크">플랫폼 테크</button>
+        <button class="filter-btn" data-scat="IT 미디어">IT 미디어</button>
+      </div>
+      <div id="sources-grid" class="sources-grid"></div>
+    </div>
+  </div>
 
   <script src="app.js"></script>
 </body>

@@ -685,11 +685,209 @@ footer {
   gap: 20px;
 }
 
+/* ── Header Nav (탭) ──────────────────────────────────── */
+.header-nav {
+  display: flex;
+  gap: 4px;
+  background: rgba(255,255,255,.07);
+  border: 1px solid rgba(255,255,255,.1);
+  border-radius: 999px;
+  padding: 3px;
+}
+
+.nav-btn {
+  padding: 6px 16px;
+  border-radius: 999px;
+  border: none;
+  background: transparent;
+  color: rgba(255,255,255,.6);
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all .15s;
+  white-space: nowrap;
+}
+
+.nav-btn:hover {
+  color: #fff;
+  background: rgba(255,255,255,.1);
+}
+
+.nav-btn.active {
+  background: #fff;
+  color: var(--navy);
+  box-shadow: 0 1px 4px rgba(0,0,0,.2);
+}
+
+/* ── Sources Tab Panel ────────────────────────────────── */
+#tab-sources {
+  background: var(--bg);
+  min-height: calc(100vh - 60px);
+}
+
+.sources-header {
+  margin-bottom: 24px;
+}
+
+.sources-header h2 {
+  font-size: 22px;
+  font-weight: 800;
+  color: var(--navy);
+  margin-bottom: 6px;
+}
+
+.sources-desc {
+  font-size: 14px;
+  color: var(--text-sm);
+}
+
+.sources-filter {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  margin-bottom: 28px;
+}
+
+/* ── Sources Group ────────────────────────────────────── */
+.sources-group {
+  margin-bottom: 32px;
+}
+
+.sources-group-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--navy);
+  padding-left: 14px;
+  border-left: 3px solid;
+  margin-bottom: 14px;
+}
+
+.sources-group-dot {
+  width: 8px; height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.sources-group-count {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--text-sm);
+  margin-left: 2px;
+}
+
+.sources-group-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 12px;
+}
+
+/* ── Source Card ──────────────────────────────────────── */
+.source-card {
+  background: var(--surface);
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow-sm);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: var(--text);
+  transition: transform .18s, box-shadow .18s;
+}
+
+.source-card:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-lg);
+  border-color: #cbd5e1;
+}
+
+.source-card-accent {
+  height: 3px;
+  flex-shrink: 0;
+}
+
+.source-card-body {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 16px;
+  flex: 1;
+}
+
+.source-card-logo-wrap {
+  flex-shrink: 0;
+  width: 40px; height: 40px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border);
+  background: var(--surface2);
+  display: flex; align-items: center; justify-content: center;
+  overflow: hidden;
+}
+
+.source-card-logo {
+  width: 28px; height: 28px;
+  object-fit: contain;
+}
+
+.source-card-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.source-card-name {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 2px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.source-card-en {
+  font-size: 11px;
+  color: var(--text-sm);
+  margin-bottom: 4px;
+}
+
+.source-card-desc {
+  font-size: 11.5px;
+  color: var(--text-sm);
+  line-height: 1.5;
+}
+
+.source-card-type {
+  flex-shrink: 0;
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  padding: 3px 8px;
+  border-radius: 999px;
+  align-self: flex-start;
+}
+
+.source-card-url {
+  padding: 8px 16px;
+  font-size: 10.5px;
+  color: #94a3b8;
+  border-top: 1px solid var(--border-light);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  background: var(--surface2);
+}
+
 /* ── Responsive ───────────────────────────────────────── */
 @media (max-width: 640px) {
   .hero-stats { display: none; }
   .articles-grid { grid-template-columns: 1fr; }
-  .header-right { gap: 10px; }
+  .sources-group-grid { grid-template-columns: 1fr; }
+  .header-right { gap: 8px; }
   .report-date-badge { display: none; }
   .hero h1 { font-size: 22px; }
+  .nav-btn { padding: 5px 10px; font-size: 11px; }
+  .live-badge { display: none; }
 }
