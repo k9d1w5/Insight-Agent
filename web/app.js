@@ -1,5 +1,23 @@
 /* app.js - IT 인사이트 리포트 대시보드 */
 
+// 로컬 로고 오버라이드 (images/logos/ 폴더에 파일 저장 필요)
+const LOGO_OVERRIDES = {
+  'McKinsey & Company':  'images/logos/mckinsey.png',
+  'IITP 주간기술동향':    'images/logos/iitp.png',
+  'IITP ICT Brief':      'images/logos/iitp.png',
+};
+
+function getLogoHtml(source, logoDomain, cssClass = 'source-logo') {
+  const localPath = LOGO_OVERRIDES[source];
+  const src = localPath
+    ? localPath
+    : logoDomain
+      ? `https://www.google.com/s2/favicons?sz=64&domain_url=${esc(logoDomain)}`
+      : null;
+  if (!src) return '';
+  return `<img class="${cssClass}" src="${src}" alt="${esc(source)}" onerror="this.style.display='none'">`;
+}
+
 const CAT_COLORS = {
   '글로벌 컨설팅': '#7c3aed',
   '국내 연구기관': '#0891b2',
@@ -237,8 +255,7 @@ function renderArticles(articles) {
       : esc(displayTitle);
     const origTitleHtml = (a.title_ko && a.title_ko !== a.title)
       ? `<div class="article-orig-title">🌐 ${esc(a.title)}</div>` : '';
-    const logoHtml = a.logo_domain
-      ? `<img class="source-logo" src="https://www.google.com/s2/favicons?sz=32&domain_url=${esc(a.logo_domain)}" alt="" onerror="this.style.display='none'">` : '';
+    const logoHtml = getLogoHtml(a.source, a.logo_domain, 'source-logo');
 
     card.innerHTML = `
       <div class="article-card-top" style="background:${color}"></div>
@@ -341,6 +358,12 @@ const KO_STOPWORDS = new Set([
   '하는','하다','하여','하고','한다','했다','하면','하지','해서','해야','하기','하기도',
   '됩니다','됩니','됐다','된다','되는','되어','되고','되면','되지','되기',
   '통한','위한','관한','이루는','이뤄지는','갖는','갖춘','지닌',
+  // 지시·접속 표현
+  '이는','이런','이렇게','이처럼','이러한','이같은','이같이',
+  '그런','그렇게','그처럼','그러한','그같은','그래서','그러나','그리고','그러므로',
+  '하며','하면서','하지만','하더라도','하더니','하였다','하였으며',
+  '있으며','있어서','있도록','있었다','없었다','없으며',
+  '되었다','되었으며','됩니다','되었습니다',
   // 의존명사·불완전명사
   '것','등','수','점','때','간','내','전','후','중','각','차','측','위',
   '상','하','좌','우','셈','터','바','듯','뿐','채','만큼','정도',
@@ -514,7 +537,7 @@ function renderSources(sourcesData, filterCat = 'all') {
           <div class="source-card-accent" style="background:${color}"></div>
           <div class="source-card-body">
             <div class="source-card-logo-wrap">
-              <img class="source-card-logo" src="https://www.google.com/s2/favicons?sz=64&domain_url=${esc(s.logo_domain)}" alt="${esc(s.name_ko)}" onerror="this.style.display='none'">
+              ${getLogoHtml(s.name, s.logo_domain, 'source-card-logo')}
             </div>
             <div class="source-card-info">
               <div class="source-card-name">${esc(s.name_ko)}</div>

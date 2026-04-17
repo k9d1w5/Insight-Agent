@@ -256,8 +256,9 @@ main { padding: 32px 0 60px; }
 
 /* ── Executive Summary 블록 ───────────────────────────── */
 .rpt-executive {
-  background: linear-gradient(135deg, #0f1f3d 0%, #1a3460 100%);
+  background: #ffffff;
   border-radius: var(--radius);
+  border: 1.5px solid #dbeafe;
   padding: 24px 28px;
   margin-bottom: 32px;
   position: relative;
@@ -267,10 +268,11 @@ main { padding: 32px 0 60px; }
 .rpt-executive::before {
   content: '';
   position: absolute;
-  top: -40px; right: -40px;
-  width: 160px; height: 160px;
-  background: rgba(255,255,255,.03);
-  border-radius: 50%;
+  top: 0; left: 0;
+  width: 4px;
+  height: 100%;
+  background: linear-gradient(180deg, var(--blue) 0%, var(--sky) 100%);
+  border-radius: 4px 0 0 4px;
 }
 
 .rpt-exec-label {
@@ -280,7 +282,7 @@ main { padding: 32px 0 60px; }
   font-size: 10px;
   font-weight: 800;
   letter-spacing: 2px;
-  color: var(--sky);
+  color: var(--blue);
   text-transform: uppercase;
   margin-bottom: 14px;
 }
@@ -289,12 +291,12 @@ main { padding: 32px 0 60px; }
 
 .rpt-exec-body p {
   font-size: 14.5px;
-  line-height: 1.9;
-  color: #ffffff;
+  line-height: 1.95;
+  color: var(--navy);
   margin: 0 0 10px;
 }
 .rpt-exec-body p:last-child { margin-bottom: 0; }
-.rpt-exec-body strong { color: #fff; font-weight: 700; }
+.rpt-exec-body strong { color: var(--blue); font-weight: 700; }
 
 /* ── 섹션 구분선 ──────────────────────────────────────── */
 .rpt-divider {
