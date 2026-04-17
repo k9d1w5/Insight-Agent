@@ -37,6 +37,8 @@ body {
   line-height: 1.6;
   min-height: 100vh;
   -webkit-font-smoothing: antialiased;
+  word-break: keep-all;
+  overflow-wrap: break-word;
 }
 
 .container { max-width: 1160px; margin: 0 auto; padding: 0 24px; }
@@ -238,6 +240,8 @@ main { padding: 32px 0 60px; }
   font-size: 14px;
   line-height: 1.85;
   color: var(--text-md);
+  word-break: keep-all;
+  overflow-wrap: break-word;
 }
 
 /* ── 리포트 H1 (제목) ─────────────────────────────────── */

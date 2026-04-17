@@ -217,7 +217,7 @@ def generate_final_report(articles: list[dict]) -> str:
     # 1차: Sonnet
     try:
         print("[종합 리포트 생성 중... Sonnet]")
-        result = _call_claude(prompt, max_tokens=2500, model=MODEL_STRONG, retries=2)
+        result = _call_claude(prompt, max_tokens=4000, model=MODEL_STRONG, retries=2)
         print("[종합 리포트 완료]")
         return result
     except Exception as e:
@@ -233,7 +233,7 @@ def generate_final_report(articles: list[dict]) -> str:
                 short_lines.append(f"- {item['source']}: {title}")
         short_prompt = prompt.replace(articles_text, "\n".join(short_lines))
         print("[종합 리포트 재시도... Haiku]")
-        result = _call_claude(short_prompt, max_tokens=1500, model=MODEL_FAST, retries=2)
+        result = _call_claude(short_prompt, max_tokens=2500, model=MODEL_FAST, retries=2)
         print("[종합 리포트 Haiku 완료]")
         return result
     except Exception as e2:
