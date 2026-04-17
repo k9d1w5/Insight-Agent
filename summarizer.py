@@ -8,7 +8,7 @@ import anthropic
 
 client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
 
-MODEL_FAST   = "claude-3-5-haiku-20241022"   # 개별 요약·번역
+MODEL_FAST   = "claude-3-haiku-20240307"     # 개별 요약·번역 (구버전, 전 플랜 지원)
 MODEL_STRONG = "claude-3-5-sonnet-20241022"  # 종합 리포트
 
 
