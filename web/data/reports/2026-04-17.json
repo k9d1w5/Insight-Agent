@@ -1,11 +1,12 @@
 {
   "date": "2026-04-17",
-  "generated_at": "2026-04-17 09:48:34",
-  "total_articles": 32,
+  "generated_at": "2026-04-17 10:54:57",
+  "total_articles": 20,
   "categories": {
     "플랫폼 테크": 14,
-    "한국 대기업": 15,
-    "글로벌 컨설팅": 3
+    "글로벌 컨설팅": 2,
+    "한국 대기업": 1,
+    "IT 미디어": 3
   },
   "final_report": "최종 리포트 생성 중 오류가 발생했습니다. 개별 아티클 요약을 참고하세요.",
   "articles": [
@@ -15,7 +16,7 @@
       "title": "NAVER SECURITY SEMINAR 참가 신청을 시작합니다!",
       "url": "https://d2.naver.com/news/6236639",
       "summary": "NAVER SECURITY SEMINAR 참가 신청이 시작되었습니다. 4월 30일(목), 네이버 그린팩토리에서 열리는 이번 세미나는 팀 네이버 보안팀이 직접 현장의 고민과 경험을 나누는 자리입니다. 보안 기술, LLM 시대의 AI 레드팀, 피싱 트렌드까지 — 실무에서 활용할 수 있는 인사이트를 만나보세요! 행사 개요 ※ 발표 세션 제목은 변경될 수 있으며, 최종 프로그램은 선정된 참석자에 한해 별도 안내드리겠습니다. 일시 4월 30일(목) 오후 1시 30분 - 6시 30분 장소 네이버 그린팩토리 ( 지도보기 ) 참가 대상 IT 보안 실무자, 보안에 관심 있는 개발자 및 학생 프로그램 제목 발표자 지속 가능한 AI 레드티밍 파이프라인 구축하기 NAVER 박현준 네이버 대상 피싱 캠페인 분석: 피싱 공격 체인과 탐지 회피 기법의 진화 NAVER 이민수 위협 모델링으로 구현한 Npay커넥트 페이스사인의 보안 아키텍처 NAVER FINANCIAL 김동율 TLS 인증서부터 양자내성까지: 네이",
-      "published": null,
+      "published": "2026-04-17 01:54",
       "logo_domain": "naver.com",
       "ai_summary": "NAVER SECURITY SEMINAR 참가 신청이 시작되었습니다. 4월 30일(목), 네이버 그린팩토리에서 열리는 이번 세미나는 팀 네이버 보안팀이 직접 현장의 고민과 경험을 나누는 자리입니다. 보안 기술, LLM 시대의 AI 레드팀, 피싱 트렌드까지 — 실무에서 "
     },
@@ -25,7 +26,7 @@
       "title": "[사전 안내] 첫 번째 'NAVER SECURITY SEMINAR'가 열립니다.",
       "url": "https://d2.naver.com/news/2009415",
       "summary": "네이버는 수많은 사용자가 매일 신뢰하며 이용하는 서비스를 운영합니다. 그 신뢰의 근간에는 보안이 있습니다. 끊임없이 진화하는 위협 환경 속에서 네이버 보안 조직이 어떤 고민을 하고, 어떻게 대응하는지 그 경험과 인사이트를 나누는 첫 번째 자리를 마련했습니다. 네이버의 보안을 지키기 위한 활동중 하나로 매년 참여자들을 대상으로 개최해온 네이버 Security 의 버그바운티 프로그램 이 있습니다. 그간 온라인으로 진행되어 온 시상식을 올해에는 오프라인으로 NAVER SECURITY SEMINAR에서도 함께 축하하고자 합니다. IT 보안 실무자들과 현장의 이야기를 직접 나눌 수 있는 이 행사에 보안을 고민하는 모든 분들의 많은 관심 부탁드립니다. 행사 개요 일시 4월 30일(목) 오후 1시 30분 - 6시 30분 장소 네이버 그린팩토리 ( 지도보기 ) 참가 대상 IT 보안 실무자, 보안에 관심 있는 개발자 및 학생 프로그램 요약 발표자 : 팀네이버 보안팀 - 네이버 서비스 및 사용자를 안",
-      "published": null,
+      "published": "2026-04-17 01:54",
       "logo_domain": "naver.com",
       "ai_summary": "네이버는 수많은 사용자가 매일 신뢰하며 이용하는 서비스를 운영합니다. 그 신뢰의 근간에는 보안이 있습니다. 끊임없이 진화하는 위협 환경 속에서 네이버 보안 조직이 어떤 고민을 하고, 어떻게 대응하는지 그 경험과 인사이트를 나누는 첫 번째 자리를 마련했습니다. 네이버의 "
     },
@@ -35,7 +36,7 @@
       "title": "FE News 26년 4월 소식을 전해드립니다!",
       "url": "https://d2.naver.com/news/6428522",
       "summary": "주요소식 Temporal: The 9-Year Journey to Fix Time in JavaScript JavaScript의 Date 객체를 대체하는 Temporal API가 9년간의 표준화 과정을 거쳐 TC39 Stage 4에 도달하고 ES2026에 포함될 예정이다. 불변(immutable) 값, ZonedDateTime·Instant 등 다양한 타입, 명시적 타임존 지원, 나노초 정밀도, 다중 캘린더 지원 등을 제공한다. 현재 Firefox 139+, Chrome/Edge 144+, TypeScript 6.0 Beta, Node.js 26에서 지원된다. Announcing TypeScript 6.0 TypeScript 6.0이 출시되었다. 현재 JavaScript 코드베이스 기반의 마지막 버전으로, TypeScript 7.0부터는 Go로 재작성된 새 컴파일러가 기반이 된다. this를 실제로 사용하지 않는 함수의 타입 추론 정확도 개선, 서브패스 임포트 지원, --module",
-      "published": null,
+      "published": "2026-04-17 01:54",
       "logo_domain": "naver.com",
       "ai_summary": "주요소식 Temporal: The 9-Year Journey to Fix Time in JavaScript JavaScript의 Date 객체를 대체하는 Temporal API가 9년간의 표준화 과정을 거쳐 TC39 Stage 4에 도달하고 ES2026에 포함될 예정이"
     },
@@ -45,7 +46,7 @@
       "title": "C++ 객체 수명과 암묵적 객체 생성",
       "url": "https://d2.naver.com/helloworld/7997284",
       "summary": "이전 글 에서는 엄격한 앨리어싱 규칙의 관점에서 reinterpret_cast 를 안전하게 사용하는 방법을 알아보았습니다. 이번 글에서는 한 걸음 더 나아가, 디스크나 네트워크에서 읽어 온 바이트 표현을 특정 타입으로 해석할 때 reinterpret_cast 를 사용하는 패턴을 C++의 엄격한 표준에 비추어 살펴보겠습니다. 결론부터 말씀드리면, 이런 패턴의 상당수는 엄밀히 따지면 미정의 동작(UB, undefined behavior)에 해당합니다. 예를 들어 malloc() 으로 할당받은 메모리를 구조체 포인터로 캐스팅해 곧바로 접근하는 방식은 C 언어에서는 합법적이지만, C++17까지는 미정의 동작으로 간주되었습니다. C와 C++의 이 차이는 C++의 객체 수명(object lifetime) 이라는 개념에서 비롯됩니다. C에서 포인터는 단순한 메모리 주소이므로, 해당 주소의 바이트 표현을 원하는 타입으로 해석하기만 하면 됩니다. 반면 C++은 포인터가 가리키는 주소에 해당 타입의 ",
-      "published": null,
+      "published": "2026-04-17 01:54",
       "logo_domain": "naver.com",
       "ai_summary": "이전 글 에서는 엄격한 앨리어싱 규칙의 관점에서 reinterpret_cast 를 안전하게 사용하는 방법을 알아보았습니다. 이번 글에서는 한 걸음 더 나아가, 디스크나 네트워크에서 읽어 온 바이트 표현을 특정 타입으로 해석할 때 reinterpret_cast 를 사용하"
     },
@@ -55,7 +56,7 @@
       "title": "C++ std::bit_cast와 reinterpret_cast — 언제 어떤 것을 써야 하는가",
       "url": "https://d2.naver.com/helloworld/1155434",
       "summary": "저희 팀은 네이버의 고성능 검색 엔진 기술을 계승한 분산 데이터베이스인 Dot을 개발하고 있습니다. 스토리지 계층을 직접 다루다 보니 디스크에서 읽어 온 바이트 패턴을 uint64_t , float , 혹은 사용자 정의 구조체로 해석하는 일이 일상이고, 코드 리뷰에서 reinterpret_cast 를 마주치는 일도 잦습니다. 볼 때마다 느끼는 불안함, 즉 '이것은 되도록 쓰지 말라고 배웠는데 괜찮을까?' 하는 감정은 C++ 개발자라면 공감하실 것입니다. C++20에서 등장한 std::bit_cast 는 그 불안에 대한 해답처럼 보였습니다. 표준 라이브러리가 제공하는 함수라는 점, 위험해 보이는 타입 퍼닝(type punning)까지 척척 해낸다는 점이 '이것은 안전하다'라는 착각을 심어 주었습니다. 그 착각이 퍼지면서 팀은 std::bit_cast 가 주는 안도감에 젖어 들었고, 예전 같으면 reinterpret_cast 를 썼을 자리를 std::bit_cast 가 차지하기 시작했습",
-      "published": null,
+      "published": "2026-04-17 01:54",
       "logo_domain": "naver.com",
       "ai_summary": "저희 팀은 네이버의 고성능 검색 엔진 기술을 계승한 분산 데이터베이스인 Dot을 개발하고 있습니다. 스토리지 계층을 직접 다루다 보니 디스크에서 읽어 온 바이트 패턴을 uint64_t , float , 혹은 사용자 정의 구조체로 해석하는 일이 일상이고, 코드 리뷰에서 "
     },
@@ -65,7 +66,7 @@
       "title": "FE News 26년 3월 소식을 전해드립니다!",
       "url": "https://d2.naver.com/news/0407747",
       "summary": "주요소식 React Foundation React 생태계를 지속 가능하게 유지하고 발전시키기 위한 커뮤니티 주도 재단이다. \"Building the future of React, together\"라는 슬로건 아래, 코드 기여, 커뮤니티 조직화, 교육 콘텐츠 제작, 지속 가능한 자금 조달을 통해 수백만 개발자가 의존하는 도구의 유지보수자들을 지원하는 것을 목표로 한다. CSS Day 2025 CSS Day 2025 컨퍼런스의 발표 영상 모음 플레이리스트다. CSS의 철학부터 새로운 HTML UI 기능 스타일링, 폼 컨트롤 스타일링, CSS 리팩토링 등 다양한 주제를 다루고 있으며, John Allsopp, Rachel Andrew, Ahmad Shadeed 등 저명한 웹 개발자들이 발표자로 참여했다. Head of Claude Code: What happens after coding is solved Anthropic의 Claude Code 책임자인 Boris Cherny가 Lenny",
-      "published": null,
+      "published": "2026-04-17 01:54",
       "logo_domain": "naver.com",
       "ai_summary": "주요소식 React Foundation React 생태계를 지속 가능하게 유지하고 발전시키기 위한 커뮤니티 주도 재단이다. \"Building the future of React, together\"라는 슬로건 아래, 코드 기여, 커뮤니티 조직화, 교육 콘텐츠 제작, 지속"
     },
@@ -75,7 +76,7 @@
       "title": "FE News 26년 2월 소식을 전해드립니다!",
       "url": "https://d2.naver.com/news/2922082",
       "summary": "주요소식 웹퍼블리셔라는 말을 만든 이유 2000년대 초반 한국에서 \"웹 퍼블리셔\"라는 용어가 어떻게 탄생했는지를 다룬 글이다. 당시 HTML 코딩을 담당하던 \"코더\"라는 직책은 그 역할의 중요성에 비해 전문성을 인정받지 못했고, 이를 개선하기 위해 웹 표준과 접근성에 초점을 맞춘 새로운 직무 명칭이 필요했다. 저자는 \"퍼블리셔\"라는 용어를 제안하며, 이 역할이 단순한 코딩을 넘어 웹 표준 준수, 접근성 구현, 디자인과 개발 사이의 가교 역할을 포함한다고 설명했다. 이 명칭은 이후 국내 웹 업계에서 널리 채택되어 현재까지 사용되고 있다. 한국 웹 개발 역사에서 직무 전문화가 어떻게 이루어졌는지를 보여주는 흥미로운 사례로, 글이 작성된 시점이 2007년임을 감안하고 읽어보기를 바란다. Introducing: React Best Practices Vercel Labs에서 10년 이상의 React 및 Next.js 최적화 경험을 담은 react-best-practices 저장소를 공개했다.",
-      "published": null,
+      "published": "2026-04-17 01:54",
       "logo_domain": "naver.com",
       "ai_summary": "주요소식 웹퍼블리셔라는 말을 만든 이유 2000년대 초반 한국에서 \"웹 퍼블리셔\"라는 용어가 어떻게 탄생했는지를 다룬 글이다. 당시 HTML 코딩을 담당하던 \"코더\"라는 직책은 그 역할의 중요성에 비해 전문성을 인정받지 못했고, 이를 개선하기 위해 웹 표준과 접근성에 "
     },
@@ -85,7 +86,7 @@
       "title": "스마트스토어센터 Oracle에서 MySQL로의 무중단 전환기",
       "url": "https://d2.naver.com/helloworld/6512234",
       "summary": "스마트스토어 플랫폼 내 여러 파트가 공동으로 사용하던 Oracle DBMS는 비즈니스 성장에 따라 리소스 경합이 심화되면서 서비스 성능 불안정을 초래했습니다. 기존 Oracle 인프라의 확장은 막대한 라이선스 비용 증가로 이어지기 때문에, 스마트스토어 회원 파트는 운영 비효율성과 비용 압박을 해소하고자 오픈소스인 MySQL로 DBMS 마이그레이션을 결정했습니다. 이 글에서는 10년 이상의 레거시 프로젝트가 서비스 중단 없이 Oracle 공동 환경에서 벗어나 MySQL로 전환하며 채택한 전략과 기술적 해결 과정을 공유합니다. 마이그레이션 준비 및 전략 수립 기존 서비스는 Oracle DBMS 환경에서 JPA와 MyBatis를 사용하고 있었습니다. 기존 서비스 아키텍처 회원 파트의 모듈은 타 부서 시스템과 광범위하게 연계되어 있어 서비스 중단이 불가능했습니다. 따라서 Oracle에서 MySQL로의 DB 전환에는 무중단 배포가 필수였습니다. 또한 사소한 기능 버그에는 핫픽스로 대응할 수 ",
-      "published": null,
+      "published": "2026-04-17 01:54",
       "logo_domain": "naver.com",
       "ai_summary": "스마트스토어 플랫폼 내 여러 파트가 공동으로 사용하던 Oracle DBMS는 비즈니스 성장에 따라 리소스 경합이 심화되면서 서비스 성능 불안정을 초래했습니다. 기존 Oracle 인프라의 확장은 막대한 라이선스 비용 증가로 이어지기 때문에, 스마트스토어 회원 파트는 운영"
     },
@@ -150,86 +151,6 @@
       "ai_summary": "LY Corporation에서는 개발 업무와 관련된 모든 엔지니어를 대상으로 실제 실무 적용 관점에서 AI 활용 능력을 높이는 워크숍, ‘Orchestration Developme..."
     },
     {
-      "source": "Samsung Newsroom",
-      "category": "한국 대기업",
-      "title": "더욱 빠르게, 실시간으로, 듣고 싶은 소리만 선명하게, 갤럭시 S26 시리즈의 향상된 ‘오디오 지우개’ 기능",
-      "url": "https://news.samsung.com/kr/%eb%8d%94%ec%9a%b1-%eb%b9%a0%eb%a5%b4%ea%b2%8c-%ec%8b%a4%ec%8b%9c%ea%b0%84%ec%9c%bc%eb%a1%9c-%eb%93%a3%ea%b3%a0-%ec%8b%b6%ec%9d%80-%ec%86%8c%eb%a6%ac%eb%a7%8c-%ec%84%a0%eb%aa%85%ed%95%98%ea%b2%8c",
-      "summary": "영상에서 불필요한 소음은 줄이고 원하는 소리를 키워, 더욱 몰입감 있는 영상 시청을 가능하게 해주는 갤럭시의 ‘오디오 지우개(Audio Eraser)’ 기능. 이 기능을 처음 선보인 갤럭시 S25 시리즈에서는 저장된 영상의 소음을 편집할 수 있었고, 갤럭시 Z 폴드7 과 플립7에서는 갤러리와 음성녹음 등 기본 앱에서 재생 중인 소리를 조정하며 편의성을 높였다. 이번 갤럭시 S26 시리즈에서는 오디오 지우개가 다시 […]",
-      "published": "2026-04-16 21:00",
-      "logo_domain": "samsung.com",
-      "ai_summary": "영상에서 불필요한 소음은 줄이고 원하는 소리를 키워, 더욱 몰입감 있는 영상 시청을 가능하게 해주는 갤럭시의 ‘오디오 지우개(Audio Eraser)’ 기능. 이 기능을 처음 선보인 갤럭시 S25 시리즈에서는 저장된 영상의 소음을 편집할 수 있었고, 갤럭시 Z 폴드7 "
-    },
-    {
-      "source": "Samsung Newsroom",
-      "category": "한국 대기업",
-      "title": "삼성전자, 에버랜드서 삼성 헬스와 함께하는 ‘갤럭시 워치런 @사파리’ 러닝 이벤트 개최",
-      "url": "https://news.samsung.com/kr/%ec%82%bc%ec%84%b1%ec%a0%84%ec%9e%90-%ec%97%90%eb%b2%84%eb%9e%9c%eb%93%9c%ec%84%9c-%ec%82%bc%ec%84%b1-%ed%97%ac%ec%8a%a4%ec%99%80-%ed%95%a8%ea%bb%98%ed%95%98%eb%8a%94-%ea%b0%a4%eb%9f%ad%ec%8b%9c",
-      "summary": "삼성전자가 5월 17일 용인 에버랜드에서 러닝 이벤트 ‘갤럭시 워치런 @사파리’를 개최한다. ‘갤럭시 워치런 @사파리’는 참가자들이 갤럭시 워치를 착용하고 에버랜드의 ▲로스트밸리 ▲사파리월드 ▲장미원으로 구성된 4.82km 러닝 코스를 달리면서, 갤럭시 워치의 다양한 기능을 색다르게 체험할 수 있는 행사다. 참가자들은 에버랜드에서 차량에 탑승해 동물들을 만날 수 있었던 로스트밸리와 사파리월드를 직접 달리는 특별한 코스를 경험할 수 있다. 참가 접수는 […]",
-      "published": "2026-04-16 08:00",
-      "logo_domain": "samsung.com",
-      "ai_summary": "삼성전자가 5월 17일 용인 에버랜드에서 러닝 이벤트 ‘갤럭시 워치런 @사파리’를 개최한다. ‘갤럭시 워치런 @사파리’는 참가자들이 갤럭시 워치를 착용하고 에버랜드의 ▲로스트밸리 ▲사파리월드 ▲장미원으로 구성된 4.82km 러닝 코스를 달리면서, 갤럭시 워치의 다양한 "
-    },
-    {
-      "source": "Samsung Newsroom",
-      "category": "한국 대기업",
-      "title": "삼성전자, 독일 프랑크푸르트서 ‘2026 유럽 테크 세미나’ 개최",
-      "url": "https://news.samsung.com/kr/%ec%82%bc%ec%84%b1%ec%a0%84%ec%9e%90-%eb%8f%85%ec%9d%bc-%ed%94%84%eb%9e%91%ed%81%ac%ed%91%b8%eb%a5%b4%ed%8a%b8%ec%84%9c-2026-%ec%9c%a0%eb%9f%bd-%ed%85%8c%ed%81%ac-%ec%84%b8%eb%af%b8%eb%82%98",
-      "summary": "삼성전자가 15일부터 16일(현지 시간)까지 독일 프랑크푸르트에 위치한 쉐라톤 공항 호텔에서 고도화된 AI 기능을 탑재한 2026년형 TV와 오디오 신제품을 소개하는 ‘2026 유럽 테크 세미나’를 개최한다. 테크 세미나는 글로벌 영상·음향 전문가를 대상으로 삼성전자의 최신 기술과 서비스를 소개하는 행사로 2012년부터 매년 개최해오고 있다. 삼성전자는 이번 행사에 유럽 주요 테크 미디어 및 업계 관계자들을 초청해, 독보적인 AI 기술이 적용된 […]",
-      "published": "2026-04-16 08:00",
-      "logo_domain": "samsung.com",
-      "ai_summary": "삼성전자가 15일부터 16일(현지 시간)까지 독일 프랑크푸르트에 위치한 쉐라톤 공항 호텔에서 고도화된 AI 기능을 탑재한 2026년형 TV와 오디오 신제품을 소개하는 ‘2026 유럽 테크 세미나’를 개최한다. 테크 세미나는 글로벌 영상·음향 전문가를 대상으로 삼성전자의"
-    },
-    {
-      "source": "Samsung Newsroom",
-      "category": "한국 대기업",
-      "title": "삼성전자, 스마트싱스 업데이트 통해 나와 가족의 일상을 돌보는 경험 강화",
-      "url": "https://news.samsung.com/kr/%ec%82%bc%ec%84%b1%ec%a0%84%ec%9e%90-%ec%8a%a4%eb%a7%88%ed%8a%b8%ec%8b%b1%ec%8a%a4-%ec%97%85%eb%8d%b0%ec%9d%b4%ed%8a%b8-%ed%86%b5%ed%95%b4-%eb%82%98%ec%99%80-%ea%b0%80%ec%a1%b1%ec%9d%98-%ec%9d%bc",
-      "summary": "삼성전자가 글로벌 스마트홈 플랫폼 스마트싱스(SmartThings) 업데이트를 통해 나와 가족의 일상을 돌보는 기능을 한층 강화했다. 삼성전자는 이번 업데이트를 통해 부모님 등 떨어져 사는 가족의 일상을 돌볼 수 있도록 돕는 ‘패밀리 케어’ 서비스에 신규 기능을 대폭 추가했다. ‘패밀리 케어’는 스마트싱스로 집 안의 다양한 가전 및 모바일 기기를 연동해 따로 사는 가족의 활동 알림, 복약∙통원 등 일정 알림, […]",
-      "published": "2026-04-16 08:00",
-      "logo_domain": "samsung.com",
-      "ai_summary": "삼성전자가 글로벌 스마트홈 플랫폼 스마트싱스(SmartThings) 업데이트를 통해 나와 가족의 일상을 돌보는 기능을 한층 강화했다. 삼성전자는 이번 업데이트를 통해 부모님 등 떨어져 사는 가족의 일상을 돌볼 수 있도록 돕는 ‘패밀리 케어’ 서비스에 신규 기능을 대폭 "
-    },
-    {
-      "source": "Samsung Newsroom",
-      "category": "한국 대기업",
-      "title": "“사람 많은데 어떻게 찍었지?” 봄꽃 인증샷 트렌드 바꾼 ‘갤럭시 S26 시리즈’",
-      "url": "https://news.samsung.com/kr/%ec%82%ac%eb%9e%8c-%eb%a7%8e%ec%9d%80%eb%8d%b0-%ec%96%b4%eb%96%bb%ea%b2%8c-%ec%b0%8d%ec%97%88%ec%a7%80-%eb%b4%84%ea%bd%83-%ec%9d%b8%ec%a6%9d%ec%83%b7-%ed%8a%b8%eb%a0%8c%eb%93%9c-%eb%b0%94",
-      "summary": "개나리와 벚꽃을 시작으로 튤립, 유채꽃까지 잇따라 개화하며 봄나들이 시즌이 본격적으로 시작됐다. 서울 여의도와 석촌호수는 물론, 창녕 낙동강과 제주 녹산로 등 전국 봄꽃 명소에는 연일 인증샷을 남기려는 사람들로 북적이고 있다. 최근 SNS에서 인파가 몰리는 명소에서도 주변 사람들 없이 주인공과 꽃만 담긴 사진들이 화제를 모으고 있다. 촬영 방법과 기기를 묻는 댓글이 이어지고 있는데, 그 비결은 비싼 카메라도, […]",
-      "published": "2026-04-16 08:00",
-      "logo_domain": "samsung.com",
-      "ai_summary": "개나리와 벚꽃을 시작으로 튤립, 유채꽃까지 잇따라 개화하며 봄나들이 시즌이 본격적으로 시작됐다. 서울 여의도와 석촌호수는 물론, 창녕 낙동강과 제주 녹산로 등 전국 봄꽃 명소에는 연일 인증샷을 남기려는 사람들로 북적이고 있다. 최근 SNS에서 인파가 몰리는 명소에서도 "
-    },
-    {
-      "source": "Samsung Newsroom",
-      "category": "한국 대기업",
-      "title": "삼성전자, 2026년형 TV 신제품 출시…AI TV 대중화 시대 연다",
-      "url": "https://news.samsung.com/kr/%ec%82%bc%ec%84%b1%ec%a0%84%ec%9e%90-2026%eb%85%84%ed%98%95-tv-%ec%8b%a0%ec%a0%9c%ed%92%88-%ec%b6%9c%ec%8b%9cai-tv-%eb%8c%80%ec%a4%91%ed%99%94-%ec%8b%9c%eb%8c%80-%ec%97%b0%eb%8b%a4",
-      "summary": "삼성전자가 혁신적인 AI 기능을 탑재한 2026년형 TV 신제품을 출시하며 AI TV 대중화 시대를 이끈다. 삼성전자는 15일 신제품 출시 행사 ‘더 퍼스트룩 서울 2026(The First Look Seoul 2026)’을 열고 이날 출시되는 2026년 TV 라인업과 스피커 신제품을 소개했다. 2026년 신제품은 ▲마이크로 RGB·OLED·네오 QLED·미니 LED·UHD등 TV 라인업 ▲라이프스타일 TV ‘더 프레임 프로·더 프레임’ ▲이동형 스크린 ‘무빙스타일’ ▲와이파이 스피커 […]",
-      "published": "2026-04-15 11:00",
-      "logo_domain": "samsung.com",
-      "ai_summary": "삼성전자가 혁신적인 AI 기능을 탑재한 2026년형 TV 신제품을 출시하며 AI TV 대중화 시대를 이끈다. 삼성전자는 15일 신제품 출시 행사 ‘더 퍼스트룩 서울 2026(The First Look Seoul 2026)’을 열고 이날 출시되는 2026년 TV 라인업과"
-    },
-    {
-      "source": "Samsung Newsroom",
-      "category": "한국 대기업",
-      "title": "[기고문] 당신의 모바일폰 영상이 ‘영화’가 되는 순간…APV 코덱으로 현실이 되다",
-      "url": "https://news.samsung.com/kr/%ea%b8%b0%ea%b3%a0%eb%ac%b8-%eb%8b%b9%ec%8b%a0%ec%9d%98-%eb%aa%a8%eb%b0%94%ec%9d%bc%ed%8f%b0-%ec%98%81%ec%83%81%ec%9d%b4-%ec%98%81%ed%99%94%ea%b0%80-%eb%90%98%eb%8a%94-%ec%88%9c",
-      "summary": "모바일폰 하나로 영화를 찍는 시대 요즘은 누구나 손안의 모바일폰으로 영화 같은 일상을 기록합니다. 여행지에서의 생생한 풍경이나 아이의 웃음소리를 고화질 영상으로 담아 전 세계 사람들과 공유하곤 하죠. 이제 사용자들은 단순히 ‘찍히는 것’을 넘어, 영화 제작자처럼 정교한 색감을 입히고 세밀한 편집까지 할 수 있는 경험을 원하고 있습니다. 삼성전자는 이러한 사용자의 기대를 현실로 만들기 위해, 영상 기술의 핵심인 […]",
-      "published": "2026-04-15 08:00",
-      "logo_domain": "samsung.com",
-      "ai_summary": ""
-    },
-    {
-      "source": "Samsung Newsroom",
-      "category": "한국 대기업",
-      "title": "[인터뷰] “머리카락 굵기 수천 분의 일까지 차단”…국내 최다 NSF 인증받은 ‘비스포크 AI 얼음정수기’",
-      "url": "https://news.samsung.com/kr/%ec%9d%b8%ed%84%b0%eb%b7%b0-%eb%a8%b8%eb%a6%ac%ec%b9%b4%eb%9d%bd-%ea%b5%b5%ea%b8%b0-%ec%88%98%ec%b2%9c-%eb%b6%84%ec%9d%98-%ec%9d%bc%ea%b9%8c%ec%a7%80-%ec%b0%a8%eb%8b%a8",
-      "summary": "최근 미세플라스틱과 신종 미량 오염물질에 대한 우려가 커지면서, 정수기는 단순한 편의 가전을 넘어 가족의 건강한 일상을 돕는 안심 가전으로 자리잡고 있다. 맑고 투명한 얼음 한 조각이 유리잔에 담기기까지, 정수기 내부의 보이지 않는 곳에서는 미세한 불순물도 허용하지 않는 정교한 필터 기술이 작동한다. 삼성전자는 ‘누구든 걱정 없이 물을 마실 수 있어야 한다’는 원칙 아래 ‘비스포크 AI 얼음정수기’를 […]",
-      "published": "2026-04-14 09:00",
-      "logo_domain": "samsung.com",
-      "ai_summary": ""
-    },
-    {
       "source": "Deloitte",
       "category": "글로벌 컨설팅",
       "title": "Consumer Signals 2025 4분기 - Deloitte",
@@ -237,7 +158,7 @@
       "summary": "Consumer Signals 2025 4분기 Deloitte",
       "published": "2026-04-11 04:54",
       "logo_domain": "deloitte.com",
-      "ai_summary": ""
+      "ai_summary": "Consumer Signals 2025 4분기 Deloitte"
     },
     {
       "source": "Deloitte",
@@ -247,87 +168,47 @@
       "summary": "블록체인과 인공지능 Deloitte",
       "published": "2026-04-10 06:54",
       "logo_domain": "deloitte.com",
-      "ai_summary": ""
+      "ai_summary": "블록체인과 인공지능 Deloitte"
     },
     {
-      "source": "EY 한영",
-      "category": "글로벌 컨설팅",
-      "title": "자본시장의 신뢰와 회계투명성이 생산적 금융을 만든다 [EY한영의 비욘드 뷰] - 한국경제",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFB3Zzl6WFBFU011eGQzcnRIOXc0bjVncmJoTmswa2FDeEYyWWFhdVh2UXpzXzNCUU9ISlFwQ2VvbFdsa1NxOUtrcHR6S0psNU5FYnlab9IBVEFVX3lxTFB3Zzl6WFBFU011eGQzcnRIOXc0bjVncmJoTmswa2FDeEYyWWFhdVh2UXpzXzNCUU9ISlFwQ2VvbFdsa1NxOUtrcHR6S0psNU5FYnlabw?oc=5",
-      "summary": "자본시장의 신뢰와 회계투명성이 생산적 금융을 만든다 [EY한영의 비욘드 뷰] 한국경제",
-      "published": "2026-04-15 01:53",
-      "logo_domain": "ey.com",
-      "ai_summary": ""
-    },
-    {
-      "source": "Samsung SDS",
+      "source": "KT",
       "category": "한국 대기업",
-      "title": "[AI 산업] 삼성SDS, MS 제치고 클라우드 2위…“AI·SaaS·플랫폼 삼각축이 먹혔다” - AI라이프경제",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBlMmNuNGtQRUNjSXN3MWZyN3BTTGc0amVZbDRPLV9kNFp3NzItak5kNnF4Ym5QVTJuRGZ5ZnVQY0lIdERrbDRGaFFuaFNabFljb3NXWGpNSzQxdUpURzdhMlVYamRjNjVnRlpJ0gFvQVVfeXFMT3BtbzJFOHRRUlpiLWhzcHo3bS1aMnhyZ1pjdjM0enlrUUNmR0V5QmlxVVFuZ1ZlbVB1NWJTM1RURXNUdzF1ek1YRnBxbG8yQ3JuTDljZkh4ZmVWUmdlRXRQRDZ3WFV5WFQxMEQwTlhV?oc=5",
-      "summary": "[AI 산업] 삼성SDS, MS 제치고 클라우드 2위…“AI·SaaS·플랫폼 삼각축이 먹혔다” AI라이프경제",
-      "published": "2026-04-14 00:33",
-      "logo_domain": "samsungsds.com",
-      "ai_summary": ""
+      "title": "KT클라우드, 데이터센터 임대로 1조 번다 - 한국금융신문",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFA4bFgyd0tNckU4bE1PUWhvNFFVU2dJcnA1RHdXMGJ6WEJtc3JTeHl1YURQNFRpOHluT3VGUFR2eFJGdUhjc2l6ZlBtbThCRHNBMWpNQjR3OWNqdDl5M0EwNlRzaURLdHRHZWxteDJIOTFjcXBxVERMcjU0SjE?oc=5",
+      "summary": "KT클라우드, 데이터센터 임대로 1조 번다 한국금융신문",
+      "published": "2026-04-16 02:33",
+      "logo_domain": "kt.com",
+      "ai_summary": "KT클라우드, 데이터센터 임대로 1조 번다 한국금융신문"
     },
     {
-      "source": "Samsung SDS",
-      "category": "한국 대기업",
-      "title": "6.4조 현금 쥔 삼성SDS, KKR과 1.2조 전략적 협력 나선 이유는? - 지디넷코리아",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE56X3BkWnpRN3M1V1VYYVRXMWVndHd6NkQwdW90Z1h0aUZNNnJFMnVzbDdkV1RCRkltbmxaQi15b3NTYlRpc2NTSnRfeWl2TGttbTFiV1RR?oc=5",
-      "summary": "6.4조 현금 쥔 삼성SDS, KKR과 1.2조 전략적 협력 나선 이유는? 지디넷코리아",
-      "published": "2026-04-15 00:59",
-      "logo_domain": "samsungsds.com",
-      "ai_summary": ""
+      "source": "IT조선",
+      "category": "IT 미디어",
+      "title": "교실로 들어온 AI 수업… 에듀테크 ‘도입’ 넘어 ‘검증’ 단계로 - IT조선",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA0Z1phc3FBSjVGSlM4dWZhelFHQlNodDZpZFNlMTh6aTN5NDJaTUtvVjczNTRFN0cwX3NXSG1fRTl1ckdPaFI5RWNBZGItVzhTc1pQM2Qxb0JFZXlLY1JtYktVZjdxNEdMcU5hdml1VlnSAXRBVV95cUxOcnJta3RwVGRNVjRpNjQxS2ItZEJMZ0dRUmZKS3JOeVY3MENNU0ZfelhSWXRhblg4SVR0eG82Tlp1Q0haQVV0aWtIZnRJamE2VmxkRExQT0V0cFpvRnpGZHM5cXdOWjREY0tmYktLVXA0SjFoRQ?oc=5",
+      "summary": "교실로 들어온 AI 수업… 에듀테크 ‘도입’ 넘어 ‘검증’ 단계로 IT조선",
+      "published": "2026-04-14 05:13",
+      "logo_domain": "it.chosun.com",
+      "ai_summary": "교실로 들어온 AI 수업… 에듀테크 ‘도입’ 넘어 ‘검증’ 단계로 IT조선"
     },
     {
-      "source": "Samsung SDS",
-      "category": "한국 대기업",
-      "title": "삼성SDS, AI 앞세워 MS 제치고 국내 퍼블릭 클라우드 2위 - 한국정경신문",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFAzMFM0eHM3NHVVdml6aEpQYkZmRF9FX0xQUW1FM2cwODRMY2t6VnRudjFVVVpjWjk3TWpPbEIzQUF3dkFkaHNzTjFfamZILVVrWnc?oc=5",
-      "summary": "삼성SDS, AI 앞세워 MS 제치고 국내 퍼블릭 클라우드 2위 한국정경신문",
-      "published": "2026-04-13 06:22",
-      "logo_domain": "samsungsds.com",
-      "ai_summary": ""
+      "source": "전자신문",
+      "category": "IT 미디어",
+      "title": "소프트캠프, 日 'IT 위크 2026' 참가…AI 보안 솔루션 전시 - 전자신문",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFB6Qm5CMVZsYjl5WVktUEtuYV9VVjJmR3BVc09CZXZ3Mk5YUG9uVXF5M0FJUnlGcFZqQVJpTDMzVkhodEh0ZTdKU1kwZWxaQQ?oc=5",
+      "summary": "소프트캠프, 日 'IT 위크 2026' 참가…AI 보안 솔루션 전시 전자신문",
+      "published": "2026-04-13 04:55",
+      "logo_domain": "etnews.com",
+      "ai_summary": "소프트캠프, 日 'IT 위크 2026' 참가…AI 보안 솔루션 전시 전자신문"
     },
     {
-      "source": "Samsung SDS",
-      "category": "한국 대기업",
-      "title": "삼성SDS, IDC 집계서 국내 클라우드 2위…MS 제쳐 - 디지털투데이",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBMaUhDYVNWNVVES1RlaWZEN1V6ak5lQ205VXRWeG5XbEp4TjNKYzNHNmdfc2pxRV9MSVNuTExFWnFvdV9rMUw5QzFOUlRmR2tqVllQZ2JRMU8tR1ZkSXJBUjlhd09JN3FaRmMtUTNXZU1SeG8?oc=5",
-      "summary": "삼성SDS, IDC 집계서 국내 클라우드 2위…MS 제쳐 디지털투데이",
-      "published": "2026-04-12 01:55",
-      "logo_domain": "samsungsds.com",
-      "ai_summary": ""
-    },
-    {
-      "source": "Samsung SDS",
-      "category": "한국 대기업",
-      "title": "[#클라우드 월드] 삼성SDS 'AI 국회' 오픈·카카오 'GPU B200' 확보·NHN 'AI 스마트홈 돌봄 MOU'·NHN KCP-아바랩스 'MOU'·티오더 '실적 공개'·크라우드웍스 '조선업 AI 사업 수행기관' 선정·오라클 '기능 업데이트' - 뉴스웍스",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1WRU4xcXdDeHZiRG83alVSZlFQWGlkWWdMM05GNUtOc1plaElicWpQUUVuU3psbEpyeFB2TGpLOHV0WjFlLTFZU3BXTGdiczVzNE50NzZTT0FkYkxpLXY3S1VWYVMzTkNBWUtJdklhb9IBc0FVX3lxTE1WQXI0X3AxRUJBQUQ0RW05UWYtNG5KRjVOdG9BT1Q4Uk4zb2JicWpPTkN5bTFEc2hJeTlVVzI0RDM1QUJiUXdvdWFYdktNMWpRV1ZzVDd1VTdoTWZiU1pJcGNPOG1MZ3hfamYwOTZjeGp0dGM?oc=5",
-      "summary": "[#클라우드 월드] 삼성SDS 'AI 국회' 오픈·카카오 'GPU B200' 확보·NHN 'AI 스마트홈 돌봄 MOU'·NHN KCP-아바랩스 'MOU'·티오더 '실적 공개'·크라우드웍스 '조선업 AI 사업 수행기관' 선정·오라클 '기능 업데이트' 뉴스웍스",
-      "published": "2026-04-14 07:32",
-      "logo_domain": "samsungsds.com",
-      "ai_summary": ""
-    },
-    {
-      "source": "Samsung SDS",
-      "category": "한국 대기업",
-      "title": "삼성SDS, 국내 클라우드 시장서 MS 제치고 2위로 - 동아일보",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE43ZUJHREk4aXYwU3lLbnhHdzhUT0RiS1Juak8ybE94NzR0cVdhM2hhZ3pHdW81b21BUjYtYVBLcVpIQTZxbVZGNWtKYmxuQVVURC00X1l1S1p5dzducW9BVWNnZ1Z0Q2M1TnlQOGhKX3c5UDJSUEHSAWZBVV95cUxQR3RQbjF3SG5FWVRqLVZ0alJYSzNwN2FuUWNPdVVyNU9iV1l0ZTJqbi1UY2h1MTlIaVdXemkxcEVLSkp5aXhkSFVHUzVzeTZPMDNTODZxUVU2Wnhxa3UteTFnQzdMMnc?oc=5",
-      "summary": "삼성SDS, 국내 클라우드 시장서 MS 제치고 2위로 동아일보",
-      "published": "2026-04-12 15:30",
-      "logo_domain": "samsungsds.com",
-      "ai_summary": ""
-    },
-    {
-      "source": "Samsung SDS",
-      "category": "한국 대기업",
-      "title": "삼성SDS, 국내 클라우드 업계 2위 도약…AI 붐에 시장 성장세 ↑ - 아시아경제",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1uQng3ZndZeEhsM3dGN1dNLXhiU20zVjdWaFBaRURkZ1JWY0JqTDB5dWo1OUFfRjBQc29xTGhIMFZJYURicXdOdS03UHB2NmZhT19lVklZT3Z3UWRmMDRlag?oc=5",
-      "summary": "삼성SDS, 국내 클라우드 업계 2위 도약…AI 붐에 시장 성장세 ↑ 아시아경제",
-      "published": "2026-04-13 04:08",
-      "logo_domain": "samsungsds.com",
-      "ai_summary": ""
+      "source": "인공지능신문",
+      "category": "IT 미디어",
+      "title": "AGI·LLM·환각까지…헷갈리는 AI 용어 짚어보니 - 디지털투데이",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBUUDVUODNvRC1wSFFKYWhUcDdkYTBaNXVEdl83MHVDUUVNSGdhNmQ4VGRCYVJtdGRRdWpYdllkeG1ncnlYM0lsQklnbzJyZi13b05JdkI0WnZlQzV5b2FsMmVsMjNET3hCdDFlTnc2WFk0QkE?oc=5",
+      "summary": "AGI·LLM·환각까지…헷갈리는 AI 용어 짚어보니 디지털투데이",
+      "published": "2026-04-13 11:00",
+      "logo_domain": "aitimes.kr",
+      "ai_summary": "AGI·LLM·환각까지…헷갈리는 AI 용어 짚어보니 디지털투데이"
     }
   ]
 }
