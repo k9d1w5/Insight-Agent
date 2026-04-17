@@ -1,6 +1,16 @@
 {
   "reports": [
     {
+      "date": "2026-04-17",
+      "file": "2026-04-17.json",
+      "total_articles": 32,
+      "categories": {
+        "플랫폼 테크": 14,
+        "한국 대기업": 15,
+        "글로벌 컨설팅": 3
+      }
+    },
+    {
       "date": "2026-04-16",
       "file": "latest.json",
       "total_articles": 12,
