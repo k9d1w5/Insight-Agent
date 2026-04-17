@@ -101,7 +101,7 @@ def main():
     # 4. 저장
     saved_path = save_report(summarized, final_report)
 
-    elapsed = (datetime.now() - start).seconds
+    elapsed = (datetime.now(KST) - start).seconds
     print("\n" + "=" * 60)
     print(f"  완료! ({elapsed}초 소요)")
     print(f"  저장 경로: {saved_path}")
