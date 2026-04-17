@@ -685,6 +685,147 @@ footer {
   gap: 20px;
 }
 
+/* ── Section Sub ──────────────────────────────────────── */
+.section-sub {
+  font-size: 12px;
+  color: var(--text-sm);
+}
+
+/* ── Section Icon Colors ──────────────────────────────── */
+.section-icon.orange { background: #fff7ed; }
+
+/* ── ① 주간 트렌드 차트 ────────────────────────────────── */
+.chart-card {
+  background: var(--surface);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow-sm);
+  padding: 24px 28px;
+  margin-bottom: 28px;
+  min-height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.chart-empty {
+  font-size: 13px;
+  color: var(--text-sm);
+  text-align: center;
+}
+
+/* ── ② 중요도 점수 뱃지 ────────────────────────────────── */
+.score-badge {
+  font-size: 10px;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 999px;
+  letter-spacing: .3px;
+  flex-shrink: 0;
+}
+
+.score-high {
+  background: #fef3c7;
+  color: #b45309;
+  border: 1px solid #fde68a;
+}
+
+.score-mid {
+  background: #f0fdf4;
+  color: #15803d;
+  border: 1px solid #bbf7d0;
+}
+
+.score-low {
+  background: #f8fafc;
+  color: #94a3b8;
+  border: 1px solid var(--border);
+}
+
+/* ⑤ 영문 원제 표시 */
+.article-orig-title {
+  font-size: 10.5px;
+  color: #94a3b8;
+  margin-top: -4px;
+  line-height: 1.4;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* 정렬 셀렉트 */
+.sort-wrap {
+  display: flex;
+  align-items: center;
+}
+
+.sort-select {
+  padding: 6px 12px;
+  border-radius: 999px;
+  border: 1.5px solid var(--border);
+  background: var(--surface);
+  color: var(--text-sm);
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  outline: none;
+  transition: border-color .15s;
+}
+
+.sort-select:hover, .sort-select:focus {
+  border-color: var(--blue);
+  color: var(--blue);
+}
+
+/* ── WordCloud Card ───────────────────────────────────── */
+.wordcloud-card {
+  background: var(--surface);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow-sm);
+  padding: 20px 24px;
+  margin-bottom: 28px;
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.wordcloud-card canvas {
+  max-width: 100%;
+  border-radius: var(--radius-sm);
+  background: var(--surface2);
+}
+
+.wordcloud-empty {
+  font-size: 13px;
+  color: var(--text-sm);
+  text-align: center;
+}
+
+/* 폴백: 텍스트 태그 클라우드 */
+.tag-cloud-fallback {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 16px;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+  width: 100%;
+}
+
+.tag-cloud-fallback span {
+  cursor: default;
+  transition: transform .15s;
+  line-height: 1.4;
+}
+
+.tag-cloud-fallback span:hover {
+  transform: scale(1.1);
+}
+
 /* ── Header Nav (탭) ──────────────────────────────────── */
 .header-nav {
   display: flex;

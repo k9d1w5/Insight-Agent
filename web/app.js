@@ -8,8 +8,10 @@ const CAT_COLORS = {
   'IT 미디어':     '#d97706',
 };
 
-let allArticles = [];
-let allSources  = [];
+let allArticles  = [];
+let allSources   = [];
+let trendChart   = null;  // Chart.js 인스턴스 (재생성 방지)
+let currentCat   = 'all';
 
 // ── 데이터 로드 ──────────────────────────────────────────
 async function loadReport(file = 'data/reports/latest.json') {
@@ -17,9 +19,7 @@ async function loadReport(file = 'data/reports/latest.json') {
     const res = await fetch(file + '?t=' + Date.now());
     if (!res.ok) throw new Error('not found');
     return await res.json();
-  } catch {
-    return null;
-  }
+  } catch { return null; }
 }
 
 async function loadIndex() {
@@ -27,9 +27,7 @@ async function loadIndex() {
     const res = await fetch('data/reports/index.json?t=' + Date.now());
     if (!res.ok) return null;
     return await res.json();
-  } catch {
-    return null;
-  }
+  } catch { return null; }
 }
 
 async function loadSources() {
@@ -37,36 +35,126 @@ async function loadSources() {
     const res = await fetch('data/sources.json?t=' + Date.now());
     if (!res.ok) return null;
     return await res.json();
-  } catch {
-    return null;
-  }
+  } catch { return null; }
 }
 
-// ── 렌더링 ───────────────────────────────────────────────
+// ── 메인 렌더 ─────────────────────────────────────────────
 function renderReport(data) {
   document.getElementById('report-date').textContent = data.date || '-';
   document.getElementById('stat-articles').textContent = data.total_articles ?? '-';
-  const sources = [...new Set((data.articles || []).map(a => a.source))];
-  document.getElementById('stat-sources').textContent = sources.length;
+  const uniqueSrc = [...new Set((data.articles || []).map(a => a.source))];
+  document.getElementById('stat-sources').textContent = uniqueSrc.length;
   document.getElementById('stat-categories').textContent = Object.keys(data.categories || {}).length;
-  document.getElementById('final-report').innerHTML = markdownToHtml(data.final_report || '리포트가 없습니다.');
+  document.getElementById('final-report').innerHTML =
+    markdownToHtml(data.final_report || '리포트가 없습니다.');
 
-  // 실제 데이터면 샘플 배너 숨김
+  // 수집 기간 표시
+  const periodEl = document.getElementById('article-period');
+  if (periodEl && data.articles?.length) {
+    const dates = data.articles.map(a => a.published?.slice(0, 10)).filter(Boolean).sort();
+    if (dates.length) {
+      const [oldest, newest] = [dates[0], dates[dates.length - 1]];
+      periodEl.textContent = oldest === newest
+        ? `${newest} 기준`
+        : `${oldest} ~ ${newest} (1주일치)`;
+    }
+  }
+
+  // 샘플 배너 판별
   const notice = document.getElementById('demo-notice');
   if (notice) {
     const today = new Date().toISOString().slice(0, 10);
-    const isRealData = data.articles && data.articles.length > 0 &&
-      data.articles.some(a => a.url && !a.url.includes('mckinsey.com/capabilities'));
-    if (isRealData || data.date === today) notice.style.display = 'none';
+    const isReal = data.articles?.some(a => a.url && !a.url.includes('mckinsey.com/capabilities'));
+    if (isReal || data.date === today) notice.style.display = 'none';
   }
+
   allArticles = data.articles || [];
   renderArticles(allArticles);
+  renderWordCloud(allArticles);
+}
+
+// ── ① 주간 트렌드 차트 ──────────────────────────────────
+async function renderTrendChart() {
+  const index   = await loadIndex();
+  const canvas  = document.getElementById('trend-chart');
+  const emptyEl = document.getElementById('chart-empty');
+  if (!canvas) return;
+
+  if (!index?.reports?.length) {
+    canvas.style.display = 'none';
+    emptyEl?.classList.remove('hidden');
+    return;
+  }
+
+  // 최대 7일치, 오래된 날짜 → 최신 순
+  const last7    = index.reports.slice(0, 7).reverse();
+  const labels   = last7.map(r => r.date.slice(5).replace('-', '/'));  // "04/17"
+  const cats     = ['글로벌 컨설팅', '한국 대기업', '플랫폼 테크', 'IT 미디어', '국내 연구기관'];
+
+  const datasets = cats.map(cat => ({
+    label: cat,
+    data: last7.map(r => (r.categories || {})[cat] || 0),
+    backgroundColor: CAT_COLORS[cat] + 'cc',  // 약간 투명
+    borderColor: CAT_COLORS[cat],
+    borderWidth: 1,
+    borderRadius: 4,
+    borderSkipped: false,
+  }));
+
+  // 기존 차트 파괴 후 재생성
+  if (trendChart) { trendChart.destroy(); trendChart = null; }
+
+  trendChart = new Chart(canvas.getContext('2d'), {
+    type: 'bar',
+    data: { labels, datasets },
+    options: {
+      responsive: true,
+      maintainAspectRatio: true,
+      plugins: {
+        legend: {
+          position: 'bottom',
+          labels: { font: { size: 11, family: 'Inter' }, padding: 16 },
+        },
+        tooltip: {
+          mode: 'index',
+          callbacks: {
+            title: ctx => `${ctx[0].label} 수집 현황`,
+            label: ctx => ` ${ctx.dataset.label}: ${ctx.parsed.y}개`,
+          },
+        },
+      },
+      scales: {
+        x: {
+          stacked: true,
+          grid: { display: false },
+          ticks: { font: { size: 11 } },
+        },
+        y: {
+          stacked: true,
+          beginAtZero: true,
+          grid: { color: '#f1f5f9' },
+          ticks: { font: { size: 11 }, stepSize: 5 },
+        },
+      },
+    },
+  });
+}
+
+// ── ② 아티클 렌더 (중요도 점수 표시) ────────────────────
+function getSortedArticles(articles) {
+  const sortVal = document.getElementById('sort-select')?.value || 'score';
+  return [...articles].sort((a, b) => {
+    if (sortVal === 'score')  return (b.importance_score || 0) - (a.importance_score || 0);
+    if (sortVal === 'date')   return (b.published || '').localeCompare(a.published || '');
+    if (sortVal === 'source') return (a.source || '').localeCompare(b.source || '');
+    return 0;
+  });
 }
 
 function renderArticles(articles) {
-  const grid = document.getElementById('articles-grid');
+  const grid       = document.getElementById('articles-grid');
   const countBadge = document.getElementById('article-count');
-  grid.innerHTML = '';
+  grid.innerHTML   = '';
   if (countBadge) countBadge.textContent = `${articles.length}개 아티클`;
 
   if (!articles.length) {
@@ -74,17 +162,33 @@ function renderArticles(articles) {
     return;
   }
 
-  articles.forEach(a => {
-    const color = CAT_COLORS[a.category] || '#2563eb';
-    const card = document.createElement('div');
+  const sorted = getSortedArticles(articles);
+  sorted.forEach(a => {
+    const color   = CAT_COLORS[a.category] || '#2563eb';
+    const card    = document.createElement('div');
     card.className = 'article-card';
 
     const dateStr = a.published ? a.published.slice(0, 10) : '';
     const hasLink = !!a.url;
 
+    // ② 중요도 점수 뱃지
+    const score = a.importance_score || 0;
+    let scoreBadge = '';
+    if (score > 0) {
+      const level = score >= 8 ? 'high' : score >= 5 ? 'mid' : 'low';
+      const stars = score >= 8 ? '🔥' : score >= 5 ? '⭐' : '·';
+      scoreBadge = `<span class="score-badge score-${level}">${stars} ${score}/10</span>`;
+    }
+
+    // ⑤ 영문 번역 제목 처리
+    const displayTitle = a.title_ko || a.title || '';
+    const hasTranslation = !!(a.title_ko && a.title_ko !== a.title);
     const titleHtml = hasLink
-      ? `<a href="${esc(a.url)}" target="_blank" rel="noopener">${esc(a.title)}</a>`
-      : esc(a.title);
+      ? `<a href="${esc(a.url)}" target="_blank" rel="noopener">${esc(displayTitle)}</a>`
+      : esc(displayTitle);
+    const origTitleHtml = hasTranslation
+      ? `<div class="article-orig-title">🌐 ${esc(a.title)}</div>`
+      : '';
 
     const logoHtml = a.logo_domain
       ? `<img class="source-logo" src="https://www.google.com/s2/favicons?sz=32&domain_url=${esc(a.logo_domain)}" alt="" onerror="this.style.display='none'">`
@@ -97,9 +201,11 @@ function renderArticles(articles) {
           <span class="cat-badge" style="background:${color}">${esc(a.category)}</span>
           ${logoHtml}
           <span class="source-chip">${esc(a.source)}</span>
+          ${scoreBadge}
           ${dateStr ? `<span class="article-date">${dateStr}</span>` : ''}
         </div>
         <div class="article-title">${titleHtml}</div>
+        ${origTitleHtml}
         ${a.summary ? `<div class="article-original">${esc(a.summary.slice(0, 200))}</div>` : ''}
         ${a.ai_summary ? `
           <div class="article-ai-box">
@@ -110,23 +216,22 @@ function renderArticles(articles) {
           <div class="article-link-row">
             <a class="article-link" href="${esc(a.url)}" target="_blank" rel="noopener">원문 보기 →</a>
           </div>` : ''}
-      </div>
-    `;
+      </div>`;
     grid.appendChild(card);
   });
 }
 
 async function renderArchive() {
   const index = await loadIndex();
-  const list = document.getElementById('archive-list');
-  if (!index || !index.reports || index.reports.length <= 1) return;
+  const list  = document.getElementById('archive-list');
+  if (!index?.reports?.length || index.reports.length <= 1) return;
 
   const past = index.reports.slice(1);
   list.innerHTML = past.map(r => {
-    const d = new Date(r.date);
-    const day = d.getDate();
+    const d     = new Date(r.date);
+    const day   = d.getDate();
     const month = d.toLocaleDateString('ko-KR', { month: 'long' });
-    const cats = Object.entries(r.categories || {})
+    const cats  = Object.entries(r.categories || {})
       .map(([k, v]) => `<span class="archive-cat-chip">${k} ${v}</span>`).join('');
     return `
       <div class="archive-item" data-file="data/reports/${r.file}">
@@ -150,9 +255,90 @@ async function renderArchive() {
   });
 }
 
+// ── ③ 워드클라우드 ───────────────────────────────────────
+const KO_STOPWORDS = new Set([
+  '있는','있다','있어','이다','이어','하는','하다','하여','하고','한다',
+  '됩니다','됐다','위한','위해','통해','대한','관련','기반','중심',
+  '이번','지난','올해','최근','현재','이를','이에','이후','이와',
+  '기술','서비스','사업','기업','시장','도입','활용','제공','강화',
+  '확대','추진','발표','출시','개발','구축','운영','지원','분석',
+  'the','and','for','with','this','that','from','are','its','was',
+  'new','how','all','can','has','not','our','will','their','more',
+]);
+
+function extractKeywords(articles) {
+  const freq = {};
+  articles.forEach(a => {
+    [a.title_ko || a.title || '', a.ai_summary || '', a.summary || ''].forEach(text => {
+      text.replace(/[^\w가-힣\s]/g, ' ').split(/\s+/)
+        .map(w => w.trim())
+        .filter(w => w.length >= 2 && w.length <= 12 && !/^\d+$/.test(w))
+        .forEach(w => {
+          const k = w.toLowerCase();
+          if (!KO_STOPWORDS.has(k) && !KO_STOPWORDS.has(w)) freq[w] = (freq[w] || 0) + 1;
+        });
+    });
+  });
+  return Object.entries(freq)
+    .filter(([, c]) => c >= 2)
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, 60)
+    .map(([word, cnt]) => [word, cnt]);
+}
+
+function renderWordCloud(articles) {
+  const canvas  = document.getElementById('wordcloud-canvas');
+  const emptyEl = document.getElementById('wordcloud-empty');
+  if (!canvas) return;
+
+  const words = extractKeywords(articles);
+  if (!words.length) {
+    canvas.style.display = 'none';
+    if (emptyEl) { emptyEl.classList.remove('hidden'); emptyEl.textContent = '키워드 데이터가 없습니다.'; }
+    return;
+  }
+
+  const parent  = canvas.parentElement;
+  canvas.width  = Math.min(parent.offsetWidth - 48, 900);
+  canvas.height = 280;
+
+  const maxCnt  = words[0][1];
+  const wordList = words.map(([w, cnt]) => [w, Math.round(13 + (cnt / maxCnt) * 50)]);
+  const colors   = ['#2563eb', '#7c3aed', '#0891b2', '#059669', '#d97706', '#dc2626', '#0f1f3d'];
+
+  try {
+    WordCloud(canvas, {
+      list: wordList,
+      gridSize: Math.round(8 * canvas.width / 600),
+      weightFactor: 1,
+      fontFamily: 'Inter, Apple SD Gothic Neo, sans-serif',
+      color: () => colors[Math.floor(Math.random() * colors.length)],
+      rotateRatio: 0.2,
+      rotationSteps: 2,
+      backgroundColor: '#f8fafc',
+      drawOutOfBound: false,
+      shrinkToFit: true,
+    });
+  } catch {
+    // 폴백: CSS 태그 클라우드
+    canvas.style.display = 'none';
+    const div = document.createElement('div');
+    div.className = 'tag-cloud-fallback';
+    words.slice(0, 40).forEach(([w, cnt]) => {
+      const size  = 11 + Math.round((cnt / maxCnt) * 24);
+      const color = colors[Math.floor(Math.random() * colors.length)];
+      const span  = document.createElement('span');
+      span.textContent = w;
+      span.style.cssText = `font-size:${size}px;color:${color};font-weight:${cnt > 3 ? 700 : 500}`;
+      div.appendChild(span);
+    });
+    canvas.parentElement.appendChild(div);
+  }
+}
+
 // ── 소스 현황 탭 ─────────────────────────────────────────
 function renderSources(sourcesData, filterCat = 'all') {
-  const grid = document.getElementById('sources-grid');
+  const grid    = document.getElementById('sources-grid');
   const totalEl = document.getElementById('sources-total');
   if (!grid || !sourcesData) return;
 
@@ -163,7 +349,6 @@ function renderSources(sourcesData, filterCat = 'all') {
   if (totalEl) totalEl.textContent = sourcesData.total;
   grid.innerHTML = '';
 
-  // 카테고리별로 그룹핑
   const groups = {};
   sources.forEach(s => {
     if (!groups[s.category]) groups[s.category] = [];
@@ -171,7 +356,7 @@ function renderSources(sourcesData, filterCat = 'all') {
   });
 
   Object.entries(groups).forEach(([cat, items]) => {
-    const color = CAT_COLORS[cat] || '#2563eb';
+    const color   = CAT_COLORS[cat] || '#2563eb';
     const groupEl = document.createElement('div');
     groupEl.className = 'sources-group';
     groupEl.innerHTML = `
@@ -181,19 +366,17 @@ function renderSources(sourcesData, filterCat = 'all') {
       </div>
       <div class="sources-group-grid">
         ${items.map(s => {
-          const logoUrl = `https://www.google.com/s2/favicons?sz=64&domain_url=${esc(s.logo_domain)}`;
-          const typeLabel = { web: 'WEB', pdf: 'PDF', web_pdf: 'WEB+PDF', rss: 'RSS' }[s.type] || s.type.toUpperCase();
-          const typeBg = { web: '#eff6ff', pdf: '#fef3c7', web_pdf: '#f0fdf4', rss: '#fdf4ff' }[s.type] || '#f1f5f9';
-          const typeColor = { web: '#1d4ed8', pdf: '#d97706', web_pdf: '#059669', rss: '#7c3aed' }[s.type] || '#475569';
+          const logoUrl   = `https://www.google.com/s2/favicons?sz=64&domain_url=${esc(s.logo_domain)}`;
+          const typeLabel = { web:'WEB', pdf:'PDF', web_pdf:'WEB+PDF', rss:'RSS' }[s.type] || s.type.toUpperCase();
+          const typeBg    = { web:'#eff6ff', pdf:'#fef3c7', web_pdf:'#f0fdf4', rss:'#fdf4ff' }[s.type] || '#f1f5f9';
+          const typeColor = { web:'#1d4ed8', pdf:'#d97706', web_pdf:'#059669', rss:'#7c3aed' }[s.type] || '#475569';
           return `
           <a class="source-card" href="${esc(s.url)}" target="_blank" rel="noopener">
             <div class="source-card-accent" style="background:${color}"></div>
             <div class="source-card-body">
               <div class="source-card-logo-wrap">
-                <img class="source-card-logo"
-                     src="${logoUrl}"
-                     alt="${esc(s.name_ko)}"
-                     onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 32 32%22><rect width=%2232%22 height=%2232%22 rx=%224%22 fill=%22%23e2e8f0%22/><text x=%2216%22 y=%2221%22 text-anchor=%22middle%22 font-size=%2214%22 fill=%22%2394a3b8%22>📄</text></svg>'">
+                <img class="source-card-logo" src="${logoUrl}" alt="${esc(s.name_ko)}"
+                     onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 32 32%22><rect width=%2232%22 height=%2232%22 rx=%224%22 fill=%22%23e2e8f0%22/></svg>'">
               </div>
               <div class="source-card-info">
                 <div class="source-card-name">${esc(s.name_ko)}</div>
@@ -205,8 +388,7 @@ function renderSources(sourcesData, filterCat = 'all') {
             <div class="source-card-url">${esc(s.url)}</div>
           </a>`;
         }).join('')}
-      </div>
-    `;
+      </div>`;
     grid.appendChild(groupEl);
   });
 }
@@ -224,7 +406,6 @@ function switchTab(tabName) {
     mainEl.classList.add('hidden');
     sourceEl.classList.remove('hidden');
     if (hero) hero.style.display = 'none';
-    // 소스 렌더
     if (allSources) renderSources(allSources);
   } else {
     mainEl.classList.remove('hidden');
@@ -233,14 +414,17 @@ function switchTab(tabName) {
   }
 }
 
-// ── 필터 (아티클 + 소스 공용) ─────────────────────────────
+// ── 이벤트 위임 ──────────────────────────────────────────
 document.addEventListener('click', e => {
   // 아티클 필터
   if (e.target.matches('.filter-btn[data-cat]')) {
     document.querySelectorAll('.filter-btn[data-cat]').forEach(b => b.classList.remove('active'));
     e.target.classList.add('active');
-    const cat = e.target.dataset.cat;
-    renderArticles(cat === 'all' ? allArticles : allArticles.filter(a => a.category === cat));
+    currentCat = e.target.dataset.cat;
+    const filtered = currentCat === 'all'
+      ? allArticles
+      : allArticles.filter(a => a.category === currentCat);
+    renderArticles(filtered);
     return;
   }
   // 소스 필터
@@ -250,9 +434,19 @@ document.addEventListener('click', e => {
     renderSources(allSources, e.target.dataset.scat);
     return;
   }
-  // 탭 버튼
+  // 탭
   if (e.target.matches('.nav-btn[data-tab]')) {
     switchTab(e.target.dataset.tab);
+  }
+});
+
+// 정렬 변경
+document.addEventListener('change', e => {
+  if (e.target.id === 'sort-select') {
+    const filtered = currentCat === 'all'
+      ? allArticles
+      : allArticles.filter(a => a.category === currentCat);
+    renderArticles(filtered);
   }
 });
 
@@ -272,7 +466,7 @@ function markdownToHtml(text) {
 }
 
 function esc(str) {
-  return (str || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+  return (str || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
 }
 
 function showLoading() {
@@ -291,15 +485,16 @@ function showError() {
   document.getElementById('error').classList.remove('hidden');
 }
 
+// ── 초기화 ───────────────────────────────────────────────
 (async function init() {
-  // 소스 데이터는 항상 미리 로드
-  const sourcesData = await loadSources();
+  const [sourcesData] = await Promise.all([loadSources()]);
   if (sourcesData) allSources = sourcesData;
 
   showLoading();
   const data = await loadReport();
   if (!data) { showError(); return; }
+
   renderReport(data);
-  await renderArchive();
+  await Promise.all([renderArchive(), renderTrendChart()]);
   showContent();
 })();
