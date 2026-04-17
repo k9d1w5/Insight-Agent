@@ -3,23 +3,20 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>IT 인사이트 리포트 | ITCEN 전략사업팀</title>
+  <title>IT 인사이트 리포트 | ITCEN 컨설팅사업부</title>
   <link rel="stylesheet" href="style.css" />
-  <!-- Chart.js -->
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
-  <!-- WordCloud2 -->
   <script src="https://cdn.jsdelivr.net/npm/wordcloud2@1.2.2/src/wordcloud2.js"></script>
 </head>
 <body>
 
-  <!-- 헤더 -->
   <header>
     <div class="header-top">
       <div class="header-brand">
         <div class="brand-logo">ITCEN</div>
         <div>
           <div class="brand-title">IT 인사이트 리포트</div>
-          <div class="brand-sub">전략사업팀 · IT 컨설턴트 전용</div>
+          <div class="brand-sub">컨설팅사업부</div>
         </div>
       </div>
       <div class="header-right">
@@ -27,16 +24,12 @@
           <button class="nav-btn active" data-tab="report">📊 리포트</button>
           <button class="nav-btn" data-tab="sources">🗂️ 소스 현황</button>
         </nav>
-        <div class="live-badge">
-          <div class="live-dot"></div>
-          매일 오전 8시 자동
-        </div>
+        <div class="live-badge"><div class="live-dot"></div>매일 오전 8시 자동</div>
         <div class="report-date-badge" id="report-date">-</div>
       </div>
     </div>
   </header>
 
-  <!-- 히어로 -->
   <div class="hero">
     <div class="container hero-inner">
       <div>
@@ -45,43 +38,29 @@
         <p class="hero-desc">맥킨지·BCG·딜로이트 등 글로벌 컨설팅펌과 삼성SDS·LG CNS·네이버 등 국내 주요 기업의 최신 인사이트를 AI가 매일 분석합니다.</p>
       </div>
       <div class="hero-stats">
-        <div class="hero-stat">
-          <span class="hero-stat-num" id="stat-articles">-</span>
-          <div class="hero-stat-label">수집 아티클</div>
-        </div>
-        <div class="hero-stat">
-          <span class="hero-stat-num" id="stat-sources">-</span>
-          <div class="hero-stat-label">분석 소스</div>
-        </div>
-        <div class="hero-stat">
-          <span class="hero-stat-num" id="stat-categories">-</span>
-          <div class="hero-stat-label">카테고리</div>
-        </div>
+        <div class="hero-stat"><span class="hero-stat-num" id="stat-articles">-</span><div class="hero-stat-label">수집 아티클</div></div>
+        <div class="hero-stat"><span class="hero-stat-num" id="stat-sources">-</span><div class="hero-stat-label">분석 소스</div></div>
+        <div class="hero-stat"><span class="hero-stat-num" id="stat-categories">-</span><div class="hero-stat-label">카테고리</div></div>
       </div>
     </div>
   </div>
 
-  <!-- 메인 -->
   <main>
     <div class="container">
 
-      <!-- 로딩 -->
       <div id="loading" class="state-box">
         <div class="spinner"></div>
         <div class="state-title">리포트를 불러오는 중...</div>
       </div>
 
-      <!-- 오류 -->
       <div id="error" class="state-box hidden">
         <div class="state-icon">⚠️</div>
         <div class="state-title">리포트를 불러올 수 없습니다</div>
-        <div class="state-desc">잠시 후 다시 시도해주세요.<br>문제가 지속되면 관리자에게 문의하세요.</div>
+        <div class="state-desc">잠시 후 다시 시도해주세요.</div>
       </div>
 
-      <!-- 콘텐츠 -->
       <div id="content" class="hidden">
 
-        <!-- 데모 안내 배너 -->
         <div class="notice-banner" id="demo-notice">
           💡 <span><strong>현재 샘플 데이터입니다.</strong> 실제 AI 크롤링은 매일 오전 8시에 자동 실행됩니다.</span>
         </div>
@@ -89,37 +68,16 @@
         <!-- ① AI 종합 리포트 -->
         <div class="section-header">
           <div class="section-title">
-            <div class="section-icon blue">📊</div>
-            오늘의 종합 인사이트
+            <div class="section-icon blue">📊</div>오늘의 종합 인사이트
           </div>
         </div>
         <div class="report-card">
-          <div class="report-card-header">
-            <span style="font-size:20px">📊</span>
-            <h2>AI 종합 분석 리포트</h2>
-          </div>
           <div class="report-body" id="final-report"></div>
         </div>
 
-        <!-- ② 주간 트렌드 차트 -->
+        <!-- ② 워드클라우드 -->
         <div class="section-header" style="margin-top:8px">
-          <div class="section-title">
-            <div class="section-icon orange">📈</div>
-            카테고리별 주간 트렌드
-          </div>
-          <div class="section-sub">최근 7일간 카테고리별 수집 현황</div>
-        </div>
-        <div class="chart-card">
-          <canvas id="trend-chart" height="90"></canvas>
-          <div class="chart-empty hidden" id="chart-empty">데이터가 쌓이면 차트가 표시됩니다 (내일부터)</div>
-        </div>
-
-        <!-- ③ 워드클라우드 -->
-        <div class="section-header" style="margin-top:8px">
-          <div class="section-title">
-            <div class="section-icon purple">☁️</div>
-            주요 키워드 분석
-          </div>
+          <div class="section-title"><div class="section-icon purple">☁️</div>주요 키워드 분석</div>
           <div class="section-sub">수집 아티클에서 추출한 핵심 키워드</div>
         </div>
         <div class="wordcloud-card">
@@ -127,15 +85,11 @@
           <div class="wordcloud-empty hidden" id="wordcloud-empty">키워드를 분석하는 중...</div>
         </div>
 
-        <!-- ④ 수집된 아티클 -->
+        <!-- ③ 수집된 아티클 -->
         <div class="section-header" style="margin-top:8px">
-          <div class="section-title">
-            <div class="section-icon purple">📰</div>
-            수집된 아티클
-          </div>
+          <div class="section-title"><div class="section-icon purple">📰</div>수집된 아티클</div>
           <div class="section-sub" id="article-period"></div>
         </div>
-
         <div class="filter-wrap">
           <div class="filter-bar">
             <button class="filter-btn active" data-cat="all">전체</button>
@@ -153,40 +107,40 @@
           </div>
           <div class="article-count-badge" id="article-count">0개 아티클</div>
         </div>
-
         <div id="articles-grid" class="articles-grid"></div>
 
-        <!-- ⑤ 과거 리포트 -->
+        <!-- ④ 과거 리포트 아카이브 -->
         <div class="section-header">
-          <div class="section-title">
-            <div class="section-icon green">📁</div>
-            과거 리포트 아카이브
-          </div>
+          <div class="section-title"><div class="section-icon green">📁</div>과거 리포트 아카이브</div>
         </div>
         <div class="archive-card">
-          <div class="archive-card-header">
-            <span style="font-size:18px">📁</span>
-            <h2>지난 리포트</h2>
-          </div>
+          <div class="archive-card-header"><span style="font-size:18px">📁</span><h2>지난 리포트</h2></div>
           <div class="archive-list" id="archive-list">
             <p style="padding:16px;color:var(--text-sm);font-size:13px">아직 과거 리포트가 없습니다. 내일부터 자동으로 쌓입니다.</p>
           </div>
+        </div>
+
+        <!-- ⑤ 카테고리별 주간 트렌드 (맨 밑) -->
+        <div class="section-header" style="margin-top:8px">
+          <div class="section-title"><div class="section-icon orange">📈</div>카테고리별 주간 트렌드</div>
+          <div class="section-sub">최근 7일간 카테고리별 수집 현황</div>
+        </div>
+        <div class="chart-card">
+          <canvas id="trend-chart" height="90"></canvas>
+          <div class="chart-empty hidden" id="chart-empty">데이터가 쌓이면 차트가 표시됩니다 (내일부터)</div>
         </div>
 
       </div>
     </div>
   </main>
 
-  <!-- 푸터 -->
   <footer>
     <div class="container footer-inner">
       <div>
-        <div class="footer-brand">ITCEN 전략사업팀</div>
+        <div class="footer-brand">ITCEN 컨설팅사업부</div>
         <div style="margin-top:4px">Powered by Claude AI · 매일 오전 8시 자동 업데이트</div>
       </div>
-      <div class="footer-links">
-        <span>IT 컨설턴트 & 전략사업팀 전용</span>
-      </div>
+      <div class="footer-links"><span>IT 컨설턴트 & 전략사업팀 전용</span></div>
     </div>
   </footer>
 

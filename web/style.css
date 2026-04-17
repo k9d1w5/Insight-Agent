@@ -233,75 +233,239 @@ main { padding: 32px 0 60px; }
   margin-bottom: 28px;
 }
 
-.report-card-header {
-  background: linear-gradient(135deg, #eff6ff 0%, #f0f9ff 100%);
-  border-bottom: 1px solid #dbeafe;
-  padding: 20px 28px;
+.report-body {
+  padding: 36px 40px;
+  font-size: 14px;
+  line-height: 1.85;
+  color: var(--text-md);
+}
+
+/* ── 리포트 H1 (제목) ─────────────────────────────────── */
+.report-body .rpt-h1 {
+  font-size: 22px;
+  font-weight: 800;
+  color: var(--navy);
+  letter-spacing: -.4px;
+  margin: 0 0 28px;
+  padding-bottom: 16px;
+  border-bottom: 2px solid #e8f0fe;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* ── Executive Summary 블록 ───────────────────────────── */
+.rpt-executive {
+  background: linear-gradient(135deg, #0f1f3d 0%, #1a3460 100%);
+  border-radius: var(--radius);
+  padding: 24px 28px;
+  margin-bottom: 32px;
+  position: relative;
+  overflow: hidden;
+}
+
+.rpt-executive::before {
+  content: '';
+  position: absolute;
+  top: -40px; right: -40px;
+  width: 160px; height: 160px;
+  background: rgba(255,255,255,.03);
+  border-radius: 50%;
+}
+
+.rpt-exec-label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  color: var(--sky);
+  text-transform: uppercase;
+  margin-bottom: 14px;
+}
+
+.rpt-exec-icon { font-size: 14px; }
+
+.rpt-exec-body p {
+  font-size: 14.5px;
+  line-height: 1.9;
+  color: rgba(255,255,255,.88);
+  margin: 0 0 10px;
+}
+.rpt-exec-body p:last-child { margin-bottom: 0; }
+.rpt-exec-body strong { color: #fff; font-weight: 700; }
+
+/* ── 섹션 구분선 ──────────────────────────────────────── */
+.rpt-divider {
+  border: none;
+  border-top: 1px solid #eef2ff;
+  margin: 32px 0;
+}
+
+/* ── H2 섹션 헤더 ─────────────────────────────────────── */
+.report-body .rpt-h2 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 16px;
+  font-weight: 800;
+  color: var(--navy);
+  margin: 36px 0 18px;
+  padding: 0;
+  background: none;
+  border: none;
+  letter-spacing: -.2px;
+}
+
+.report-body .rpt-h2::before {
+  content: '';
+  display: block;
+  width: 4px;
+  height: 18px;
+  background: linear-gradient(180deg, var(--blue) 0%, var(--sky) 100%);
+  border-radius: 999px;
+  flex-shrink: 0;
+}
+
+/* ── H3 기관별 서브헤더 ───────────────────────────────── */
+.report-body .rpt-h3 {
+  font-size: 13.5px;
+  font-weight: 700;
+  color: var(--text);
+  margin: 20px 0 8px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.report-body p {
+  margin: 0 0 12px;
+  color: var(--text-md);
+}
+.report-body p:last-child { margin-bottom: 0; }
+.report-body strong { color: var(--text); font-weight: 700; }
+
+/* ── 트렌드 카드 ──────────────────────────────────────── */
+.trend-card {
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  overflow: hidden;
+  margin-bottom: 14px;
+}
+
+.trend-card.trend-gold   { border-color: #fde68a; }
+.trend-card.trend-silver { border-color: #cbd5e1; }
+.trend-card.trend-bronze { border-color: #d6b896; }
+
+.trend-header {
   display: flex;
   align-items: center;
   gap: 12px;
+  padding: 14px 20px;
 }
 
-.report-card-header h2 {
-  font-size: 16px;
-  font-weight: 700;
-  color: var(--navy);
+.trend-card.trend-gold   .trend-header { background: linear-gradient(135deg, #fffbeb 0%, #fef9c3 100%); }
+.trend-card.trend-silver .trend-header { background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%); }
+.trend-card.trend-bronze .trend-header { background: linear-gradient(135deg, #fdf8f3 0%, #fef3e2 100%); }
+
+.trend-medal {
+  font-size: 22px;
+  flex-shrink: 0;
 }
 
-.report-body {
-  padding: 28px;
-  font-size: 14px;
-  line-height: 1.9;
-  color: var(--text-md);
-}
-
-/* 리포트 마크다운 스타일 */
-.report-body h1 {
-  font-size: 18px;
+.trend-title {
+  font-size: 15px;
   font-weight: 800;
   color: var(--navy);
-  margin: 0 0 20px;
-  padding-bottom: 12px;
-  border-bottom: 2px solid #eff6ff;
+  letter-spacing: -.2px;
 }
 
-.report-body h2 {
-  font-size: 15px;
-  font-weight: 700;
-  color: var(--navy);
-  margin: 28px 0 12px;
-  padding: 8px 14px;
-  background: #f8faff;
-  border-left: 4px solid var(--blue);
-  border-radius: 0 6px 6px 0;
+.trend-body {
+  padding: 16px 20px;
+  background: var(--surface);
 }
 
-.report-body h3 {
-  font-size: 14px;
-  font-weight: 700;
-  color: var(--blue);
-  margin: 20px 0 8px;
-}
-
-.report-body ul {
-  padding-left: 20px;
-  margin: 8px 0;
-}
-
-.report-body li {
-  margin: 5px 0;
+.trend-body p {
+  font-size: 13.5px;
+  line-height: 1.85;
   color: var(--text-md);
+  margin: 0 0 10px;
+}
+.trend-body p:last-child { margin-bottom: 0; }
+.trend-body strong { color: var(--text); font-weight: 700; }
+
+/* ── 액션 포인트 리스트 ───────────────────────────────── */
+.rpt-action-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
 }
 
-.report-body strong {
-  color: var(--text);
-  font-weight: 600;
+.rpt-action-list li {
+  background: var(--surface2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 14px 18px;
+  font-size: 13.5px;
+  line-height: 1.75;
+  color: var(--text-md);
+  counter-increment: action-counter;
+  position: relative;
+  padding-left: 52px;
 }
 
-.report-body hr {
-  border: none;
-  border-top: 1px solid var(--border-light);
-  margin: 24px 0;
+.rpt-action-list {
+  counter-reset: action-counter;
+}
+
+.rpt-action-list li::before {
+  content: counter(action-counter);
+  position: absolute;
+  left: 14px;
+  top: 14px;
+  width: 22px;
+  height: 22px;
+  background: var(--navy);
+  color: #fff;
+  font-size: 11px;
+  font-weight: 800;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  text-align: center;
+}
+
+.rpt-action-list li strong { color: var(--navy); font-weight: 700; }
+
+/* ── 일반 ul/li (기관별 동향 등) ─────────────────────── */
+.report-body ul {
+  padding-left: 0;
+  margin: 8px 0 12px;
+  list-style: none;
+}
+
+.report-body ul li {
+  font-size: 13.5px;
+  color: var(--text-md);
+  padding: 4px 0 4px 18px;
+  position: relative;
+  line-height: 1.7;
+}
+
+.report-body ul li::before {
+  content: '·';
+  position: absolute;
+  left: 4px;
+  color: var(--blue);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.4;
 }
 
 /* ── Filter Bar ───────────────────────────────────────── */
