@@ -147,7 +147,7 @@ ALL_SOURCES = [
         "name": "Ackerton Partners",
         "name_ko": "에커튼파트너스",
         "category": "한국 대기업",
-        "url": "https://www.ackerton.com/insight",
+        "url": "https://www.ackerton.com/insightReport",
         "logo_domain": "ackerton.com",
         "type": "web_pdf",
         "description": "에커튼파트너스 인사이트 리포트",

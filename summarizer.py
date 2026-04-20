@@ -8,8 +8,8 @@ import anthropic
 
 client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
 
-MODEL_FAST   = "claude-3-haiku-20240307"     # 개별 요약·번역 (구버전, 전 플랜 지원)
-MODEL_STRONG = "claude-3-5-sonnet-20241022"  # 종합 리포트
+MODEL_FAST   = "claude-3-haiku-20240307"  # 개별 요약·번역
+MODEL_STRONG = "claude-3-haiku-20240307"  # 종합 리포트 (현재 플랜 지원 모델)
 
 
 # ── 헬퍼 ─────────────────────────────────────────────────
@@ -34,20 +34,26 @@ def _call_claude(prompt: str, max_tokens: int = 300,
             )
             return resp.content[0].text.strip()
         except anthropic.RateLimitError:
-            wait = 5 * (2 ** attempt)
+            wait = 10 * (2 ** attempt)   # 429: 충분히 기다림
             print(f"    [RateLimit] {wait}초 대기...")
             time.sleep(wait)
         except anthropic.APIStatusError as e:
-            if "credit" in str(e).lower():
+            err_str = str(e).lower()
+            if "credit" in err_str:
+                print(f"    [크레딧 부족] console.anthropic.com 에서 충전 필요")
                 raise
-            wait = 3 * (2 ** attempt)
+            if "not_found" in err_str or "404" in str(e):
+                print(f"    [모델 없음] 현재 플랜에서 지원하지 않는 모델: {model}")
+                raise  # 재시도해도 소용 없음
+            # 529 overloaded 등 일시적 오류
+            wait = 15 * (2 ** attempt)   # 15초 → 30초 → 60초
             print(f"    [API 오류] {wait}초 후 재시도 ({e})")
             time.sleep(wait)
         except Exception as e:
             print(f"    [예외] {e}")
             if attempt == retries - 1:
                 raise
-            time.sleep(3)
+            time.sleep(5)
     raise RuntimeError("최대 재시도 초과")
 
 
@@ -214,16 +220,16 @@ def generate_final_report(articles: list[dict]) -> str:
 ## 3. 오늘의 핵심 키워드
 (오늘 IT 시장을 관통하는 키워드 10개를 중요도 순으로, 각각 한 줄 설명 포함)"""
 
-    # 1차: Sonnet
+    # 1차: 종합 리포트 (현재 플랜 지원 모델)
     try:
-        print("[종합 리포트 생성 중... Sonnet]")
-        result = _call_claude(prompt, max_tokens=4000, model=MODEL_STRONG, retries=2)
+        print(f"[종합 리포트 생성 중... {MODEL_STRONG}]")
+        result = _call_claude(prompt, max_tokens=4000, model=MODEL_STRONG, retries=3)
         print("[종합 리포트 완료]")
         return result
     except Exception as e:
-        print(f"[Sonnet 실패] {e}")
+        print(f"[1차 실패] {e}")
 
-    # 2차: Haiku (프롬프트 축약)
+    # 2차: 프롬프트 축약 후 재시도
     try:
         short_lines = []
         for cat, items in by_category.items():
@@ -232,8 +238,8 @@ def generate_final_report(articles: list[dict]) -> str:
                 title = item.get("title_ko") or item.get("title", "")
                 short_lines.append(f"- {item['source']}: {title}")
         short_prompt = prompt.replace(articles_text, "\n".join(short_lines))
-        print("[종합 리포트 재시도... Haiku]")
-        result = _call_claude(short_prompt, max_tokens=2500, model=MODEL_FAST, retries=2)
+        print("[종합 리포트 재시도... 축약 프롬프트]")
+        result = _call_claude(short_prompt, max_tokens=2500, model=MODEL_FAST, retries=3)
         print("[종합 리포트 Haiku 완료]")
         return result
     except Exception as e2:
