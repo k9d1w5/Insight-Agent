@@ -1,37 +1,26 @@
 {
   "date": "2026-04-20",
-  "generated_at": "2026-04-20 08:37:03",
-  "total_articles": 46,
+  "generated_at": "2026-04-20 09:51:20",
+  "total_articles": 54,
   "categories": {
+    "글로벌 컨설팅": 13,
     "플랫폼 테크": 19,
-    "글로벌 컨설팅": 8,
-    "한국 대기업": 5,
+    "한국 대기업": 8,
     "IT 미디어": 14
   },
-  "final_report": "# 📊 오늘의 IT 인사이트 리포트\n\n## 🔍 Executive Summary\nAI와 클라우드 기술이 IT 시장에 미치는 영향이 점점 심화되고 있습니다. 기업들의 AI 도입이 가속화되고 있으나 아직 실질적인 수익 창출로 이어지지 않고 있는 것으로 나타났습니다. 반면 클라우드 기술은 데이터센터 사업을 통해 국내 대기업들의 새로운 수익원이 되고 있습니다. 또한 제너레이티브 AI 기술이 헬스케어 분야에 활용되며 의료 서비스의 혁신을 이끌고 있습니다. 이처럼 AI와 클라우드, 제너레이티브 AI 등 첨단 기술이 기업들의 새로운 성장 동력이 되고 있는 상황이며, 앞으로도 이들 기술이 IT 시장 전반에 지속적인 영향을 미칠 것으로 예상됩니다.\n\n## 1. 핵심 트렌드 Top 3\n\n### 🥇 AI 도입과 그 수익성 간 괴리 해소\nKPMG의 보고서에 따르면, 기업들의 AI 도입이 계속 증가하고 있음에도 불구하고 실제 수익 창출로 이어지지 않고 있는 것으로 나타났습니다. 이는 AI 기술의 적용 분야와 수익화 모델이 아직 미흡한 것으로 분석됩니다. 향후 기업들은 AI 기술을 자사 비즈니스 모델에 효과적으로 접목시키는 동시에, 새로운 수익원 창출을 위한 노력이 필요할 것으로 보입니다. \n\n### 🥈 클라우드 기술의 기업 수익 창출 가속화\n국내 대기업들 사이에서 클라우드 사업이 빠르게 성장하고 있습니다. KT의 경우 데이터센터 임대 사업을 통해 연간 1조 원 이상의 매출을 올리고 있으며, 다른 기업들도 클라우드 사업 확대에 박차를 가하고 있습니다. 이처럼 클라우드 기술이 기업들의 새로운 수익원이 되면서 IT 시장에서 그 중요성이 점점 더 커지고 있습니다.\n\n### 🥉 헬스케어 혁신을 이끄는 제너레이티브 AI\nMcKinsey는 제너레이티브 AI 기술이 헬스케어 분야에 혁신을 가져올 것이라고 전망했습니다. 특히 제너레이티브 AI를 활용한 에이전트 AI가 의료 서비스의 질과 접근성을 높이는 데 기여할 것으로 예상됩니다. 이를 통해 환자 맞춤형 진단과 치료, 의료진 지원 등 다양한 혁신이 가능해질 것으로 보입니다.\n\n## 2. IT 컨설턴트 액션 포인트\n\n1. **AI 수익성 개선 방안 제안**: 기업들의 AI 도입이 가속화되고 있지만 실질적인 수익 창출로 이어지지 않는 점을 감안, AI 기술을 비즈니스 모델에 효과적으로 접목할 수 있는 방안을 제안할 필요가 있습니다. 특히 AI 기술의 활용 영역을 확대하고 새로운 수익원 창출 전략을 수립하는 것이 중요합니다.\n\n2. **클라우드 사업 기회 선점**: 국내 대기업들의 클라우드 사업 확대 움직임에 주목하여, 클라우드 기술 기반의 신규 사업 기회를 발굴할 필요가 있습니다. 특히 데이터센터 서비스, 퍼블릭/하이브리드 클라우드 등 다양한 클라우드 서비스 영역에서 고객의 니즈를 파악하고 신속하게 대응하는 것이 중요합니다.\n\n3. **헬스케어 분야 제너레이티브 AI 모니터링**: 제너레이티브 AI 기술이 헬스케어 분야에서 활용되며 새로운 혁신을 이끌고 있는 점을 주시해야 합니다. 이를 통해 의료 서비스의 질적 향상과 접근성 제고, 의료진 지원 등 다양한 변화를 예측하고 선제적으로 대응할 수 있어야 합니다.\n\n## 3. 오늘의 핵심 키워드\n\n- AI 도입: 기업들의 AI 기술 투자가 계속 증가하고 있으나 실제 수익 창출로는 이어지지 않고 있는 상황\n- 클라우드 사업: 국내 대기업들이 데이터센터 사업 등을 통해 클라우드 사업을 확대하며 새로운 수익원을 창출\n- 제너레이티브 AI: 헬스케어 분야에서 환자 맞춤형 진단/치료, 의료진 지원 등 다양한 혁신을 이끌어내고 있음\n- 데이터센터: KT 등 국내 기업들이 데이터센터 사업을 통해 매출 확대를 달성\n- 로봇/자동화: BMW 뮌헨 공장과 같이 제조업에서 로봇과 AI 기술이 생산 공정을 혁신\n- 개인화 서비스: 하나은행이 AI와 데이터를 활용해 고객 맞춤형 서비스를 구현\n- GPU: 클라우드 컴퓨팅의 성장으로 GPU 수요가 늘어나는 추세\n- AGI/LLM/환각: 헷갈리는 AI 용어들에 대한 명확한 정의가 필요\n- 플랫폼 보안: 네이버가 '보안 세미나'를 개최하며 플랫폼 보안 이슈에 주목\n- C++ 메모리: C++ 객체 수명과 암묵적 객체 생성 등 프로그래밍 언어 기술 이슈",
+  "final_report": "# 📊 오늘의 IT 인사이트 리포트\n\n## ⚠ AI 리포트 생성 실패 — 수집된 기사 목록\n\n## 글로벌 컨설팅\n- **McKinsey & Company**: 왜 경기 침체는 예측하기 어려운가에 대한 저자와의 인터뷰\n- **McKinsey & Company**: 인간형 공급망 제약을 십억 달러 수익으로 전환하기\n- **McKinsey & Company**: 의료 분야에서의 생성형 AI: 능동적 AI의 등장과 함께 도입이 성숙해지고 있다.\n- **McKinsey & Company**: 골드만 삭스의 데이비드 솔로몬, 혼란에 적응하기\n- **McKinsey & Company**: 돈의 행방을 따라가라: 외국인 직접투자가 어떻게 글로벌 경제를 재편하고 있는가\n\n## 플랫폼 테크\n- **Naver D2**: NAVER SECURITY SEMINAR 참가 신청을 시작합니다!\n- **Toss Tech**: 하마터면 못생겨질 뻔했다 - 토스 프론트 2 제작기\n- **라인 엔지니어링**: AI 활용의 열쇠는 '조직적 학습'에 있다 - Orchestration Development Workshop의 시작\n- **Naver D2**: [사전 안내] 첫 번째 'NAVER SECURITY SEMINAR'가 열립니다.\n- **Naver D2**: FE 소식 2023년 4월 전달\n\n## 한국 대기업\n- **KT Enterprise**: KT클라우드, 데이터센터 임대로 1조 번다 - 한국금융신문\n- **롯데이노베이트**: 롯데이노베이트 투자분석 2026. 04. 18 - 주달\n- **롯데이노베이트**: [비즈톡톡] “GPU 의존 줄인다”… 삼성SDS·LG CNS가 국산 NPU 도입하는 이유는 - 조선비즈 - Chosunbiz\n- **롯데이노베이트**: 롯데이노베이트 투자분석 2026. 04. 07 - 주달\n- **KT Enterprise**: [종합] 한국 클라우드, AI 타고 몸집 키웠다…이제 승부는 GPU·공공 - 지디넷코리아\n\n## IT 미디어\n- **IT조선**: BMW 뮌헨 공장, 로봇·AI로 車 생산 - IT조선\n- **IT조선**: 하나 “AI·데이터로 고객 맞춤형 개인화 구현” [증시 MTS 열전 ④] - IT조선\n- **인공지능신문**: AGI·LLM·환각까지…헷갈리는 AI 용어 짚어보니 - 디지털투데이\n- **인공지능신문**: 정부, AI로 해킹사고 초동 및 후속 처리…추가 피해 시설까지 예측한다 - 네이트\n- **테크크런치**: Exclusive: Loop raises $95M to build supply chain AI that predicts disruptions - TechCrunch\n",
   "articles": [
     {
-      "source": "Naver D2",
-      "category": "플랫폼 테크",
-      "title": "[사전 안내] 첫 번째 'NAVER SECURITY SEMINAR'가 열립니다.",
-      "url": "https://d2.naver.com/news/2009415",
-      "summary": "네이버는 수많은 사용자가 매일 신뢰하며 이용하는 서비스를 운영합니다. 그 신뢰의 근간에는 보안이 있습니다. 끊임없이 진화하는 위협 환경 속에서 네이버 보안 조직이 어떤 고민을 하고, 어떻게 대응하는지 그 경험과 인사이트를 나누는 첫 번째 자리를 마련했습니다. 네이버의 보안을 지키기 위한 활동중 하나로 매년 참여자들을 대상으로 개최해온 네이버 Security 의 버그바운티 프로그램 이 있습니다. 그간 온라인으로 진행되어 온 시상식을 올해에는 오프라인으로 NAVER SECURITY SEMINAR에서도 함께 축하하고자 합니다. IT 보안 실무자들과 현장의 이야기를 직접 나눌 수 있는 이 행사에 보안을 고민하는 모든 분들의 많은 관심 부탁드립니다. 행사 개요 일시 4월 30일(목) 오후 1시 30분 - 6시 30분 장소 네이버 그린팩토리 ( 지도보기 ) 참가 대상 IT 보안 실무자, 보안에 관심 있는 개발자 및 학생 프로그램 요약 발표자 : 팀네이버 보안팀 - 네이버 서비스 및 사용자를 안",
-      "published": "2026-04-19 23:35",
-      "logo_domain": "naver.com",
-      "ai_summary": "네이버는 수많은 사용자를 대상으로 신뢰할 수 있는 서비스를 제공하기 위해 보안에 대한 끊임없는 고민과 대응책을 마련하고 있다. 이번 NAVER SECURITY SEMINAR를 통해 IT 보안 실무자들과의 현장 경험 및 인사이트를 공유하고자 한다.",
-      "importance_score": 9
-    },
-    {
-      "source": "KPMG",
+      "source": "McKinsey & Company",
       "category": "글로벌 컨설팅",
-      "title": "KPMG report finds enterprise disconnect between AI and its ROI - cio.com",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOY3ptX1I2LUsya3hsWHpsRUhrMGNEenVOREp5NzRtNXJEeUxvemhaOVJ4My05TkU3ZUpRTFdheHZLTXdkZ0lLNDctM25iZXphTDZiZF9iY3dkcGxLWDV2VnhfU3c5X0tQZjdTRGNBUm5XQWxNbE9yR1N1cDZhMGhTNTVqbnI2T1JwQnJPNW9wa01ueDNZbHEtYUJhSUlXNnJiU2ZtdFZn?oc=5",
-      "summary": "KPMG report finds enterprise disconnect between AI and its ROI cio.com",
-      "published": "2026-04-11 01:09",
-      "logo_domain": "kpmg.com",
-      "ai_summary": "KPMG 보고서에 따르면 기업들이 AI 투자 대비 ROI 달성에 어려움을 겪고 있다. AI 도입을 위해서는 명확한 비즈니스 목표 설정과 데이터 거버넌스, 인력 역량 강화 등이 필요한 것으로 나타났다.",
+      "title": "Author Talks: Why recessions aren’t as predictable as you think",
+      "url": "https://www.mckinsey.com/featured-insights/mckinsey-on-books/author-talks-why-recessions-arent-as-predictable-as-you-think",
+      "summary": "Are recessions cyclical—or just random shocks in disguise? Tyler Goodspeed, ExxonMobil’s chief economist, challenges long-held assumptions, arguing downturns stem from unexpected shocks, not cycles.",
+      "published": "2026-04-17 00:00",
+      "logo_domain": "mckinsey.com",
+      "ai_summary": "경기 침체는 예측하기 어려운 예기치 않은 충격에서 비롯된다는 점을 고려할 때, IT 기업은 유연성과 민첩성을 갖추어 급변하는 시장 환경에 신속하게 대응할 필요가 있다. IT 전략 수립 시 예상치 못한 경기 변동에 대한 대비가 중요하다.",
       "importance_score": 9,
-      "title_ko": "KPMG 보고서에서 기업들의 AI와 그 수익성 간 괴리가 확인되다"
+      "title_ko": "왜 경기 침체는 예측하기 어려운가에 대한 저자와의 인터뷰"
     },
     {
       "source": "McKinsey & Company",
@@ -41,9 +30,9 @@
       "summary": "The robotics supply chain is the most underappreciated constraint on humanoid scale. But for companies that move now, it is the most significant opportunity in a generation.",
       "published": "2026-04-17 00:00",
       "logo_domain": "mckinsey.com",
-      "ai_summary": "인간형 로봇 공급망이 가장 중요한 제약 요인이지만, 이를 적극적으로 활용하는 기업에게는 큰 기회가 될 수 있다. IT 컨설턴트의 관점에서 볼 때, 이는 기업 경쟁력 향상을 위한 중요한 전략적 과제라고 볼 수 있다.",
-      "importance_score": 8,
-      "title_ko": "인간형 로봇 공급망 제약을 억만 달러 수익으로 전환하기"
+      "ai_summary": "로봇 공급망은 인간형 로봇 확산의 가장 큰 제약이지만, 이를 해결할 수 있는 기업들에게는 큰 기회가 될 것이다.",
+      "importance_score": 9,
+      "title_ko": "인간형 공급망 제약을 십억 달러 수익으로 전환하기"
     },
     {
       "source": "McKinsey & Company",
@@ -53,21 +42,9 @@
       "summary": "With half of US organizations in our survey now implementing gen AI, the focus is turning to integration, ROI, and agentic AI to realize value across healthcare domains.",
       "published": "2026-04-16 00:00",
       "logo_domain": "mckinsey.com",
-      "ai_summary": "헬스케어 분야에서 제너레이티브 AI 기술의 도입이 빠르게 진행되고 있으며, 이제는 ROI 및 에이전트 AI 기술에 대한 관심이 높아지고 있다.",
-      "importance_score": 8,
-      "title_ko": "헬스케어에서의 제너레이티브 AI: 에이전트 AI 등장으로 도입이 성숙해지다"
-    },
-    {
-      "source": "McKinsey & Company",
-      "category": "글로벌 컨설팅",
-      "title": "Follow the money: How FDI is redrawing the global economy",
-      "url": "https://www.mckinsey.com/mgi/our-research/follow-the-money-how-fdi-is-redrawing-the-global-economy",
-      "summary": "Shifts in foreign direct investment are shaking up industries of the future and rewiring global trade.",
-      "published": "2026-04-16 00:00",
-      "logo_domain": "mckinsey.com",
-      "ai_summary": "IT 전략 컨설턴트 관점에서 볼 때, 해외직접투자(FDI)의 변화가 미래 산업을 재편하고 글로벌 무역 구조를 재구축하고 있음을 보여주는 기사입니다. 이는 기업의 글로벌 전략 수립에 중요한 시사점을 제공합니다.",
-      "importance_score": 8,
-      "title_ko": "돈을 따라가라: 해외직접투자가 어떻게 글로벌 경제를 재편하고 있는가"
+      "ai_summary": "일반화된 AI의 의료 부문 도입이 성숙기에 접어들면서, 이를 통해 실현할 수 있는 가치를 높이기 위해 통합, ROI 및 능동적 AI에 중점을 두고 있다.",
+      "importance_score": 9,
+      "title_ko": "의료 분야에서의 생성형 AI: 능동적 AI의 등장과 함께 도입이 성숙해지고 있다."
     },
     {
       "source": "McKinsey & Company",
@@ -77,9 +54,9 @@
       "summary": "The chair and CEO reflects on an AI-fueled future, how he got through tough challenges early in his tenure, and how he sees the future.",
       "published": "2026-04-15 00:00",
       "logo_domain": "mckinsey.com",
-      "ai_summary": "Goldman Sachs의 CEO가 AI 주도의 미래에 대한 견해와 초기 리더십 과제에 대한 대응을 밝힌 것으로, IT 전략 컨설턴트에게 금융 산업의 디지털 전환 동향을 이해하는 데 도움이 될 수 있습니다.",
-      "importance_score": 8,
-      "title_ko": "골드만 삭스의 데이비드 솔로몬, 혼란에 대한 적응"
+      "ai_summary": "인공지능 기술이 금융 산업에 미치는 영향을 이해하고, 조직 구성원의 협력을 통해 변화에 신속히 대응하는 것이 중요한 과제로 나타났습니다.",
+      "importance_score": 9,
+      "title_ko": "골드만 삭스의 데이비드 솔로몬, 혼란에 적응하기"
     },
     {
       "source": "Naver D2",
@@ -87,10 +64,67 @@
       "title": "NAVER SECURITY SEMINAR 참가 신청을 시작합니다!",
       "url": "https://d2.naver.com/news/6236639",
       "summary": "NAVER SECURITY SEMINAR 참가 신청이 시작되었습니다. 4월 30일(목), 네이버 그린팩토리에서 열리는 이번 세미나는 팀 네이버 보안팀이 직접 현장의 고민과 경험을 나누는 자리입니다. 보안 기술, LLM 시대의 AI 레드팀, 피싱 트렌드까지 — 실무에서 활용할 수 있는 인사이트를 만나보세요! 행사 개요 ※ 발표 세션 제목은 변경될 수 있으며, 최종 프로그램은 선정된 참석자에 한해 별도 안내드리겠습니다. 일시 4월 30일(목) 오후 1시 30분 - 6시 30분 장소 네이버 그린팩토리 ( 지도보기 ) 참가 대상 IT 보안 실무자, 보안에 관심 있는 개발자 및 학생 프로그램 제목 발표자 지속 가능한 AI 레드티밍 파이프라인 구축하기 NAVER 박현준 네이버 대상 피싱 캠페인 분석: 피싱 공격 체인과 탐지 회피 기법의 진화 NAVER 이민수 위협 모델링으로 구현한 Npay커넥트 페이스사인의 보안 아키텍처 NAVER FINANCIAL 김동율 TLS 인증서부터 양자내성까지: 네이",
-      "published": "2026-04-19 23:35",
+      "published": "2026-04-20 00:48",
       "logo_domain": "naver.com",
-      "ai_summary": "이 세미나는 IT 보안 실무자, 개발자 및 학생들에게 네이버 보안팀의 실무 경험과 인사이트를 제공하여, 지속 가능한 AI 레드팀 구축 및 피싱 대응에 도움을 주고자 합니다.",
+      "ai_summary": "IT 전략 컨설턴트 관점에서 이번 네이버 보안 세미나는 보안 기술, AI 레드팀, 피싱 트렌드에 대한 실무자의 경험과 인사이트를 제공하여, IT 기업의 보안 역량 강화에 기여할 것으로 보인다.",
+      "importance_score": 9
+    },
+    {
+      "source": "Toss Tech",
+      "category": "플랫폼 테크",
+      "title": "하마터면 못생겨질 뻔했다 - 토스 프론트 2 제작기",
+      "url": "https://toss.tech/article/toss_front",
+      "summary": "아름다우면서 사용성까지 챙긴 토스 프론트 2, 그 뒤에는 “이게 정말 최선일까?”를 끝까지 놓지 않았던 집요한 고민이 있었어요.",
+      "published": "2026-04-09 02:50",
+      "logo_domain": "toss.im",
+      "ai_summary": "토스 프론트 2는 아름다운 디자인과 뛰어난 사용성을 갖추기 위해 끊임없이 고민했다. 이러한 고민은 IT 전략 컨설턴트 관점에서 볼 때 중요한 사례로 볼 수 있다.",
+      "importance_score": 9
+    },
+    {
+      "source": "라인 엔지니어링",
+      "category": "플랫폼 테크",
+      "title": "AI 활용의 열쇠는 '조직적 학습'에 있다 - Orchestration Development Workshop의 시작",
+      "url": "https://techblog.lycorp.co.jp/ko/start-orchestration-development-workshop",
+      "summary": "지금 LY Corporation에서 일어나고 있는 변화현재 LY Corporation에서는 AI를 활용한 개발과 업무 개선이 이전보다 훨씬 빠른 속도로 확산되고 있습니다. 생성형 ...",
+      "published": "2026-04-08 02:00",
+      "logo_domain": "linecorp.com",
+      "ai_summary": "IT 컨설턴트 관점에서 볼 때, 이 기사는 AI 기술 도입을 통한 조직적 학습 및 혁신의 중요성을 강조하고 있다. 기업의 AI 활용이 실질적인 성과로 이어지기 위해서는 조직 전반의 문화와 프로세스 변화가 선행되어야 함을 시사한다.",
+      "importance_score": 9
+    },
+    {
+      "source": "McKinsey & Company",
+      "category": "글로벌 컨설팅",
+      "title": "Follow the money: How FDI is redrawing the global economy",
+      "url": "https://www.mckinsey.com/mgi/our-research/follow-the-money-how-fdi-is-redrawing-the-global-economy",
+      "summary": "Shifts in foreign direct investment are shaking up industries of the future and rewiring global trade.",
+      "published": "2026-04-16 00:00",
+      "logo_domain": "mckinsey.com",
+      "ai_summary": "글로벌 직접투자 흐름의 변화가 미래 산업을 재편하고 국제 무역을 재구축하고 있다. IT 전략 컨설턴트 관점에서 이러한 변화는 기업의 성장 기회와 위험 요인을 파악하는 데 중요한 시사점을 제공한다.",
+      "importance_score": 8,
+      "title_ko": "돈의 행방을 따라가라: 외국인 직접투자가 어떻게 글로벌 경제를 재편하고 있는가"
+    },
+    {
+      "source": "Naver D2",
+      "category": "플랫폼 테크",
+      "title": "[사전 안내] 첫 번째 'NAVER SECURITY SEMINAR'가 열립니다.",
+      "url": "https://d2.naver.com/news/2009415",
+      "summary": "네이버는 수많은 사용자가 매일 신뢰하며 이용하는 서비스를 운영합니다. 그 신뢰의 근간에는 보안이 있습니다. 끊임없이 진화하는 위협 환경 속에서 네이버 보안 조직이 어떤 고민을 하고, 어떻게 대응하는지 그 경험과 인사이트를 나누는 첫 번째 자리를 마련했습니다. 네이버의 보안을 지키기 위한 활동중 하나로 매년 참여자들을 대상으로 개최해온 네이버 Security 의 버그바운티 프로그램 이 있습니다. 그간 온라인으로 진행되어 온 시상식을 올해에는 오프라인으로 NAVER SECURITY SEMINAR에서도 함께 축하하고자 합니다. IT 보안 실무자들과 현장의 이야기를 직접 나눌 수 있는 이 행사에 보안을 고민하는 모든 분들의 많은 관심 부탁드립니다. 행사 개요 일시 4월 30일(목) 오후 1시 30분 - 6시 30분 장소 네이버 그린팩토리 ( 지도보기 ) 참가 대상 IT 보안 실무자, 보안에 관심 있는 개발자 및 학생 프로그램 요약 발표자 : 팀네이버 보안팀 - 네이버 서비스 및 사용자를 안",
+      "published": "2026-04-20 00:48",
+      "logo_domain": "naver.com",
+      "ai_summary": "네이버는 안전한 서비스 제공을 위해 보안 분야의 인사이트를 공유하고자 보안 세미나를 개최한다. 이 행사를 통해 IT 보안 실무자들과 의견을 교류하고 네이버의 버그바운티 프로그램을 축하할 것이다.",
       "importance_score": 8
+    },
+    {
+      "source": "Naver D2",
+      "category": "플랫폼 테크",
+      "title": "FE News 26년 4월 소식을 전해드립니다!",
+      "url": "https://d2.naver.com/news/6428522",
+      "summary": "주요소식 Temporal: The 9-Year Journey to Fix Time in JavaScript JavaScript의 Date 객체를 대체하는 Temporal API가 9년간의 표준화 과정을 거쳐 TC39 Stage 4에 도달하고 ES2026에 포함될 예정이다. 불변(immutable) 값, ZonedDateTime·Instant 등 다양한 타입, 명시적 타임존 지원, 나노초 정밀도, 다중 캘린더 지원 등을 제공한다. 현재 Firefox 139+, Chrome/Edge 144+, TypeScript 6.0 Beta, Node.js 26에서 지원된다. Announcing TypeScript 6.0 TypeScript 6.0이 출시되었다. 현재 JavaScript 코드베이스 기반의 마지막 버전으로, TypeScript 7.0부터는 Go로 재작성된 새 컴파일러가 기반이 된다. this를 실제로 사용하지 않는 함수의 타입 추론 정확도 개선, 서브패스 임포트 지원, --module",
+      "published": "2026-04-20 00:48",
+      "logo_domain": "naver.com",
+      "ai_summary": "새로운 Temporal API와 TypeScript 6.0 출시는 JavaScript 생태계에 중대한 변화를 가져올 것으로 보임. 이러한 기술 동향은 IT 전략 수립에 중요한 고려사항이 될 것.",
+      "importance_score": 8,
+      "title_ko": "FE 소식 2023년 4월 전달"
     },
     {
       "source": "Naver D2",
@@ -98,20 +132,9 @@
       "title": "C++ 객체 수명과 암묵적 객체 생성",
       "url": "https://d2.naver.com/helloworld/7997284",
       "summary": "이전 글 에서는 엄격한 앨리어싱 규칙의 관점에서 reinterpret_cast 를 안전하게 사용하는 방법을 알아보았습니다. 이번 글에서는 한 걸음 더 나아가, 디스크나 네트워크에서 읽어 온 바이트 표현을 특정 타입으로 해석할 때 reinterpret_cast 를 사용하는 패턴을 C++의 엄격한 표준에 비추어 살펴보겠습니다. 결론부터 말씀드리면, 이런 패턴의 상당수는 엄밀히 따지면 미정의 동작(UB, undefined behavior)에 해당합니다. 예를 들어 malloc() 으로 할당받은 메모리를 구조체 포인터로 캐스팅해 곧바로 접근하는 방식은 C 언어에서는 합법적이지만, C++17까지는 미정의 동작으로 간주되었습니다. C와 C++의 이 차이는 C++의 객체 수명(object lifetime) 이라는 개념에서 비롯됩니다. C에서 포인터는 단순한 메모리 주소이므로, 해당 주소의 바이트 표현을 원하는 타입으로 해석하기만 하면 됩니다. 반면 C++은 포인터가 가리키는 주소에 해당 타입의 ",
-      "published": "2026-04-19 23:35",
+      "published": "2026-04-20 00:48",
       "logo_domain": "naver.com",
-      "ai_summary": "IT 컨설팅 관점에서 이 기사는 C++에서 객체 수명과 암묵적 객체 생성에 대한 주의가 필요함을 시사한다. 이는 데이터 무결성과 안전성 확보를 위해 중요한 고려사항이 될 수 있다.",
-      "importance_score": 8
-    },
-    {
-      "source": "Naver D2",
-      "category": "플랫폼 테크",
-      "title": "C++ std::bit_cast와 reinterpret_cast — 언제 어떤 것을 써야 하는가",
-      "url": "https://d2.naver.com/helloworld/1155434",
-      "summary": "저희 팀은 네이버의 고성능 검색 엔진 기술을 계승한 분산 데이터베이스인 Dot을 개발하고 있습니다. 스토리지 계층을 직접 다루다 보니 디스크에서 읽어 온 바이트 패턴을 uint64_t , float , 혹은 사용자 정의 구조체로 해석하는 일이 일상이고, 코드 리뷰에서 reinterpret_cast 를 마주치는 일도 잦습니다. 볼 때마다 느끼는 불안함, 즉 '이것은 되도록 쓰지 말라고 배웠는데 괜찮을까?' 하는 감정은 C++ 개발자라면 공감하실 것입니다. C++20에서 등장한 std::bit_cast 는 그 불안에 대한 해답처럼 보였습니다. 표준 라이브러리가 제공하는 함수라는 점, 위험해 보이는 타입 퍼닝(type punning)까지 척척 해낸다는 점이 '이것은 안전하다'라는 착각을 심어 주었습니다. 그 착각이 퍼지면서 팀은 std::bit_cast 가 주는 안도감에 젖어 들었고, 예전 같으면 reinterpret_cast 를 썼을 자리를 std::bit_cast 가 차지하기 시작했습",
-      "published": "2026-04-19 23:35",
-      "logo_domain": "naver.com",
-      "ai_summary": "네이버 Dot 팀의 개발 과정에서 데이터 타입 간 변환이 필요한 상황이 많이 발생하여, std::bit_cast와 reinterpret_cast의 적절한 사용이 중요한 것으로 보인다. 이러한 저수준 데이터 처리 기술은 고성능 시스템 개발에 필수적이다.",
+      "ai_summary": "C++ 객체 수명 개념으로 인해 C와 C++의 메모리 접근 방식에 차이가 있으며, 이는 개발자가 고려해야 할 중요한 설계 요소이다. 이번 기사는 C++의 엄격한 객체 수명 규칙을 설명하고, 이를 어기는 경우 미정의 동작이 발생할 수 있음을 알려준다.",
       "importance_score": 8
     },
     {
@@ -122,29 +145,7 @@
       "summary": "1분부터 7일까지 슬라이딩 윈도우 Frequency Capping을 세 Flink 앱으로 분리하고 각각의 병목을 해결한 기록을 공유합니다.",
       "published": "2026-04-16 02:48",
       "logo_domain": "toss.im",
-      "ai_summary": "Apache Flink와 RocksDB를 활용하여 광고 Frequency Capping 실시간 집계 문제를 해결한 사례로, 다양한 시간 단위의 집계를 분리하고 각각의 병목을 해결함으로써 확장성을 높인 것으로 보인다.",
-      "importance_score": 8
-    },
-    {
-      "source": "Toss Tech",
-      "category": "플랫폼 테크",
-      "title": "하마터면 못생겨질 뻔했다 - 토스 프론트 2 제작기",
-      "url": "https://toss.tech/article/toss_front",
-      "summary": "아름다우면서 사용성까지 챙긴 토스 프론트 2, 그 뒤에는 “이게 정말 최선일까?”를 끝까지 놓지 않았던 집요한 고민이 있었어요.",
-      "published": "2026-04-09 02:50",
-      "logo_domain": "toss.im",
-      "ai_summary": "[IT 컨설팅 관점에서 볼 때, 토스 프론트 2 개발 과정에서 미학과 사용성의 균형을 위한 집요한 고민이 돋보입니다. 이는 IT 서비스의 사용자 경험 향상을 위한 중요한 시사점을 제공합니다.]",
-      "importance_score": 8
-    },
-    {
-      "source": "Toss Tech",
-      "category": "플랫폼 테크",
-      "title": "Layers of your time : 토스와 함께한 시간을 기념하기",
-      "url": "https://toss.tech/article/layers-of-your-time",
-      "summary": "팀원의 시간을 진심으로 축하하는 방법을 찾고 싶었어요. 8개월 동안 사내 굿즈를 다시 만들며 고민했던 과정과, 그 안에서 발견한 기준을 들려드려요.",
-      "published": "2026-04-07 09:44",
-      "logo_domain": "toss.im",
-      "ai_summary": "직원의 성과와 헌신에 대한 보상과 인정의 중요성을 강조하는 사례로, 이를 위해 적절한 사내 굿즈 개발 등 창의적인 방법을 모색했다. IT 컨설팅 관점에서 볼 때 직원 만족도와 업무 몰입도 향상을 위한 효과적인 전략이 될 수 있다.",
+      "ai_summary": "Apache Flink와 RocksDB를 활용해 실시간 광고 Frequency Capping 기능을 구현하고, 각 시간대별 병목현상을 해결하여 처리 범위를 1분에서 7일까지 확장한 기술적 사례입니다. 이는 대규모 데이터 처리 및 실시간 분석 기능을 요구하는 광고 플랫폼 사업에 효과적으로 적용될 수 있는 솔루션으로 판단됩니다.",
       "importance_score": 8
     },
     {
@@ -155,9 +156,9 @@
       "summary": "Hello! My name is Ssup, and I work as an engineer on the Cluster team within Karrot’s SRE organization. Our team handles a wide range of responsibilities — from operating AWS EKS clusters and configuring Istio-based service mesh networks, to managing monitoring components like Prometheus and Loki. Most of Karrot’s workloads run on AWS EKS clusters. While workloads can be classified in many ways, one of the most common distinctions is between Server workloads and Job workloads. Unlike Server work",
       "published": "2026-04-16 09:35",
       "logo_domain": "daangn.com",
-      "ai_summary": "당근마켓은 AWS EKS 기반 클러스터를 운영하며, 다양한 워크로드를 처리하고 있다. 이를 위해 Istio 서비스 메시와 Prometheus, Loki 등의 모니터링 컴포넌트를 활용하고 있다.",
+      "ai_summary": "당근마켓은 AWS EKS 클러스터를 운영하면서 다양한 워크로드 관리 경험을 가지고 있으며, 자동 스케일링 기능 도입을 통해 효율적으로 자원을 활용하고 있다.",
       "importance_score": 8,
-      "title_ko": "우리의 EKS 노드 그룹 오토스케일링 여정"
+      "title_ko": "당근마켓의 EKS 노드 그룹 자동 스케일링 여정"
     },
     {
       "source": "당근마켓 Tech",
@@ -167,7 +168,7 @@
       "summary": "안녕하세요. SRE팀 클러스터 파트에서 근무하고 있는 Ssup(썹)이에요. 저희 클러스터 파트는 AWS EKS 클러스터 운영부터 Istio 기반의 서비스 메쉬 네트워크 구성, Prometheus, Loki와 같은 모니터링 컴포넌트 관리까지 다양한 업무를 담당하고 있어요. 당근의 대부분의 워크로드는 AWS EKS 클러스터 위에서 실행되고 있어요. 워크로드는 다양한 기준으로 분류할 수 있는데, 그 중 대표적인 유형 중 하나가 Job이에요. Job 워크로드는 Server 워크로드와 달리 시작과 끝이 명확하게 존재하는 워크로드를 의미해요. Job 워크로드의 중요한 특징 중 하나는 한번 시작되면 중단하기 어렵다는 점이에요. 대부분의 Job 워크로드는 중단되면 처음부터 동일한 작업을 다시 수행해야 하기 때문이에요. 특히 1시간 이상 장시간 수행되는 Job 워크로드는 중단 시 재실행에 상당한 시간이 소요되기 때문에 더욱 중단하기 어려워요. 이처럼 중단하기 어려운 Job 워크로드의 특성은 EKS ",
       "published": "2026-04-16 06:01",
       "logo_domain": "daangn.com",
-      "ai_summary": "당근마켓은 AWS EKS 클러스터를 활용하여 다양한 워크로드를 관리하고 있으며, 특히 Job 워크로드의 중단 없이 효율적인 실행을 위해 EKS Node Group 오토스케일링을 도입했다. 이는 클러스터 관리와 비용 최적화 측면에서 효과적인 접근이다.",
+      "ai_summary": "당근마켓의 EKS 클러스터 운영 경험을 공유한 사례로, Job 워크로드의 특성을 고려한 오토스케일링 도입을 통해 리소스 효율성을 높일 수 있다. 이는 IT 인프라 운영 효율화를 위한 전략적 접근 방안을 제시한다.",
       "importance_score": 8
     },
     {
@@ -178,7 +179,7 @@
       "summary": "Orchestration 길드 멤버인 Fukuyama입니다. Yahoo!プレイス(이하 Yahoo!플레이스)라는 서비스에서 프런트엔드 개발을 담당하고 있습니다.먼저 Orchestra...",
       "published": "2026-04-10 02:00",
       "logo_domain": "linecorp.com",
-      "ai_summary": "라인 엔지니어링은 AI 기반의 PR 리뷰 지원 시스템과 사내 워크숍을 통해 효율적인 리뷰 문화를 조성하고자 하였다. 이를 통해 개발 프로세스의 속도와 생산성을 향상시켰다.",
+      "ai_summary": "Yahoo!플레이스 서비스에서 AI 기반 리뷰 정체 해소와 사내 워크숍을 통한 리뷰 문화 개선 사례를 소개하고 있습니다. 이는 AI 활용과 조직문화 개선을 통한 생산성 향상 전략이 될 수 있습니다.",
       "importance_score": 8
     },
     {
@@ -189,19 +190,20 @@
       "summary": "LY Corporation에서는 개발 업무와 관련된 모든 엔지니어를 대상으로 실제 실무 적용 관점에서 AI 활용 능력을 높이는 워크숍, ‘Orchestration Developme...",
       "published": "2026-04-10 01:59",
       "logo_domain": "linecorp.com",
-      "ai_summary": "LY Corporation은 AI 활용 능력 향상을 위해 전사적 워크숍을 운영하고 있다. 이를 통해 실무 적용 관점에서 개발 엔지니어들의 AI 활용 역량을 강화하고자 한다.",
+      "ai_summary": "LY Corporation에서 진행하는 AI 활용 능력 향상 워크숍은 개발 업무 전반에서의 AI 적용을 목표로 하며, 이를 통해 조직 전반의 AI 활용도를 높이고자 하는 것으로 보입니다.",
       "importance_score": 8
     },
     {
-      "source": "라인 엔지니어링",
-      "category": "플랫폼 테크",
-      "title": "AI 활용의 열쇠는 '조직적 학습'에 있다 - Orchestration Development Workshop의 시작",
-      "url": "https://techblog.lycorp.co.jp/ko/start-orchestration-development-workshop",
-      "summary": "지금 LY Corporation에서 일어나고 있는 변화현재 LY Corporation에서는 AI를 활용한 개발과 업무 개선이 이전보다 훨씬 빠른 속도로 확산되고 있습니다. 생성형 ...",
-      "published": "2026-04-08 02:00",
-      "logo_domain": "linecorp.com",
-      "ai_summary": "LY Corporation에서는 AI 기술 활용이 빠르게 확산되고 있으며, 이를 위해서는 조직 전반의 학습과 변화가 중요한 것으로 나타났습니다. IT 컨설턴트 관점에서 이는 AI 기술을 효과적으로 도입하고 활용하기 위해서는 조직 문화와 역량 개발이 필수적임을 시사합니다.",
-      "importance_score": 8
+      "source": "BCG",
+      "category": "글로벌 컨설팅",
+      "title": "Saudi retail enters new phase where experience, strategy will define winners, says BCG’s Andy Veitch - Gulf Business",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPSy1WdTZKZHRkbHRVVWF1cmtjUWY0MzBFb2lLeWUtVWptWkNfcm4xdlZ4T2lhZEhPd3Z5S0V1UEp0RnVrdzk4ZzRXbUQ4ejhOSXdEb1NJRzVzNlVsQ0p1U2NBWnBJR1dmM0ZRdEtRTGtXZl8xOTVqekMycEhIT2pKY0tEZWhtUG5RNkh0WGEzYjllanc0RFBHSGJrOUd6YUhrc01WaVp3ZjRiUXBab1drOGl4eWtNdWVRX09mWWU2aGJnWWpuUm1Fd3B3OWdqcVdQLVBibldvNmI?oc=5",
+      "summary": "Saudi retail enters new phase where experience, strategy will define winners, says BCG’s Andy Veitch Gulf Business",
+      "published": "2026-04-19 11:03",
+      "logo_domain": "bcg.com",
+      "ai_summary": "IT 전략 컨설턴트 관점에서 이 기사는 사우디아라비아 소매 시장이 새로운 단계로 접어들며, 고객 경험과 전략이 승자를 가를 것이라는 점을 강조하고 있다.",
+      "importance_score": 8,
+      "title_ko": "사우디아라비아 소매 시장, 고객 경험과 전략이 승자를 가릴 새 국면에 진입"
     },
     {
       "source": "KPMG",
@@ -211,9 +213,9 @@
       "summary": "KPMG Managed Services Outlook Survey 2026 KPMG",
       "published": "2026-04-07 11:01",
       "logo_domain": "kpmg.com",
-      "ai_summary": "IT 전략 컨설턴트 관점에서 볼 때, 이 기사는 2026년까지의 관리형 서비스 시장 전망을 다루고 있다. 기업들의 관리형 서비스 도입이 지속적으로 증가할 것으로 예상되며, IT 서비스 아웃소싱의 중요성이 더욱 강조될 것으로 보인다.",
+      "ai_summary": "IT 컨설턴트의 관점에서 이 기사는 2026년까지 관리형 서비스 시장의 전망을 보여주며, 이를 통해 기업들이 효율적인 IT 인프라와 운영을 달성할 수 있음을 시사합니다.",
       "importance_score": 8,
-      "title_ko": "KPMG 관리형 서비스 전망 설문조사 2026"
+      "title_ko": "KPMG 관리형 서비스 전망 조사 2026"
     },
     {
       "source": "KT Enterprise",
@@ -223,18 +225,7 @@
       "summary": "KT클라우드, 데이터센터 임대로 1조 번다 한국금융신문",
       "published": "2026-04-16 02:33",
       "logo_domain": "kt.com",
-      "ai_summary": "KT 클라우드의 데이터센터 임대 사업이 빠르게 성장하고 있으며, 이는 기업들의 클라우드 전환 및 디지털 전환 가속화에 따른 것으로 보인다. IT 컨설턴트 관점에서 볼 때 이는 기업들의 IT 인프라와 데이터 관리에 대한 전략적 접근이 필요한 시점임을 시사한다.",
-      "importance_score": 8
-    },
-    {
-      "source": "KT Enterprise",
-      "category": "한국 대기업",
-      "title": "[종합] 한국 클라우드, AI 타고 몸집 키웠다…이제 승부는 GPU·공공 - 지디넷코리아",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5jcEV1azE1RWRlWHJQTmN0MjBPMzdfd0VxNVBxNERuWGxObm4zWWt4Smd5by1UZmszRXFoZ0YwLTFEeDNsdHI2d21SWUozVS1hTHU1NjVR?oc=5",
-      "summary": "[종합] 한국 클라우드, AI 타고 몸집 키웠다…이제 승부는 GPU·공공 지디넷코리아",
-      "published": "2026-04-06 07:00",
-      "logo_domain": "kt.com",
-      "ai_summary": "한국 클라우드 업계의 성장이 AI 기술에 힘입어 이루어졌으며, 향후 GPU 기술과 공공 부문 진출이 중요한 전략적 과제가 될 것으로 판단됨.",
+      "ai_summary": "KT의 클라우드 사업 확대를 통한 데이터센터 임대 수익 증대는 IT 서비스 다각화 측면에서 중요한 전략으로 평가됨. 해당 사업은 KT의 인프라 활용도를 높이고 안정적인 수익원 확보에 기여할 것으로 보임.",
       "importance_score": 8
     },
     {
@@ -245,7 +236,7 @@
       "summary": "롯데이노베이트 투자분석 2026. 04. 18 주달",
       "published": "2026-04-18 08:58",
       "logo_domain": "lotteinnovate.com",
-      "ai_summary": "롯데이노베이트의 IT 전략은 전사적 디지털 전환과 미래 기술 투자에 집중되어 있으며, 이를 통해 고객 경험 혁신 및 신사업 발굴을 추진하고 있습니다.",
+      "ai_summary": "롯데이노베이트는 전사적 디지털 혁신을 위한 투자를 강화하고 있으며, 이를 통해 새로운 비즈니스 모델 개발과 내부 업무 프로세스의 효율화를 추진하고 있다. 이는 IT 전략적으로 중요한 방향성이며, 성공적인 추진을 위해서는 변화 관리와 기술 도입의 적절성 등을 고려해야 한다.",
       "importance_score": 8
     },
     {
@@ -256,7 +247,7 @@
       "summary": "[비즈톡톡] “GPU 의존 줄인다”… 삼성SDS·LG CNS가 국산 NPU 도입하는 이유는 - 조선비즈 Chosunbiz",
       "published": "2026-04-07 07:00",
       "logo_domain": "lotteinnovate.com",
-      "ai_summary": "삼성SDS와 LG CNS의 국산 NPU 도입은 GPU 의존도를 줄이고 비용 절감 및 안전성 향상을 위한 전략적 선택이다. 이는 국내 AI 기술 발전과 기업의 경쟁력 강화에 기여할 것으로 기대된다.",
+      "ai_summary": "삼성SDS와 LG CNS가 국산 NPU를 도입하는 것은 GPU에 대한 의존도를 줄이고 인공지능 모델의 효율성을 높이려는 전략이다. 이를 통해 비용 절감과 에너지 효율성 향상을 추구하고 있다.",
       "importance_score": 8
     },
     {
@@ -267,7 +258,7 @@
       "summary": "롯데이노베이트 투자분석 2026. 04. 07 주달",
       "published": "2026-04-07 11:28",
       "logo_domain": "lotteinnovate.com",
-      "ai_summary": "롯데이노베이트는 디지털 전환을 통한 혁신과 성장을 가속화하고 있으며, 이를 위해 IT 인프라 및 데이터 플랫폼 구축, 디지털 기술 활용 서비스 개발 등에 투자하고 있다.",
+      "ai_summary": "롯데이노베이트는 디지털 혁신을 통해 새로운 사업 기회를 창출하고 있으며, 이는 기업의 성장과 경쟁력 강화에 중요한 역할을 할 것으로 판단됩니다.",
       "importance_score": 8
     },
     {
@@ -278,7 +269,7 @@
       "summary": "카카오모빌리티, 코레일과 MOU…AI 철도 서비스 구현한다 연합뉴스",
       "published": "2026-04-14 09:15",
       "logo_domain": "kakao.com",
-      "ai_summary": "카카오모빌리티와 코레일의 MOU 체결은 AI 기반 철도 서비스 개발을 통해 고객 경험 향상과 운영 효율성 제고를 목표로 한다. IT 전략적으로 이는 대중교통 서비스의 디지털화와 데이터 기반 의사결정 지원이 핵심이 될 것으로 보인다.",
+      "ai_summary": "카카오모빌리티와 코레일의 MOU 체결은 AI 기술을 활용한 철도 서비스 개선을 통해 고객 경험을 향상시키고자 하는 전략적 제휴이다. 이는 교통 서비스 혁신을 위한 IT 기업과 공공기관의 협력 사례로 볼 수 있다.",
       "importance_score": 8
     },
     {
@@ -289,7 +280,7 @@
       "summary": "코레일, 카카오모빌리티와 ‘AI 철도 서비스’ 업무협약 체결 정보통신신문",
       "published": "2026-04-16 06:31",
       "logo_domain": "kakao.com",
-      "ai_summary": "코레일과 카카오모빌리티의 AI 철도 서비스 업무협약 체결은 고객 경험 향상과 새로운 수익 창출을 위한 전략적 제휴이다. 이를 통해 철도 서비스의 효율성과 편의성을 높일 수 있을 것으로 기대된다.",
+      "ai_summary": "코레일과 카카오모빌리티 간 AI 기반 철도 서비스 개발을 위한 업무협약 체결은 고객 편의성 제고와 업계 선도를 위한 전략적 제휴로 볼 수 있다. 이를 통해 데이터 기반 철도 운영 최적화와 맞춤형 서비스 제공이 가능할 것으로 기대된다.",
       "importance_score": 8
     },
     {
@@ -300,32 +291,8 @@
       "summary": "코레일, 카카오모빌리티와 ‘AI 철도 서비스’ 협력키로 BBS불교방송",
       "published": "2026-04-14 08:04",
       "logo_domain": "kakao.com",
-      "ai_summary": "코레일과 카카오모빌리티가 AI 기술을 활용한 철도 서비스 개발에 협력하기로 했다. 이는 철도 산업에서 디지털 혁신을 추진하고 고객 경험을 향상시키는 전략적 협력으로 평가된다.",
+      "ai_summary": "코레일과 카카오모빌리티의 AI 기반 철도 서비스 협력은 고객 경험 향상과 사업 효율성 제고를 위한 전략적 제휴이다. IT 전략 컨설턴트 관점에서 이러한 기술 협력은 철도 산업의 디지털 전환을 촉진하고 새로운 서비스 기회를 창출할 것으로 기대된다.",
       "importance_score": 8
-    },
-    {
-      "source": "McKinsey & Company",
-      "category": "글로벌 컨설팅",
-      "title": "Author Talks: Why recessions aren’t as predictable as you think",
-      "url": "https://www.mckinsey.com/featured-insights/mckinsey-on-books/author-talks-why-recessions-arent-as-predictable-as-you-think",
-      "summary": "Are recessions cyclical—or just random shocks in disguise? Tyler Goodspeed, ExxonMobil’s chief economist, challenges long-held assumptions, arguing downturns stem from unexpected shocks, not cycles.",
-      "published": "2026-04-17 00:00",
-      "logo_domain": "mckinsey.com",
-      "ai_summary": "IT 컨설턴트 관점에서 이 기사는 경기 침체가 주기적이기보다는 예상치 못한 충격에 의해 발생한다는 것을 시사한다. 이는 IT 전략 수립 시 경기 변동에 대한 대응력을 높이는 데 도움이 될 수 있다.",
-      "importance_score": 7,
-      "title_ko": "저자 토크: 경기 침체가 예측 가능한 것만큼 그렇지 않은 이유"
-    },
-    {
-      "source": "Naver D2",
-      "category": "플랫폼 테크",
-      "title": "FE News 26년 4월 소식을 전해드립니다!",
-      "url": "https://d2.naver.com/news/6428522",
-      "summary": "주요소식 Temporal: The 9-Year Journey to Fix Time in JavaScript JavaScript의 Date 객체를 대체하는 Temporal API가 9년간의 표준화 과정을 거쳐 TC39 Stage 4에 도달하고 ES2026에 포함될 예정이다. 불변(immutable) 값, ZonedDateTime·Instant 등 다양한 타입, 명시적 타임존 지원, 나노초 정밀도, 다중 캘린더 지원 등을 제공한다. 현재 Firefox 139+, Chrome/Edge 144+, TypeScript 6.0 Beta, Node.js 26에서 지원된다. Announcing TypeScript 6.0 TypeScript 6.0이 출시되었다. 현재 JavaScript 코드베이스 기반의 마지막 버전으로, TypeScript 7.0부터는 Go로 재작성된 새 컴파일러가 기반이 된다. this를 실제로 사용하지 않는 함수의 타입 추론 정확도 개선, 서브패스 임포트 지원, --module",
-      "published": "2026-04-19 23:35",
-      "logo_domain": "naver.com",
-      "ai_summary": "Temporal API는 JavaScript의 Date 객체를 대체하여 더 나은 시간 관리 기능을 제공하며, TypeScript 6.0은 JavaScript 코드베이스를 위한 마지막 버전으로 출시되었습니다.",
-      "importance_score": 7,
-      "title_ko": "FE News 4월 소식을 알려드립니다!"
     },
     {
       "source": "라인 엔지니어링",
@@ -335,20 +302,53 @@
       "summary": "안녕하세요. 2024년 4월에 신입 사원으로 LY Corporation에 입사한 Inoue Shuichi입니다. 현재 사내용 Kubernetes as a Service인 FKE 팀...",
       "published": "2026-04-15 06:30",
       "logo_domain": "linecorp.com",
-      "ai_summary": "LY Corporation은 FKE 팀을 통해 사내 Kubernetes 서비스를 운영하고 있으며, Inoue Shuichi 신입사원이 ADK를 활용해 싱글/멀티 에이전트를 개발하여 사내 시스템과 통합하고 있습니다.",
+      "ai_summary": "라인 엔지니어링은 단일/다중 에이전트 기반의 사내 시스템 통합 프로젝트를 수행하고 있으며, 이를 통해 Kubernetes 기반의 클라우드 서비스를 구축하고 있다. 이는 기업의 IT 인프라 및 애플리케이션 현대화에 기여할 수 있다.",
       "importance_score": 7
     },
     {
-      "source": "BCG",
+      "source": "Naver D2",
+      "category": "플랫폼 테크",
+      "title": "C++ std::bit_cast와 reinterpret_cast — 언제 어떤 것을 써야 하는가",
+      "url": "https://d2.naver.com/helloworld/1155434",
+      "summary": "저희 팀은 네이버의 고성능 검색 엔진 기술을 계승한 분산 데이터베이스인 Dot을 개발하고 있습니다. 스토리지 계층을 직접 다루다 보니 디스크에서 읽어 온 바이트 패턴을 uint64_t , float , 혹은 사용자 정의 구조체로 해석하는 일이 일상이고, 코드 리뷰에서 reinterpret_cast 를 마주치는 일도 잦습니다. 볼 때마다 느끼는 불안함, 즉 '이것은 되도록 쓰지 말라고 배웠는데 괜찮을까?' 하는 감정은 C++ 개발자라면 공감하실 것입니다. C++20에서 등장한 std::bit_cast 는 그 불안에 대한 해답처럼 보였습니다. 표준 라이브러리가 제공하는 함수라는 점, 위험해 보이는 타입 퍼닝(type punning)까지 척척 해낸다는 점이 '이것은 안전하다'라는 착각을 심어 주었습니다. 그 착각이 퍼지면서 팀은 std::bit_cast 가 주는 안도감에 젖어 들었고, 예전 같으면 reinterpret_cast 를 썼을 자리를 std::bit_cast 가 차지하기 시작했습",
+      "published": "2026-04-20 00:48",
+      "logo_domain": "naver.com",
+      "ai_summary": "[IT 컨설팅 관점 2문장 한국어 요약]",
+      "importance_score": 1
+    },
+    {
+      "source": "Toss Tech",
+      "category": "플랫폼 테크",
+      "title": "Layers of your time : 토스와 함께한 시간을 기념하기",
+      "url": "https://toss.tech/article/layers-of-your-time",
+      "summary": "팀원의 시간을 진심으로 축하하는 방법을 찾고 싶었어요. 8개월 동안 사내 굿즈를 다시 만들며 고민했던 과정과, 그 안에서 발견한 기준을 들려드려요.",
+      "published": "2026-04-07 09:44",
+      "logo_domain": "toss.im",
+      "ai_summary": "[IT 컨설팅 관점 2문장 한국어 요약]",
+      "importance_score": 1
+    },
+    {
+      "source": "KPMG",
       "category": "글로벌 컨설팅",
-      "title": "Saudi retail enters new phase where experience, strategy will define winners, says BCG’s Andy Veitch - Gulf Business",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPSy1WdTZKZHRkbHRVVWF1cmtjUWY0MzBFb2lLeWUtVWptWkNfcm4xdlZ4T2lhZEhPd3Z5S0V1UEp0RnVrdzk4ZzRXbUQ4ejhOSXdEb1NJRzVzNlVsQ0p1U2NBWnBJR1dmM0ZRdEtRTGtXZl8xOTVqekMycEhIT2pKY0tEZWhtUG5RNkh0WGEzYjllanc0RFBHSGJrOUd6YUhrc01WaVp3ZjRiUXBab1drOGl4eWtNdWVRX09mWWU2aGJnWWpuUm1Fd3B3OWdqcVdQLVBibldvNmI?oc=5",
-      "summary": "Saudi retail enters new phase where experience, strategy will define winners, says BCG’s Andy Veitch Gulf Business",
-      "published": "2026-04-19 11:03",
-      "logo_domain": "bcg.com",
-      "ai_summary": "IT 전략 컨설턴트의 관점에서 볼 때, 사우디아라비아 소매업이 새로운 단계에 진입했으며, 고객 경험과 전략이 승자를 결정할 것이라고 할 수 있습니다.",
-      "importance_score": 7,
-      "title_ko": "사우디아라비아 소매업, 경험과 전략이 승자를 가릴 새로운 단계에 진입"
+      "title": "KPMG report finds enterprise disconnect between AI and its ROI - cio.com",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOY3ptX1I2LUsya3hsWHpsRUhrMGNEenVOREp5NzRtNXJEeUxvemhaOVJ4My05TkU3ZUpRTFdheHZLTXdkZ0lLNDctM25iZXphTDZiZF9iY3dkcGxLWDV2VnhfU3c5X0tQZjdTRGNBUm5XQWxNbE9yR1N1cDZhMGhTNTVqbnI2T1JwQnJPNW9wa01ueDNZbHEtYUJhSUlXNnJiU2ZtdFZn?oc=5",
+      "summary": "KPMG report finds enterprise disconnect between AI and its ROI cio.com",
+      "published": "2026-04-11 01:09",
+      "logo_domain": "kpmg.com",
+      "ai_summary": "[IT 컨설팅 관점 2문장 한국어 요약]",
+      "importance_score": 1,
+      "title_ko": "[위 기사 제목의 자연스러운 한국어 번역]"
+    },
+    {
+      "source": "KT Enterprise",
+      "category": "한국 대기업",
+      "title": "[종합] 한국 클라우드, AI 타고 몸집 키웠다…이제 승부는 GPU·공공 - 지디넷코리아",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5jcEV1azE1RWRlWHJQTmN0MjBPMzdfd0VxNVBxNERuWGxObm4zWWt4Smd5by1UZmszRXFoZ0YwLTFEeDNsdHI2d21SWUozVS1hTHU1NjVR?oc=5",
+      "summary": "[종합] 한국 클라우드, AI 타고 몸집 키웠다…이제 승부는 GPU·공공 지디넷코리아",
+      "published": "2026-04-06 07:00",
+      "logo_domain": "kt.com",
+      "ai_summary": "[IT 컨설팅 관점 2문장 한국어 요약]",
+      "importance_score": 1
     },
     {
       "source": "Kakao",
@@ -378,7 +378,7 @@
       "title": "BMW 뮌헨 공장, 로봇·AI로 車 생산 - IT조선",
       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9iWmhkQTJtbW10ZlR1Y0MxcXVYbXdKUXlacFcyNlBVZUxIOTJtbXVfRFYyTU1HME01Y2JxWTNfcTdFWXZ4RzdDZzBnRGk4Z2taYUh3bkRzRDZIYnVRUmpRNEJMMWZYV2JrVUM0bEhsQW0?oc=5",
       "summary": "BMW 뮌헨 공장, 로봇·AI로 車 생산 IT조선",
-      "published": "2026-04-06 08:42",
+      "published": "2026-04-06 07:00",
       "logo_domain": "it.chosun.com",
       "ai_summary": "",
       "importance_score": 0
@@ -463,10 +463,10 @@
     {
       "source": "테크크런치",
       "category": "IT 미디어",
-      "title": "TechCrunch Mobility: Uber enters its assetmaxxing era - TechCrunch",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOeFlQNHkyY1RSQ1dGRVBzZ3l2aHJKUkszSE5iVWQ5UEcyTHczQnFEOXhiVTUwZTA2QzhaRF9IbnByWG1PYUxPZnFRek5vQkVQZnNUdzBDRkFzSDNiSks1dE9WeUxLeGZ6NXY5M3pLVFlSSjE3anhyaXJCaklkVHBlcGlxZnVMZmRDaDQtODhiYUs?oc=5",
-      "summary": "TechCrunch Mobility: Uber enters its assetmaxxing era TechCrunch",
-      "published": "2026-04-19 16:01",
+      "title": "Factory hits $1.5B valuation to build AI coding for enterprises - TechCrunch",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOWVdwOG1WZmxFbl9YeHhNeEE3bFJ0bVlFU2tVT29TWEVvRDUyYnNEZC1jaFN5WnRPU3B4Vk51X20xQ1BxLWlMLXdvSHYxWlNnVWJGYmZSM1VkQWUxOUlGOGJkeDAxLV9SeXdqQ1RwNUNRSUZYMV9ZMHRobE9kT3kwQlNSWW9ncGNRUWRIZlRlZ2dlXy1ndzRsT2F2Y0xWZw?oc=5",
+      "summary": "Factory hits $1.5B valuation to build AI coding for enterprises TechCrunch",
+      "published": "2026-04-16 22:55",
       "logo_domain": "techcrunch.com",
       "ai_summary": "",
       "importance_score": 0
@@ -523,6 +523,94 @@
       "summary": "Google launches a Gemini AI app on Mac The Verge",
       "published": "2026-04-15 18:10",
       "logo_domain": "theverge.com",
+      "ai_summary": "",
+      "importance_score": 0
+    },
+    {
+      "source": "PwC",
+      "category": "글로벌 컨설팅",
+      "title": "29th Global CEO Survey - PwC",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE83NUZkRzcwNUdUQjdVVmdEOE5IVXNOVWowRWpvbmJpN2FoZElJUUJhOE15a3lJUVE5S2Y4blg2RGRQcmFZNVJWMzllbXlab0E0SzR0NTBtd2VZQ3dpRmVuQnlNSDYwWXFuUGZOYVJkVkdwek0?oc=5",
+      "summary": "29th Global CEO Survey PwC",
+      "published": "2026-01-19 08:00",
+      "logo_domain": "pwc.com",
+      "ai_summary": "",
+      "importance_score": 0
+    },
+    {
+      "source": "EY",
+      "category": "글로벌 컨설팅",
+      "title": "EY announces the launch of a global Innovation Center for Snowflake to power the next era of AI-driven enterprise transformation - EY",
+      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPSkpKeWx2eERCMnpQeHhUYkdUdzFQZTE0SjI3ZlU3dzUzUm83N0xoZXRsVEtwVHJ2U3RSUks3dTFqaWdOZ1FUZ2xBUHgwRUNESzBuSXgwYTJicUZjZkNYNF9fLVdYOThxbmFxMnpEeW9jRXViMHB6ZVlYaDZFU2lISm53c2c1anhBNjd5RHcyQkxjQjZQMFhMZUkzUXdrTkd4dFo3cW1aY2l0a3VZM00zSjdob0g1TS1HeHpwRGtKb1RfWjFBZlc0ZjVBZEg1bkhQbmpab3JXVDl4NDg0V0NpS2dEeFdUMWhNeHFORm1WNVdObnhydkZIdUc3Z19TNEU?oc=5",
+      "summary": "EY announces the launch of a global Innovation Center for Snowflake to power the next era of AI-driven enterprise transformation EY",
+      "published": "2026-02-10 08:00",
+      "logo_domain": "ey.com",
+      "ai_summary": "",
+      "importance_score": 0
+    },
+    {
+      "source": "Accenture",
+      "category": "글로벌 컨설팅",
+      "title": "Accenture Named a Leader in Gartner® Magic Quadrant™ for Digital Technology and Business Consulting Services - Accenture",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPLWFQeG1aX2tia2JscHpwWERVd3FGVjRoN3dTMHowWFJZNVJ2RWNsc0JKRWdUanZxOUZuWHd4cXdDczAxMUN2ZFc3LWtmMEdwdWVReWJEUlEwMHRjeFM5QWE3MDhoN2hXR0ZPRHFUbGFBc1JTQmQ4cDFGSFlxM1Q5ODlBLWN3VjBwOTZCWXloN0I4ekk4emhnek03RVZSYlViR25mLTBSOHJfZTRBamhWMzVrbHBnN3VNaDBmUFdJYkhqLTRsUG92V1N1UGVudTQ0ZWhQZGdXVlVyX25yZW5Tag?oc=5",
+      "summary": "Accenture Named a Leader in Gartner® Magic Quadrant™ for Digital Technology and Business Consulting Services Accenture",
+      "published": "2026-01-15 08:00",
+      "logo_domain": "accenture.com",
+      "ai_summary": "",
+      "importance_score": 0
+    },
+    {
+      "source": "Gartner",
+      "category": "글로벌 컨설팅",
+      "title": "Top Strategic Technology Trends for 2026 - Gartner",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5rSmhUdUNVRmJuc2huUU9mdWFuWDVLcjRlX21jVDI3UzZYcWFRX002WnRvaEZjczJDVEpaUXFCNG1nTG1xQlVKX040RFJ6aHJNZEtqWjdud1FGemNYaTI0aU1SeHE2S04wN2tBTzJWNA?oc=5",
+      "summary": "Top Strategic Technology Trends for 2026 Gartner",
+      "published": "2025-10-20 15:52",
+      "logo_domain": "gartner.com",
+      "ai_summary": "",
+      "importance_score": 0
+    },
+    {
+      "source": "Forrester",
+      "category": "글로벌 컨설팅",
+      "title": "Forrester: Three Years Into GenAI, Enterprises Are Still Chasing Its True Transformative Value - Business Wire",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPbEljdnY5RGNlRVpNeUdpQzZOT2xjVXBRTnlLZklSUF9KUjcwT1l4d1VzdzlhMDdMU0h5TG1OdG16RlRkOXF1UG4zX2UyN0JiczZ5ai14M3ozcHNfU0h3ZndaYXZqemh3Zjl5UVl1Yk1FdVBnUVk5bVY0X1RnMTUtU0pmVkhnSVFyVlJLVkhqazhValFXTjNSOG1BZVlvR0pWbTl1Z0c4emNzYVcycFhZWHBrM2ltVjRTRkpfSkdfalhvUWFjS3dSNXpXcVpyZEg0SDJqYW01NEtkTlZlb09iZ2x2bw?oc=5",
+      "summary": "Forrester: Three Years Into GenAI, Enterprises Are Still Chasing Its True Transformative Value Business Wire",
+      "published": "2026-04-02 07:00",
+      "logo_domain": "forrester.com",
+      "ai_summary": "",
+      "importance_score": 0
+    },
+    {
+      "source": "Samsung SDS",
+      "category": "한국 대기업",
+      "title": "AI 추론의 무대가 확장된다: 클라우드에서 엣지까지 | 인사이트리포트 | 삼성SDS - Samsung SDS",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE44cUJ3a1F2UkxCR1p3RW1oeGJXazVsZG5wTU1mT1pDb080Z2J6eVFaWVNIYk9JcXdLVFEyMFBJSkdVd011SWYza3VuRl9pNDJhNzZLXzVnOFNLN0Uyd2w3cEpsYTRVc05ielBJZ2ltUQ?oc=5",
+      "summary": "AI 추론의 무대가 확장된다: 클라우드에서 엣지까지 | 인사이트리포트 | 삼성SDS Samsung SDS",
+      "published": "2026-01-30 08:00",
+      "logo_domain": "samsungsds.com",
+      "ai_summary": "",
+      "importance_score": 0
+    },
+    {
+      "source": "SK C&C 기술블로그",
+      "category": "한국 대기업",
+      "title": "SK C&C, 이니스프리몰 디지털 전환 완료…고객 경험 향상 - 지디넷코리아",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE4tSkNGWGF5dERrSzV5WGI5dklLRHpaRGpPWHo0amVTcUJRZHRzLVNWbllWSzZHVHV5ZWRqUFFsMGNsN1JMWFkxVmVEdW9ucGhsN29hbkJ3?oc=5",
+      "summary": "SK C&C, 이니스프리몰 디지털 전환 완료…고객 경험 향상 지디넷코리아",
+      "published": "2025-04-29 07:00",
+      "logo_domain": "skcc.com",
+      "ai_summary": "",
+      "importance_score": 0
+    },
+    {
+      "source": "현대오토에버",
+      "category": "한국 대기업",
+      "title": "현대오토에버, 로봇·AI 전환 갈림길···실적 증명 시험대 - 시사저널e",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBaYXVVbmh2aEJtbFczWEpDeWc5N0pBaXVvSHo5anVSSU1iZTA2LWpKOHdodHhPclpXcHR6R3o4R0t4WHFLZEZHQ0JDb194RGNDbGhxenYxbUg0cVVxaHZvbXJ4SDFpUThaNnY5VjFnYW5VZ9IBdkFVX3lxTE5zbkJSZ1p2X1RTZUpaUEpFUVktZUNIcWstTG9sQWV1YlZBcmJFMlpMWDlON3UtdFZGeTJoYi1VTk9uazRRSHFKUzd2c0drOGhxcm92dkhoLVRlSU15d0ZrdWJKb3ZfUFdqNTRpSFFrZWhCTlotZVE?oc=5",
+      "summary": "현대오토에버, 로봇·AI 전환 갈림길···실적 증명 시험대 시사저널e",
+      "published": "2026-02-03 08:00",
+      "logo_domain": "hyundai-autoever.com",
       "ai_summary": "",
       "importance_score": 0
     }
