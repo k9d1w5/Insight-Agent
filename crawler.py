@@ -12,6 +12,30 @@ KST = timezone(timedelta(hours=9))
 
 MAX_PER_SOURCE = 5   # 소스당 최대 아티클 (한 소스가 지배하지 않도록)
 
+# ════════════════════════════════════════════════════════════
+# 보장 소스: 날짜에 관계없이 매일 최소 1개 반드시 포함
+# 같은 회사의 소스가 여러 개면 하나라도 있으면 OK (그룹 단위 체크)
+# ════════════════════════════════════════════════════════════
+GUARANTEED_GROUPS = {
+    # 글로벌 컨설팅 — 각 펌마다 최소 1개
+    "McKinsey":   {"McKinsey & Company"},
+    "Deloitte":   {"Deloitte Insights"},
+    "BCG":        {"BCG"},
+    "PwC":        {"PwC"},
+    "KPMG":       {"KPMG"},
+    "EY":         {"EY"},
+    "Accenture":  {"Accenture"},
+    "Gartner":    {"Gartner"},
+    "Forrester":  {"Forrester"},
+    # 한국 대기업 — 각 회사마다 최소 1개
+    "Samsung SDS":  {"Samsung SDS", "Samsung SDS 인사이트"},
+    "LG CNS":       {"LG CNS Blog", "LG CNS"},
+    "SK":           {"SK C&C 기술블로그", "SK AX"},
+    "KT":           {"KT Enterprise"},
+    "현대오토에버":  {"현대오토에버"},
+    "롯데이노베이트": {"롯데이노베이트"},
+}
+
 HEADERS = {
     "User-Agent": (
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
@@ -195,44 +219,49 @@ def _clean_text(html: str, max_len: int = 500) -> str:
     return " ".join(text.split())[:max_len]
 
 
+def _parse_entry(entry: dict, source: dict, cutoff=None) -> dict | None:
+    """RSS 엔트리 → 아티클 dict 변환. cutoff 이전이면 None 반환."""
+    title = entry.get("title", "").strip()
+    if not title:
+        return None
+
+    pub_date = None
+    if getattr(entry, "published_parsed", None):
+        try:
+            pub_date = datetime(*entry.published_parsed[:6])
+        except Exception:
+            pass
+
+    if cutoff and pub_date and pub_date < cutoff:
+        return None
+
+    raw = entry.get("summary") or entry.get("description") or ""
+    return {
+        "source":      source["name"],
+        "category":    source["category"],
+        "title":       title,
+        "url":         entry.get("link", ""),
+        "summary":     _clean_text(raw),
+        "published":   pub_date.strftime("%Y-%m-%d %H:%M") if pub_date
+                       else datetime.now().strftime("%Y-%m-%d %H:%M"),
+        "logo_domain": source.get("logo_domain", ""),
+    }
+
+
 async def _fetch_rss(client: httpx.AsyncClient, source: dict) -> list[dict]:
     articles = []
     try:
         resp = await client.get(source["url"], timeout=20.0, follow_redirects=True)
         resp.raise_for_status()
-        feed    = feedparser.parse(resp.text)
-        cutoff  = datetime.now() - timedelta(days=14)  # 14일로 확대 (컨설팅사 포스팅 주기 고려)
-        domain  = source.get("logo_domain", "")
+        feed   = feedparser.parse(resp.text)
+        cutoff = datetime.now() - timedelta(days=14)  # 14일 컷오프
 
-        for entry in feed.entries[:30]:  # 충분히 읽고
-            pub_date = None
-            if getattr(entry, "published_parsed", None):
-                try:
-                    pub_date = datetime(*entry.published_parsed[:6])
-                except Exception:
-                    pass
-
-            if pub_date and pub_date < cutoff:
-                continue
-
-            title = entry.get("title", "").strip()
-            if not title:
-                continue
-
-            raw = entry.get("summary") or entry.get("description") or ""
-            articles.append({
-                "source":     source["name"],
-                "category":   source["category"],
-                "title":      title,
-                "url":        entry.get("link", ""),
-                "summary":    _clean_text(raw),
-                "published":  pub_date.strftime("%Y-%m-%d %H:%M") if pub_date
-                              else datetime.now().strftime("%Y-%m-%d %H:%M"),
-                "logo_domain": domain,
-            })
-
-            if len(articles) >= MAX_PER_SOURCE:  # 소스당 최대치
-                break
+        for entry in feed.entries[:30]:
+            art = _parse_entry(entry, source, cutoff=cutoff)
+            if art:
+                articles.append(art)
+                if len(articles) >= MAX_PER_SOURCE:
+                    break
 
         if articles:
             print(f"  ✓ {source['name']}: {len(articles)}개")
@@ -242,6 +271,22 @@ async def _fetch_rss(client: httpx.AsyncClient, source: dict) -> list[dict]:
         print(f"  ✗ {source['name']}: {str(e)[:80]}")
 
     return articles
+
+
+async def _fetch_rss_fallback(client: httpx.AsyncClient, source: dict) -> list[dict]:
+    """날짜 제한 없이 최신 글 1개 — 보장 소스 폴백 전용"""
+    try:
+        resp = await client.get(source["url"], timeout=20.0, follow_redirects=True)
+        resp.raise_for_status()
+        feed = feedparser.parse(resp.text)
+        for entry in feed.entries[:10]:
+            art = _parse_entry(entry, source, cutoff=None)
+            if art:
+                print(f"  ↩ {source['name']}: 폴백 1개 (날짜 무관 최신)")
+                return [art]
+    except Exception as e:
+        print(f"  ✗ {source['name']} 폴백 실패: {str(e)[:80]}")
+    return []
 
 
 async def _fetch_web(client: httpx.AsyncClient, source: dict) -> list[dict]:
@@ -302,11 +347,48 @@ async def fetch_all_sources() -> list[dict]:
         )
 
     all_articles = [a for batch in results for a in batch]
-    # 소스 다양성 요약 출력
+
+    # ── 보장 소스 폴백 ────────────────────────────────────────
+    # 수집된 소스 이름 집합
+    present_sources = {a["source"] for a in all_articles}
+
+    # 그룹별로 하나도 없는 경우 폴백 대상 선정
+    # (같은 회사 소스가 여러 개면 하나라도 있으면 OK)
+    src_map = {s["name"]: s for s in all_rss + WEB_SOURCES}
+    fallback_targets = []
+    missing_groups   = []
+
+    for group_name, source_names in GUARANTEED_GROUPS.items():
+        if not source_names & present_sources:          # 그룹 내 소스가 하나도 없음
+            missing_groups.append(group_name)
+            # 그룹 내 소스 중 RSS/Web 정의가 있는 첫 번째를 폴백 대상으로
+            for sname in source_names:
+                if sname in src_map:
+                    fallback_targets.append(src_map[sname])
+                    break
+
+    if fallback_targets:
+        print(f"\n[보장 소스 폴백] 누락 그룹: {', '.join(missing_groups)}")
+        print(f"  → {len(fallback_targets)}개 소스 날짜 무관 재시도...")
+        async with httpx.AsyncClient(headers=HEADERS) as client2:
+            fb_results = await asyncio.gather(
+                *[_fetch_rss_fallback(client2, src) for src in fallback_targets]
+            )
+        for batch in fb_results:
+            all_articles.extend(batch)
+    else:
+        print(f"\n[보장 소스] 모든 그룹 정상 수집 ✓")
+
+    # ── 수집 요약 ─────────────────────────────────────────────
     from collections import Counter
     cat_counts = Counter(a["category"] for a in all_articles)
+    src_counts = Counter(a["source"]   for a in all_articles)
     print(f"\n총 {len(all_articles)}개 아티클 수집 완료")
     for cat, cnt in sorted(cat_counts.items()):
         print(f"  {cat}: {cnt}개")
+    print(f"\n소스별 수집 현황:")
+    for src, cnt in sorted(src_counts.items(), key=lambda x: -x[1]):
+        guaranteed_mark = " ★" if any(src in v for v in GUARANTEED_GROUPS.values()) else ""
+        print(f"  {src}: {cnt}개{guaranteed_mark}")
     print()
     return all_articles
