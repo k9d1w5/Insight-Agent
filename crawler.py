@@ -30,12 +30,27 @@ GUARANTEED_GROUPS = {
     "Gartner":    {"Gartner"},
     "Forrester":  {"Forrester"},
     # 한국 대기업
-    "Samsung SDS": {"Samsung SDS 인사이트"},
+    "Samsung SDS": {"Samsung SDS 인사이트", "Samsung SDS GN"},
     "LG CNS":      {"LG CNS Blog"},
-    "SK AX":       {"SK AX"},
+    "SK AX":       {"SK AX", "SK AX GN"},
     "KT":          {"KT Enterprise"},
-    "현대오토에버": {"현대오토에버"},
+    "현대오토에버": {"현대오토에버", "현대오토에버 GN"},
+    "에커튼":       {"에커튼파트너스"},
 }
+
+# JS 렌더링으로 웹 스크래핑이 안 될 경우를 위한 Google News 폴백 소스
+# (회사 이름으로 검색 → 인사이트/보도자료 위주)
+GNEWS_CORP_FALLBACK = [
+    {"name": "Samsung SDS GN", "category": "한국 대기업",
+     "url": gnews("삼성SDS 인사이트 AI 클라우드 DX 기술"),
+     "logo_domain": "samsungsds.com"},
+    {"name": "SK AX GN", "category": "한국 대기업",
+     "url": gnews("SK AX SKAX AI 디지털전환 인사이트"),
+     "logo_domain": "skax.co.kr"},
+    {"name": "현대오토에버 GN", "category": "한국 대기업",
+     "url": gnews("현대오토에버 AI IT 기술 인사이트"),
+     "logo_domain": "hyundai-autoever.com"},
+]
 
 HEADERS = {
     "User-Agent": (
@@ -166,7 +181,9 @@ GNEWS_SOURCES = [
 # 직접 웹 스크래핑 — 공식 인사이트 페이지
 # ════════════════════════════════════════════════════════════
 WEB_SOURCES = [
-    # ── 한국 대기업 인사이트 페이지 ─────────────────────────
+    # ── 한국 대기업 인사이트 페이지 직접 스크래핑 ────────────
+    # ※ JS 렌더링 사이트(삼성SDS·SK AX·현대오토에버)는 정적 HTML만
+    #   가져오므로 아티클이 없을 수 있음 → GUARANTEED_GROUPS 폴백 적용
     {
         "name": "Samsung SDS 인사이트", "category": "한국 대기업",
         "url": "https://www.samsungsds.com/kr/insights/index.html",
@@ -190,6 +207,12 @@ WEB_SOURCES = [
         "url": "https://www.hyundai-autoever.com/kor/about/pr/insights/list.do",
         "logo_domain": "hyundai-autoever.com",
         "link_pattern": "/insights/", "exclude_pattern": "list",
+    },
+    {
+        "name": "에커튼파트너스", "category": "한국 대기업",
+        "url": "https://www.ackerton.com/insightReport",
+        "logo_domain": "ackerton.com",
+        "link_pattern": "/insightReport", "exclude_pattern": "",
     },
 ]
 
@@ -331,22 +354,43 @@ async def fetch_all_sources() -> list[dict]:
 
     all_articles = [a for batch in results for a in batch]
 
-    # ── 보장 소스 폴백 ────────────────────────────────────────
+    # ── JS 렌더링 대기업 폴백: 웹 스크래핑 실패 시 Google News 사용 ──
+    web_src_names   = {s["name"] for s in WEB_SOURCES}
     present_sources = {a["source"] for a in all_articles}
-    src_map = {s["name"]: s for s in all_rss + WEB_SOURCES}
+    gn_fallback_needed = [
+        src for src in GNEWS_CORP_FALLBACK
+        # GN 폴백 이름의 "원본 소스"가 수집 안 됐을 때만 실행
+        if src["name"].replace(" GN", " 인사이트") not in present_sources
+        and src["name"].replace(" GN", "") not in present_sources
+        and src["name"] not in present_sources
+    ]
+    if gn_fallback_needed:
+        names = [s["name"].replace(" GN", "") for s in gn_fallback_needed]
+        print(f"\n[대기업 GN 폴백] JS 렌더링으로 스크래핑 실패 → Google News 대체: {', '.join(names)}")
+        async with httpx.AsyncClient(headers=HEADERS) as client_gn:
+            gn_results = await asyncio.gather(
+                *[_fetch_rss(client_gn, src) for src in gn_fallback_needed]
+            )
+        for batch in gn_results:
+            all_articles.extend(batch)
+
+    # ── 보장 소스 최종 폴백 (RSS 소스용 — 날짜 무관 최신 1개) ───
+    present_sources = {a["source"] for a in all_articles}
+    rss_src_map = {s["name"]: s for s in all_rss}
 
     fallback_targets = []
     missing_groups   = []
     for group_name, source_names in GUARANTEED_GROUPS.items():
         if not source_names & present_sources:
             missing_groups.append(group_name)
+            # RSS 소스만 날짜 무관 폴백 가능
             for sname in source_names:
-                if sname in src_map:
-                    fallback_targets.append(src_map[sname])
+                if sname in rss_src_map:
+                    fallback_targets.append(rss_src_map[sname])
                     break
 
     if fallback_targets:
-        print(f"\n[보장 소스 폴백] 누락: {', '.join(missing_groups)}")
+        print(f"\n[보장 소스 RSS 폴백] 누락: {', '.join(missing_groups)}")
         async with httpx.AsyncClient(headers=HEADERS) as client2:
             fb_results = await asyncio.gather(
                 *[_fetch_rss_fallback(client2, src) for src in fallback_targets]
