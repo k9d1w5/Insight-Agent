@@ -9,6 +9,7 @@ from datetime import datetime, timezone, timedelta
 from crawler import fetch_all_sources
 from summarizer import summarize_articles, generate_final_report
 from pdf_crawler import fetch_pdf_sources
+from playwright_crawler import fetch_playwright_sources
 from sources_config import ALL_SOURCES
 
 KST = timezone(timedelta(hours=9))  # 한국 시간대
@@ -78,10 +79,16 @@ def main():
     print(f"  {start.strftime('%Y-%m-%d %H:%M:%S')}")
     print("=" * 60)
 
-    # 1. 웹 크롤링
+    # 1. RSS/웹 크롤링 (정적 사이트)
     articles = asyncio.run(fetch_all_sources())
 
-    # 1b. PDF 크롤링 (web_pdf / pdf 타입 소스)
+    # 1b. Playwright 크롤링 (JS 렌더링 사이트)
+    pw_articles = asyncio.run(fetch_playwright_sources())
+    if pw_articles:
+        print(f"[Playwright] {len(pw_articles)}개 아티클 추가")
+        articles = articles + pw_articles
+
+    # 1c. PDF 크롤링 (web_pdf / pdf 타입 소스)
     pdf_articles = asyncio.run(fetch_pdf_sources(ALL_SOURCES))
     if pdf_articles:
         print(f"[PDF] {len(pdf_articles)}개 아티클 추가")

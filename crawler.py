@@ -181,38 +181,14 @@ GNEWS_SOURCES = [
 # 직접 웹 스크래핑 — 공식 인사이트 페이지
 # ════════════════════════════════════════════════════════════
 WEB_SOURCES = [
-    # ── 한국 대기업 인사이트 페이지 직접 스크래핑 ────────────
-    # ※ JS 렌더링 사이트(삼성SDS·SK AX·현대오토에버)는 정적 HTML만
-    #   가져오므로 아티클이 없을 수 있음 → GUARANTEED_GROUPS 폴백 적용
-    {
-        "name": "Samsung SDS 인사이트", "category": "한국 대기업",
-        "url": "https://www.samsungsds.com/kr/insights/index.html",
-        "logo_domain": "samsungsds.com",
-        "link_pattern": "/kr/insights/", "exclude_pattern": "index",
-    },
-    {
-        "name": "SK AX", "category": "한국 대기업",
-        "url": "https://www.skax.co.kr/insight/trends",
-        "logo_domain": "skax.co.kr",
-        "link_pattern": "/insight/", "exclude_pattern": "",
-    },
+    # ── 서버사이드 렌더링 사이트만 httpx로 수집 ─────────────
+    # JS 렌더링 사이트(삼성SDS·SK AX·현대오토에버·에커튼)는
+    # playwright_crawler.py 에서 별도 처리
     {
         "name": "KT Enterprise", "category": "한국 대기업",
         "url": "https://enterprise.kt.com/bt/dBoxing.do?tId=506",
         "logo_domain": "kt.com",
         "link_pattern": "enterprise.kt.com", "exclude_pattern": "dBoxing",
-    },
-    {
-        "name": "현대오토에버", "category": "한국 대기업",
-        "url": "https://www.hyundai-autoever.com/kor/about/pr/insights/list.do",
-        "logo_domain": "hyundai-autoever.com",
-        "link_pattern": "/insights/", "exclude_pattern": "list",
-    },
-    {
-        "name": "에커튼파트너스", "category": "한국 대기업",
-        "url": "https://www.ackerton.com/insightReport",
-        "logo_domain": "ackerton.com",
-        "link_pattern": "/insightReport", "exclude_pattern": "",
     },
 ]
 
