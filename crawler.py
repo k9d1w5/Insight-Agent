@@ -18,6 +18,22 @@ MAX_PER_SOURCE = 5   # 소스당 최대 아티클
 # 보장 소스: 날짜에 관계없이 매일 최소 1개 반드시 포함
 # 같은 회사의 소스가 여러 개면 하나라도 있으면 OK
 # ════════════════════════════════════════════════════════════
+HEADERS = {
+    "User-Agent": (
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+        "AppleWebKit/537.36 (KHTML, like Gecko) "
+        "Chrome/124.0.0.0 Safari/537.36"
+    ),
+    "Accept-Language": "ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7",
+}
+
+def gnews(query: str) -> str:
+    return f"https://news.google.com/rss/search?q={quote(query)}&hl=ko&gl=KR&ceid=KR:ko"
+
+def gnews_en(query: str) -> str:
+    return f"https://news.google.com/rss/search?q={quote(query)}&hl=en&gl=US&ceid=US:en"
+
+
 GUARANTEED_GROUPS = {
     # 글로벌 컨설팅
     "McKinsey":   {"McKinsey & Company"},
@@ -39,7 +55,6 @@ GUARANTEED_GROUPS = {
 }
 
 # JS 렌더링으로 웹 스크래핑이 안 될 경우를 위한 Google News 폴백 소스
-# (회사 이름으로 검색 → 인사이트/보도자료 위주)
 GNEWS_CORP_FALLBACK = [
     {"name": "Samsung SDS GN", "category": "한국 대기업",
      "url": gnews("삼성SDS 인사이트 AI 클라우드 DX 기술"),
@@ -51,21 +66,6 @@ GNEWS_CORP_FALLBACK = [
      "url": gnews("현대오토에버 AI IT 기술 인사이트"),
      "logo_domain": "hyundai-autoever.com"},
 ]
-
-HEADERS = {
-    "User-Agent": (
-        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-        "AppleWebKit/537.36 (KHTML, like Gecko) "
-        "Chrome/124.0.0.0 Safari/537.36"
-    ),
-    "Accept-Language": "ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7",
-}
-
-def gnews(query: str) -> str:
-    return f"https://news.google.com/rss/search?q={quote(query)}&hl=ko&gl=KR&ceid=KR:ko"
-
-def gnews_en(query: str) -> str:
-    return f"https://news.google.com/rss/search?q={quote(query)}&hl=en&gl=US&ceid=US:en"
 
 
 # ════════════════════════════════════════════════════════════
