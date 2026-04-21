@@ -1,23 +1,25 @@
 """
 crawler.py - 주요 컨설팅펌 및 테크 기업 RSS/웹 크롤러
+* 글로벌 컨설팅·한국 대기업·플랫폼 테크 → 회사 공식 사이트에서 직접 수집
+* IT 미디어 → RSS/Google News
 """
 import feedparser
 import httpx
 import asyncio
 from datetime import datetime, timedelta, timezone
 from bs4 import BeautifulSoup
-from urllib.parse import quote, urljoin
+from urllib.parse import quote
 
 KST = timezone(timedelta(hours=9))
 
-MAX_PER_SOURCE = 5   # 소스당 최대 아티클 (한 소스가 지배하지 않도록)
+MAX_PER_SOURCE = 5   # 소스당 최대 아티클
 
 # ════════════════════════════════════════════════════════════
 # 보장 소스: 날짜에 관계없이 매일 최소 1개 반드시 포함
-# 같은 회사의 소스가 여러 개면 하나라도 있으면 OK (그룹 단위 체크)
+# 같은 회사의 소스가 여러 개면 하나라도 있으면 OK
 # ════════════════════════════════════════════════════════════
 GUARANTEED_GROUPS = {
-    # 글로벌 컨설팅 — 각 펌마다 최소 1개
+    # 글로벌 컨설팅
     "McKinsey":   {"McKinsey & Company"},
     "Deloitte":   {"Deloitte Insights"},
     "BCG":        {"BCG"},
@@ -27,13 +29,12 @@ GUARANTEED_GROUPS = {
     "Accenture":  {"Accenture"},
     "Gartner":    {"Gartner"},
     "Forrester":  {"Forrester"},
-    # 한국 대기업 — 각 회사마다 최소 1개
-    "Samsung SDS":  {"Samsung SDS", "Samsung SDS 인사이트"},
-    "LG CNS":       {"LG CNS Blog", "LG CNS"},
-    "SK":           {"SK C&C 기술블로그", "SK AX"},
-    "KT":           {"KT Enterprise"},
-    "현대오토에버":  {"현대오토에버"},
-    "롯데이노베이트": {"롯데이노베이트"},
+    # 한국 대기업
+    "Samsung SDS": {"Samsung SDS 인사이트"},
+    "LG CNS":      {"LG CNS Blog"},
+    "SK AX":       {"SK AX"},
+    "KT":          {"KT Enterprise"},
+    "현대오토에버": {"현대오토에버"},
 }
 
 HEADERS = {
@@ -45,43 +46,49 @@ HEADERS = {
     "Accept-Language": "ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7",
 }
 
-# ── Google News RSS 헬퍼 ──────────────────────────────────
 def gnews(query: str) -> str:
     return f"https://news.google.com/rss/search?q={quote(query)}&hl=ko&gl=KR&ceid=KR:ko"
 
 def gnews_en(query: str) -> str:
     return f"https://news.google.com/rss/search?q={quote(query)}&hl=en&gl=US&ceid=US:en"
 
+
 # ════════════════════════════════════════════════════════════
-# 직접 RSS 소스 — 안정적으로 작동하는 피드만
+# 직접 RSS — 회사 공식 RSS 피드
 # ════════════════════════════════════════════════════════════
 DIRECT_RSS = [
-    # ── 글로벌 컨설팅 ─────────────────────────────────────
+    # ── 글로벌 컨설팅 (공식 RSS) ────────────────────────────
     {"name": "McKinsey & Company", "category": "글로벌 컨설팅",
      "url": "https://www.mckinsey.com/insights/rss",
      "logo_domain": "mckinsey.com"},
     {"name": "Deloitte Insights",  "category": "글로벌 컨설팅",
      "url": "https://www2.deloitte.com/us/en/insights/rss.xml",
      "logo_domain": "deloitte.com"},
+    {"name": "BCG",                "category": "글로벌 컨설팅",
+     "url": "https://www.bcg.com/rss/publications.xml",
+     "logo_domain": "bcg.com"},
+    {"name": "Accenture",          "category": "글로벌 컨설팅",
+     "url": "https://newsroom.accenture.com/rss/rss.rss",
+     "logo_domain": "accenture.com"},
+    {"name": "Gartner",            "category": "글로벌 컨설팅",
+     "url": "https://www.gartner.com/en/newsroom/press-releases.xml",
+     "logo_domain": "gartner.com"},
+    {"name": "Forrester",          "category": "글로벌 컨설팅",
+     "url": "https://www.forrester.com/blogs/feed/",
+     "logo_domain": "forrester.com"},
     {"name": "HBR 디지털·IT",      "category": "글로벌 컨설팅",
      "url": "https://hbr.org/feeds/topics/information-technology.rss",
      "logo_domain": "hbr.org"},
     {"name": "MIT Sloan Review",   "category": "글로벌 컨설팅",
      "url": "https://sloanreview.mit.edu/topic/technology-innovation/feed/",
      "logo_domain": "sloanreview.mit.edu"},
-    {"name": "World Economic Forum","category": "글로벌 컨설팅",
-     "url": "https://www.weforum.org/agenda/feed/",
-     "logo_domain": "weforum.org"},
 
-    # ── 한국 대기업 기술 블로그 ───────────────────────────
+    # ── 한국 대기업 (공식 블로그 RSS) ───────────────────────
     {"name": "LG CNS Blog",        "category": "한국 대기업",
      "url": "https://blog.lgcns.com/rss",
      "logo_domain": "lgcns.com"},
-    {"name": "SK C&C 기술블로그",   "category": "한국 대기업",
-     "url": gnews("SK C&C AI 클라우드 DX 기술"),
-     "logo_domain": "skcc.com"},
 
-    # ── 플랫폼·테크 기업 블로그 ──────────────────────────
+    # ── 플랫폼 테크 (공식 기술 블로그 RSS) ──────────────────
     {"name": "Naver D2",           "category": "플랫폼 테크",
      "url": "https://d2.naver.com/d2.atom",
      "logo_domain": "naver.com"},
@@ -94,26 +101,11 @@ DIRECT_RSS = [
     {"name": "당근마켓 Tech",       "category": "플랫폼 테크",
      "url": "https://medium.com/feed/daangn",
      "logo_domain": "daangn.com"},
-    {"name": "라인 엔지니어링",     "category": "플랫폼 테크",
-     "url": "https://engineering.linecorp.com/ko/feed/",
-     "logo_domain": "linecorp.com"},
     {"name": "쿠팡 Engineering",    "category": "플랫폼 테크",
      "url": "https://medium.com/feed/coupang-engineering",
      "logo_domain": "coupang.com"},
-    {"name": "우아한형제들",        "category": "플랫폼 테크",
-     "url": "https://techblog.woowahan.com/feed/",
-     "logo_domain": "woowahan.com"},
-    {"name": "뱅크샐러드 Tech",     "category": "플랫폼 테크",
-     "url": "https://blog.banksalad.com/feed.xml",
-     "logo_domain": "banksalad.com"},
-    {"name": "29CM 기술블로그",     "category": "플랫폼 테크",
-     "url": "https://medium.com/feed/29cm",
-     "logo_domain": "29cm.co.kr"},
 
-    # ── IT 미디어 ─────────────────────────────────────────
-    {"name": "블로터",             "category": "IT 미디어",
-     "url": "https://www.bloter.net/feed",
-     "logo_domain": "bloter.net"},
+    # ── IT 미디어 (직접 RSS) ─────────────────────────────────
     {"name": "전자신문",           "category": "IT 미디어",
      "url": "https://www.etnews.com/rss/allArticleRss.xml",
      "logo_domain": "etnews.com"},
@@ -128,62 +120,33 @@ DIRECT_RSS = [
      "logo_domain": "zdnet.co.kr"},
 ]
 
+
 # ════════════════════════════════════════════════════════════
-# Google News RSS — 직접 RSS가 없는 소스
+# Google News RSS
+# — RSS가 없는 컨설팅사는 site: 연산자로 공식 사이트 글만 수집
+# — IT 미디어는 일반 뉴스 검색
 # ════════════════════════════════════════════════════════════
 GNEWS_SOURCES = [
-    # 글로벌 컨설팅 (영문 쿼리가 더 잘 됨)
-    {"name": "BCG",      "category": "글로벌 컨설팅",
-     "url": gnews_en("BCG Boston Consulting Group AI strategy report"),
-     "logo_domain": "bcg.com"},
-    {"name": "KPMG",     "category": "글로벌 컨설팅",
-     "url": gnews_en("KPMG AI digital transformation report"),
-     "logo_domain": "kpmg.com"},
-    {"name": "PwC",      "category": "글로벌 컨설팅",
-     "url": gnews_en("PwC AI technology report insights"),
+    # 글로벌 컨설팅 — 공식 사이트 글만 (site: 연산자)
+    {"name": "PwC",  "category": "글로벌 컨설팅",
+     "url": gnews_en("site:pwc.com AI technology insights"),
      "logo_domain": "pwc.com"},
-    {"name": "EY",       "category": "글로벌 컨설팅",
-     "url": gnews_en("EY Ernst Young AI digital transformation"),
+    {"name": "KPMG", "category": "글로벌 컨설팅",
+     "url": gnews_en("site:kpmg.com AI digital transformation insights"),
+     "logo_domain": "kpmg.com"},
+    {"name": "EY",   "category": "글로벌 컨설팅",
+     "url": gnews_en("site:ey.com AI technology insights"),
      "logo_domain": "ey.com"},
-    {"name": "Accenture","category": "글로벌 컨설팅",
-     "url": gnews_en("Accenture AI generative technology report"),
-     "logo_domain": "accenture.com"},
-    {"name": "Gartner",  "category": "글로벌 컨설팅",
-     "url": gnews_en("Gartner AI technology trend 2025"),
-     "logo_domain": "gartner.com"},
-    {"name": "Forrester","category": "글로벌 컨설팅",
-     "url": gnews_en("Forrester AI digital enterprise report"),
-     "logo_domain": "forrester.com"},
 
-    # 한국 대기업
-    {"name": "Samsung SDS", "category": "한국 대기업",
-     "url": gnews("삼성SDS AI 클라우드 인사이트"),
-     "logo_domain": "samsungsds.com"},
-    {"name": "SK AX",       "category": "한국 대기업",
-     "url": gnews("SK AX SKAX AI 디지털"),
-     "logo_domain": "skax.co.kr"},
-    {"name": "KT Enterprise","category": "한국 대기업",
-     "url": gnews("KT AI 클라우드 디지털전환 기업"),
-     "logo_domain": "kt.com"},
-    {"name": "LG CNS",      "category": "한국 대기업",
-     "url": gnews("LG CNS AI DX 클라우드"),
-     "logo_domain": "lgcns.com"},
-    {"name": "현대오토에버", "category": "한국 대기업",
-     "url": gnews("현대오토에버 AI IT 클라우드"),
-     "logo_domain": "hyundai-autoever.com"},
-    {"name": "롯데이노베이트","category": "한국 대기업",
-     "url": gnews("롯데이노베이트 AI DX 클라우드"),
-     "logo_domain": "lotteinnovate.com"},
+    # 국내 연구기관 — Google News (공식 사이트 위주)
+    {"name": "IITP", "category": "국내 연구기관",
+     "url": gnews("IITP 정보통신기획평가원 AI ICT 기술동향"),
+     "logo_domain": "iitp.kr"},
+    {"name": "NIA",  "category": "국내 연구기관",
+     "url": gnews("NIA 한국지능정보사회진흥원 AI 디지털"),
+     "logo_domain": "nia.or.kr"},
 
-    # 플랫폼
-    {"name": "Naver AI",    "category": "플랫폼 테크",
-     "url": gnews("네이버 HyperCLOVA AI 기술 서비스"),
-     "logo_domain": "naver.com"},
-    {"name": "Kakao",       "category": "플랫폼 테크",
-     "url": gnews("카카오 AI 기술 서비스 개발"),
-     "logo_domain": "kakao.com"},
-
-    # IT 미디어
+    # IT 미디어 — 뉴스 기사 수집
     {"name": "IT조선",      "category": "IT 미디어",
      "url": gnews("IT조선 인공지능 AI 디지털"),
      "logo_domain": "it.chosun.com"},
@@ -193,34 +156,55 @@ GNEWS_SOURCES = [
     {"name": "AI타임즈",    "category": "IT 미디어",
      "url": gnews("AI타임즈 인공지능 기술"),
      "logo_domain": "aitimes.com"},
-    {"name": "테크크런치",  "category": "IT 미디어",
-     "url": gnews_en("TechCrunch AI startup funding"),
+    {"name": "TechCrunch",  "category": "IT 미디어",
+     "url": gnews_en("TechCrunch AI startup technology enterprise"),
      "logo_domain": "techcrunch.com"},
-    {"name": "The Verge AI","category": "IT 미디어",
-     "url": gnews_en("The Verge AI technology news"),
-     "logo_domain": "theverge.com"},
 ]
 
-# ── 직접 웹 스크래핑 소스 ────────────────────────────────
+
+# ════════════════════════════════════════════════════════════
+# 직접 웹 스크래핑 — 공식 인사이트 페이지
+# ════════════════════════════════════════════════════════════
 WEB_SOURCES = [
+    # ── 한국 대기업 인사이트 페이지 ─────────────────────────
     {
-        "name": "Samsung SDS 인사이트",
-        "category": "한국 대기업",
+        "name": "Samsung SDS 인사이트", "category": "한국 대기업",
         "url": "https://www.samsungsds.com/kr/insights/index.html",
         "logo_domain": "samsungsds.com",
-        "link_pattern": "/kr/insights/",
-        "exclude_pattern": "index",
+        "link_pattern": "/kr/insights/", "exclude_pattern": "index",
+    },
+    {
+        "name": "SK AX", "category": "한국 대기업",
+        "url": "https://www.skax.co.kr/insight/trends",
+        "logo_domain": "skax.co.kr",
+        "link_pattern": "/insight/", "exclude_pattern": "",
+    },
+    {
+        "name": "KT Enterprise", "category": "한국 대기업",
+        "url": "https://enterprise.kt.com/bt/dBoxing.do?tId=506",
+        "logo_domain": "kt.com",
+        "link_pattern": "enterprise.kt.com", "exclude_pattern": "dBoxing",
+    },
+    {
+        "name": "현대오토에버", "category": "한국 대기업",
+        "url": "https://www.hyundai-autoever.com/kor/about/pr/insights/list.do",
+        "logo_domain": "hyundai-autoever.com",
+        "link_pattern": "/insights/", "exclude_pattern": "list",
     },
 ]
 
+
+# ════════════════════════════════════════════════════════════
+# 크롤링 함수
+# ════════════════════════════════════════════════════════════
 
 def _clean_text(html: str, max_len: int = 500) -> str:
     text = BeautifulSoup(html or "", "html.parser").get_text(separator=" ")
     return " ".join(text.split())[:max_len]
 
 
-def _parse_entry(entry: dict, source: dict, cutoff=None) -> dict | None:
-    """RSS 엔트리 → 아티클 dict 변환. cutoff 이전이면 None 반환."""
+def _parse_entry(entry, source: dict, cutoff=None) -> dict | None:
+    """RSS 엔트리 → 아티클 dict. cutoff 이전이면 None."""
     title = entry.get("title", "").strip()
     if not title:
         return None
@@ -254,7 +238,7 @@ async def _fetch_rss(client: httpx.AsyncClient, source: dict) -> list[dict]:
         resp = await client.get(source["url"], timeout=20.0, follow_redirects=True)
         resp.raise_for_status()
         feed   = feedparser.parse(resp.text)
-        cutoff = datetime.now() - timedelta(days=14)  # 14일 컷오프
+        cutoff = datetime.now() - timedelta(days=14)
 
         for entry in feed.entries[:30]:
             art = _parse_entry(entry, source, cutoff=cutoff)
@@ -266,10 +250,9 @@ async def _fetch_rss(client: httpx.AsyncClient, source: dict) -> list[dict]:
         if articles:
             print(f"  ✓ {source['name']}: {len(articles)}개")
         else:
-            print(f"  - {source['name']}: 최근 기사 없음")
+            print(f"  - {source['name']}: 최근 기사 없음 (14일 내)")
     except Exception as e:
         print(f"  ✗ {source['name']}: {str(e)[:80]}")
-
     return articles
 
 
@@ -317,12 +300,12 @@ async def _fetch_web(client: httpx.AsyncClient, source: dict) -> list[dict]:
 
             seen.add(href)
             articles.append({
-                "source":     source["name"],
-                "category":   source["category"],
-                "title":      title,
-                "url":        href,
-                "summary":    "",
-                "published":  datetime.now(KST).strftime("%Y-%m-%d %H:%M"),
+                "source":      source["name"],
+                "category":    source["category"],
+                "title":       title,
+                "url":         href,
+                "summary":     "",
+                "published":   datetime.now(KST).strftime("%Y-%m-%d %H:%M"),
                 "logo_domain": source.get("logo_domain", ""),
             })
             if len(articles) >= MAX_PER_SOURCE: break
@@ -349,27 +332,21 @@ async def fetch_all_sources() -> list[dict]:
     all_articles = [a for batch in results for a in batch]
 
     # ── 보장 소스 폴백 ────────────────────────────────────────
-    # 수집된 소스 이름 집합
     present_sources = {a["source"] for a in all_articles}
-
-    # 그룹별로 하나도 없는 경우 폴백 대상 선정
-    # (같은 회사 소스가 여러 개면 하나라도 있으면 OK)
     src_map = {s["name"]: s for s in all_rss + WEB_SOURCES}
+
     fallback_targets = []
     missing_groups   = []
-
     for group_name, source_names in GUARANTEED_GROUPS.items():
-        if not source_names & present_sources:          # 그룹 내 소스가 하나도 없음
+        if not source_names & present_sources:
             missing_groups.append(group_name)
-            # 그룹 내 소스 중 RSS/Web 정의가 있는 첫 번째를 폴백 대상으로
             for sname in source_names:
                 if sname in src_map:
                     fallback_targets.append(src_map[sname])
                     break
 
     if fallback_targets:
-        print(f"\n[보장 소스 폴백] 누락 그룹: {', '.join(missing_groups)}")
-        print(f"  → {len(fallback_targets)}개 소스 날짜 무관 재시도...")
+        print(f"\n[보장 소스 폴백] 누락: {', '.join(missing_groups)}")
         async with httpx.AsyncClient(headers=HEADERS) as client2:
             fb_results = await asyncio.gather(
                 *[_fetch_rss_fallback(client2, src) for src in fallback_targets]
@@ -383,12 +360,12 @@ async def fetch_all_sources() -> list[dict]:
     from collections import Counter
     cat_counts = Counter(a["category"] for a in all_articles)
     src_counts = Counter(a["source"]   for a in all_articles)
-    print(f"\n총 {len(all_articles)}개 아티클 수집 완료")
+    print(f"\n총 {len(all_articles)}개 아티클 수집")
     for cat, cnt in sorted(cat_counts.items()):
         print(f"  {cat}: {cnt}개")
-    print(f"\n소스별 수집 현황:")
+    print(f"\n소스별:")
     for src, cnt in sorted(src_counts.items(), key=lambda x: -x[1]):
-        guaranteed_mark = " ★" if any(src in v for v in GUARANTEED_GROUPS.values()) else ""
-        print(f"  {src}: {cnt}개{guaranteed_mark}")
+        mark = " ★" if any(src in v for v in GUARANTEED_GROUPS.values()) else ""
+        print(f"  {src}: {cnt}개{mark}")
     print()
     return all_articles
