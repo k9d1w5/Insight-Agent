@@ -47,7 +47,7 @@ GUARANTEED_GROUPS = {
     "Forrester":  {"Forrester"},
     # 한국 대기업
     "Samsung SDS": {"Samsung SDS 인사이트", "Samsung SDS GN"},
-    "LG CNS":      {"LG CNS Blog"},
+    "LG CNS":      {"LG CNS 인사이트", "LG CNS Blog"},
     "SK AX":       {"SK AX", "SK AX GN"},
     "KT":          {"KT Enterprise"},
     "현대오토에버": {"현대오토에버", "현대오토에버 GN"},

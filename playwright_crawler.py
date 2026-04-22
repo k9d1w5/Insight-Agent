@@ -44,13 +44,23 @@ PLAYWRIGHT_SOURCES = [
         "extra_wait_ms":   2000,
     },
     {
+        "name":            "LG CNS 인사이트",
+        "category":        "한국 대기업",
+        "url":             "https://www.lgcns.com/kr/moa/insight.page_1",
+        "logo_domain":     "lgcns.com",
+        "link_pattern":    "/kr/moa/insight",
+        "exclude_pattern": "page_",           # 페이지네이션 링크 제외
+        "wait_for":        "networkidle",
+        "extra_wait_ms":   2000,
+    },
+    {
         "name":            "에커튼파트너스",
         "category":        "한국 대기업",
         "url":             "https://www.ackerton.com/insightReport",
         "logo_domain":     "ackerton.com",
         "link_pattern":    "/insightReport",
         "exclude_pattern": "",
-        "wait_for":        "domcontentloaded",  # 정적 사이트는 DOM만 기다림
+        "wait_for":        "domcontentloaded",
         "extra_wait_ms":   500,
     },
 ]

@@ -24,7 +24,7 @@
     {"name": "NIA",                "name_ko": "한국지능정보사회진흥원","category": "국내 연구기관","url": "https://www.nia.or.kr/site/nia_kor/ex/bbs/List.do?cbIdx=25932","logo_domain": "nia.or.kr",         "type": "rss",  "description": "NIA AI·디지털 보고서"},
 
     {"name": "Samsung SDS 인사이트","name_ko": "삼성SDS",            "category": "한국 대기업",   "url": "https://www.samsungsds.com/kr/insights/index.html",          "logo_domain": "samsungsds.com",     "type": "web",  "description": "삼성SDS 인사이트 공식 홈페이지"},
-    {"name": "LG CNS Blog",        "name_ko": "LG CNS 블로그",       "category": "한국 대기업",   "url": "https://blog.lgcns.com/",                                    "logo_domain": "lgcns.com",          "type": "rss",  "description": "LG CNS 기술 블로그 공식 RSS"},
+    {"name": "LG CNS 인사이트",     "name_ko": "LG CNS 인사이트",     "category": "한국 대기업",   "url": "https://www.lgcns.com/kr/moa/insight.page_1",                "logo_domain": "lgcns.com",          "type": "web",  "description": "LG CNS MOA 인사이트 공식 홈페이지"},
     {"name": "SK AX",              "name_ko": "SK AX",               "category": "한국 대기업",   "url": "https://www.skax.co.kr/insight/trends",                      "logo_domain": "skax.co.kr",         "type": "web",  "description": "SK AX 인사이트 공식 홈페이지"},
     {"name": "KT Enterprise",      "name_ko": "KT 엔터프라이즈",     "category": "한국 대기업",   "url": "https://enterprise.kt.com/bt/dBoxing.do?tId=506",            "logo_domain": "kt.com",             "type": "web",  "description": "KT 엔터프라이즈 인사이트 공식 홈페이지"},
     {"name": "현대오토에버",       "name_ko": "현대오토에버",        "category": "한국 대기업",   "url": "https://www.hyundai-autoever.com/kor/about/pr/insights/list.do","logo_domain": "hyundai-autoever.com","type": "web", "description": "현대오토에버 인사이트 공식 홈페이지"},
