@@ -8,8 +8,68 @@ import anthropic
 
 client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
 
-MODEL_FAST   = "claude-3-haiku-20240307"  # 개별 요약·번역
-MODEL_STRONG = "claude-3-haiku-20240307"  # 종합 리포트 (현재 플랜 지원 모델)
+# ── 사용 가능한 모델 자동 감지 ────────────────────────────
+# 계정/플랜마다 지원 모델이 다르므로 런타임에 자동으로 탐지
+def _detect_model() -> str:
+    """이 API 키로 실제 호출 가능한 모델을 자동 탐지"""
+    # 1순위: Anthropic SDK models.list() 활용 (SDK ≥ 0.26)
+    try:
+        models_page = client.models.list()
+        available   = sorted([m.id for m in models_page.data], reverse=True)
+        print(f"[모델 감지] API 제공 목록: {available[:6]}")
+        # 선호 순서: haiku(빠름/저렴) → sonnet → opus
+        for keyword in ["haiku", "sonnet", "opus"]:
+            for mid in available:
+                if keyword in mid.lower():
+                    print(f"[모델 감지] 선택: {mid}")
+                    return mid
+        if available:
+            print(f"[모델 감지] 첫 번째 모델 사용: {available[0]}")
+            return available[0]
+    except Exception as e:
+        print(f"[모델 감지] models.list() 실패 ({e}), 직접 탐색으로 전환")
+
+    # 2순위: 후보 모델을 하나씩 테스트 (최신→구버전 순)
+    candidates = [
+        # Claude 4.x (2025~2026)
+        "claude-haiku-4-5",
+        "claude-sonnet-4-5",
+        "claude-opus-4-5",
+        "claude-haiku-4-0",
+        "claude-sonnet-4-0",
+        # Claude 3.x
+        "claude-3-7-sonnet-20250219",
+        "claude-3-5-haiku-20241022",
+        "claude-3-5-sonnet-20241022",
+        "claude-3-haiku-20240307",
+        "claude-3-opus-20240229",
+    ]
+    for model in candidates:
+        try:
+            client.messages.create(
+                model=model, max_tokens=5,
+                messages=[{"role": "user", "content": "hi"}],
+            )
+            print(f"[모델 감지] 사용 가능 확인: {model}")
+            return model
+        except anthropic.APIStatusError as e:
+            if "not_found" in str(e).lower() or "404" in str(e):
+                continue          # 이 모델은 없음 → 다음 시도
+            # 429·529 등 다른 오류 → 모델은 존재함
+            print(f"[모델 감지] {model} (오류 있으나 존재 확인)")
+            return model
+        except Exception:
+            continue
+
+    raise RuntimeError(
+        "사용 가능한 Claude 모델을 찾지 못했습니다. "
+        "console.anthropic.com 에서 API 키와 모델 권한을 확인하세요."
+    )
+
+_DETECTED_MODEL = _detect_model()
+MODEL_FAST   = _DETECTED_MODEL   # 개별 요약·번역
+MODEL_STRONG = _DETECTED_MODEL   # 종합 리포트
+print(f"[모델 설정] FAST={MODEL_FAST} / STRONG={MODEL_STRONG}\n")
 
 
 # ── 헬퍼 ─────────────────────────────────────────────────
@@ -107,7 +167,7 @@ def summarize_article(article: dict) -> dict:
         if is_eng and "title_ko" in parsed:
             article["title_ko"] = parsed["title_ko"]
 
-        time.sleep(0.5)
+        time.sleep(1.5)  # API 부하 분산 (0.5 → 1.5초)
 
     except Exception as e:
         print(f"    [요약 오류] {title[:40]}: {e}")
@@ -120,8 +180,8 @@ def summarize_article(article: dict) -> dict:
 # ── 전체 아티클 요약 ──────────────────────────────────────
 
 def summarize_articles(articles: list[dict]) -> list[dict]:
-    """상위 30개 AI 요약 후, 전체를 중요도 순 정렬"""
-    TOP_N = 30
+    """상위 20개 AI 요약 후, 전체를 중요도 순 정렬"""
+    TOP_N = 20  # 30 → 20: API 부하 감소 (종합 리포트 여유 확보)
     print(f"[AI 요약 시작] 전체 {len(articles)}개 중 상위 {TOP_N}개 요약")
     result = []
     consecutive_failures = 0
@@ -129,7 +189,6 @@ def summarize_articles(articles: list[dict]) -> list[dict]:
     for i, article in enumerate(articles, 1):
         if i <= TOP_N:
             print(f"  [{i:02d}] {article['source']}: {article['title'][:45]}...")
-            prev_score = article.get("importance_score")
             summarize_article(article)
             if article.get("importance_score", 0) > 0:
                 consecutive_failures = 0
@@ -137,15 +196,17 @@ def summarize_articles(articles: list[dict]) -> list[dict]:
                 consecutive_failures += 1
                 if consecutive_failures >= 5:
                     print("  ⚠ API 연속 실패 5회 — 크레딧/키 확인 필요")
+                    break  # 더 이상 시도하지 않고 종합 리포트로 넘어감
         else:
             article.setdefault("ai_summary", "")
             article.setdefault("importance_score", 0)
         result.append(article)
 
-    # 중요도 점수 높은 순 정렬
     result.sort(key=lambda a: a.get("importance_score", 0), reverse=True)
 
-    print(f"[AI 요약 완료]\n")
+    # 종합 리포트 전 API 안정화 대기
+    print(f"[AI 요약 완료] 종합 리포트 생성 전 15초 대기 중...")
+    time.sleep(15)
     return result
 
 
@@ -230,6 +291,8 @@ def generate_final_report(articles: list[dict]) -> str:
         print(f"[1차 실패] {e}")
 
     # 2차: 프롬프트 축약 후 재시도
+    print("[1차 실패 후 30초 대기...]")
+    time.sleep(30)
     try:
         short_lines = []
         for cat, items in by_category.items():
