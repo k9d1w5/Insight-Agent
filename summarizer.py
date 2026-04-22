@@ -281,10 +281,10 @@ def generate_final_report(articles: list[dict]) -> str:
 ## 3. 오늘의 핵심 키워드
 (오늘 IT 시장을 관통하는 키워드 10개를 중요도 순으로, 각각 한 줄 설명 포함)"""
 
-    # 1차: 종합 리포트 (현재 플랜 지원 모델)
+    # 1차: 종합 리포트
     try:
         print(f"[종합 리포트 생성 중... {MODEL_STRONG}]")
-        result = _call_claude(prompt, max_tokens=4000, model=MODEL_STRONG, retries=3)
+        result = _call_claude(prompt, max_tokens=8000, model=MODEL_STRONG, retries=3)
         print("[종합 리포트 완료]")
         return result
     except Exception as e:
@@ -302,7 +302,7 @@ def generate_final_report(articles: list[dict]) -> str:
                 short_lines.append(f"- {item['source']}: {title}")
         short_prompt = prompt.replace(articles_text, "\n".join(short_lines))
         print("[종합 리포트 재시도... 축약 프롬프트]")
-        result = _call_claude(short_prompt, max_tokens=2500, model=MODEL_FAST, retries=3)
+        result = _call_claude(short_prompt, max_tokens=6000, model=MODEL_FAST, retries=3)
         print("[종합 리포트 Haiku 완료]")
         return result
     except Exception as e2:
