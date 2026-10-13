@@ -1,0 +1,103 @@
+{
+  "date": "2026-10-13",
+  "generated_at": "2026-10-13 12:28:33",
+  "total_articles": 8,
+  "categories": {
+    "글로벌 컨설팅": 8
+  },
+  "final_report": "# 📊 오늘의 IT 인사이트 리포트\n\n## ⚠ AI 리포트 생성 실패 — 수집된 기사 목록\n\n## 글로벌 컨설팅\n- **McKinsey & Company**: 2026년 자산운용: 소수에게만 돌아가는 풍요?\n- **McKinsey & Company**: CEO가 위임해서는 안 되는 여섯 가지 전략적 역할\n- **McKinsey & Company**: 세계 질서가 바뀌는 가운데, 선도 기업들은 어떻게 발맞\n- **McKinsey & Company**: 미쇼: 모두의 사업이 되는 전자상거래\n- **McKinsey & Company**: For CPG companies, agentic AI’s real payoff is growth\n",
+  "articles": [
+    {
+      "source": "McKinsey & Company",
+      "category": "글로벌 컨설팅",
+      "title": "Asset management 2026: Plenty for the few?",
+      "url": "https://www.mckinsey.com/industries/financial-services/our-insights/asset-management-2026-plenty-for-the-few",
+      "summary": "A golden age for the industry is becoming a golden age for a smaller group of asset managers.",
+      "published": "2026-10-12 00:00",
+      "logo_domain": "mckinsey.com",
+      "ai_summary": "자산운용 산업의 황금기가 소수의 대형 운용사에게만 집중되는 양극화가 진행되고 있음을 보여줍니다. 이에 따라 IT 전략은 데이터·AI 기반 운용 역량, 비용 효율화, 디지털 고객 경험 확보를 통해 소규모 운용사가 생존하거나 차별화할 방안을 중심으로 재설계되어야 합니다.",
+      "importance_score": 8,
+      "title_ko": "2026년 자산운용: 소수에게만 돌아가는 풍요?"
+    },
+    {
+      "source": "McKinsey & Company",
+      "category": "글로벌 컨설팅",
+      "title": "The six strategy roles a CEO must not delegate",
+      "url": "https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights/the-six-strategy-roles-a-ceo-must-not-delegate",
+      "summary": "Strategy is a team sport, but the value it creates ultimately depends on the CEO’s involvement.",
+      "published": "2026-10-09 00:00",
+      "logo_domain": "mckinsey.com",
+      "ai_summary": "전략은 팀 단위로 수행되지만 그것이 창출하는 가치는 결국 CEO의 직접적인 관여에 달려 있다는 점을 강조합니다. IT 전략 측면에서는 디지털 전환과 기술 투자 의사결정을 CEO가 위임하지 않고 주도해야 조직 전체의 가치 실현이 가능함을 시사합니다.",
+      "importance_score": 8,
+      "title_ko": "CEO가 위임해서는 안 되는 여섯 가지 전략적 역할"
+    },
+    {
+      "source": "McKinsey & Company",
+      "category": "글로벌 컨설팅",
+      "title": "As the world order turns, leading companies are keeping pace. Here’s how",
+      "url": "https://www.mckinsey.com/capabilities/geopolitics/our-insights/as-the-world-order-turns-leading-companies-are-keeping-pace-heres-how",
+      "summary": "Leading companies are tracking six emerging patterns of geopolitical change and realigning their businesses to achieve resilience, seize growth, and build competitive advantage.",
+      "published": "2026-10-09 00:00",
+      "logo_domain": "mckinsey.com",
+      "ai_summary": "글로벌 지정학적 변화의 여섯 가지 신흥 패턴을 선도 기업들이 추적하며 사업 구조를 재편해 회복력 확보, 성장 포착, 경쟁우위 구축을 도모하고 있다. IT 컨설팅 관점에서는 지정학 리스크를 반영한 공급망·클라우드·데이터 주권 등 IT 아키텍처의 유연성과 분산화 전략이 핵심 과제임을 시사한다.",
+      "importance_score": 8,
+      "title_ko": "세계 질서가 바뀌는 가운데, 선도 기업들은 어떻게 발맞"
+    },
+    {
+      "source": "McKinsey & Company",
+      "category": "글로벌 컨설팅",
+      "title": "Meesho: Making e-commerce everyone’s business",
+      "url": "https://www.mckinsey.com/featured-insights/future-of-asia/meesho-making-e-commerce-everyones-business",
+      "summary": "Scaling an e-commerce start-up in India’s dispersed markets is challenging, but innovation, patience, and passionately solving hard problems have enabled Meesho’s founders to succeed.",
+      "published": "2026-10-12 00:00",
+      "logo_domain": "mckinsey.com",
+      "ai_summary": "인도의 분산된 시장에서 이커머스 스타트업을 확장하는 것은 어려우나, Meesho의 창업자들은 혁신, 인내, 그리고 난제에 대한 열정적인 해결을 통해 성공을 이뤄냈다. 이는 지역적으로 파편화된 시장에서 기술 기반 혁신과 실행력이 성장의 핵심 동력임을 보여준다.",
+      "importance_score": 7,
+      "title_ko": "미쇼: 모두의 사업이 되는 전자상거래"
+    },
+    {
+      "source": "McKinsey & Company",
+      "category": "글로벌 컨설팅",
+      "title": "For CPG companies, agentic AI’s real payoff is growth",
+      "url": "https://www.mckinsey.com/industries/consumer-packaged-goods/our-insights/for-cpg-companies-agentic-ais-real-payoff-is-growth",
+      "summary": "As the relationship between consumer-packaged-goods companies and retailers becomes more complex, agentic AI can recapture lost sales. But are leaders ready to harness the technology’s power?",
+      "published": "2026-10-09 00:00",
+      "logo_domain": "mckinsey.com",
+      "ai_summary": "As the relationship between consumer-packaged-goods companies and retailers becomes more complex, agentic AI can recapture lost sales. But are leaders",
+      "importance_score": 0
+    },
+    {
+      "source": "Forrester",
+      "category": "글로벌 컨설팅",
+      "title": "Linux Foundation Analyst Summit: Stop Counting Tokens Only, TCA (Total Cost Of AI) Is The New Economics Of AI",
+      "url": "https://www.forrester.com/blogs/linux-foundation-analyst-summit-stop-counting-tokens-only-tca-total-cost-of-ai-is-the-new-economics-of-ai/",
+      "summary": "Linux Foundation Analyst Summit: Stop Counting Tokens Only, TCA (Total Cost Of AI) Is The New Economics Of AI At the October 8 Analyst Virtual Summit- The Linux Foundation’s Technology Value umbrella, the Linux Foundation brought Tokenomics, FinOps, Information Technology Asset Management (ITAM), and FinOps Open Cost and Usage Specification (FOCUS) together around a bigger […]",
+      "published": "2026-10-13 01:42",
+      "logo_domain": "forrester.com",
+      "ai_summary": "Linux Foundation Analyst Summit: Stop Counting Tokens Only, TCA (Total Cost Of AI) Is The New Economics Of AI At the October 8 Analyst Virtual Summit-",
+      "importance_score": 0
+    },
+    {
+      "source": "Forrester",
+      "category": "글로벌 컨설팅",
+      "title": "SAM: An Acid Test For AI",
+      "url": "https://www.forrester.com/blogs/sam-an-acid-test-for-ai/",
+      "summary": "Earlier this year, I had a conversation with Andreas Gieseke and Ragip Aydin of Raynet about software asset management and the specific value of generative AI there. Now, I spent some years at one of the largest US banks as the consulting architect for software asset management (SAM). I had a broader responsibility as the […]",
+      "published": "2026-10-09 13:39",
+      "logo_domain": "forrester.com",
+      "ai_summary": "Earlier this year, I had a conversation with Andreas Gieseke and Ragip Aydin of Raynet about software asset management and the specific value of gener",
+      "importance_score": 0
+    },
+    {
+      "source": "Forrester",
+      "category": "글로벌 컨설팅",
+      "title": "The Future Of Software Will Be Defined By Stewardship",
+      "url": "https://www.forrester.com/blogs/the-future-of-software-will-be-defined-by-stewardship/",
+      "summary": "This summer, my colleague Diego Lo Giudice and I explored a deceptively simple question: What happens to enterprise software when AI makes software creation abundant? We found a paradox: Get more of what you want, and you also get more of what you don’t want. Get More Of What You Ask For AI writes code, […]",
+      "published": "2026-10-09 11:23",
+      "logo_domain": "forrester.com",
+      "ai_summary": "This summer, my colleague Diego Lo Giudice and I explored a deceptively simple question: What happens to enterprise software when AI makes software cr",
+      "importance_score": 0
+    }
+  ]
+}
