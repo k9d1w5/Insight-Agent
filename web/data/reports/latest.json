@@ -1,12 +1,73 @@
 {
-  "date": "2026-10-13",
-  "generated_at": "2026-10-13 12:28:33",
-  "total_articles": 8,
+  "date": "2026-10-14",
+  "generated_at": "2026-10-14 10:42:51",
+  "total_articles": 12,
   "categories": {
-    "글로벌 컨설팅": 8
+    "글로벌 컨설팅": 10,
+    "플랫폼 테크": 2
   },
-  "final_report": "# 📊 오늘의 IT 인사이트 리포트\n\n## ⚠ AI 리포트 생성 실패 — 수집된 기사 목록\n\n## 글로벌 컨설팅\n- **McKinsey & Company**: 2026년 자산운용: 소수에게만 돌아가는 풍요?\n- **McKinsey & Company**: CEO가 위임해서는 안 되는 여섯 가지 전략적 역할\n- **McKinsey & Company**: 세계 질서가 바뀌는 가운데, 선도 기업들은 어떻게 발맞\n- **McKinsey & Company**: 미쇼: 모두의 사업이 되는 전자상거래\n- **McKinsey & Company**: For CPG companies, agentic AI’s real payoff is growth\n",
+  "final_report": "# 📊 오늘의 IT 인사이트 리포트\n\n## ⚠ AI 리포트 생성 실패 — 수집된 기사 목록\n\n## 글로벌 컨설팅\n- **McKinsey & Company**: AI 운영체제: CEO가 기업을 경영하는 새로운 방식\n- **Forrester**: 멀티플레이어 AI — 여러분이 의도하\n- **Forrester**: AI가 작업을 저렴하게 만든다: 막대한 가치\n- **McKinsey & Company**: 자본 프로젝트의 미래는 디지털 및 AI 기반\n- **McKinsey & Company**: 메드테크 기업이 고객 경험을 간과해서는\n\n## 플랫폼 테크\n- **Naver D2**: Python의 GC가 멀티프로세싱과 만나면 생기는 일 - Python과 Airflow, 그리고 관련된 문제 해결기 2편\n- **Naver D2**: FE News 26년 10월 소식을 전해드립니다.\n",
   "articles": [
+    {
+      "source": "McKinsey & Company",
+      "category": "글로벌 컨설팅",
+      "title": "The AI operating system: A new way for CEOs to run the enterprise",
+      "url": "https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-ai-operating-system-a-new-way-for-ceos-to-run-the-enterprise",
+      "summary": "An AI operating system can become an enterprise’s “second brain,” but only if CEOs rethink how management itself evolves.",
+      "published": "2026-10-13 00:00",
+      "logo_domain": "mckinsey.com",
+      "ai_summary": "기업 내 AI 운영체제는 전사의 정보와 지식을 축적·활용하는 '제2의 두뇌' 역할을 할 수 있지만, 이는 CEO가 경영 방식 자체를 근본적으로 재설계할 때에만 가능하다. 따라서 IT 전략은 기술 도입보다 경영 프로세스 및 의사결정 체계의 혁신과 함께 추진되어야 한다.",
+      "importance_score": 9,
+      "title_ko": "AI 운영체제: CEO가 기업을 경영하는 새로운 방식"
+    },
+    {
+      "source": "Forrester",
+      "category": "글로벌 컨설팅",
+      "title": "Multiplayer AI — Your Impending (And Accidental) Standard",
+      "url": "https://www.forrester.com/blogs/multiplayer-ai-your-impending-and-accidental-standard/",
+      "summary": "Where you do work is changing. At the Dreamforce 2026 Slack keynote, Boris Cherny (the head of Anthropic’s Claude Code) approximated that 90% of his coding is done in Slack. Why is he using a chat tool to code? And how? Forgive the immediate use of a buzzword, but the answer to both questions is […]",
+      "published": "2026-10-13 19:41",
+      "logo_domain": "forrester.com",
+      "ai_summary": "기사는 Slack 같은 협업 채팅 도구에서 AI 에이전트와 여러 사용자가 함께 작업하는 '멀티플레이어 AI'가 업무 공간의 표준으로 자리 잡고 있음을 짚고 있습니다. IT 전략 측면에서는 AI를 개인 도구가 아닌 팀 협업 인프라로 설계하고, 권한·감사·데이터 거버넌스를 채팅 워크플로에 통합하는 준비가 시급함을 시사합니다.",
+      "importance_score": 9,
+      "title_ko": "멀티플레이어 AI — 여러분이 의도하"
+    },
+    {
+      "source": "Forrester",
+      "category": "글로벌 컨설팅",
+      "title": "Capgemini SPARK 2026: AI Makes The Task Cheap — Redesign The Enterprise For Outsized Value",
+      "url": "https://www.forrester.com/blogs/capgemini-spark-2026-ai-makes-the-task-cheap-redesign-the-enterprise-for-outsized-value/",
+      "summary": "Enterprise AI conversations have moved from experimentation to implementation. At Capgemini SPARK 2026, the focus shifted from implementation to value realization. The gathering explored the theme, “Make it real: from action to value,” and how organizations apply AI at scale for outcomes. SPARK revealed the same transition as FinOps X earlier this year, and leaders […]",
+      "published": "2026-10-13 17:24",
+      "logo_domain": "forrester.com",
+      "ai_summary": "기업 AI 논의가 실험 단계에서 실제 도입을 넘어 가치 실현 단계로 이동하고 있으며, Capgemini SPARK 2026은 AI를 대규모로 적용해 성과를 내는 방법에 초점을 맞췄다. 기사 제목이 시사하듯 AI로 작업 비용은 낮아졌지만, 진정한 가치를 얻으려면 기업 구조와 프로세스 자체를 재설계해야 한다는 메시지가 핵심이다.",
+      "importance_score": 9,
+      "title_ko": "AI가 작업을 저렴하게 만든다: 막대한 가치"
+    },
+    {
+      "source": "McKinsey & Company",
+      "category": "글로벌 컨설팅",
+      "title": "Why the future of capital projects belongs to digital and AI-enabled teams",
+      "url": "https://www.mckinsey.com/capabilities/operations/our-insights/why-the-future-of-capital-projects-belongs-to-digital-and-ai-enabled-teams",
+      "summary": "Digital and AI are changing the way capital projects are selected, designed, procured, built, and steered. Leaders are moving beyond pilots to rewire how projects are planned and delivered.",
+      "published": "2026-10-13 00:00",
+      "logo_domain": "mckinsey.com",
+      "ai_summary": "디지털 및 AI 기술이 자본 프로젝트의 선정, 설계, 조달, 시공, 관리 전반을 바꾸고 있으며, 리더들은 파일럿 단계를 넘어 프로젝트 계획과 수행 방식 자체를 재설계하고 있습니다. IT 컨설팅 관점에서는 이를 단순 도구 도입이 아닌 end-to-end 프로세스 및 조직 역량 전환의 과제로 접근해야 하는 시점입니다.",
+      "importance_score": 8,
+      "title_ko": "자본 프로젝트의 미래는 디지털 및 AI 기반"
+    },
+    {
+      "source": "McKinsey & Company",
+      "category": "글로벌 컨설팅",
+      "title": "Why medtechs can’t afford to overlook customer experience",
+      "url": "https://www.mckinsey.com/industries/life-sciences/our-insights/why-medtechs-cant-afford-to-overlook-customer-experience",
+      "summary": "Customer experience is a competitive imperative for medtechs. To create a durable advantage, it must be designed into products from day one, not added as a post-sale service.",
+      "published": "2026-10-13 00:00",
+      "logo_domain": "mckinsey.com",
+      "ai_summary": "의료기기(메드테크) 기업에게 고객 경험은 경쟁 우위를 좌우하는 핵심 과제이며, 지속 가능한 차별화를 위해서는 사후 서비스가 아닌 제품 설계 단계부터 CX를 내재화해야 합니다. IT 관점에서는 제품 개발 초기부터 디지털 플랫폼, 데이터 연계, 사용자 중심 설계 프로세스를 통합하는 아키텍처 전략이 필요함을 시사합니다.",
+      "importance_score": 8,
+      "title_ko": "메드테크 기업이 고객 경험을 간과해서는"
+    },
     {
       "source": "McKinsey & Company",
       "category": "글로벌 컨설팅",
@@ -15,33 +76,21 @@
       "summary": "A golden age for the industry is becoming a golden age for a smaller group of asset managers.",
       "published": "2026-10-12 00:00",
       "logo_domain": "mckinsey.com",
-      "ai_summary": "자산운용 산업의 황금기가 소수의 대형 운용사에게만 집중되는 양극화가 진행되고 있음을 보여줍니다. 이에 따라 IT 전략은 데이터·AI 기반 운용 역량, 비용 효율화, 디지털 고객 경험 확보를 통해 소규모 운용사가 생존하거나 차별화할 방안을 중심으로 재설계되어야 합니다.",
+      "ai_summary": "자산운용 업계는 전반적인 호황기를 맞고 있으나, 그 이익이 소수의 대형 운용사에 집중되는 양극화가 진행되고 있습니다. IT 관점에서는 데이터·AI·디지털 플랫폼 역량이 이러한 격차를 좌우하는 핵심 요인이 될 것으로 보입니다.",
       "importance_score": 8,
-      "title_ko": "2026년 자산운용: 소수에게만 돌아가는 풍요?"
+      "title_ko": "2026년 자산운용: 소수에게만 돌아갈 풍요?"
     },
     {
-      "source": "McKinsey & Company",
+      "source": "Forrester",
       "category": "글로벌 컨설팅",
-      "title": "The six strategy roles a CEO must not delegate",
-      "url": "https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights/the-six-strategy-roles-a-ceo-must-not-delegate",
-      "summary": "Strategy is a team sport, but the value it creates ultimately depends on the CEO’s involvement.",
-      "published": "2026-10-09 00:00",
-      "logo_domain": "mckinsey.com",
-      "ai_summary": "전략은 팀 단위로 수행되지만 그것이 창출하는 가치는 결국 CEO의 직접적인 관여에 달려 있다는 점을 강조합니다. IT 전략 측면에서는 디지털 전환과 기술 투자 의사결정을 CEO가 위임하지 않고 주도해야 조직 전체의 가치 실현이 가능함을 시사합니다.",
+      "title": "Infosys Bets On Trust As AI Reprices IT Services",
+      "url": "https://www.forrester.com/blogs/infosys-bets-on-trust-as-ai-reprices-it-services/",
+      "summary": "Last week, Infosys brought clients and analysts to Geneva for its 25th Confluence event in EMEA. We expected the usual AI promises. Instead, Salil Parekh opened the event with a remarkably down-to-earth message: Infosys is a delivery organization, its foundation is client trust, and it intends to remain a stable partner in a world that […]",
+      "published": "2026-10-13 12:47",
+      "logo_domain": "forrester.com",
+      "ai_summary": "인포시스는 EMEA 컨퍼런스에서 AI 과장 대신 \"신뢰 기반의 안정적 딜리버리 파트너\"라는 메시지를 강조하며, AI로 IT 서비스 가격 체계가 재편되는 환경에서 차별화 전략으로 고객 신뢰를 내세웠다. 이는 IT 서비스 기업들이 AI 도입에 따른 수익 모델 변화 속에서 실행력과 장기적 고객 관계를 핵심 경쟁력으로 삼아야 함을 시사한다.",
       "importance_score": 8,
-      "title_ko": "CEO가 위임해서는 안 되는 여섯 가지 전략적 역할"
-    },
-    {
-      "source": "McKinsey & Company",
-      "category": "글로벌 컨설팅",
-      "title": "As the world order turns, leading companies are keeping pace. Here’s how",
-      "url": "https://www.mckinsey.com/capabilities/geopolitics/our-insights/as-the-world-order-turns-leading-companies-are-keeping-pace-heres-how",
-      "summary": "Leading companies are tracking six emerging patterns of geopolitical change and realigning their businesses to achieve resilience, seize growth, and build competitive advantage.",
-      "published": "2026-10-09 00:00",
-      "logo_domain": "mckinsey.com",
-      "ai_summary": "글로벌 지정학적 변화의 여섯 가지 신흥 패턴을 선도 기업들이 추적하며 사업 구조를 재편해 회복력 확보, 성장 포착, 경쟁우위 구축을 도모하고 있다. IT 컨설팅 관점에서는 지정학 리스크를 반영한 공급망·클라우드·데이터 주권 등 IT 아키텍처의 유연성과 분산화 전략이 핵심 과제임을 시사한다.",
-      "importance_score": 8,
-      "title_ko": "세계 질서가 바뀌는 가운데, 선도 기업들은 어떻게 발맞"
+      "title_ko": "인포시스, A"
     },
     {
       "source": "McKinsey & Company",
@@ -51,30 +100,19 @@
       "summary": "Scaling an e-commerce start-up in India’s dispersed markets is challenging, but innovation, patience, and passionately solving hard problems have enabled Meesho’s founders to succeed.",
       "published": "2026-10-12 00:00",
       "logo_domain": "mckinsey.com",
-      "ai_summary": "인도의 분산된 시장에서 이커머스 스타트업을 확장하는 것은 어려우나, Meesho의 창업자들은 혁신, 인내, 그리고 난제에 대한 열정적인 해결을 통해 성공을 이뤄냈다. 이는 지역적으로 파편화된 시장에서 기술 기반 혁신과 실행력이 성장의 핵심 동력임을 보여준다.",
+      "ai_summary": "인도의 분산된 시장에서 이커머스 스타트업을 확장하는 것은 어려운 과제이며, Meesho의 창업자들은 혁신, 인내, 그리고 난제에 대한 열정적인 해결을 통해 성공을 이끌어냈습니다. 이는 IT 전략 측면에서 지역적으로 분산된 고객 기반을 대상으로 한 플랫폼 확장과 기술 기반 문제 해결 역량이 핵심 성공 요인임을 시사합니다.",
       "importance_score": 7,
-      "title_ko": "미쇼: 모두의 사업이 되는 전자상거래"
-    },
-    {
-      "source": "McKinsey & Company",
-      "category": "글로벌 컨설팅",
-      "title": "For CPG companies, agentic AI’s real payoff is growth",
-      "url": "https://www.mckinsey.com/industries/consumer-packaged-goods/our-insights/for-cpg-companies-agentic-ais-real-payoff-is-growth",
-      "summary": "As the relationship between consumer-packaged-goods companies and retailers becomes more complex, agentic AI can recapture lost sales. But are leaders ready to harness the technology’s power?",
-      "published": "2026-10-09 00:00",
-      "logo_domain": "mckinsey.com",
-      "ai_summary": "As the relationship between consumer-packaged-goods companies and retailers becomes more complex, agentic AI can recapture lost sales. But are leaders",
-      "importance_score": 0
+      "title_ko": "미쇼: 모두의 사업이 된 전자상거래"
     },
     {
       "source": "Forrester",
       "category": "글로벌 컨설팅",
-      "title": "Linux Foundation Analyst Summit: Stop Counting Tokens Only, TCA (Total Cost Of AI) Is The New Economics Of AI",
-      "url": "https://www.forrester.com/blogs/linux-foundation-analyst-summit-stop-counting-tokens-only-tca-total-cost-of-ai-is-the-new-economics-of-ai/",
-      "summary": "Linux Foundation Analyst Summit: Stop Counting Tokens Only, TCA (Total Cost Of AI) Is The New Economics Of AI At the October 8 Analyst Virtual Summit- The Linux Foundation’s Technology Value umbrella, the Linux Foundation brought Tokenomics, FinOps, Information Technology Asset Management (ITAM), and FinOps Open Cost and Usage Specification (FOCUS) together around a bigger […]",
+      "title": "Linux Foundation Analyst Summit: Stop Just Counting Tokens — TCA Is The New Economics Of AI",
+      "url": "https://www.forrester.com/blogs/linux-foundation-analyst-summit-stop-just-counting-tokens-tca-is-the-new-economics-of-ai/",
+      "summary": "At the October 8 analyst virtual summit — part of the Linux Foundation’s technology value umbrella — the Linux Foundation brought tokenomics, FinOps, information technology asset management (ITAM), and FinOps open cost and usage specification (FOCUS) together around a bigger question: How do enterprises connect what AI costs to the business value it creates? Seven […]",
       "published": "2026-10-13 01:42",
       "logo_domain": "forrester.com",
-      "ai_summary": "Linux Foundation Analyst Summit: Stop Counting Tokens Only, TCA (Total Cost Of AI) Is The New Economics Of AI At the October 8 Analyst Virtual Summit-",
+      "ai_summary": "At the October 8 analyst virtual summit — part of the Linux Foundation’s technology value umbrella — the Linux Foundation brought tokenomics, FinOps, ",
       "importance_score": 0
     },
     {
@@ -89,14 +127,25 @@
       "importance_score": 0
     },
     {
-      "source": "Forrester",
-      "category": "글로벌 컨설팅",
-      "title": "The Future Of Software Will Be Defined By Stewardship",
-      "url": "https://www.forrester.com/blogs/the-future-of-software-will-be-defined-by-stewardship/",
-      "summary": "This summer, my colleague Diego Lo Giudice and I explored a deceptively simple question: What happens to enterprise software when AI makes software creation abundant? We found a paradox: Get more of what you want, and you also get more of what you don’t want. Get More Of What You Ask For AI writes code, […]",
-      "published": "2026-10-09 11:23",
-      "logo_domain": "forrester.com",
-      "ai_summary": "This summer, my colleague Diego Lo Giudice and I explored a deceptively simple question: What happens to enterprise software when AI makes software cr",
+      "source": "Naver D2",
+      "category": "플랫폼 테크",
+      "title": "Python의 GC가 멀티프로세싱과 만나면 생기는 일 - Python과 Airflow, 그리고 관련된 문제 해결기 2편",
+      "url": "https://d2.naver.com/helloworld/4149925",
+      "summary": "Python의 멀티프로세싱과 Airflow의 task 동작 방식 - Python과 Airflow, 그리고 관련된 문제 해결기 1편 에서는 Airflow가 task를 실행할 때 요구되는 병렬성과 격리성을 살펴보고, 이를 만족하기 위해 Airflow가 task마다 만들었다 버리는 단기 프로세스와 만들어 두고 재사용하는 장기 프로세스를 모두 fork 방식으로 생성한다는 점을 확인했습니다. fork는 생성 속도와 메모리 효율 모두에서 spawn을 크게 앞섰지만, 두 가지 한계가 따라온다는 점도 언급했습니다. 부모의 자원을 그대로 승계한다는 점과, Python에서는 Copy-on-Write(COW)가 기대만큼 동작하지 않는다는 점입니다. 이번 글에서는 이 두 한계가 저희 PoC(Proof of Concept) 환경에서 실제로 어떤 문제로 나타났는지부터 시작합니다. 두 문제는 worker 프로세스의 메모리가 계속 늘어나는 현상과, MySQL 환경에서 dag-processor가 간헐적으로 재시작",
+      "published": "2026-10-14 01:35",
+      "logo_domain": "naver.com",
+      "ai_summary": "Python의 멀티프로세싱과 Airflow의 task 동작 방식 - Python과 Airflow, 그리고 관련된 문제 해결기 1편 에서는 Airflow가 task를 실행할 때 요구되는 병렬성과 격리성을 살펴보고, 이를 만족하기 위해 Airflow가 task마다 만들었다",
+      "importance_score": 0
+    },
+    {
+      "source": "Naver D2",
+      "category": "플랫폼 테크",
+      "title": "FE News 26년 10월 소식을 전해드립니다.",
+      "url": "https://d2.naver.com/news/8711937",
+      "summary": "주요소식 ​ The Story of VS Code Visual Studio Code 공식 채널이 공개한 약 1시간 38분 분량의 다큐멘터리로, Erich Gamma가 이끈 취리히 팀이 브라우저용 편집기 컴포넌트 Monaco Editor를 만들던 시기부터 데스크톱 VS Code 발표와 오픈 소스 전환까지의 과정을 30여 명의 관계자 인터뷰로 보여 준다. 확장을 별도 프로세스에서 실행하고 한번 공개한 API는 바꾸지 않는 원칙, TypeScript 서버에서 출발한 LSP, UI와 확장 호스트를 분리한 구조가 원격 개발과 vscode.dev로 이어진 배경을 설명한다. 후반부에서는 GitHub Copilot의 출발과 Ask, Edits, Agent Mode로 이어진 AI 기능, Cursor 같은 포크를 바라보는 VS Code 팀의 시각도 소개한다. ​ ​ Native is now the future of mobile at Shopify 2020년 React Native 전면 도입을 선언했던",
+      "published": "2026-10-14 01:35",
+      "logo_domain": "naver.com",
+      "ai_summary": "주요소식 ​ The Story of VS Code Visual Studio Code 공식 채널이 공개한 약 1시간 38분 분량의 다큐멘터리로, Erich Gamma가 이끈 취리히 팀이 브라우저용 편집기 컴포넌트 Monaco Editor를 만들던 시기부터 데스크톱 VS ",
       "importance_score": 0
     }
   ]
