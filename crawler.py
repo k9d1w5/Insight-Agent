@@ -47,7 +47,7 @@ GUARANTEED_GROUPS = {
     "Forrester":  {"Forrester"},
     # 한국 대기업
     "Samsung SDS": {"Samsung SDS 인사이트", "Samsung SDS GN"},
-    "LG CNS":      {"LG CNS 인사이트", "LG CNS Blog"},
+    "LG CNS":      {"LG CNS 인사이트"},
     "SK AX":       {"SK AX", "SK AX GN"},
     "KT":          {"KT Enterprise"},
     "현대오토에버": {"현대오토에버", "현대오토에버 GN"},
@@ -98,11 +98,6 @@ DIRECT_RSS = [
      "url": "https://sloanreview.mit.edu/topic/technology-innovation/feed/",
      "logo_domain": "sloanreview.mit.edu"},
 
-    # ── 한국 대기업 (공식 블로그 RSS) ───────────────────────
-    {"name": "LG CNS Blog",        "category": "한국 대기업",
-     "url": "https://blog.lgcns.com/rss",
-     "logo_domain": "lgcns.com"},
-
     # ── 플랫폼 테크 (공식 기술 블로그 RSS) ──────────────────
     {"name": "Naver D2",           "category": "플랫폼 테크",
      "url": "https://d2.naver.com/d2.atom",
@@ -113,23 +108,11 @@ DIRECT_RSS = [
     {"name": "Toss Tech",          "category": "플랫폼 테크",
      "url": "https://toss.tech/rss.xml",
      "logo_domain": "toss.im"},
-    {"name": "당근마켓 Tech",       "category": "플랫폼 테크",
-     "url": "https://medium.com/feed/daangn",
-     "logo_domain": "daangn.com"},
-    {"name": "쿠팡 Engineering",    "category": "플랫폼 테크",
-     "url": "https://medium.com/feed/coupang-engineering",
-     "logo_domain": "coupang.com"},
 
     # ── IT 미디어 (직접 RSS) ─────────────────────────────────
     {"name": "전자신문",           "category": "IT 미디어",
      "url": "https://www.etnews.com/rss/allArticleRss.xml",
      "logo_domain": "etnews.com"},
-    {"name": "아이뉴스24",         "category": "IT 미디어",
-     "url": "https://www.inews24.com/rss/allArticle.xml",
-     "logo_domain": "inews24.com"},
-    {"name": "디지털타임스",       "category": "IT 미디어",
-     "url": "https://www.dt.co.kr/rss/all.xml",
-     "logo_domain": "dt.co.kr"},
     {"name": "지디넷코리아",       "category": "IT 미디어",
      "url": "https://zdnet.co.kr/rss/",
      "logo_domain": "zdnet.co.kr"},
@@ -165,9 +148,6 @@ GNEWS_SOURCES = [
     {"name": "IT조선",      "category": "IT 미디어",
      "url": gnews("IT조선 인공지능 AI 디지털"),
      "logo_domain": "it.chosun.com"},
-    {"name": "인공지능신문", "category": "IT 미디어",
-     "url": gnews("인공지능신문 AI LLM 생성형"),
-     "logo_domain": "aitimes.kr"},
     {"name": "AI타임즈",    "category": "IT 미디어",
      "url": gnews("AI타임즈 인공지능 기술"),
      "logo_domain": "aitimes.com"},

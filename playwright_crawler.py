@@ -21,7 +21,7 @@ PLAYWRIGHT_SOURCES = [
         "link_pattern":    "/kr/insights/",
         "exclude_pattern": "index",
         "wait_for":        "networkidle",
-        "extra_wait_ms":   2000,
+        "extra_wait_ms":   1500,
     },
     {
         "name":            "SK AX",
@@ -31,7 +31,7 @@ PLAYWRIGHT_SOURCES = [
         "link_pattern":    "/insight/",
         "exclude_pattern": "trends",
         "wait_for":        "networkidle",
-        "extra_wait_ms":   2000,
+        "extra_wait_ms":   1500,
     },
     {
         "name":            "현대오토에버",
@@ -41,7 +41,7 @@ PLAYWRIGHT_SOURCES = [
         "link_pattern":    "/insights/",
         "exclude_pattern": "list",
         "wait_for":        "networkidle",
-        "extra_wait_ms":   2000,
+        "extra_wait_ms":   1500,
     },
     {
         "name":            "LG CNS 인사이트",
@@ -49,9 +49,9 @@ PLAYWRIGHT_SOURCES = [
         "url":             "https://www.lgcns.com/kr/moa/insight.page_1",
         "logo_domain":     "lgcns.com",
         "link_pattern":    "/kr/moa/insight",
-        "exclude_pattern": "page_",           # 페이지네이션 링크 제외
+        "exclude_pattern": "page_",
         "wait_for":        "networkidle",
-        "extra_wait_ms":   2000,
+        "extra_wait_ms":   1500,
     },
     {
         "name":            "에커튼파트너스",

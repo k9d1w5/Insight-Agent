@@ -61,8 +61,6 @@ function renderReport(data) {
   const uniqueSrc = [...new Set((data.articles || []).map(a => a.source))];
   document.getElementById('stat-sources').textContent = uniqueSrc.length;
   document.getElementById('stat-categories').textContent = Object.keys(data.categories || {}).length;
-  document.getElementById('final-report').innerHTML =
-    markdownToHtml(data.final_report || '리포트가 없습니다.');
 
   const periodEl = document.getElementById('article-period');
   if (periodEl && data.articles?.length) {
@@ -85,143 +83,10 @@ function renderReport(data) {
   renderWordCloud(allArticles);
 }
 
-// ── 마크다운 → HTML (섹션 인식 렌더러) ──────────────────
-function fmt(text) {
-  return text
-    .replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')
-    .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
-}
-
-function markdownToHtml(md) {
-  const lines  = md.split('\n');
-  const out    = [];
-  let paraLines   = [];
-  let inUl        = false;
-  let inOl        = false;
-  let inTrendCard = false;
-  let trendBuf    = [];
-
-  function flushPara() {
-    if (!paraLines.length) return;
-    out.push('<p>' + paraLines.map(fmt).join('<br>') + '</p>');
-    paraLines = [];
-  }
-  function closeUl()   { if (inUl)  { out.push('</ul>');  inUl  = false; } }
-  function closeOl()   { if (inOl)  { out.push('</ol>');  inOl  = false; } }
-  function closeTrend() {
-    if (inTrendCard) {
-      out.push('<div class="trend-body">' + trendBuf.join('\n') + '</div></div>');
-      trendBuf = []; inTrendCard = false;
-    }
-  }
-
-  for (let i = 0; i < lines.length; i++) {
-    const raw  = lines[i];
-    const line = raw.trim();
-
-    // — H1 —
-    if (line.startsWith('# ')) {
-      flushPara(); closeUl(); closeOl(); closeTrend();
-      out.push(`<h1 class="rpt-h1">${fmt(line.slice(2))}</h1>`);
-      continue;
-    }
-
-    // — H2 —
-    if (line.startsWith('## ')) {
-      flushPara(); closeUl(); closeOl(); closeTrend();
-      const title = line.slice(3).trim();
-      if (title.includes('Executive Summary') || title.includes('🔍')) {
-        out.push('<div class="rpt-executive">');
-        out.push(`<div class="rpt-exec-label"><span class="rpt-exec-icon">🔍</span>Executive Summary</div>`);
-        out.push('<div class="rpt-exec-body">');
-        // collect until next ## or ---
-        let j = i + 1;
-        while (j < lines.length && !lines[j].trim().startsWith('## ') && lines[j].trim() !== '---') {
-          const t = lines[j].trim();
-          if (t) out.push('<p>' + fmt(t) + '</p>');
-          j++;
-        }
-        out.push('</div></div>');
-        i = j - 1;
-      } else {
-        out.push(`<h2 class="rpt-h2">${fmt(title)}</h2>`);
-      }
-      continue;
-    }
-
-    // — H3 (트렌드 카드 or 기관 헤더) —
-    if (line.startsWith('### ')) {
-      flushPara(); closeUl(); closeOl(); closeTrend();
-      const title = line.slice(4).trim();
-      const medal = title.startsWith('🥇') ? 'gold'
-                  : title.startsWith('🥈') ? 'silver'
-                  : title.startsWith('🥉') ? 'bronze' : null;
-      if (medal) {
-        inTrendCard = true;
-        trendBuf = [];
-        out.push(`<div class="trend-card trend-${medal}">`);
-        out.push(`<div class="trend-header"><span class="trend-medal">${title.slice(0,2)}</span><span class="trend-title">${fmt(title.slice(2).replace(/^\s*\[?\s*/,'').replace(/\s*\]?\s*$/,''))}</span></div>`);
-      } else {
-        out.push(`<h3 class="rpt-h3">${fmt(title)}</h3>`);
-      }
-      continue;
-    }
-
-    // — HR —
-    if (line === '---') {
-      flushPara(); closeUl(); closeOl(); closeTrend();
-      out.push('<div class="rpt-divider"></div>');
-      continue;
-    }
-
-    // — 순서있는 목록 —
-    const olM = line.match(/^(\d+)\.\s+(.+)$/);
-    if (olM) {
-      flushPara(); closeUl();
-      if (!inOl) { out.push('<ol class="rpt-action-list">'); inOl = true; }
-      if (inTrendCard) {
-        trendBuf.push(`<li>${fmt(olM[2])}</li>`);
-      } else {
-        out.push(`<li>${fmt(olM[2])}</li>`);
-      }
-      continue;
-    }
-
-    // — 순서없는 목록 —
-    if (line.startsWith('- ')) {
-      flushPara(); closeOl();
-      if (!inUl) { if (inTrendCard) trendBuf.push('<ul>'); else out.push('<ul>'); inUl = true; }
-      const item = `<li>${fmt(line.slice(2))}</li>`;
-      if (inTrendCard) trendBuf.push(item); else out.push(item);
-      continue;
-    }
-
-    // — 빈 줄 —
-    if (!line) {
-      if (inUl) { closeUl(); if (inTrendCard) trendBuf.push('</ul>'); }
-      if (inOl) { closeOl(); if (inTrendCard) trendBuf.push('</ol>'); }
-      flushPara();
-      continue;
-    }
-
-    // — 일반 텍스트 —
-    if (inTrendCard) {
-      trendBuf.push('<p>' + fmt(line) + '</p>');
-    } else {
-      closeUl(); closeOl();
-      paraLines.push(line);
-    }
-  }
-
-  flushPara(); closeUl(); closeOl(); closeTrend();
-  return out.join('\n');
-}
-
 // ── 아티클 렌더 ──────────────────────────────────────────
 function getSortedArticles(articles) {
-  const s = document.getElementById('sort-select')?.value || 'score';
+  const s = document.getElementById('sort-select')?.value || 'date';
   return [...articles].sort((a, b) => {
-    if (s === 'score')  return (b.importance_score || 0) - (a.importance_score || 0);
     if (s === 'date')   return (b.published || '').localeCompare(a.published || '');
     if (s === 'source') return (a.source || '').localeCompare(b.source || '');
     return 0;
@@ -245,10 +110,6 @@ function renderArticles(articles) {
     card.className = 'article-card';
     const dateStr = a.published ? a.published.slice(0, 10) : '';
     const hasLink = !!a.url;
-    const score   = a.importance_score || 0;
-    const scoreBadge = score > 0
-      ? `<span class="score-badge score-${score>=8?'high':score>=5?'mid':'low'}">${score>=8?'🔥':score>=5?'⭐':'·'} ${score}/10</span>`
-      : '';
     const displayTitle = a.title_ko || a.title || '';
     const titleHtml = hasLink
       ? `<a href="${esc(a.url)}" target="_blank" rel="noopener">${esc(displayTitle)}</a>`
@@ -264,13 +125,11 @@ function renderArticles(articles) {
           <span class="cat-badge" style="background:${color}">${esc(a.category)}</span>
           ${logoHtml}
           <span class="source-chip">${esc(a.source)}</span>
-          ${scoreBadge}
           ${dateStr ? `<span class="article-date">${dateStr}</span>` : ''}
         </div>
         <div class="article-title">${titleHtml}</div>
         ${origTitleHtml}
         ${a.summary ? `<div class="article-original">${esc(a.summary.slice(0,200))}</div>` : ''}
-        ${a.ai_summary ? `<div class="article-ai-box"><div class="ai-label">AI 요약</div><div class="article-ai-text">${esc(a.ai_summary)}</div></div>` : ''}
         ${hasLink ? `<div class="article-link-row"><a class="article-link" href="${esc(a.url)}" target="_blank" rel="noopener">원문 보기 →</a></div>` : ''}
       </div>`;
     grid.appendChild(card);
@@ -411,7 +270,7 @@ function stripParticle(word) {
 function extractKeywords(articles) {
   const freq = {};
   articles.forEach(a => {
-    [a.title_ko || a.title || '', a.ai_summary || ''].forEach(text => {
+    [a.title_ko || a.title || ''].forEach(text => {
       text.replace(/[^\wㄱ-ㅎㅏ-ㅣ가-힣\s]/g, ' ')
         .split(/\s+/)
         .map(w => stripParticle(w.trim()))   // 조사 제거
