@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="ko" data-theme="light">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -26,6 +26,7 @@
         </nav>
         <div class="live-badge"><div class="live-dot"></div>매일 오전 8시 자동</div>
         <div class="report-date-badge" id="report-date">-</div>
+        <button class="theme-toggle" id="theme-toggle" title="다크 모드 전환">🌙</button>
       </div>
     </div>
   </header>
@@ -88,13 +89,25 @@
             <button class="filter-btn" data-cat="플랫폼 테크">플랫폼 테크</button>
             <button class="filter-btn" data-cat="IT 미디어">IT 미디어</button>
           </div>
-          <div class="sort-wrap">
-            <select class="sort-select" id="sort-select">
-              <option value="date">날짜 순</option>
-              <option value="source">출처 순</option>
-            </select>
+          <div class="filter-controls">
+            <div class="date-filter-bar">
+              <button class="date-filter-btn active" data-date="all">전체</button>
+              <button class="date-filter-btn" data-date="today">오늘</button>
+              <button class="date-filter-btn" data-date="yesterday">어제</button>
+              <button class="date-filter-btn" data-date="week">이번 주</button>
+            </div>
+            <div class="sort-wrap">
+              <select class="sort-select" id="sort-select">
+                <option value="date">날짜 순</option>
+                <option value="source">출처 순</option>
+              </select>
+            </div>
+            <div class="view-toggle-wrap">
+              <button class="view-btn active" data-view="card" title="카드 뷰">⊞</button>
+              <button class="view-btn" data-view="list" title="리스트 뷰">☰</button>
+            </div>
+            <div class="article-count-badge" id="article-count">0개 아티클</div>
           </div>
-          <div class="article-count-badge" id="article-count">0개 아티클</div>
         </div>
         <div id="articles-grid" class="articles-grid"></div>
 
@@ -151,6 +164,12 @@
       <div id="sources-grid" class="sources-grid"></div>
     </div>
   </div>
+
+  <!-- 맨 위로 버튼 -->
+  <button class="scroll-top-btn" id="scroll-top-btn" title="맨 위로">↑</button>
+
+  <!-- 토스트 컨테이너 -->
+  <div class="toast-container" id="toast-container"></div>
 
   <script src="app.js"></script>
 </body>
