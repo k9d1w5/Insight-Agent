@@ -32,9 +32,19 @@ jobs:
       - name: Generate report
         run: python main.py
 
+      - name: Build trends
+        run: python trends.py
+
       - name: Commit report
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "📊 리포트 자동 생성"
           branch: studyMS
           file_pattern: web/data/**
+
+      - name: Send Teams briefing
+        continue-on-error: true
+        env:
+          TEAMS_WEBHOOK_URL: ${{ secrets.TEAMS_WEBHOOK_URL }}
+          SITE_URL: ${{ vars.SITE_URL }}
+        run: python teams_notify.py
