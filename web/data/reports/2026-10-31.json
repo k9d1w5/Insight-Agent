@@ -1,0 +1,500 @@
+{
+  "date": "2026-10-31",
+  "generated_at": "2026-10-31 11:02:55",
+  "total_articles": 54,
+  "categories": {
+    "글로벌 컨설팅": 15,
+    "플랫폼 테크": 12,
+    "국내 연구기관": 5,
+    "IT 미디어": 8,
+    "한국 대기업": 14
+  },
+  "articles": [
+    {
+      "source": "McKinsey & Company",
+      "category": "글로벌 컨설팅",
+      "title": "Shapers and Founders: Scaling without losing soul",
+      "url": "https://www.mckinsey.com/featured-insights/future-of-asia/future-of-asia-podcasts/shapers-and-founders-scaling-without-losing-soul",
+      "summary": "A closer look at Asia’s successful founder-CEOs reveals how they have scaled their businesses without sacrificing their entrepreneurial spirit.",
+      "published": "2026-10-30 00:00",
+      "logo_domain": "mckinsey.com"
+    },
+    {
+      "source": "McKinsey & Company",
+      "category": "글로벌 컨설팅",
+      "title": "Closing banking’s AI value gap: A CEO guide",
+      "url": "https://www.mckinsey.com/industries/financial-services/our-insights/closing-bankings-ai-value-gap-a-ceo-guide",
+      "summary": "As AI adoption races ahead, great value is being left behind. Leaders need an operating model that turns investment into AI capital that can be deployed again and again.",
+      "published": "2026-10-30 00:00",
+      "logo_domain": "mckinsey.com"
+    },
+    {
+      "source": "McKinsey & Company",
+      "category": "글로벌 컨설팅",
+      "title": "Overcoming the R&D bottleneck: Building a causal decision system",
+      "url": "https://www.mckinsey.com/industries/life-sciences/our-insights/overcoming-the-r-and-d-bottleneck-building-a-causal-decision-system",
+      "summary": "Tackling stalled development productivity requires sharp decision making. Leading biopharma are replacing fragmented analysis with connected, causal decision systems to optimize speed, cost, and success rates.",
+      "published": "2026-10-30 00:00",
+      "logo_domain": "mckinsey.com"
+    },
+    {
+      "source": "McKinsey & Company",
+      "category": "글로벌 컨설팅",
+      "title": "Waniwani’s CEO on the agentic future of insurance distribution",
+      "url": "https://www.mckinsey.com/industries/financial-services/our-insights/waniwanis-ceo-on-the-agentic-future-of-insurance-distribution",
+      "summary": "AI agents could fundamentally change the economics of insurance distribution. Waniwani CEO Robin Diligent explains the opportunities, risks, and implications for insurers.",
+      "published": "2026-10-30 00:00",
+      "logo_domain": "mckinsey.com"
+    },
+    {
+      "source": "McKinsey & Company",
+      "category": "글로벌 컨설팅",
+      "title": "Wärtsilä CEO Håkan Agnevall: Focus, flexibility, and the next wave of growth",
+      "url": "https://www.mckinsey.com/industries/industrials/our-insights/wartsila-ceo-hakan-agnevall-focus-flexibility-and-the-next-wave-of-growth",
+      "summary": "Industrial leaders can turn disruption into growth by sharpening their focus, scaling to meet surging data-center power demand, and putting AI and continuous improvement to work.",
+      "published": "2026-10-30 00:00",
+      "logo_domain": "mckinsey.com"
+    },
+    {
+      "source": "Forrester",
+      "category": "글로벌 컨설팅",
+      "title": "AI Search Is Growing Faster Than Its Business Model",
+      "url": "https://www.forrester.com/blogs/ai-search-is-growing-faster-than-its-business-model/",
+      "summary": "Big Tech earnings this week put a spotlight on the monetization dilemma at the heart of AI-integrated search. The growth of Google’s AI Mode is proving to be a double-edged sword: Investments in conversational search are fueling Google’s fastest year-over-year search query growth in five years, but the company’s advertising revenue growth slowed to 12%, […]",
+      "published": "2026-10-30 19:34",
+      "logo_domain": "forrester.com"
+    },
+    {
+      "source": "Forrester",
+      "category": "글로벌 컨설팅",
+      "title": "Your Customers’ AI Agents Will Never Give Up",
+      "url": "https://www.forrester.com/blogs/your-customers-ai-agents-will-never-give-up/",
+      "summary": "Personal AI agents will increase service volume — and will expose unresolved demand that customer effort used to keep out of sight. Use that unresolved demand to find problems now that customers shouldn’t need to chase you about in the first place.",
+      "published": "2026-10-30 18:25",
+      "logo_domain": "forrester.com"
+    },
+    {
+      "source": "Forrester",
+      "category": "글로벌 컨설팅",
+      "title": "Predictions 2027: AI Turns Up The Heat On Software Development",
+      "url": "https://www.forrester.com/blogs/predictions-2027-software-development/",
+      "summary": "As AI accelerates software development, teams will need to rethink everything from developer roles to testing and quality. Forrester’s 2027 predictions explore what happens as AI becomes more deeply embedded in how software gets built.",
+      "published": "2026-10-30 18:22",
+      "logo_domain": "forrester.com"
+    },
+    {
+      "source": "Forrester",
+      "category": "글로벌 컨설팅",
+      "title": "DoorDash + Instacart: A Good Idea But Not For The Reasons They Say",
+      "url": "https://www.forrester.com/blogs/doordash-instacart-a-good-idea-but-not-for-the-reasons-they-say/",
+      "summary": "DoorDash announced on October 29 that it will buy Instacart for about $17 billion. Read our analysis.",
+      "published": "2026-10-30 18:06",
+      "logo_domain": "forrester.com"
+    },
+    {
+      "source": "Forrester",
+      "category": "글로벌 컨설팅",
+      "title": "Google Public Sector Summit 2026: AI Moves From Possibility To Mission",
+      "url": "https://www.forrester.com/blogs/google-public-sector-summit-2026-ai-moves-from-possibility-to-mission/",
+      "summary": "When Forrester wrote about the creation of Google Public Sector in 2022, the question was whether Google could build the industry credentials to compete more seriously for government business. Four years later, the conversation has changed. At the Google Public Sector Summit 2026 on October 20 in Washington, DC, there wasn’t one major announcement that […]",
+      "published": "2026-10-30 17:55",
+      "logo_domain": "forrester.com"
+    },
+    {
+      "source": "Naver D2",
+      "category": "플랫폼 테크",
+      "title": "모두가 함께 성장하는 기술 축제, NAVER Engineering Day 10년의 여정",
+      "url": "https://d2.naver.com/news/0907869",
+      "summary": "기술은 혼자 완성되지 않습니다. ​ 한 사람이 발견한 문제와 해결 과정이 동료에게 전해지고, 그 경험이 또 다른 시도와 개선으로 이어질 때 조직의 기술은 앞으로 나아갑니다. ​ NAVER Engineering Day는 이런 믿음에서 출발했습니다. 2016년, 실무에서 얻은 개발 경험과 새로운 기술 및 플랫폼을 도입하며 배운 점을 나누는 사내 개발자 행사로 시작해 올해 10주년을 맞았습니다. 그동안 Engineering Day는 발표자가 정리한 지식을 듣는 자리를 넘어, 서로의 경험을 연결하고 각자의 업무 문제를 함께 해결하는 장으로 꾸준히 확장돼 왔습니다. ​ 특히 AI가 특정 직군의 전문 도구를 넘어 일하는 방식 전반을 바꾸기 시작하면서 기술을 나눈다는 말의 의미도 달라졌습니다. 중요한 것은 새로운 도구를 아는 데 그치지 않고, 내 문제에 적용해 보고 막히는 지점을 동료와 함께 풀어 보는 경험입니다. ​ 10주년 Engineering Day는 이러한 변화에 맞춰 전 직군이 함께 온",
+      "published": "2026-10-31 02:01",
+      "logo_domain": "naver.com"
+    },
+    {
+      "source": "Naver D2",
+      "category": "플랫폼 테크",
+      "title": "사이드카의 선언적 관리: OpenKruise SidecarSet 도입과 운영",
+      "url": "https://d2.naver.com/helloworld/2983631",
+      "summary": "Kubernetes에서 서비스를 운영하다 보면 메인 컨테이너 옆에 사이드카(sidecar) 컨테이너를 붙이는 일이 흔합니다. 사이드카에는 로그와 메트릭 수집, 프록시처럼 주 기능은 아니지만 같은 Pod 안에서 함께 실행되어야 하는 기능이 포함됩니다. 저희 팀이 운영하는 관리형 데이터베이스 서비스도 DB 인스턴스를 Pod 단위로 실행하고, 그 Pod에 DB 컨테이너 외에 헬스 체크, 메트릭과 로그 수집 등을 위한 사이드카를 함께 둡니다. 이 사이드카들은 DB와 같은 데이터 볼륨에 접근해야 하므로 같은 Pod 안에 있어야 하지만, 라이프사이클은 DB와 다릅니다. DB는 한 번 실행하면 몇 달씩 그대로 운영하는 반면, 사이드카는 기능 추가와 버그 수정, 보안 패치로 훨씬 자주 바뀝니다. 사이드카가 바뀔 때마다 그 변경을 모든 인스턴스에 반영해야 하는데, DB 서비스는 유지한 채 실행 중인 Pod의 사이드카만 바꿔야 합니다. 사이드카는 모든 DB Pod에 붙으므로 이 작업은 인스턴스 수만큼",
+      "published": "2026-10-31 02:01",
+      "logo_domain": "naver.com"
+    },
+    {
+      "source": "Naver D2",
+      "category": "플랫폼 테크",
+      "title": "AI 시대의 개발자를 꿈꾸는 학생 개발자에게",
+      "url": "https://d2.naver.com/helloworld/1975819",
+      "summary": "시작하며: 2018년과 2026년 사이의 간격과 격변기의 고민 ​ 2018년에 저는 ' 백엔드 개발자를 꿈꾸는 학생개발자에게 '라는 글을 이곳 D2 블로그에 공유했습니다. 당시 학생 개발자들과의 미트업 행사에서 나왔던 질문과 답변을 정리한 글이었습니다. 그 후 8년의 시간이 흘렀기에 그 글만 노출된다면 학생들에게 현시점에 적절한 정보를 주지 못할까 봐 걱정되었습니다. 그래서 2025년 말 설문으로 질문을 받아 후속편을 작성했습니다. ​ 그동안 저도 경험과 지식을 더 쌓았습니다. 하지만 지금 학생 개발자들이 한 질문에는 답하기가 더 어려워졌습니다. 개발자의 역할과 같은 큰 주제를 묻는 질문이 많았는데, 지금은 AI로 인한 변화가 큰 시기이기 때문입니다. 스스로도 확신이 없는 시기에 이런 글을 쓰는 것이 적절할지 고민도 했습니다. ​ 그럼에도 2018년의 글에 보내 주신 관심에 용기를 얻어서 이 글을 발행합니다. 최근의 경험을 나누고 미래를 함께 상상해 보는 일이 지금 시점에는 더 의미",
+      "published": "2026-10-31 02:01",
+      "logo_domain": "naver.com"
+    },
+    {
+      "source": "Naver D2",
+      "category": "플랫폼 테크",
+      "title": "2026년과 이후 JavaScript의 동향 - 브라우저 밖의 JavaScript",
+      "url": "https://d2.naver.com/helloworld/1443473",
+      "summary": "브라우저 밖의 JavaScript 동향을 마지막으로 다루었던 2019년 시점( 1부 , 2부 )에서는 Node.js 12와 막 1년을 넘긴 Deno를 소개하며 \"Node.js와 같은 성공을 거둘 수 있을지는 아직 미지수\"라고 썼습니다. 패키지 관리자 영역은 \"npm의 독주 체제\"라고 표현했고 npm 회사의 불확실한 상황에 맞서 Entropic, Open-Registry, GitHub Package Registry 같은 도전자가 등장했다고 전했습니다. 7년이 지난 지금 Node.js는 연 1회 릴리스로 일정을 바꾸기로 했습니다. Node.js 호환을 목표로 삼게 된 Deno와 Bun은 각각 Cloudflare와 Anthropic에 합류했고, npm은 GitHub의 일부가 되어 공급망 공격과 싸우고 있습니다. 이번 연재는 다음 네 편으로 구성됩니다. 1편: JavaScript(ECMAScript) 2편: 브라우저 밖의 JavaScript 3편: WebAssembly 4편: 라이브러리와 ",
+      "published": "2026-10-31 02:01",
+      "logo_domain": "naver.com"
+    },
+    {
+      "source": "Naver D2",
+      "category": "플랫폼 테크",
+      "title": "2026년과 이후 JavaScript의 동향 - JavaScript(ECMAScript)",
+      "url": "https://d2.naver.com/helloworld/2675915",
+      "summary": "2016년부터 매년 이어 오던 \"JavaScript의 동향\" 연재는 2020년을 마지막으로 한동안 쉬었습니다. 그사이 6년이 지났고, 그 6년 동안 ECMAScript 명세는 여섯 번 개정되었습니다. 2020년 글을 쓸 때 Stage 2였던 Temporal은 9년에 걸친 논의 끝에 Stage 4에 올랐고, 이제 Chrome과 Firefox, Node.js에서 플래그 없이 쓸 수 있습니다. 달라진 것은 명세만이 아닙니다. 2020년에는 상상하기 어려웠던 방식으로 코드를 쓰는 사람이 늘었습니다. AI 코딩 도구가 코드의 상당 부분을 작성하고, 사람이 방향을 정하면 AI 에이전트가 브라우저 엔진의 JavaScript 엔진 코드를 다른 언어로 옮기는 일까지 생겼습니다. 2025년 GitHub Octoverse에서 TypeScript가 처음으로 가장 많이 쓰인 언어 1위에 올랐고, GitHub은 그 배경으로 AI를 꼽았습니다. 이번 연재는 다음 네 편으로 구성됩니다. 1편: JavaScrip",
+      "published": "2026-10-31 02:01",
+      "logo_domain": "naver.com"
+    },
+    {
+      "source": "Kakao Tech",
+      "category": "플랫폼 테크",
+      "title": "팀이 신뢰할 수 있는 AI 분석 환경 만들기: 추천팀의 컨텍스트 설계",
+      "url": "https://tech.kakao.com/posts/844",
+      "summary": "안녕하세요. 카카오톡 숏폼 추천 모델을 개발하고 있는 루퍼트(rupert)입니다. 저희 추천팀은 추천 지표 분석에 AI 에이전트를 사용합니다. AI 에이전트에게 분석을 요청하면, 에이전트가 미리 정리해 둔 지침 문서(CLAUDE.md)를 읽고 SQL을 작성해 기존 Hadoop 환경에서 실행한 뒤 집계 결과를 리포트로 완성합니다. 지난 글에서는 데이터 엔지니어, 분석가만 알고 있던 로그 데이터 접근 방법과 분석 기준을 AI를 통해 조회하는 사례를 소개했습...",
+      "published": "2026-10-27 15:00",
+      "logo_domain": "kakao.com"
+    },
+    {
+      "source": "Kakao Tech",
+      "category": "플랫폼 테크",
+      "title": "문자를 보냈다는데 왜 안 오죠? 길 잃은 국제 MO 메시지 구출 작전",
+      "url": "https://tech.kakao.com/posts/843",
+      "summary": "안녕하세요. 카카오 사내 SMS 전송 시스템(KIMS, Kakao Integrated Messaging Service)을 개발하고 있는 커넥티비티 플랫폼의 ravae.c(최지원) 입니다. 국내와 달리 해외 MO(Message Originated) 메시지 인증은 메시지가 어디에서 길을 잃었는지 파악하기조차 어려운 ‘깜깜이’ 영역이었어요. 이번 글에서는 KIMS가 어떻게 이 난제를 극복하고, 국제 MO 전환율을 90%대까지 끌어올렸는지 그 기술적 여정을 소...",
+      "published": "2026-10-21 15:00",
+      "logo_domain": "kakao.com"
+    },
+    {
+      "source": "Kakao Tech",
+      "category": "플랫폼 테크",
+      "title": "카카오 AI 돛 Summit 26 다시보기 공개 — AI 인프라부터 서비스 적용, 개발과 창업까지",
+      "url": "https://tech.kakao.com/posts/842",
+      "summary": "지난 9월 29일 부산에서 약 800명의 참가자와 함께한 ‘카카오 AI 돛 Summit 26’의 주요 세션 VOD를 공개합니다. 👉 카카오 AI 돛 Summit 26 세션 VOD 보러 가기 AI와 함께 개발하는 방식부터 실제 서비스에 AI를 적용하는 과정, 연구를 창업으로 연결하는 경험까지. 현장에 참석하지 못했거나 동시에 진행되어 놓쳤던 발표를 이제 온라인에서 만나보세요. 어떤 세션부터 볼지 고민된다면, 지금 여러분의 관심사와 가장 가까운 이야기부터...",
+      "published": "2026-10-21 15:00",
+      "logo_domain": "kakao.com"
+    },
+    {
+      "source": "Kakao Tech",
+      "category": "플랫폼 테크",
+      "title": "글로벌 최고 수준의 자체 비전 인코더, Kanana-2-vision-encoder 개발기",
+      "url": "https://tech.kakao.com/posts/840",
+      "summary": "안녕하세요. 카카오 Multimodal Model Training팀에서 카나나를 연구·개발하는 Polar(엄지환)입니다. 카카오가 자체 기술력만으로 밑바닥부터(from scratch) 개발한 독자 비전 인코더, Kanana-2-vision-encoder를 소개합니다. Kanana-2-vision-encoder는 카카오 언어모델 Kanana-2 LLM[1]의 가중치와 구조를 활용해 학습과 추론 모두에서 높은 효율성을 자랑합니다. 또한, 고해상도 이미지 ...",
+      "published": "2026-10-20 15:00",
+      "logo_domain": "kakao.com"
+    },
+    {
+      "source": "Toss Tech",
+      "category": "플랫폼 테크",
+      "title": "손가락 튕기기로 LLM 비용 줄이기",
+      "url": "https://toss.tech/article/snap-llm-cost-reduction",
+      "summary": "토스에서 늘어나는 LLM 비용을 빠르게 줄이는 방법을 소개합니다.",
+      "published": "2026-10-27 07:05",
+      "logo_domain": "toss.im"
+    },
+    {
+      "source": "Toss Tech",
+      "category": "플랫폼 테크",
+      "title": "머릿속에 있던 로그 정의 기준을 모두의 AI 스킬로 만들기",
+      "url": "https://toss.tech/article/dataops-log-definition-skill",
+      "summary": "도구가 규칙을 검사하고 AI가 제안하면 사람이 확정해서, 누구나 같은 기준으로 로그를 정의해요",
+      "published": "2026-10-23 01:53",
+      "logo_domain": "toss.im"
+    },
+    {
+      "source": "Toss Tech",
+      "category": "플랫폼 테크",
+      "title": "평균 CPU는 여유로운데, 커밋은 왜 느릴까?",
+      "url": "https://toss.tech/article/nic-interrupt-bottleneck",
+      "summary": "NIC 인터럽트에서 찾은 병목",
+      "published": "2026-10-19 03:07",
+      "logo_domain": "toss.im"
+    },
+    {
+      "source": "PwC",
+      "category": "글로벌 컨설팅",
+      "title": "F1® and PwC: Resilience at full throttle - PwC",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQMU1mRWxCa3M3QXJKS0JvUHZLQW1veVV5NnhUQkFfMVJBT09NWWlSNUFIdE1XcnNqSG5SVkxnQ3lQQk1ZQmpuVGtUNGJEQmJTQURuT0g2QXVabzVmYldQOXZMaUxfaTlKME5RUGdCd1NJTHlTbVBiQk5OXzFEUGxXNllSRDVBRFNqbElvVHhDTjhZd0IzblB3azljZmctY0s0?oc=5",
+      "summary": "F1® and PwC: Resilience at full throttle PwC",
+      "published": "2026-10-20 03:44",
+      "logo_domain": "pwc.com"
+    },
+    {
+      "source": "EY",
+      "category": "글로벌 컨설팅",
+      "title": "EY US - Home | Building a better working world - EY",
+      "url": "https://news.google.com/rss/articles/CBMiPEFVX3lxTFBNNW1NcmZ3WnZldmN6QUpncmNMekRpWXRDeklaWEJ2eWdEX3NmektEdGpQYWZJWUIyV2hCXw?oc=5",
+      "summary": "EY US - Home | Building a better working world EY",
+      "published": "2026-10-29 07:00",
+      "logo_domain": "ey.com"
+    },
+    {
+      "source": "EY",
+      "category": "글로벌 컨설팅",
+      "title": "Associate Analyst - Data Analytics - Risk Management Services Job Details - EY Careers",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOeXpHaTRPM0VocEZXQm5xNUVBYXUxbWFmUmNIYXhKMDdydDE0LV9hcXJhaEI4T0xuTTFDWjJ3VGszUXN6dF9uWFZ2MVZ6VGdEdTFqWmxINkd2bmQ5bWxUWkpNZ1hBQ0ZNVmJUQ296V1FOcktiakpIclpNU0FVbkFFUG0tQm9LQjFUZ2lMQ19WZndHeUJoNWhtb2VIVlp5S1hhOGxxeWZXc3Rya0diSEEyUEdfbnp2TFRM?oc=5",
+      "summary": "Associate Analyst - Data Analytics - Risk Management Services Job Details EY Careers",
+      "published": "2026-10-30 19:55",
+      "logo_domain": "ey.com"
+    },
+    {
+      "source": "EY",
+      "category": "글로벌 컨설팅",
+      "title": "Malta Budget 2027 - EY",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOYjlzaXc0YXliU0tsVFlOV2NuTVFoakZ0NW42MTFlZzVQUTF0Sm12Vi1GZy1oQjhGS3o1OVl6QmhYaWg5cC0xZVYwbU1jVlpobWt0OEthcnpwWGk3WWZpanNmLUpJVGx0emJrNnZHaERaejBkYTMtazNWSW1TY25xcW9vR2ljQjZyb3UwVjFubkVqSWVMcmlGNQ?oc=5",
+      "summary": "Malta Budget 2027 EY",
+      "published": "2026-10-26 22:36",
+      "logo_domain": "ey.com"
+    },
+    {
+      "source": "NIA",
+      "category": "국내 연구기관",
+      "title": "SK하이닉스도 디지털 ESG 협력 동참…NIA, AI 시대 격차 해소 논의 - 뉴시스",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5rdG9xbmN0WG1MV0p1TjI1SU00WHZuM0MxT1FGTjBzcTVFWEZDMUlkQmo2ZGJ5RkJpdlBJWF9KejBQX1ZqZ0dOMTNtSEg1WGxRWEFhMEhuOGlad0I0cEpRblZSc2pXbUhpYkRoRzFUbmthSUJ3QnhYT9IBeEFVX3lxTE5rdG9xbmN0WG1MV0p1TjI1SU00WHZuM0MxT1FGTjBzcTVFWEZDMUlkQmo2ZGJ5RkJpdlBJWF9KejBQX1ZqZ0dOMTNtSEg1WGxRWEFhMEhuOGlad0I0cEpRblZSc2pXbUhpYkRoRzFUbmthSUJ3QnhYTw?oc=5",
+      "summary": "SK하이닉스도 디지털 ESG 협력 동참…NIA, AI 시대 격차 해소 논의 뉴시스",
+      "published": "2026-10-28 06:13",
+      "logo_domain": "nia.or.kr"
+    },
+    {
+      "source": "NIA",
+      "category": "국내 연구기관",
+      "title": "NIA, AI 대전환 시대 ‘디지털 포용’ 민관 협력 강화 - 정보통신신문",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1NNlZ5RVp3UTRWd3V2a3hMdU1CclNET3NFdFZXNm1ENmJEanotQUkzZGVyTkVjQW1XZkhIcUF6R0tIOTB6OHJiZkViT0ZMb0xoaW9GTk8zODMyRFBVQi1hSldMMWxJdzNv0gFsQVVfeXFMTXpsSmtqNGJQT1VvaUVMR2xONFZyWVphdXFYcmxaZWF5d2ZBbmZOaUN3ZGxOMEVuS0NNYTdzOS1TWm5VTXpqRjVBcElTUUNSeV9RWXB5ZDYzU0c2ak1oM0hQMExhelVfenIzNGFq?oc=5",
+      "summary": "NIA, AI 대전환 시대 ‘디지털 포용’ 민관 협력 강화 정보통신신문",
+      "published": "2026-10-28 05:56",
+      "logo_domain": "nia.or.kr"
+    },
+    {
+      "source": "NIA",
+      "category": "국내 연구기관",
+      "title": "NIA, SK하이닉스·NC문화재단과 디지털 ESG 협력 확대 - 경북신문",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1CbF8zQ2g5VUNpOHczeGRwUUhmT0M2dV9RN2Q4OEpWbnNPanJISWt4QUd4UnYyLTBrMThiRDU4bklFSGgxckd5SDVORDMtRW8wLTZyQVhXVEM?oc=5",
+      "summary": "NIA, SK하이닉스·NC문화재단과 디지털 ESG 협력 확대 경북신문",
+      "published": "2026-10-28 05:51",
+      "logo_domain": "nia.or.kr"
+    },
+    {
+      "source": "NIA",
+      "category": "국내 연구기관",
+      "title": "[ZD SW 투데이] NIA, SK하이닉스·NC문화재단과 디지털 ESG 협력 확대 外 - 지디넷코리아",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFAzUXlzeGNPblpLU251azVOODNJRGhXWlJlcEFDaU9RbF9DcHlTOVlwNTV1WXNjZHkzY0NPUzF6WnpBSkp4NjI4cDlGYTltWXpKcktxLVN3?oc=5",
+      "summary": "[ZD SW 투데이] NIA, SK하이닉스·NC문화재단과 디지털 ESG 협력 확대 外 지디넷코리아",
+      "published": "2026-10-28 23:53",
+      "logo_domain": "nia.or.kr"
+    },
+    {
+      "source": "NIA",
+      "category": "국내 연구기관",
+      "title": "한국공, ‘AI 윤리 준수기관’ 지정…김원준 “안전과 신뢰까지 고려할 것” - 경기일보",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1wc3hjZ1dyLTA4Sm54Q0hxaTU2bUotZFI1Q1FNTHEtdDlsVHhGMmdKSl9uS1pkSW5NVE9yTzJCOExkeGVYOENJdmNDN0ZQQ0ZCWEZqd0FUb3psc0k?oc=5",
+      "summary": "한국공, ‘AI 윤리 준수기관’ 지정…김원준 “안전과 신뢰까지 고려할 것” 경기일보",
+      "published": "2026-10-19 07:00",
+      "logo_domain": "nia.or.kr"
+    },
+    {
+      "source": "IT조선",
+      "category": "IT 미디어",
+      "title": "라쿠텐 마리타임, 부산서 ‘해사 AI·기술 서밋’ 개최… 선박 사이버보안 협력 논의 - IT조선",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1OV3hkWG9oLUNFN1BPUlJRcHJmWjhJMkxYMnJQUVpyN05BNzJObTYzNzJlRjFFSkxFWW5Hb2x3QnNfWXd4NXFTa1lBemlVRktTdDRsUXhTRE5tQU5ZVnU1TGFrTkk1b3RsTHoxNW5SWG43NFVQ0gF0QVVfeXFMTU5XeGRYb2gtQ0U3UE9SUlFwcmZaOEkyTFgyclBRWnI3TkE3Mk5tNjM3MmVGMUVKTEVZbkdvbHdCc19Zd3g1cVNrWUF6aVVGS1N0NGxReFNETm1BTllWdTVMYWtOSTVvdGxMejE1blJYbjc0VVA?oc=5",
+      "summary": "라쿠텐 마리타임, 부산서 ‘해사 AI·기술 서밋’ 개최… 선박 사이버보안 협력 논의 IT조선",
+      "published": "2026-10-29 05:31",
+      "logo_domain": "it.chosun.com"
+    },
+    {
+      "source": "IT조선",
+      "category": "IT 미디어",
+      "title": "NIA, 디지털 ESG 협력 확대…SK하이닉스 합류 - IT조선",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1vUXZWOGZJOVdqUUYyT3Bsd2VITGRvSjVtanlmdmU4TXlKODJhYVZ4T3MyM2h3aFgwUHd3WFZjekVwTWtWUkt3MDBubnRPbS1INFFVVlJSU05yYXpkeG1Wdzc0NktkVkFXT2pwOW1WTzLSAXRBVV95cUxOOHNfMDdObXZnUFJpUGhMY2xfNFlvNWFfSE03X2ZTT1VVNTR1SmlMdEtPY1dRYUNGaFlXWXEwVVY3Uld2NjNpV2lodTUxdGNUMUNXVE1GbUNwRTJtWTdhMWJjbi01c2U2ejZ4RmxwRUw2RGxJNA?oc=5",
+      "summary": "NIA, 디지털 ESG 협력 확대…SK하이닉스 합류 IT조선",
+      "published": "2026-10-28 06:45",
+      "logo_domain": "it.chosun.com"
+    },
+    {
+      "source": "IT조선",
+      "category": "IT 미디어",
+      "title": "AI가 대신하는 거래…“사람의 승인 증명해야” [어센티케이트 2026] - IT조선",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE96QVhncW1iNzBHUFRkcm5ETmpNTzRNZTFRTUI1V3c0dzdHVmpFOXNEbEg0bWVBTHNERmktYTlaNmlCTzlhVjlhUE03Zk5yRWNCbF9mbVJNNEdtX0Z5LVZjX21mQkpiVU1vX1JwdEtDRmXSAXRBVV95cUxNQk5JUmNYN0c2NElkVy0wUzVwZWM0Z1h2VFN1TVZBaDFuUS1CYnFZZjBlc2l5QU5MWjB1T3QzajFZUFNqR0Q3cUZfOVZzb1BERHNsTlNxWG13bjRtdjJmbjVpbFNWaWFoLTZFVjhGd054OC1tXw?oc=5",
+      "summary": "AI가 대신하는 거래…“사람의 승인 증명해야” [어센티케이트 2026] IT조선",
+      "published": "2026-10-20 07:00",
+      "logo_domain": "it.chosun.com"
+    },
+    {
+      "source": "TechCrunch",
+      "category": "IT 미디어",
+      "title": "Salesforce’s M&A spree continues with a reported $375M deal for defense tech startup Rune - TechCrunch",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOTjlYUmFUdGdUUExXR0JlYW15ZGUwRmxMaU9vVnd2VkN6eXNhZldneHp0YkF1VXlzNmlCZ0NaSm1UMjVWYU1ZTTREOVg2NGRxLUxsTEdibWpUM2R1VGdWZmtUT0I4blNObFRIbTFHNk1LczZSYjNRdHFuSExlZHJNR0FxOGFGTXRaYU1fTUU2aFpjck5sUDNUUkxsUV9JTFQzTjk1ZjBvWTd6Ri16RUZNM1YzM2RYSnpDRW9PaG5B?oc=5",
+      "summary": "Salesforce’s M&A spree continues with a reported $375M deal for defense tech startup Rune TechCrunch",
+      "published": "2026-10-30 23:21",
+      "logo_domain": "techcrunch.com"
+    },
+    {
+      "source": "TechCrunch",
+      "category": "IT 미디어",
+      "title": "Ex-Palantir execs launch Dream with $17M from a16z to build AI world models for construction - TechCrunch",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPVWVUY0hVNUJSME55aGtFTlNPbTVyTmpId3pmd09TOWtaNk1YeTV4TENmNWY5dzhLeTQ2THNBVEFzRjNhQnhhZTR2V3pSN0ZsQ2d4MU9LeUJYVEI3Y1hScXBzcVZrVHVNTTZpTjRDbTN2OXB1MXJ4Xzh5YkR0MTJtY09kazlVV1UySzAzbHVLdXNWUmZEMnI4S3d0LVdvNU9ZVk00Ymcxa1ZSV3RGT3EyZVE3NU1NTE11SmcxdE12alJFQmNl?oc=5",
+      "summary": "Ex-Palantir execs launch Dream with $17M from a16z to build AI world models for construction TechCrunch",
+      "published": "2026-10-29 16:21",
+      "logo_domain": "techcrunch.com"
+    },
+    {
+      "source": "TechCrunch",
+      "category": "IT 미디어",
+      "title": "Databricks co-founder shares his secrets for winning big enterprise customers - TechCrunch",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPYms0c05YRTF2NVpuQVBoRG9QTWlzUE1rNGRBTU5hME9hMHE5bElLZW1ZREdoWUZZUGhpYi1NWXl1T3I1Vkh5QlB5eGVWeXF6YmV2Zzl2aGdVR3lnTmt4OGRrR0JFbVBsM0o4anc0UjROZkt0cVRQa1pDS0ZPeWltTldpQzg1eFhOUVJ1eEFRZTJLVDJiVFFCNlZEVklRSEYyRHVfV2FiWUhwXzJGS1RtMkJLSQ?oc=5",
+      "summary": "Databricks co-founder shares his secrets for winning big enterprise customers TechCrunch",
+      "published": "2026-10-26 22:00",
+      "logo_domain": "techcrunch.com"
+    },
+    {
+      "source": "TechCrunch",
+      "category": "IT 미디어",
+      "title": "The AI graveyard: a running list of projects and startups that didn’t make it - TechCrunch",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZmMyVGFaQTZkQWdEM2x5SjJTSXRLaVQ5VjNBcGhhU2w3WU9nb3FkZExxLXJ6d2JhY1drM0kwRkRRcHlFcEE5T1YwMkpWSjRzdjN0Znl5M203S2kzTHd4LS1yM2JCVEhpc1FBSm0zMmtYOFhyOFFpZkp6YnoxdjREZnhsRGthM21PeVAtS1Y3TWFfbHFhZnR1ZUVlMVBWSkkwOWF6emE1VDA5QmNXd2dr?oc=5",
+      "summary": "The AI graveyard: a running list of projects and startups that didn’t make it TechCrunch",
+      "published": "2026-10-24 19:00",
+      "logo_domain": "techcrunch.com"
+    },
+    {
+      "source": "TechCrunch",
+      "category": "IT 미디어",
+      "title": "Nvidia backs Indian startup helping companies run AI models with fewer GPUs - TechCrunch",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQVU1oenJIXzh6LWNpZ2tHNnh3RWptVTFTS25tOUtjd0RxaDE1eEJBT2MyVkRUOS1GSjFUS0xoQ0w0OUxiOEY0Q3ZjMlFEcG82UlU5ejlLSk1BOVpvRkRucldrM2tWV2lZQmtPZ1RFYkIycjZ6a1VKSUxzb3ZwZ1l0VW4tanZyc2lVNk9ESjB5MnVsLVJZbmYwRlFoMXhTeUZpWXpVY0IyUFZpS1FPOVNv?oc=5",
+      "summary": "Nvidia backs Indian startup helping companies run AI models with fewer GPUs TechCrunch",
+      "published": "2026-10-27 11:00",
+      "logo_domain": "techcrunch.com"
+    },
+    {
+      "source": "KT Enterprise",
+      "category": "한국 대기업",
+      "title": "메인 페이지로 이동",
+      "url": "https://enterprise.kt.com/main.jsp",
+      "summary": "",
+      "published": "2026-10-31 11:01",
+      "logo_domain": "kt.com"
+    },
+    {
+      "source": "Samsung SDS GN",
+      "category": "한국 대기업",
+      "title": "2026 대한민국 AI 50 - 포브스코리아",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9TSmItUFUwWkhOWVdUTS1kbGlYVFlhR2dESGdlR0RfVUJWVFUwZDczTWJPa3hGdmFoRWZndGUwOXR0SzZIMmx0NkRZYUtvNWxKZmdnZmtTUFFpYmNrT3puM0hVVFlJMFdOWFk0dkpkRXRVZw?oc=5",
+      "summary": "2026 대한민국 AI 50 포브스코리아",
+      "published": "2026-10-23 07:00",
+      "logo_domain": "samsungsds.com"
+    },
+    {
+      "source": "현대오토에버 GN",
+      "category": "한국 대기업",
+      "title": "공장 데이터 쥔 현대오토에버…현대차 피지컬AI '관제탑'으로 - 한국경제",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE94Y2ZobGs2VUxIb0xIYXRDSWtJX3czN244S0FDYjl3QjJIXzRzQzlaYVJMc0JwZnFDcFJTUzJtTTZ3UUFtWVNKTV9VWkRFaUdSUlVIaXd6dFFUUQ?oc=5",
+      "summary": "공장 데이터 쥔 현대오토에버…현대차 피지컬AI '관제탑'으로 한국경제",
+      "published": "2026-10-18 07:00",
+      "logo_domain": "hyundai-autoever.com"
+    },
+    {
+      "source": "현대오토에버 GN",
+      "category": "한국 대기업",
+      "title": "산업부, 'M.AX 인증' 해외 활용 확대…스위스와 상호인정 본격화 - www.ebn.co.kr",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE02cjBVc1lXaUt1eUEzcm14SnlrajdQUVdpdGxhcmRlM0RISjE3b0d3anBXQWdvT0VYYzMxbnAwMUQwUkNRamQ5OW1vT1dPOGp1aTVwVzlwOEJSbjZ3QUFBVHVJSTVvWkNN?oc=5",
+      "summary": "산업부, 'M.AX 인증' 해외 활용 확대…스위스와 상호인정 본격화 www.ebn.co.kr",
+      "published": "2026-10-20 02:00",
+      "logo_domain": "hyundai-autoever.com"
+    },
+    {
+      "source": "KPMG",
+      "category": "글로벌 컨설팅",
+      "title": "KPMG 2026 Global CEO Outlook - kpmg.com",
+      "url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTFA3QjNVSnd2SGlvSnRWTHZBSkJON0FjeXpwTUZTSkVNcllFV0dIbDZObU1fZDJCeVh4T0dIR0lTS2k?oc=5",
+      "summary": "KPMG 2026 Global CEO Outlook kpmg.com",
+      "published": "2024-09-09 12:45",
+      "logo_domain": "kpmg.com"
+    },
+    {
+      "source": "SK AX",
+      "category": "한국 대기업",
+      "title": "2026년 가트너 10대 전략 기술 트렌드: 기업 운영의 중심으로 선 AI, 기업 생존 전략을 좌우할 핵심 기술은?",
+      "url": "https://www.skax.co.kr/insight/trend/3544",
+      "summary": "",
+      "published": "2026-10-31 11:02",
+      "logo_domain": "skax.co.kr"
+    },
+    {
+      "source": "SK AX",
+      "category": "한국 대기업",
+      "title": "IMAGINE AX 2026 리뷰: AI를 쓰는 기업에서, AI가 일하는 기업으로",
+      "url": "https://www.skax.co.kr/insight/trend/3780",
+      "summary": "",
+      "published": "2026-10-31 11:02",
+      "logo_domain": "skax.co.kr"
+    },
+    {
+      "source": "SK AX",
+      "category": "한국 대기업",
+      "title": "AI 인재 육성의 새로운 기준, AXgenticWire AI Talent Lab",
+      "url": "https://www.skax.co.kr/insight/trend/3782",
+      "summary": "",
+      "published": "2026-10-31 11:02",
+      "logo_domain": "skax.co.kr"
+    },
+    {
+      "source": "SK AX",
+      "category": "한국 대기업",
+      "title": "SK AX, 에이전틱 AI 시대에 최적화된 AX 대표 브랜드 ‘AXgenticWire’ 런칭",
+      "url": "https://www.skax.co.kr/insight/trend/3676",
+      "summary": "",
+      "published": "2026-10-31 11:02",
+      "logo_domain": "skax.co.kr"
+    },
+    {
+      "source": "SK AX",
+      "category": "한국 대기업",
+      "title": "CloudAWS Migration and Modernization Services Competency로 검증된 SK AX의 클라우드 전환·현대화 역량",
+      "url": "https://www.skax.co.kr/insight/trend/3906",
+      "summary": "",
+      "published": "2026-10-31 11:02",
+      "logo_domain": "skax.co.kr"
+    },
+    {
+      "source": "에커튼파트너스",
+      "category": "한국 대기업",
+      "title": "Insight & Report",
+      "url": "https://www.ackerton.com/insightReport",
+      "summary": "",
+      "published": "2026-10-31 11:02",
+      "logo_domain": "ackerton.com"
+    },
+    {
+      "source": "에커튼파트너스",
+      "category": "한국 대기업",
+      "title": "[리포트 다운로드] AI 규제 원년, ISO 42001 기반 인공지능 경영시스템(AIMS) 구축 | 10월 MI리포트",
+      "url": "https://www.ackerton.com/insightReport/view?bbsNo=146",
+      "summary": "",
+      "published": "2026-10-31 11:02",
+      "logo_domain": "ackerton.com"
+    },
+    {
+      "source": "에커튼파트너스",
+      "category": "한국 대기업",
+      "title": "[리포트 다운로드] AI 시대의 Market Intelligence: 정보 수집을 넘어 상시 의사결정 지원 체계로 | 10월 MI리포트",
+      "url": "https://www.ackerton.com/insightReport/view?bbsNo=145",
+      "summary": "",
+      "published": "2026-10-31 11:02",
+      "logo_domain": "ackerton.com"
+    },
+    {
+      "source": "에커튼파트너스",
+      "category": "한국 대기업",
+      "title": "[리포트 다운로드] sLLM 확산 시대, 기업의 시스템 개발구축환경은 어떻게 달라지고 있는가 | 10월 MI리포트",
+      "url": "https://www.ackerton.com/insightReport/view?bbsNo=144",
+      "summary": "",
+      "published": "2026-10-31 11:02",
+      "logo_domain": "ackerton.com"
+    },
+    {
+      "source": "에커튼파트너스",
+      "category": "한국 대기업",
+      "title": "[리포트 다운로드] AI 도입 이후의 과제: AI Platform Operations로 전환하는 기업 AI 운영 전략 | 10월 MI리포트",
+      "url": "https://www.ackerton.com/insightReport/view?bbsNo=143",
+      "summary": "",
+      "published": "2026-10-31 11:02",
+      "logo_domain": "ackerton.com"
+    }
+  ]
+}
