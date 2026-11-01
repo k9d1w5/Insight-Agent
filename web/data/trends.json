@@ -1,23 +1,23 @@
 {
- "date": "2026-10-31",
- "generated_at": "2026-10-31 11:02",
- "week_start": "2026-10-25",
- "history_days": 199,
- "week_total": 70,
+ "date": "2026-11-01",
+ "generated_at": "2026-11-01 10:52",
+ "week_start": "2026-10-26",
+ "history_days": 200,
+ "week_total": 72,
  "source_count": 12,
  "series_labels": [
-  "08/09",
-  "08/16",
-  "08/23",
-  "08/30",
-  "09/06",
-  "09/13",
-  "09/20",
-  "09/27",
-  "10/04",
-  "10/11",
-  "10/18",
-  "10/25"
+  "08/10",
+  "08/17",
+  "08/24",
+  "08/31",
+  "09/07",
+  "09/14",
+  "09/21",
+  "09/28",
+  "10/05",
+  "10/12",
+  "10/19",
+  "10/26"
  ],
  "top": [
   "agent",
@@ -47,7 +47,7 @@
     "에이전트"
    ],
    "series": [
-    9,
+    8,
     7,
     10,
     7,
@@ -232,6 +232,214 @@
    ]
   },
   {
+   "id": "talent",
+   "name": "인재·조직",
+   "count": 13,
+   "baseline_avg": 13.0,
+   "growth_pct": 0,
+   "spread": 3,
+   "sources": [
+    "Forrester",
+    "McKinsey & Company",
+    "Naver D2"
+   ],
+   "score": 23.5,
+   "keywords": [
+    "leaders",
+    "ceo",
+    "employee",
+    "culture",
+    "조직"
+   ],
+   "series": [
+    12,
+    11,
+    8,
+    14,
+    13,
+    11,
+    17,
+    22,
+    10,
+    11,
+    9,
+    13
+   ],
+   "articles": [
+    {
+     "title": "모두가 함께 성장하는 기술 축제, NAVER Engineering Day 10년의 여정",
+     "url": "https://d2.naver.com/news/0907869",
+     "source": "Naver D2",
+     "category": "플랫폼 테크",
+     "summary": "기술은 혼자 완성되지 않습니다. ​ 한 사람이 발견한 문제와 해결 과정이 동료에게 전해지고, 그 경험이 또 다른 시도와 개선으로 이어질 때 조직의 기술은 앞으로 나아갑니다. ​ NAVER Engineering Day는 이런 믿음에서 출발했습니다. 2016년, 실무에서 얻은 개발 경험과 새로운 기술 및 플랫폼을 도입하며 배운 점을 나누는 사내 개발자 행사로 시작해 올해 10주년을 맞았습니다. ",
+     "date": "2026-10-31",
+     "logo_domain": "naver.com",
+     "topics": [
+      "talent",
+      "devops"
+     ]
+    },
+    {
+     "title": "Closing banking’s AI value gap: A CEO guide",
+     "url": "https://www.mckinsey.com/industries/financial-services/our-insights/closing-bankings-ai-value-gap-a-ceo-guide",
+     "source": "McKinsey & Company",
+     "category": "글로벌 컨설팅",
+     "summary": "As AI adoption races ahead, great value is being left behind. Leaders need an operating model that turns investment into AI capital that can be deployed again and again.",
+     "date": "2026-10-30",
+     "logo_domain": "mckinsey.com",
+     "topics": [
+      "ai-strategy",
+      "finance",
+      "talent"
+     ]
+    },
+    {
+     "title": "Waniwani’s CEO on the agentic future of insurance distribution",
+     "url": "https://www.mckinsey.com/industries/financial-services/our-insights/waniwanis-ceo-on-the-agentic-future-of-insurance-distribution",
+     "source": "McKinsey & Company",
+     "category": "글로벌 컨설팅",
+     "summary": "AI agents could fundamentally change the economics of insurance distribution. Waniwani CEO Robin Diligent explains the opportunities, risks, and implications for insurers.",
+     "date": "2026-10-30",
+     "logo_domain": "mckinsey.com",
+     "topics": [
+      "agent",
+      "finance",
+      "talent"
+     ]
+    },
+    {
+     "title": "Wärtsilä CEO Håkan Agnevall: Focus, flexibility, and the next wave of growth",
+     "url": "https://www.mckinsey.com/industries/industrials/our-insights/wartsila-ceo-hakan-agnevall-focus-flexibility-and-the-next-wave-of-growth",
+     "source": "McKinsey & Company",
+     "category": "글로벌 컨설팅",
+     "summary": "Industrial leaders can turn disruption into growth by sharpening their focus, scaling to meet surging data-center power demand, and putting AI and continuous improvement to work.",
+     "date": "2026-10-30",
+     "logo_domain": "mckinsey.com",
+     "topics": [
+      "manufacturing",
+      "energy",
+      "talent"
+     ]
+    },
+    {
+     "title": "Bob Bowman on winning: Show up and do your work",
+     "url": "https://www.mckinsey.com/featured-insights/bob-bowman-on-winning-show-up-and-do-your-work",
+     "source": "McKinsey & Company",
+     "category": "글로벌 컨설팅",
+     "summary": "The coach who guided Michael Phelps to 23 Olympic gold medals explains why consistency beats motivation and what leaders can borrow from how he builds championship teams.",
+     "date": "2026-10-30",
+     "logo_domain": "mckinsey.com",
+     "topics": [
+      "talent"
+     ]
+    },
+    {
+     "title": "The algorithm isn’t the advantage–the team is",
+     "url": "https://www.mckinsey.com/industries/financial-services/our-insights/the-algorithm-isnt-the-advantage-the-team-is",
+     "source": "McKinsey & Company",
+     "category": "글로벌 컨설팅",
+     "summary": "FICO CEO Will Lansing says a strong ownership culture, not a smarter computational method, will set the data analytics company apart from competitors in this AI era.",
+     "date": "2026-10-29",
+     "logo_domain": "mckinsey.com",
+     "topics": [
+      "data",
+      "talent"
+     ]
+    },
+    {
+     "title": "Rewiring securities services for a new era of competition and growth",
+     "url": "https://www.mckinsey.com/industries/financial-services/our-insights/rewiring-securities-services-for-a-new-era-of-competition-and-growth",
+     "source": "McKinsey & Company",
+     "category": "글로벌 컨설팅",
+     "summary": "Disruptive forces—from real-time settlement to agentic AI—are changing the dynamics of the securities services industry. How can leaders capture the next horizon of growth?",
+     "date": "2026-10-28",
+     "logo_domain": "mckinsey.com",
+     "topics": [
+      "agent",
+      "talent"
+     ]
+    },
+    {
+     "title": "Governments Can’t Just Adopt Emerging Technology — They Must Shape It",
+     "url": "https://www.forrester.com/blogs/governments-cant-just-adopt-emerging-technology-they-must-shape-it/",
+     "source": "Forrester",
+     "category": "글로벌 컨설팅",
+     "summary": "Government technology leaders face a growing challenge. Emerging technologies are advancing quickly, but deciding what to do about them is becoming harder. It’s about more than just deciding on the technologies that gove",
+     "date": "2026-10-28",
+     "logo_domain": "forrester.com",
+     "topics": [
+      "dx",
+      "public",
+      "talent"
+     ]
+    },
+    {
+     "title": "Predictions 2027: The Outcome Economy Hits Enterprise Software, And Reality Hits Back",
+     "url": "https://www.forrester.com/blogs/predictions-2027-the-outcome-economy-hits-enterprise-software-and-reality-hits-back/",
+     "source": "Forrester",
+     "category": "글로벌 컨설팅",
+     "summary": "Enterprise software no longer creates value on its own. Instead, the value comes from outcomes, and these outcomes are delivered via workflows that span business apps, data, people, and AI. In 2027, technology leaders wi",
+     "date": "2026-10-28",
+     "logo_domain": "forrester.com",
+     "topics": [
+      "talent",
+      "devops"
+     ]
+    },
+    {
+     "title": "What AI can’t replace—and why it matters for value",
+     "url": "https://www.mckinsey.com/capabilities/people-and-organization/our-insights/what-ai-cant-replace-and-why-it-matters-for-value",
+     "source": "McKinsey & Company",
+     "category": "글로벌 컨설팅",
+     "summary": "AI may be deepening our crisis of connection, says Stanford research psychologist Jamil Zaki. Managing change with empathy helps leaders build trust, strengthen relationships, and get the most out of their AI investments",
+     "date": "2026-10-27",
+     "logo_domain": "mckinsey.com",
+     "topics": [
+      "talent"
+     ]
+    },
+    {
+     "title": "‘Hold course and adapt as you go’: An interview with Manon van Beek",
+     "url": "https://www.mckinsey.com/capabilities/people-and-organization/our-insights/hold-course-and-adapt-as-you-go-an-interview-with-manon-van-beek",
+     "source": "McKinsey & Company",
+     "category": "글로벌 컨설팅",
+     "summary": "As she prepares to step down, the CEO of leading European grid operator TenneT reflects on scaling energy infrastructure, navigating geopolitical shocks, and building resilience amid uncertainty.",
+     "date": "2026-10-27",
+     "logo_domain": "mckinsey.com",
+     "topics": [
+      "energy",
+      "talent"
+     ]
+    },
+    {
+     "title": "Tokenomics: The Economics Of AI Value Realization",
+     "url": "https://www.forrester.com/blogs/tokenomics-the-economics-of-ai-value-realization/",
+     "source": "Forrester",
+     "category": "글로벌 컨설팅",
+     "summary": "What is Tokenomics? How do I manage token costs? Does tokenomics matter if I only purchase AI copilot subscriptions? Questions like these dominate the bulk of my client conversations. Tech leaders believe tokenomics is s",
+     "date": "2026-10-27",
+     "logo_domain": "forrester.com",
+     "topics": [
+      "agent",
+      "ai-strategy",
+      "talent"
+     ]
+    },
+    {
+     "title": "LogicMonitor Elevate 2026: AI Doesn’t Care About Your IT Silos — Neither Should You",
+     "url": "https://www.forrester.com/blogs/logicmonitor-elevate-2026-ai-doesnt-care-about-your-it-silos-neither-should-you/",
+     "source": "Forrester",
+     "category": "글로벌 컨설팅",
+     "summary": "At LogicMonitor Elevate 2026 in Chicago, one thing became clear: The company’s strategy is evolving from monitoring individual technologies toward orchestrating work, experiences, and outcomes. One of the biggest themes ",
+     "date": "2026-10-27",
+     "logo_domain": "forrester.com",
+     "topics": [
+      "talent"
+     ]
+    }
+   ]
+  },
+  {
    "id": "energy",
    "name": "에너지·ESG",
    "count": 9,
@@ -379,206 +587,10 @@
    ]
   },
   {
-   "id": "talent",
-   "name": "인재·조직",
-   "count": 12,
-   "baseline_avg": 13.0,
-   "growth_pct": -8,
-   "spread": 3,
-   "sources": [
-    "Forrester",
-    "McKinsey & Company",
-    "Naver D2"
-   ],
-   "score": 21.84,
-   "keywords": [
-    "leaders",
-    "ceo",
-    "employee",
-    "culture",
-    "조직"
-   ],
-   "series": [
-    12,
-    11,
-    8,
-    14,
-    13,
-    10,
-    18,
-    22,
-    10,
-    11,
-    9,
-    12
-   ],
-   "articles": [
-    {
-     "title": "모두가 함께 성장하는 기술 축제, NAVER Engineering Day 10년의 여정",
-     "url": "https://d2.naver.com/news/0907869",
-     "source": "Naver D2",
-     "category": "플랫폼 테크",
-     "summary": "기술은 혼자 완성되지 않습니다. ​ 한 사람이 발견한 문제와 해결 과정이 동료에게 전해지고, 그 경험이 또 다른 시도와 개선으로 이어질 때 조직의 기술은 앞으로 나아갑니다. ​ NAVER Engineering Day는 이런 믿음에서 출발했습니다. 2016년, 실무에서 얻은 개발 경험과 새로운 기술 및 플랫폼을 도입하며 배운 점을 나누는 사내 개발자 행사로 시작해 올해 10주년을 맞았습니다. ",
-     "date": "2026-10-31",
-     "logo_domain": "naver.com",
-     "topics": [
-      "talent",
-      "devops"
-     ]
-    },
-    {
-     "title": "Closing banking’s AI value gap: A CEO guide",
-     "url": "https://www.mckinsey.com/industries/financial-services/our-insights/closing-bankings-ai-value-gap-a-ceo-guide",
-     "source": "McKinsey & Company",
-     "category": "글로벌 컨설팅",
-     "summary": "As AI adoption races ahead, great value is being left behind. Leaders need an operating model that turns investment into AI capital that can be deployed again and again.",
-     "date": "2026-10-30",
-     "logo_domain": "mckinsey.com",
-     "topics": [
-      "ai-strategy",
-      "finance",
-      "talent"
-     ]
-    },
-    {
-     "title": "Waniwani’s CEO on the agentic future of insurance distribution",
-     "url": "https://www.mckinsey.com/industries/financial-services/our-insights/waniwanis-ceo-on-the-agentic-future-of-insurance-distribution",
-     "source": "McKinsey & Company",
-     "category": "글로벌 컨설팅",
-     "summary": "AI agents could fundamentally change the economics of insurance distribution. Waniwani CEO Robin Diligent explains the opportunities, risks, and implications for insurers.",
-     "date": "2026-10-30",
-     "logo_domain": "mckinsey.com",
-     "topics": [
-      "agent",
-      "finance",
-      "talent"
-     ]
-    },
-    {
-     "title": "Wärtsilä CEO Håkan Agnevall: Focus, flexibility, and the next wave of growth",
-     "url": "https://www.mckinsey.com/industries/industrials/our-insights/wartsila-ceo-hakan-agnevall-focus-flexibility-and-the-next-wave-of-growth",
-     "source": "McKinsey & Company",
-     "category": "글로벌 컨설팅",
-     "summary": "Industrial leaders can turn disruption into growth by sharpening their focus, scaling to meet surging data-center power demand, and putting AI and continuous improvement to work.",
-     "date": "2026-10-30",
-     "logo_domain": "mckinsey.com",
-     "topics": [
-      "manufacturing",
-      "energy",
-      "talent"
-     ]
-    },
-    {
-     "title": "The algorithm isn’t the advantage–the team is",
-     "url": "https://www.mckinsey.com/industries/financial-services/our-insights/the-algorithm-isnt-the-advantage-the-team-is",
-     "source": "McKinsey & Company",
-     "category": "글로벌 컨설팅",
-     "summary": "FICO CEO Will Lansing says a strong ownership culture, not a smarter computational method, will set the data analytics company apart from competitors in this AI era.",
-     "date": "2026-10-29",
-     "logo_domain": "mckinsey.com",
-     "topics": [
-      "data",
-      "talent"
-     ]
-    },
-    {
-     "title": "Rewiring securities services for a new era of competition and growth",
-     "url": "https://www.mckinsey.com/industries/financial-services/our-insights/rewiring-securities-services-for-a-new-era-of-competition-and-growth",
-     "source": "McKinsey & Company",
-     "category": "글로벌 컨설팅",
-     "summary": "Disruptive forces—from real-time settlement to agentic AI—are changing the dynamics of the securities services industry. How can leaders capture the next horizon of growth?",
-     "date": "2026-10-28",
-     "logo_domain": "mckinsey.com",
-     "topics": [
-      "agent",
-      "talent"
-     ]
-    },
-    {
-     "title": "Governments Can’t Just Adopt Emerging Technology — They Must Shape It",
-     "url": "https://www.forrester.com/blogs/governments-cant-just-adopt-emerging-technology-they-must-shape-it/",
-     "source": "Forrester",
-     "category": "글로벌 컨설팅",
-     "summary": "Government technology leaders face a growing challenge. Emerging technologies are advancing quickly, but deciding what to do about them is becoming harder. It’s about more than just deciding on the technologies that gove",
-     "date": "2026-10-28",
-     "logo_domain": "forrester.com",
-     "topics": [
-      "dx",
-      "public",
-      "talent"
-     ]
-    },
-    {
-     "title": "Predictions 2027: The Outcome Economy Hits Enterprise Software, And Reality Hits Back",
-     "url": "https://www.forrester.com/blogs/predictions-2027-the-outcome-economy-hits-enterprise-software-and-reality-hits-back/",
-     "source": "Forrester",
-     "category": "글로벌 컨설팅",
-     "summary": "Enterprise software no longer creates value on its own. Instead, the value comes from outcomes, and these outcomes are delivered via workflows that span business apps, data, people, and AI. In 2027, technology leaders wi",
-     "date": "2026-10-28",
-     "logo_domain": "forrester.com",
-     "topics": [
-      "talent",
-      "devops"
-     ]
-    },
-    {
-     "title": "What AI can’t replace—and why it matters for value",
-     "url": "https://www.mckinsey.com/capabilities/people-and-organization/our-insights/what-ai-cant-replace-and-why-it-matters-for-value",
-     "source": "McKinsey & Company",
-     "category": "글로벌 컨설팅",
-     "summary": "AI may be deepening our crisis of connection, says Stanford research psychologist Jamil Zaki. Managing change with empathy helps leaders build trust, strengthen relationships, and get the most out of their AI investments",
-     "date": "2026-10-27",
-     "logo_domain": "mckinsey.com",
-     "topics": [
-      "talent"
-     ]
-    },
-    {
-     "title": "‘Hold course and adapt as you go’: An interview with Manon van Beek",
-     "url": "https://www.mckinsey.com/capabilities/people-and-organization/our-insights/hold-course-and-adapt-as-you-go-an-interview-with-manon-van-beek",
-     "source": "McKinsey & Company",
-     "category": "글로벌 컨설팅",
-     "summary": "As she prepares to step down, the CEO of leading European grid operator TenneT reflects on scaling energy infrastructure, navigating geopolitical shocks, and building resilience amid uncertainty.",
-     "date": "2026-10-27",
-     "logo_domain": "mckinsey.com",
-     "topics": [
-      "energy",
-      "talent"
-     ]
-    },
-    {
-     "title": "Tokenomics: The Economics Of AI Value Realization",
-     "url": "https://www.forrester.com/blogs/tokenomics-the-economics-of-ai-value-realization/",
-     "source": "Forrester",
-     "category": "글로벌 컨설팅",
-     "summary": "What is Tokenomics? How do I manage token costs? Does tokenomics matter if I only purchase AI copilot subscriptions? Questions like these dominate the bulk of my client conversations. Tech leaders believe tokenomics is s",
-     "date": "2026-10-27",
-     "logo_domain": "forrester.com",
-     "topics": [
-      "agent",
-      "ai-strategy",
-      "talent"
-     ]
-    },
-    {
-     "title": "LogicMonitor Elevate 2026: AI Doesn’t Care About Your IT Silos — Neither Should You",
-     "url": "https://www.forrester.com/blogs/logicmonitor-elevate-2026-ai-doesnt-care-about-your-it-silos-neither-should-you/",
-     "source": "Forrester",
-     "category": "글로벌 컨설팅",
-     "summary": "At LogicMonitor Elevate 2026 in Chicago, one thing became clear: The company’s strategy is evolving from monitoring individual technologies toward orchestrating work, experiences, and outcomes. One of the biggest themes ",
-     "date": "2026-10-27",
-     "logo_domain": "forrester.com",
-     "topics": [
-      "talent"
-     ]
-    }
-   ]
-  },
-  {
    "id": "ai-strategy",
    "name": "AI 전략·도입",
    "count": 8,
-   "baseline_avg": 15.2,
+   "baseline_avg": 15.5,
    "growth_pct": -48,
    "spread": 7,
    "sources": [
@@ -590,7 +602,7 @@
     "Samsung SDS 인사이트",
     "TechCrunch"
    ],
-   "score": 20.04,
+   "score": 19.74,
    "keywords": [
     "ai",
     "ai value",
@@ -600,19 +612,31 @@
    ],
    "series": [
     10,
-    19,
-    29,
+    21,
+    28,
     14,
-    20,
-    20,
-    16,
+    19,
+    21,
+    15,
     23,
     6,
     16,
-    16,
+    17,
     8
    ],
    "articles": [
+    {
+     "title": "기업 AI 성과 전략: 도입과 확장을 판단하는 AI 밸류 게이트 – AI로 일은 빨라졌는데, 성과는 왜 그대로일까?",
+     "url": "https://www.samsungsds.com/kr/insights/enterprise-ai-performance-strategy-on-ai-value-gates.html",
+     "source": "Samsung SDS 인사이트",
+     "category": "한국 대기업",
+     "summary": "",
+     "date": "2026-11-01",
+     "logo_domain": "samsungsds.com",
+     "topics": [
+      "ai-strategy"
+     ]
+    },
     {
      "title": "Closing banking’s AI value gap: A CEO guide",
      "url": "https://www.mckinsey.com/industries/financial-services/our-insights/closing-bankings-ai-value-gap-a-ceo-guide",
@@ -699,18 +723,6 @@
      "summary": "",
      "date": "2026-10-27",
      "logo_domain": "samsungsds.com",
-     "topics": [
-      "ai-strategy"
-     ]
-    },
-    {
-     "title": "UKI Tech Consulting - AI & Data - Applied AI Delivery Architect - Senior Manager Job Details - EY Careers",
-     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNTzZYbXRfZjFYXzJXNl85YWFHNG9FZ3dNVzBkTmloMGZsN0M5NFZxWnVuSUJXUS1sc3ZyeXdlQk1rSk5XT2ZTVFF2VkFGeDBqcUxpejNETEhNN3ZLUndNdG1mLS1fWmQ3RmZLMGZ5aTJiTDl4YzJDcExIMDJVRHNlamM1emg0ZHhrUmR0dnR3STZBWmtxdHRnYjJIeUdXUnRRLTZKMTFTblNtdlpoU0ZZMmFLWWd4YXV5NmVSQnpsbWt5X0E?oc=5",
-     "source": "EY",
-     "category": "글로벌 컨설팅",
-     "summary": "UKI Tech Consulting - AI & Data - Applied AI Delivery Architect - Senior Manager Job Details EY Careers",
-     "date": "2026-10-25",
-     "logo_domain": "ey.com",
      "topics": [
       "ai-strategy"
      ]
@@ -832,92 +844,6 @@
    ]
   },
   {
-   "id": "data",
-   "name": "데이터·분석",
-   "count": 4,
-   "baseline_avg": 1.2,
-   "growth_pct": 220,
-   "spread": 4,
-   "sources": [
-    "EY",
-    "McKinsey & Company",
-    "Naver D2",
-    "PwC"
-   ],
-   "score": 15.9,
-   "keywords": [
-    "analytics",
-    "데이터베이스"
-   ],
-   "series": [
-    0,
-    0,
-    0,
-    4,
-    2,
-    2,
-    2,
-    2,
-    2,
-    0,
-    1,
-    4
-   ],
-   "articles": [
-    {
-     "title": "사이드카의 선언적 관리: OpenKruise SidecarSet 도입과 운영",
-     "url": "https://d2.naver.com/helloworld/2983631",
-     "source": "Naver D2",
-     "category": "플랫폼 테크",
-     "summary": "Kubernetes에서 서비스를 운영하다 보면 메인 컨테이너 옆에 사이드카(sidecar) 컨테이너를 붙이는 일이 흔합니다. 사이드카에는 로그와 메트릭 수집, 프록시처럼 주 기능은 아니지만 같은 Pod 안에서 함께 실행되어야 하는 기능이 포함됩니다. 저희 팀이 운영하는 관리형 데이터베이스 서비스도 DB 인스턴스를 Pod 단위로 실행하고, 그 Pod에 DB 컨테이너 외에 헬스 체크, 메트릭과 ",
-     "date": "2026-10-30",
-     "logo_domain": "naver.com",
-     "topics": [
-      "data",
-      "security",
-      "devops"
-     ]
-    },
-    {
-     "title": "The algorithm isn’t the advantage–the team is",
-     "url": "https://www.mckinsey.com/industries/financial-services/our-insights/the-algorithm-isnt-the-advantage-the-team-is",
-     "source": "McKinsey & Company",
-     "category": "글로벌 컨설팅",
-     "summary": "FICO CEO Will Lansing says a strong ownership culture, not a smarter computational method, will set the data analytics company apart from competitors in this AI era.",
-     "date": "2026-10-29",
-     "logo_domain": "mckinsey.com",
-     "topics": [
-      "data",
-      "talent"
-     ]
-    },
-    {
-     "title": "Associate Analyst - Data Analytics - Risk Management Services Job Details - EY Careers",
-     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOeXpHaTRPM0VocEZXQm5xNUVBYXUxbWFmUmNIYXhKMDdydDE0LV9hcXJhaEI4T0xuTTFDWjJ3VGszUXN6dF9uWFZ2MVZ6VGdEdTFqWmxINkd2bmQ5bWxUWkpNZ1hBQ0ZNVmJUQ296V1FOcktiakpIclpNU0FVbkFFUG0tQm9LQjFUZ2lMQ19WZndHeUJoNWhtb2VIVlp5S1hhOGxxeWZXc3Rya0diSEEyUEdfbnp2TFRM?oc=5",
-     "source": "EY",
-     "category": "글로벌 컨설팅",
-     "summary": "Associate Analyst - Data Analytics - Risk Management Services Job Details EY Careers",
-     "date": "2026-10-29",
-     "logo_domain": "ey.com",
-     "topics": [
-      "data"
-     ]
-    },
-    {
-     "title": "AC India Advisory Open roles Data Engineering Analytics - PwC",
-     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQenhMV3NkRHVCOTl1aFlVTXlCbjRWeGF4LVdhZW9BQ2V0X2lFckRkM3JyUW5fLXc3Ynl2NklYdzdld0EyQWdad2dPS3JZVmMzT2NWMkxzbGNHY3BVT2NuekJyWXJEZVBzTGNtczk3cExJV1BFaURFVV9JOUptN3Y0ZXc5T093d3pRa0dSbU0yM0dfZXM?oc=5",
-     "source": "PwC",
-     "category": "글로벌 컨설팅",
-     "summary": "AC India Advisory Open roles Data Engineering Analytics PwC",
-     "date": "2026-10-25",
-     "logo_domain": "pwc.com",
-     "topics": [
-      "data"
-     ]
-    }
-   ]
-  },
-  {
    "id": "dx",
    "name": "디지털 전환",
    "count": 4,
@@ -1006,6 +932,118 @@
    ]
   },
   {
+   "id": "genai",
+   "name": "생성형 AI",
+   "count": 6,
+   "baseline_avg": 3.5,
+   "growth_pct": 71,
+   "spread": 4,
+   "sources": [
+    "Forrester",
+    "Kakao Tech",
+    "TechCrunch",
+    "Toss Tech"
+   ],
+   "score": 14.02,
+   "keywords": [
+    "anthropic",
+    "llm",
+    "claude"
+   ],
+   "series": [
+    8,
+    4,
+    10,
+    3,
+    2,
+    7,
+    5,
+    3,
+    2,
+    4,
+    5,
+    6
+   ],
+   "articles": [
+    {
+     "title": "Anthropic’s Founders’ Letter Has The Right Ideals, But Reality Will Decide",
+     "url": "https://www.forrester.com/blogs/anthropics-founders-letter-has-the-right-ideals-but-reality-will-decide/",
+     "source": "Forrester",
+     "category": "글로벌 컨설팅",
+     "summary": "Here we go. Anthropic filed its S-1 on October 26, the formal start of its IPO. The financials will get the headlines, but read the founders’ letter at the beginning of the S-1. It describes how AI should be brought into",
+     "date": "2026-10-29",
+     "logo_domain": "forrester.com",
+     "topics": [
+      "genai",
+      "startup"
+     ]
+    },
+    {
+     "title": "Anthropic’s S-1 Hands Enterprise AI Buyers Better Leverage",
+     "url": "https://www.forrester.com/blogs/anthropics-s-1-hands-enterprise-ai-buyers-better-leverage/",
+     "source": "Forrester",
+     "category": "글로벌 컨설팅",
+     "summary": "Back in June, we argued that Anthropic’s proposed IPO would change the economics of enterprise AI, reasoning that a public listing brings discipline: Pricing would “get real,” capital would chase acquisitions, and Anthro",
+     "date": "2026-10-27",
+     "logo_domain": "forrester.com",
+     "topics": [
+      "genai",
+      "startup"
+     ]
+    },
+    {
+     "title": "손가락 튕기기로 LLM 비용 줄이기",
+     "url": "https://toss.tech/article/snap-llm-cost-reduction",
+     "source": "Toss Tech",
+     "category": "플랫폼 테크",
+     "summary": "토스에서 늘어나는 LLM 비용을 빠르게 줄이는 방법을 소개합니다.",
+     "date": "2026-10-27",
+     "logo_domain": "toss.im",
+     "topics": [
+      "genai"
+     ]
+    },
+    {
+     "title": "팀이 신뢰할 수 있는 AI 분석 환경 만들기: 추천팀의 컨텍스트 설계",
+     "url": "https://tech.kakao.com/posts/844",
+     "source": "Kakao Tech",
+     "category": "플랫폼 테크",
+     "summary": "안녕하세요. 카카오톡 숏폼 추천 모델을 개발하고 있는 루퍼트(rupert)입니다. 저희 추천팀은 추천 지표 분석에 AI 에이전트를 사용합니다. AI 에이전트에게 분석을 요청하면, 에이전트가 미리 정리해 둔 지침 문서(CLAUDE.md)를 읽고 SQL을 작성해 기존 Hadoop 환경에서 실행한 뒤 집계 결과를 리포트로 완성합니다. 지난 글에서는 데이터 엔지니어, 분석가만 알고 있던 로그 데이터",
+     "date": "2026-10-27",
+     "logo_domain": "kakao.com",
+     "topics": [
+      "genai",
+      "agent"
+     ]
+    },
+    {
+     "title": "Anthropic’s IPO filing reveals its strategy for keeping enterprise customers hooked - TechCrunch",
+     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNY2pOYXpaOW03X0lrN3B2Yzgtby1PZkg2MEdhRlZrcHVLWFUyd0RDSXU4aTllRXZwek01S2pRdFZRVWtyQzZNRXhNOGdXbG82UDJxZ2JlWmZJdlBBYlczM00wLXBfQkt1MEFkdFM1R3VZU1lhaFYtMkFvZEhPSGdPWHZfUjZ5dy1ZTk5kcEdjNGs2MlVDSE1heTJnRTZSb3pvZllLbzlxRTJiaE05ZGF2TFEzaS1xVXdE?oc=5",
+     "source": "TechCrunch",
+     "category": "IT 미디어",
+     "summary": "Anthropic’s IPO filing reveals its strategy for keeping enterprise customers hooked TechCrunch",
+     "date": "2026-10-26",
+     "logo_domain": "techcrunch.com",
+     "topics": [
+      "genai",
+      "startup"
+     ]
+    },
+    {
+     "title": "Anthropic officially files for its public debut - TechCrunch",
+     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPNkJha0pkMW9JazJKVUdhUWFfSDhYYlo1a2FESVdmOS1fajRzUDRreUMyMkNWXzM1QWZiS2I1d3NlMjhVdGdPUFl4NWdEMDNoUm9vcV9YblFOdHRNd21ZM3FSbU5UUDVNcXhZaGptUUIzMDhtUXpnazc0d3VQYkJ4YjBWa1lkU1NNZ0E?oc=5",
+     "source": "TechCrunch",
+     "category": "IT 미디어",
+     "summary": "Anthropic officially files for its public debut TechCrunch",
+     "date": "2026-10-26",
+     "logo_domain": "techcrunch.com",
+     "topics": [
+      "genai"
+     ]
+    }
+   ]
+  },
+  {
    "id": "startup",
    "name": "스타트업·투자",
    "count": 8,
@@ -1026,12 +1064,12 @@
     "m&a"
    ],
    "series": [
+    7,
+    7,
     6,
-    8,
     6,
-    6,
-    1,
-    8,
+    2,
+    7,
     3,
     6,
     3,
@@ -1139,118 +1177,6 @@
      "topics": [
       "genai",
       "startup"
-     ]
-    }
-   ]
-  },
-  {
-   "id": "genai",
-   "name": "생성형 AI",
-   "count": 6,
-   "baseline_avg": 3.8,
-   "growth_pct": 60,
-   "spread": 4,
-   "sources": [
-    "Forrester",
-    "Kakao Tech",
-    "TechCrunch",
-    "Toss Tech"
-   ],
-   "score": 13.8,
-   "keywords": [
-    "anthropic",
-    "llm",
-    "claude"
-   ],
-   "series": [
-    11,
-    4,
-    9,
-    4,
-    2,
-    7,
-    4,
-    4,
-    2,
-    4,
-    5,
-    6
-   ],
-   "articles": [
-    {
-     "title": "Anthropic’s Founders’ Letter Has The Right Ideals, But Reality Will Decide",
-     "url": "https://www.forrester.com/blogs/anthropics-founders-letter-has-the-right-ideals-but-reality-will-decide/",
-     "source": "Forrester",
-     "category": "글로벌 컨설팅",
-     "summary": "Here we go. Anthropic filed its S-1 on October 26, the formal start of its IPO. The financials will get the headlines, but read the founders’ letter at the beginning of the S-1. It describes how AI should be brought into",
-     "date": "2026-10-29",
-     "logo_domain": "forrester.com",
-     "topics": [
-      "genai",
-      "startup"
-     ]
-    },
-    {
-     "title": "Anthropic’s S-1 Hands Enterprise AI Buyers Better Leverage",
-     "url": "https://www.forrester.com/blogs/anthropics-s-1-hands-enterprise-ai-buyers-better-leverage/",
-     "source": "Forrester",
-     "category": "글로벌 컨설팅",
-     "summary": "Back in June, we argued that Anthropic’s proposed IPO would change the economics of enterprise AI, reasoning that a public listing brings discipline: Pricing would “get real,” capital would chase acquisitions, and Anthro",
-     "date": "2026-10-27",
-     "logo_domain": "forrester.com",
-     "topics": [
-      "genai",
-      "startup"
-     ]
-    },
-    {
-     "title": "손가락 튕기기로 LLM 비용 줄이기",
-     "url": "https://toss.tech/article/snap-llm-cost-reduction",
-     "source": "Toss Tech",
-     "category": "플랫폼 테크",
-     "summary": "토스에서 늘어나는 LLM 비용을 빠르게 줄이는 방법을 소개합니다.",
-     "date": "2026-10-27",
-     "logo_domain": "toss.im",
-     "topics": [
-      "genai"
-     ]
-    },
-    {
-     "title": "팀이 신뢰할 수 있는 AI 분석 환경 만들기: 추천팀의 컨텍스트 설계",
-     "url": "https://tech.kakao.com/posts/844",
-     "source": "Kakao Tech",
-     "category": "플랫폼 테크",
-     "summary": "안녕하세요. 카카오톡 숏폼 추천 모델을 개발하고 있는 루퍼트(rupert)입니다. 저희 추천팀은 추천 지표 분석에 AI 에이전트를 사용합니다. AI 에이전트에게 분석을 요청하면, 에이전트가 미리 정리해 둔 지침 문서(CLAUDE.md)를 읽고 SQL을 작성해 기존 Hadoop 환경에서 실행한 뒤 집계 결과를 리포트로 완성합니다. 지난 글에서는 데이터 엔지니어, 분석가만 알고 있던 로그 데이터",
-     "date": "2026-10-27",
-     "logo_domain": "kakao.com",
-     "topics": [
-      "genai",
-      "agent"
-     ]
-    },
-    {
-     "title": "Anthropic’s IPO filing reveals its strategy for keeping enterprise customers hooked - TechCrunch",
-     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNY2pOYXpaOW03X0lrN3B2Yzgtby1PZkg2MEdhRlZrcHVLWFUyd0RDSXU4aTllRXZwek01S2pRdFZRVWtyQzZNRXhNOGdXbG82UDJxZ2JlWmZJdlBBYlczM00wLXBfQkt1MEFkdFM1R3VZU1lhaFYtMkFvZEhPSGdPWHZfUjZ5dy1ZTk5kcEdjNGs2MlVDSE1heTJnRTZSb3pvZllLbzlxRTJiaE05ZGF2TFEzaS1xVXdE?oc=5",
-     "source": "TechCrunch",
-     "category": "IT 미디어",
-     "summary": "Anthropic’s IPO filing reveals its strategy for keeping enterprise customers hooked TechCrunch",
-     "date": "2026-10-26",
-     "logo_domain": "techcrunch.com",
-     "topics": [
-      "genai",
-      "startup"
-     ]
-    },
-    {
-     "title": "Anthropic officially files for its public debut - TechCrunch",
-     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPNkJha0pkMW9JazJKVUdhUWFfSDhYYlo1a2FESVdmOS1fajRzUDRreUMyMkNWXzM1QWZiS2I1d3NlMjhVdGdPUFl4NWdEMDNoUm9vcV9YblFOdHRNd21ZM3FSbU5UUDVNcXhZaGptUUIzMDhtUXpnazc0d3VQYkJ4YjBWa1lkU1NNZ0E?oc=5",
-     "source": "TechCrunch",
-     "category": "IT 미디어",
-     "summary": "Anthropic officially files for its public debut TechCrunch",
-     "date": "2026-10-26",
-     "logo_domain": "techcrunch.com",
-     "topics": [
-      "genai"
      ]
     }
    ]
@@ -1364,6 +1290,79 @@
      "topics": [
       "security",
       "dx"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "data",
+   "name": "데이터·분석",
+   "count": 3,
+   "baseline_avg": 1.5,
+   "growth_pct": 100,
+   "spread": 3,
+   "sources": [
+    "EY",
+    "McKinsey & Company",
+    "Naver D2"
+   ],
+   "score": 10.5,
+   "keywords": [
+    "analytics",
+    "데이터베이스"
+   ],
+   "series": [
+    0,
+    0,
+    0,
+    4,
+    2,
+    2,
+    2,
+    2,
+    2,
+    1,
+    1,
+    3
+   ],
+   "articles": [
+    {
+     "title": "사이드카의 선언적 관리: OpenKruise SidecarSet 도입과 운영",
+     "url": "https://d2.naver.com/helloworld/2983631",
+     "source": "Naver D2",
+     "category": "플랫폼 테크",
+     "summary": "Kubernetes에서 서비스를 운영하다 보면 메인 컨테이너 옆에 사이드카(sidecar) 컨테이너를 붙이는 일이 흔합니다. 사이드카에는 로그와 메트릭 수집, 프록시처럼 주 기능은 아니지만 같은 Pod 안에서 함께 실행되어야 하는 기능이 포함됩니다. 저희 팀이 운영하는 관리형 데이터베이스 서비스도 DB 인스턴스를 Pod 단위로 실행하고, 그 Pod에 DB 컨테이너 외에 헬스 체크, 메트릭과 ",
+     "date": "2026-10-30",
+     "logo_domain": "naver.com",
+     "topics": [
+      "data",
+      "security",
+      "devops"
+     ]
+    },
+    {
+     "title": "The algorithm isn’t the advantage–the team is",
+     "url": "https://www.mckinsey.com/industries/financial-services/our-insights/the-algorithm-isnt-the-advantage-the-team-is",
+     "source": "McKinsey & Company",
+     "category": "글로벌 컨설팅",
+     "summary": "FICO CEO Will Lansing says a strong ownership culture, not a smarter computational method, will set the data analytics company apart from competitors in this AI era.",
+     "date": "2026-10-29",
+     "logo_domain": "mckinsey.com",
+     "topics": [
+      "data",
+      "talent"
+     ]
+    },
+    {
+     "title": "Associate Analyst - Data Analytics - Risk Management Services Job Details - EY Careers",
+     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOeXpHaTRPM0VocEZXQm5xNUVBYXUxbWFmUmNIYXhKMDdydDE0LV9hcXJhaEI4T0xuTTFDWjJ3VGszUXN6dF9uWFZ2MVZ6VGdEdTFqWmxINkd2bmQ5bWxUWkpNZ1hBQ0ZNVmJUQ296V1FOcktiakpIclpNU0FVbkFFUG0tQm9LQjFUZ2lMQ19WZndHeUJoNWhtb2VIVlp5S1hhOGxxeWZXc3Rya0diSEEyUEdfbnp2TFRM?oc=5",
+     "source": "EY",
+     "category": "글로벌 컨설팅",
+     "summary": "Associate Analyst - Data Analytics - Risk Management Services Job Details EY Careers",
+     "date": "2026-10-29",
+     "logo_domain": "ey.com",
+     "topics": [
+      "data"
      ]
     }
    ]
@@ -1568,6 +1567,79 @@
    ]
   },
   {
+   "id": "infra",
+   "name": "반도체·AI 인프라",
+   "count": 3,
+   "baseline_avg": 2.2,
+   "growth_pct": 33,
+   "spread": 3,
+   "sources": [
+    "Samsung SDS 인사이트",
+    "TechCrunch",
+    "현대오토에버 GN"
+   ],
+   "score": 8.36,
+   "keywords": [
+    "gpus",
+    "nvidia",
+    "gpu",
+    "데이터센터"
+   ],
+   "series": [
+    4,
+    4,
+    0,
+    3,
+    1,
+    12,
+    2,
+    3,
+    2,
+    2,
+    2,
+    3
+   ],
+   "articles": [
+    {
+     "title": "현대차그룹, 새만금 AI 데이터센터 내년 3월 착공…사업 본격화 - www.ebn.co.kr",
+     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5uUFBjc1FUTWViRzMzZk5ubWd0Ni1hS2lyRElzT2NBT0ZNU25WTF9ta0xpaHQzSmdUWWk5WVh5MGVOWHdVRk4wcWZBSnEtU0MxZFpUelpUX19CZnFta1V4bHRZYmRGelF5?oc=5",
+     "source": "현대오토에버 GN",
+     "category": "한국 대기업",
+     "summary": "현대차그룹, 새만금 AI 데이터센터 내년 3월 착공…사업 본격화 www.ebn.co.kr",
+     "date": "2026-10-30",
+     "logo_domain": "hyundai-autoever.com",
+     "topics": [
+      "infra"
+     ]
+    },
+    {
+     "title": "[GPU 똑똑하게 쓰기 (3)] 마지막 퍼즐, 남는 GPU를 만들고 채우다 – Bin Packing과 Batch Inference",
+     "url": "https://www.samsungsds.com/kr/insights/gpu-bin-packing-batch-inference.html",
+     "source": "Samsung SDS 인사이트",
+     "category": "한국 대기업",
+     "summary": "",
+     "date": "2026-10-29",
+     "logo_domain": "samsungsds.com",
+     "topics": [
+      "infra"
+     ]
+    },
+    {
+     "title": "Nvidia backs Indian startup helping companies run AI models with fewer GPUs - TechCrunch",
+     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQVU1oenJIXzh6LWNpZ2tHNnh3RWptVTFTS25tOUtjd0RxaDE1eEJBT2MyVkRUOS1GSjFUS0xoQ0w0OUxiOEY0Q3ZjMlFEcG82UlU5ejlLSk1BOVpvRkRucldrM2tWV2lZQmtPZ1RFYkIycjZ6a1VKSUxzb3ZwZ1l0VW4tanZyc2lVNk9ESjB5MnVsLVJZbmYwRlFoMXhTeUZpWXpVY0IyUFZpS1FPOVNv?oc=5",
+     "source": "TechCrunch",
+     "category": "IT 미디어",
+     "summary": "Nvidia backs Indian startup helping companies run AI models with fewer GPUs TechCrunch",
+     "date": "2026-10-27",
+     "logo_domain": "techcrunch.com",
+     "topics": [
+      "infra",
+      "startup"
+     ]
+    }
+   ]
+  },
+  {
    "id": "manufacturing",
    "name": "제조·공급망",
    "count": 3,
@@ -1711,65 +1783,6 @@
    ]
   },
   {
-   "id": "infra",
-   "name": "반도체·AI 인프라",
-   "count": 2,
-   "baseline_avg": 2.2,
-   "growth_pct": -11,
-   "spread": 2,
-   "sources": [
-    "Samsung SDS 인사이트",
-    "TechCrunch"
-   ],
-   "score": 4.78,
-   "keywords": [
-    "gpus",
-    "nvidia",
-    "gpu"
-   ],
-   "series": [
-    4,
-    4,
-    0,
-    3,
-    1,
-    12,
-    2,
-    3,
-    2,
-    2,
-    2,
-    2
-   ],
-   "articles": [
-    {
-     "title": "[GPU 똑똑하게 쓰기 (3)] 마지막 퍼즐, 남는 GPU를 만들고 채우다 – Bin Packing과 Batch Inference",
-     "url": "https://www.samsungsds.com/kr/insights/gpu-bin-packing-batch-inference.html",
-     "source": "Samsung SDS 인사이트",
-     "category": "한국 대기업",
-     "summary": "",
-     "date": "2026-10-29",
-     "logo_domain": "samsungsds.com",
-     "topics": [
-      "infra"
-     ]
-    },
-    {
-     "title": "Nvidia backs Indian startup helping companies run AI models with fewer GPUs - TechCrunch",
-     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQVU1oenJIXzh6LWNpZ2tHNnh3RWptVTFTS25tOUtjd0RxaDE1eEJBT2MyVkRUOS1GSjFUS0xoQ0w0OUxiOEY0Q3ZjMlFEcG82UlU5ejlLSk1BOVpvRkRucldrM2tWV2lZQmtPZ1RFYkIycjZ6a1VKSUxzb3ZwZ1l0VW4tanZyc2lVNk9ESjB5MnVsLVJZbmYwRlFoMXhTeUZpWXpVY0IyUFZpS1FPOVNv?oc=5",
-     "source": "TechCrunch",
-     "category": "IT 미디어",
-     "summary": "Nvidia backs Indian startup helping companies run AI models with fewer GPUs TechCrunch",
-     "date": "2026-10-27",
-     "logo_domain": "techcrunch.com",
-     "topics": [
-      "infra",
-      "startup"
-     ]
-    }
-   ]
-  },
-  {
    "id": "mobility",
    "name": "모빌리티",
    "count": 1,
@@ -1829,7 +1842,7 @@
     "automation"
    ],
    "series": [
-    6,
+    3,
     1,
     2,
     0,
@@ -1838,8 +1851,8 @@
     2,
     4,
     1,
-    2,
     3,
+    2,
     1
    ],
    "articles": [
@@ -1872,7 +1885,7 @@
     "medical"
    ],
    "series": [
-    15,
+    14,
     3,
     3,
     1,
@@ -1919,8 +1932,8 @@
     1,
     2,
     3,
-    3,
     4,
+    3,
     1,
     6,
     1,
@@ -1973,6 +1986,28 @@
   }
  ],
  "feed": [
+  {
+   "title": "기업 AI 성과 전략: 도입과 확장을 판단하는 AI 밸류 게이트 – AI로 일은 빨라졌는데, 성과는 왜 그대로일까?",
+   "url": "https://www.samsungsds.com/kr/insights/enterprise-ai-performance-strategy-on-ai-value-gates.html",
+   "source": "Samsung SDS 인사이트",
+   "category": "한국 대기업",
+   "summary": "",
+   "date": "2026-11-01",
+   "logo_domain": "samsungsds.com",
+   "topics": [
+    "ai-strategy"
+   ]
+  },
+  {
+   "title": "동작구공단, 어르신 대상 디지털 교육 2기 운영 - 시정일보",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1hVW5VTUFpeU1KVktYRnBhRmhqRURWYnJObUk5SlRoSkg2MkYzdVp2aE1fN2I3MU5FcjREc2pycHpCa1JDZnl1M2JMVmctcUQtb0ZlWGFkQ2dEd3A1cGx0QVc4VU5hbnQtSDRz?oc=5",
+   "source": "NIA",
+   "category": "국내 연구기관",
+   "summary": "동작구공단, 어르신 대상 디지털 교육 2기 운영 시정일보",
+   "date": "2026-10-31",
+   "logo_domain": "nia.or.kr",
+   "topics": []
+  },
   {
    "title": "모두가 함께 성장하는 기술 축제, NAVER Engineering Day 10년의 여정",
    "url": "https://d2.naver.com/news/0907869",
@@ -2106,6 +2141,30 @@
    "logo_domain": "forrester.com",
    "topics": [
     "public"
+   ]
+  },
+  {
+   "title": "Bob Bowman on winning: Show up and do your work",
+   "url": "https://www.mckinsey.com/featured-insights/bob-bowman-on-winning-show-up-and-do-your-work",
+   "source": "McKinsey & Company",
+   "category": "글로벌 컨설팅",
+   "summary": "The coach who guided Michael Phelps to 23 Olympic gold medals explains why consistency beats motivation and what leaders can borrow from how he builds championship teams.",
+   "date": "2026-10-30",
+   "logo_domain": "mckinsey.com",
+   "topics": [
+    "talent"
+   ]
+  },
+  {
+   "title": "현대차그룹, 새만금 AI 데이터센터 내년 3월 착공…사업 본격화 - www.ebn.co.kr",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5uUFBjc1FUTWViRzMzZk5ubWd0Ni1hS2lyRElzT2NBT0ZNU25WTF9ta0xpaHQzSmdUWWk5WVh5MGVOWHdVRk4wcWZBSnEtU0MxZFpUelpUX19CZnFta1V4bHRZYmRGelF5?oc=5",
+   "source": "현대오토에버 GN",
+   "category": "한국 대기업",
+   "summary": "현대차그룹, 새만금 AI 데이터센터 내년 3월 착공…사업 본격화 www.ebn.co.kr",
+   "date": "2026-10-30",
+   "logo_domain": "hyundai-autoever.com",
+   "topics": [
+    "infra"
    ]
   },
   {
@@ -2810,30 +2869,6 @@
    "logo_domain": "techcrunch.com",
    "topics": [
     "genai"
-   ]
-  },
-  {
-   "title": "AC India Advisory Open roles Data Engineering Analytics - PwC",
-   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQenhMV3NkRHVCOTl1aFlVTXlCbjRWeGF4LVdhZW9BQ2V0X2lFckRkM3JyUW5fLXc3Ynl2NklYdzdld0EyQWdad2dPS3JZVmMzT2NWMkxzbGNHY3BVT2NuekJyWXJEZVBzTGNtczk3cExJV1BFaURFVV9JOUptN3Y0ZXc5T093d3pRa0dSbU0yM0dfZXM?oc=5",
-   "source": "PwC",
-   "category": "글로벌 컨설팅",
-   "summary": "AC India Advisory Open roles Data Engineering Analytics PwC",
-   "date": "2026-10-25",
-   "logo_domain": "pwc.com",
-   "topics": [
-    "data"
-   ]
-  },
-  {
-   "title": "UKI Tech Consulting - AI & Data - Applied AI Delivery Architect - Senior Manager Job Details - EY Careers",
-   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNTzZYbXRfZjFYXzJXNl85YWFHNG9FZ3dNVzBkTmloMGZsN0M5NFZxWnVuSUJXUS1sc3ZyeXdlQk1rSk5XT2ZTVFF2VkFGeDBqcUxpejNETEhNN3ZLUndNdG1mLS1fWmQ3RmZLMGZ5aTJiTDl4YzJDcExIMDJVRHNlamM1emg0ZHhrUmR0dnR3STZBWmtxdHRnYjJIeUdXUnRRLTZKMTFTblNtdlpoU0ZZMmFLWWd4YXV5NmVSQnpsbWt5X0E?oc=5",
-   "source": "EY",
-   "category": "글로벌 컨설팅",
-   "summary": "UKI Tech Consulting - AI & Data - Applied AI Delivery Architect - Senior Manager Job Details EY Careers",
-   "date": "2026-10-25",
-   "logo_domain": "ey.com",
-   "topics": [
-    "ai-strategy"
    ]
   }
  ]
