@@ -5,6 +5,7 @@ main.py - 인사이트 리포트 생성 메인 오케스트레이터
 import asyncio
 import json
 import os
+import re
 from datetime import datetime, timezone, timedelta
 from crawler import fetch_all_sources
 from playwright_crawler import fetch_playwright_sources
@@ -83,6 +84,9 @@ def main():
     if pw_articles:
         print(f"[Playwright] {len(pw_articles)}개 아티클 추가")
         articles = articles + pw_articles
+
+    # 국내 소스의 영문 글도 제외 (한글 제목만 유지)
+    articles = [a for a in articles if re.search("[가-힣]", a["title"])]
 
     if not articles:
         print("\n수집된 아티클이 없습니다. 종료합니다.")

@@ -1,10 +1,10 @@
 {
  "date": "2026-11-02",
- "generated_at": "2026-11-02 11:07",
+ "generated_at": "2026-11-02 15:28",
  "week_start": "2026-10-27",
  "history_days": 201,
- "week_total": 63,
- "source_count": 12,
+ "week_total": 23,
+ "source_count": 8,
  "series_labels": [
   "08/11",
   "08/18",
@@ -20,258 +20,44 @@
   "10/27"
  ],
  "top": [
+  "dx",
   "energy",
-  "agent",
-  "genai"
+  "devops"
  ],
  "new_keywords": [],
  "topics": [
   {
-   "id": "talent",
-   "name": "인재·조직",
-   "count": 13,
-   "baseline_avg": 12.0,
-   "growth_pct": 8,
-   "spread": 3,
-   "sources": [
-    "Forrester",
-    "McKinsey & Company",
-    "Naver D2"
-   ],
-   "score": 23.66,
-   "keywords": [
-    "leaders",
-    "ceo",
-    "employee",
-    "culture",
-    "조직"
-   ],
-   "series": [
-    13,
-    11,
-    13,
-    10,
-    11,
-    12,
-    19,
-    21,
-    7,
-    14,
-    6,
-    13
-   ],
-   "articles": [
-    {
-     "title": "모두가 함께 성장하는 기술 축제, NAVER Engineering Day 10년의 여정",
-     "url": "https://d2.naver.com/news/0907869",
-     "source": "Naver D2",
-     "category": "플랫폼 테크",
-     "summary": "기술은 혼자 완성되지 않습니다. ​ 한 사람이 발견한 문제와 해결 과정이 동료에게 전해지고, 그 경험이 또 다른 시도와 개선으로 이어질 때 조직의 기술은 앞으로 나아갑니다. ​ NAVER Engineering Day는 이런 믿음에서 출발했습니다. 2016년, 실무에서 얻은 개발 경험과 새로운 기술 및 플랫폼을 도입하며 배운 점을 나누는 사내 개발자 행사로 시작해 올해 10주년을 맞았습니다. ",
-     "date": "2026-10-31",
-     "logo_domain": "naver.com",
-     "topics": [
-      "talent",
-      "devops"
-     ]
-    },
-    {
-     "title": "Closing banking’s AI value gap: A CEO guide",
-     "url": "https://www.mckinsey.com/industries/financial-services/our-insights/closing-bankings-ai-value-gap-a-ceo-guide",
-     "source": "McKinsey & Company",
-     "category": "글로벌 컨설팅",
-     "summary": "As AI adoption races ahead, great value is being left behind. Leaders need an operating model that turns investment into AI capital that can be deployed again and again.",
-     "date": "2026-10-30",
-     "logo_domain": "mckinsey.com",
-     "topics": [
-      "ai-strategy",
-      "finance",
-      "talent"
-     ]
-    },
-    {
-     "title": "Waniwani’s CEO on the agentic future of insurance distribution",
-     "url": "https://www.mckinsey.com/industries/financial-services/our-insights/waniwanis-ceo-on-the-agentic-future-of-insurance-distribution",
-     "source": "McKinsey & Company",
-     "category": "글로벌 컨설팅",
-     "summary": "AI agents could fundamentally change the economics of insurance distribution. Waniwani CEO Robin Diligent explains the opportunities, risks, and implications for insurers.",
-     "date": "2026-10-30",
-     "logo_domain": "mckinsey.com",
-     "topics": [
-      "agent",
-      "finance",
-      "talent"
-     ]
-    },
-    {
-     "title": "Wärtsilä CEO Håkan Agnevall: Focus, flexibility, and the next wave of growth",
-     "url": "https://www.mckinsey.com/industries/industrials/our-insights/wartsila-ceo-hakan-agnevall-focus-flexibility-and-the-next-wave-of-growth",
-     "source": "McKinsey & Company",
-     "category": "글로벌 컨설팅",
-     "summary": "Industrial leaders can turn disruption into growth by sharpening their focus, scaling to meet surging data-center power demand, and putting AI and continuous improvement to work.",
-     "date": "2026-10-30",
-     "logo_domain": "mckinsey.com",
-     "topics": [
-      "manufacturing",
-      "energy",
-      "talent"
-     ]
-    },
-    {
-     "title": "Bob Bowman on winning: Show up and do your work",
-     "url": "https://www.mckinsey.com/featured-insights/bob-bowman-on-winning-show-up-and-do-your-work",
-     "source": "McKinsey & Company",
-     "category": "글로벌 컨설팅",
-     "summary": "The coach who guided Michael Phelps to 23 Olympic gold medals explains why consistency beats motivation and what leaders can borrow from how he builds championship teams.",
-     "date": "2026-10-30",
-     "logo_domain": "mckinsey.com",
-     "topics": [
-      "talent"
-     ]
-    },
-    {
-     "title": "The algorithm isn’t the advantage–the team is",
-     "url": "https://www.mckinsey.com/industries/financial-services/our-insights/the-algorithm-isnt-the-advantage-the-team-is",
-     "source": "McKinsey & Company",
-     "category": "글로벌 컨설팅",
-     "summary": "FICO CEO Will Lansing says a strong ownership culture, not a smarter computational method, will set the data analytics company apart from competitors in this AI era.",
-     "date": "2026-10-29",
-     "logo_domain": "mckinsey.com",
-     "topics": [
-      "data",
-      "talent"
-     ]
-    },
-    {
-     "title": "Rewiring securities services for a new era of competition and growth",
-     "url": "https://www.mckinsey.com/industries/financial-services/our-insights/rewiring-securities-services-for-a-new-era-of-competition-and-growth",
-     "source": "McKinsey & Company",
-     "category": "글로벌 컨설팅",
-     "summary": "Disruptive forces—from real-time settlement to agentic AI—are changing the dynamics of the securities services industry. How can leaders capture the next horizon of growth?",
-     "date": "2026-10-28",
-     "logo_domain": "mckinsey.com",
-     "topics": [
-      "agent",
-      "talent"
-     ]
-    },
-    {
-     "title": "Governments Can’t Just Adopt Emerging Technology — They Must Shape It",
-     "url": "https://www.forrester.com/blogs/governments-cant-just-adopt-emerging-technology-they-must-shape-it/",
-     "source": "Forrester",
-     "category": "글로벌 컨설팅",
-     "summary": "Government technology leaders face a growing challenge. Emerging technologies are advancing quickly, but deciding what to do about them is becoming harder. It’s about more than just deciding on the technologies that gove",
-     "date": "2026-10-28",
-     "logo_domain": "forrester.com",
-     "topics": [
-      "dx",
-      "public",
-      "talent"
-     ]
-    },
-    {
-     "title": "Predictions 2027: The Outcome Economy Hits Enterprise Software, And Reality Hits Back",
-     "url": "https://www.forrester.com/blogs/predictions-2027-the-outcome-economy-hits-enterprise-software-and-reality-hits-back/",
-     "source": "Forrester",
-     "category": "글로벌 컨설팅",
-     "summary": "Enterprise software no longer creates value on its own. Instead, the value comes from outcomes, and these outcomes are delivered via workflows that span business apps, data, people, and AI. In 2027, technology leaders wi",
-     "date": "2026-10-28",
-     "logo_domain": "forrester.com",
-     "topics": [
-      "talent",
-      "devops"
-     ]
-    },
-    {
-     "title": "What AI can’t replace—and why it matters for value",
-     "url": "https://www.mckinsey.com/capabilities/people-and-organization/our-insights/what-ai-cant-replace-and-why-it-matters-for-value",
-     "source": "McKinsey & Company",
-     "category": "글로벌 컨설팅",
-     "summary": "AI may be deepening our crisis of connection, says Stanford research psychologist Jamil Zaki. Managing change with empathy helps leaders build trust, strengthen relationships, and get the most out of their AI investments",
-     "date": "2026-10-27",
-     "logo_domain": "mckinsey.com",
-     "topics": [
-      "talent"
-     ]
-    },
-    {
-     "title": "‘Hold course and adapt as you go’: An interview with Manon van Beek",
-     "url": "https://www.mckinsey.com/capabilities/people-and-organization/our-insights/hold-course-and-adapt-as-you-go-an-interview-with-manon-van-beek",
-     "source": "McKinsey & Company",
-     "category": "글로벌 컨설팅",
-     "summary": "As she prepares to step down, the CEO of leading European grid operator TenneT reflects on scaling energy infrastructure, navigating geopolitical shocks, and building resilience amid uncertainty.",
-     "date": "2026-10-27",
-     "logo_domain": "mckinsey.com",
-     "topics": [
-      "energy",
-      "talent"
-     ]
-    },
-    {
-     "title": "Tokenomics: The Economics Of AI Value Realization",
-     "url": "https://www.forrester.com/blogs/tokenomics-the-economics-of-ai-value-realization/",
-     "source": "Forrester",
-     "category": "글로벌 컨설팅",
-     "summary": "What is Tokenomics? How do I manage token costs? Does tokenomics matter if I only purchase AI copilot subscriptions? Questions like these dominate the bulk of my client conversations. Tech leaders believe tokenomics is s",
-     "date": "2026-10-27",
-     "logo_domain": "forrester.com",
-     "topics": [
-      "agent",
-      "ai-strategy",
-      "talent"
-     ]
-    },
-    {
-     "title": "LogicMonitor Elevate 2026: AI Doesn’t Care About Your IT Silos — Neither Should You",
-     "url": "https://www.forrester.com/blogs/logicmonitor-elevate-2026-ai-doesnt-care-about-your-it-silos-neither-should-you/",
-     "source": "Forrester",
-     "category": "글로벌 컨설팅",
-     "summary": "At LogicMonitor Elevate 2026 in Chicago, one thing became clear: The company’s strategy is evolving from monitoring individual technologies toward orchestrating work, experiences, and outcomes. One of the biggest themes ",
-     "date": "2026-10-27",
-     "logo_domain": "forrester.com",
-     "topics": [
-      "talent"
-     ]
-    }
-   ]
-  },
-  {
    "id": "ai-strategy",
    "name": "AI 전략·도입",
-   "count": 10,
-   "baseline_avg": 15.0,
-   "growth_pct": -33,
-   "spread": 8,
+   "count": 6,
+   "baseline_avg": 8.2,
+   "growth_pct": -22,
+   "spread": 4,
    "sources": [
-    "EY",
-    "Forrester",
     "IT조선",
-    "McKinsey & Company",
     "NIA",
     "SK AX",
-    "Samsung SDS 인사이트",
-    "TechCrunch"
+    "Samsung SDS 인사이트"
    ],
-   "score": 23.64,
+   "score": 11.26,
    "keywords": [
     "ai",
-    "ai value",
     "ai 도입",
-    "ax",
-    "ai adoption"
+    "ax"
    ],
    "series": [
-    10,
-    26,
-    23,
-    14,
-    20,
-    21,
-    14,
-    23,
-    4,
-    21,
+    5,
+    16,
     12,
-    10
+    8,
+    8,
+    13,
+    7,
+    14,
+    1,
+    10,
+    8,
+    6
    ],
    "articles": [
     {
@@ -299,20 +85,6 @@
      ]
     },
     {
-     "title": "Closing banking’s AI value gap: A CEO guide",
-     "url": "https://www.mckinsey.com/industries/financial-services/our-insights/closing-bankings-ai-value-gap-a-ceo-guide",
-     "source": "McKinsey & Company",
-     "category": "글로벌 컨설팅",
-     "summary": "As AI adoption races ahead, great value is being left behind. Leaders need an operating model that turns investment into AI capital that can be deployed again and again.",
-     "date": "2026-10-30",
-     "logo_domain": "mckinsey.com",
-     "topics": [
-      "ai-strategy",
-      "finance",
-      "talent"
-     ]
-    },
-    {
      "title": "CloudAWS Migration and Modernization Services Competency로 검증된 SK AX의 클라우드 전환·현대화 역량",
      "url": "https://www.skax.co.kr/insight/trend/3906",
      "source": "SK AX",
@@ -324,30 +96,6 @@
       "ai-strategy",
       "cloud",
       "dx"
-     ]
-    },
-    {
-     "title": "Ex-Palantir execs launch Dream with $17M from a16z to build AI world models for construction - TechCrunch",
-     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPVWVUY0hVNUJSME55aGtFTlNPbTVyTmpId3pmd09TOWtaNk1YeTV4TENmNWY5dzhLeTQ2THNBVEFzRjNhQnhhZTR2V3pSN0ZsQ2d4MU9LeUJYVEI3Y1hScXBzcVZrVHVNTTZpTjRDbTN2OXB1MXJ4Xzh5YkR0MTJtY09kazlVV1UySzAzbHVLdXNWUmZEMnI4S3d0LVdvNU9ZVk00Ymcxa1ZSV3RGT3EyZVE3NU1NTE11SmcxdE12alJFQmNl?oc=5",
-     "source": "TechCrunch",
-     "category": "IT 미디어",
-     "summary": "Ex-Palantir execs launch Dream with $17M from a16z to build AI world models for construction TechCrunch",
-     "date": "2026-10-29",
-     "logo_domain": "techcrunch.com",
-     "topics": [
-      "ai-strategy"
-     ]
-    },
-    {
-     "title": "AI & Machine Learning Engineering Consultant - Databricks - Senior - Consulting - Location OPEN - EY Careers",
-     "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQZjEzaHEzVEwwb2s2UnRlaWJGaHNmRGNYWUVFLXo5akJCWGVERmtEbTc2X19VS2lBQUdGYTA3emVnOGRtS3drUUZxQjZDb09qNkgxcWNwdjJCcHZSc1dJMnZLUUlxVTFGMzAwYldvbjJXajhCLUh5Rno2SE5WTDlubXB4dllBM2swTnhWQ19XNlhQa0taaWs1MEZ4dVY0Vy1LMVBMZm14eWpLV2ZRUGhtakFqU0VrZXFMeng2dGMzblJkd2Y5VXM4dHJ1bTJEdzVzOWxRMVItU3J4R2otcTRXTnBzS3lNdms?oc=5",
-     "source": "EY",
-     "category": "글로벌 컨설팅",
-     "summary": "AI & Machine Learning Engineering Consultant - Databricks - Senior - Consulting - Location OPEN EY Careers",
-     "date": "2026-10-28",
-     "logo_domain": "ey.com",
-     "topics": [
-      "ai-strategy"
      ]
     },
     {
@@ -375,20 +123,6 @@
      ]
     },
     {
-     "title": "Tokenomics: The Economics Of AI Value Realization",
-     "url": "https://www.forrester.com/blogs/tokenomics-the-economics-of-ai-value-realization/",
-     "source": "Forrester",
-     "category": "글로벌 컨설팅",
-     "summary": "What is Tokenomics? How do I manage token costs? Does tokenomics matter if I only purchase AI copilot subscriptions? Questions like these dominate the bulk of my client conversations. Tech leaders believe tokenomics is s",
-     "date": "2026-10-27",
-     "logo_domain": "forrester.com",
-     "topics": [
-      "agent",
-      "ai-strategy",
-      "talent"
-     ]
-    },
-    {
      "title": "빠른 AI 도입, '환각세'도 고객 신뢰 상실도 피하려면?",
      "url": "https://www.samsungsds.com/kr/insights/ai-hallucination-tax-customer-trust.html",
      "source": "Samsung SDS 인사이트",
@@ -403,53 +137,94 @@
    ]
   },
   {
-   "id": "energy",
-   "name": "에너지·ESG",
-   "count": 9,
-   "baseline_avg": 1.8,
-   "growth_pct": 414,
-   "spread": 3,
+   "id": "dx",
+   "name": "디지털 전환",
+   "count": 2,
+   "baseline_avg": 0.5,
+   "growth_pct": 288,
+   "spread": 2,
    "sources": [
-    "IT조선",
-    "McKinsey & Company",
-    "NIA"
+    "SK AX",
+    "Samsung SDS 인사이트"
    ],
-   "score": 22.1,
+   "score": 11.16,
    "keywords": [
-    "esg",
-    "energy",
-    "grid",
-    "power"
+    "erp",
+    "modernization"
    ],
    "series": [
-    4,
+    0,
     2,
     1,
-    4,
-    2,
-    8,
-    2,
+    0,
+    0,
     1,
-    3,
-    2,
     1,
-    9
+    1,
+    0,
+    0,
+    1,
+    2
    ],
    "articles": [
     {
-     "title": "Wärtsilä CEO Håkan Agnevall: Focus, flexibility, and the next wave of growth",
-     "url": "https://www.mckinsey.com/industries/industrials/our-insights/wartsila-ceo-hakan-agnevall-focus-flexibility-and-the-next-wave-of-growth",
-     "source": "McKinsey & Company",
-     "category": "글로벌 컨설팅",
-     "summary": "Industrial leaders can turn disruption into growth by sharpening their focus, scaling to meet surging data-center power demand, and putting AI and continuous improvement to work.",
-     "date": "2026-10-30",
-     "logo_domain": "mckinsey.com",
+     "title": "CloudAWS Migration and Modernization Services Competency로 검증된 SK AX의 클라우드 전환·현대화 역량",
+     "url": "https://www.skax.co.kr/insight/trend/3906",
+     "source": "SK AX",
+     "category": "한국 대기업",
+     "summary": "",
+     "date": "2026-10-29",
+     "logo_domain": "skax.co.kr",
      "topics": [
-      "manufacturing",
-      "energy",
-      "talent"
+      "ai-strategy",
+      "cloud",
+      "dx"
      ]
     },
+    {
+     "title": "차세대 ERP, 신규 구축만이 정답은 아닙니다",
+     "url": "https://www.samsungsds.com/kr/insights/next-generation-erp-conversion.html",
+     "source": "Samsung SDS 인사이트",
+     "category": "한국 대기업",
+     "summary": "",
+     "date": "2026-10-28",
+     "logo_domain": "samsungsds.com",
+     "topics": [
+      "dx"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "name": "에너지·ESG",
+   "count": 7,
+   "baseline_avg": 0.2,
+   "growth_pct": "new",
+   "spread": 2,
+   "sources": [
+    "IT조선",
+    "NIA"
+   ],
+   "score": 9.4,
+   "keywords": [
+    "esg"
+   ],
+   "series": [
+    0,
+    2,
+    0,
+    0,
+    0,
+    4,
+    0,
+    0,
+    0,
+    1,
+    0,
+    7
+   ],
+   "articles": [
     {
      "title": "[ZD SW 투데이] NIA, SK하이닉스·NC문화재단과 디지털 ESG 협력 확대 外 - 지디넷코리아",
      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFAzUXlzeGNPblpLU251azVOODNJRGhXWlJlcEFDaU9RbF9DcHlTOVlwNTV1WXNjZHkzY0NPUzF6WnpBSkp4NjI4cDlGYTltWXpKcktxLVN3?oc=5",
@@ -533,323 +308,38 @@
      "topics": [
       "energy"
      ]
-    },
-    {
-     "title": "‘Hold course and adapt as you go’: An interview with Manon van Beek",
-     "url": "https://www.mckinsey.com/capabilities/people-and-organization/our-insights/hold-course-and-adapt-as-you-go-an-interview-with-manon-van-beek",
-     "source": "McKinsey & Company",
-     "category": "글로벌 컨설팅",
-     "summary": "As she prepares to step down, the CEO of leading European grid operator TenneT reflects on scaling energy infrastructure, navigating geopolitical shocks, and building resilience amid uncertainty.",
-     "date": "2026-10-27",
-     "logo_domain": "mckinsey.com",
-     "topics": [
-      "energy",
-      "talent"
-     ]
-    }
-   ]
-  },
-  {
-   "id": "agent",
-   "name": "AI 에이전트",
-   "count": 10,
-   "baseline_avg": 8.2,
-   "growth_pct": 21,
-   "spread": 3,
-   "sources": [
-    "Forrester",
-    "Kakao Tech",
-    "McKinsey & Company"
-   ],
-   "score": 19.42,
-   "keywords": [
-    "agentic",
-    "agents",
-    "ai agents",
-    "copilot",
-    "에이전트"
-   ],
-   "series": [
-    7,
-    7,
-    11,
-    7,
-    4,
-    8,
-    6,
-    12,
-    4,
-    7,
-    10,
-    10
-   ],
-   "articles": [
-    {
-     "title": "Waniwani’s CEO on the agentic future of insurance distribution",
-     "url": "https://www.mckinsey.com/industries/financial-services/our-insights/waniwanis-ceo-on-the-agentic-future-of-insurance-distribution",
-     "source": "McKinsey & Company",
-     "category": "글로벌 컨설팅",
-     "summary": "AI agents could fundamentally change the economics of insurance distribution. Waniwani CEO Robin Diligent explains the opportunities, risks, and implications for insurers.",
-     "date": "2026-10-30",
-     "logo_domain": "mckinsey.com",
-     "topics": [
-      "agent",
-      "finance",
-      "talent"
-     ]
-    },
-    {
-     "title": "Your Customers’ AI Agents Will Never Give Up",
-     "url": "https://www.forrester.com/blogs/your-customers-ai-agents-will-never-give-up/",
-     "source": "Forrester",
-     "category": "글로벌 컨설팅",
-     "summary": "Personal AI agents will increase service volume — and will expose unresolved demand that customer effort used to keep out of sight. Use that unresolved demand to find problems now that customers shouldn’t need to chase y",
-     "date": "2026-10-30",
-     "logo_domain": "forrester.com",
-     "topics": [
-      "agent"
-     ]
-    },
-    {
-     "title": "Couchbase Converges The Agent Data Stack Around Operational Data",
-     "url": "https://www.forrester.com/blogs/couchbase-converges-the-agent-data-stack-around-operational-data/",
-     "source": "Forrester",
-     "category": "글로벌 컨설팅",
-     "summary": "AI agents executing complex workflows may need to combine operational and analytical data, persistent memory, semantic retrieval, and access to tools within a single reasoning loop. Together, these services make up the a",
-     "date": "2026-10-29",
-     "logo_domain": "forrester.com",
-     "topics": [
-      "agent"
-     ]
-    },
-    {
-     "title": "Rewiring securities services for a new era of competition and growth",
-     "url": "https://www.mckinsey.com/industries/financial-services/our-insights/rewiring-securities-services-for-a-new-era-of-competition-and-growth",
-     "source": "McKinsey & Company",
-     "category": "글로벌 컨설팅",
-     "summary": "Disruptive forces—from real-time settlement to agentic AI—are changing the dynamics of the securities services industry. How can leaders capture the next horizon of growth?",
-     "date": "2026-10-28",
-     "logo_domain": "mckinsey.com",
-     "topics": [
-      "agent",
-      "talent"
-     ]
-    },
-    {
-     "title": "Agentic AI in strategic sourcing: Hype or hero?",
-     "url": "https://www.mckinsey.com/capabilities/operations/our-insights/agentic-ai-in-strategic-sourcing-hype-or-hero",
-     "source": "McKinsey & Company",
-     "category": "글로벌 컨설팅",
-     "summary": "As more procurement functions invest in agentic AI to capture savings and drive efficiency, the question is increasingly: Is it worth it?",
-     "date": "2026-10-28",
-     "logo_domain": "mckinsey.com",
-     "topics": [
-      "agent"
-     ]
-    },
-    {
-     "title": "Who wins when AI does the shopping? New evidence on agentic commerce",
-     "url": "https://www.mckinsey.com/capabilities/growth-marketing-and-sales/our-insights/who-wins-when-ai-does-the-shopping-new-evidence-on-agentic-commerce",
-     "source": "McKinsey & Company",
-     "category": "글로벌 컨설팅",
-     "summary": "Analysis of about 21,000 consumers indicates how AI shopping behavior is growing and evolving, with early evidence showing companies are not yet equipped to meet the rising demand.",
-     "date": "2026-10-28",
-     "logo_domain": "mckinsey.com",
-     "topics": [
-      "agent",
-      "cx"
-     ]
-    },
-    {
-     "title": "Don’t Block All The Bots — They Might Be Shopping For Your Customers",
-     "url": "https://www.forrester.com/blogs/dont-block-all-the-bots-they-might-be-shopping-for-your-customers/",
-     "source": "Forrester",
-     "category": "글로벌 컨설팅",
-     "summary": "Bot and agent management is crucial for preventing attacks from unwanted bots. But in retail, blocking all agents can block shoppers, too.",
-     "date": "2026-10-28",
-     "logo_domain": "forrester.com",
-     "topics": [
-      "agent",
-      "cx"
-     ]
-    },
-    {
-     "title": "Tokenomics: The Economics Of AI Value Realization",
-     "url": "https://www.forrester.com/blogs/tokenomics-the-economics-of-ai-value-realization/",
-     "source": "Forrester",
-     "category": "글로벌 컨설팅",
-     "summary": "What is Tokenomics? How do I manage token costs? Does tokenomics matter if I only purchase AI copilot subscriptions? Questions like these dominate the bulk of my client conversations. Tech leaders believe tokenomics is s",
-     "date": "2026-10-27",
-     "logo_domain": "forrester.com",
-     "topics": [
-      "agent",
-      "ai-strategy",
-      "talent"
-     ]
-    },
-    {
-     "title": "Banks Can’t Block Their Way Into The Agentic Future",
-     "url": "https://www.forrester.com/blogs/banks-cant-block-their-way-into-the-agentic-future/",
-     "source": "Forrester",
-     "category": "글로벌 컨설팅",
-     "summary": "Five banks have moved to block third-party AI agents from operating inside customer accounts and making transactions. Given the risks and uncertainties surrounding agentic AI, those banks’ response to AI agents having ac",
-     "date": "2026-10-27",
-     "logo_domain": "forrester.com",
-     "topics": [
-      "agent",
-      "security",
-      "finance"
-     ]
-    },
-    {
-     "title": "팀이 신뢰할 수 있는 AI 분석 환경 만들기: 추천팀의 컨텍스트 설계",
-     "url": "https://tech.kakao.com/posts/844",
-     "source": "Kakao Tech",
-     "category": "플랫폼 테크",
-     "summary": "안녕하세요. 카카오톡 숏폼 추천 모델을 개발하고 있는 루퍼트(rupert)입니다. 저희 추천팀은 추천 지표 분석에 AI 에이전트를 사용합니다. AI 에이전트에게 분석을 요청하면, 에이전트가 미리 정리해 둔 지침 문서(CLAUDE.md)를 읽고 SQL을 작성해 기존 Hadoop 환경에서 실행한 뒤 집계 결과를 리포트로 완성합니다. 지난 글에서는 데이터 엔지니어, 분석가만 알고 있던 로그 데이터",
-     "date": "2026-10-27",
-     "logo_domain": "kakao.com",
-     "topics": [
-      "genai",
-      "agent"
-     ]
-    }
-   ]
-  },
-  {
-   "id": "genai",
-   "name": "생성형 AI",
-   "count": 5,
-   "baseline_avg": 3.8,
-   "growth_pct": 33,
-   "spread": 4,
-   "sources": [
-    "Forrester",
-    "Kakao Tech",
-    "TechCrunch",
-    "Toss Tech"
-   ],
-   "score": 12.46,
-   "keywords": [
-    "anthropic",
-    "llm",
-    "claude",
-    "openai"
-   ],
-   "series": [
-    7,
-    7,
-    7,
-    4,
-    1,
-    9,
-    4,
-    2,
-    2,
-    4,
-    7,
-    5
-   ],
-   "articles": [
-    {
-     "title": "Anthropic’s Founders’ Letter Has The Right Ideals, But Reality Will Decide",
-     "url": "https://www.forrester.com/blogs/anthropics-founders-letter-has-the-right-ideals-but-reality-will-decide/",
-     "source": "Forrester",
-     "category": "글로벌 컨설팅",
-     "summary": "Here we go. Anthropic filed its S-1 on October 26, the formal start of its IPO. The financials will get the headlines, but read the founders’ letter at the beginning of the S-1. It describes how AI should be brought into",
-     "date": "2026-10-29",
-     "logo_domain": "forrester.com",
-     "topics": [
-      "genai",
-      "startup"
-     ]
-    },
-    {
-     "title": "Anthropic’s S-1 Hands Enterprise AI Buyers Better Leverage",
-     "url": "https://www.forrester.com/blogs/anthropics-s-1-hands-enterprise-ai-buyers-better-leverage/",
-     "source": "Forrester",
-     "category": "글로벌 컨설팅",
-     "summary": "Back in June, we argued that Anthropic’s proposed IPO would change the economics of enterprise AI, reasoning that a public listing brings discipline: Pricing would “get real,” capital would chase acquisitions, and Anthro",
-     "date": "2026-10-27",
-     "logo_domain": "forrester.com",
-     "topics": [
-      "genai",
-      "startup"
-     ]
-    },
-    {
-     "title": "손가락 튕기기로 LLM 비용 줄이기",
-     "url": "https://toss.tech/article/snap-llm-cost-reduction",
-     "source": "Toss Tech",
-     "category": "플랫폼 테크",
-     "summary": "토스에서 늘어나는 LLM 비용을 빠르게 줄이는 방법을 소개합니다.",
-     "date": "2026-10-27",
-     "logo_domain": "toss.im",
-     "topics": [
-      "genai"
-     ]
-    },
-    {
-     "title": "팀이 신뢰할 수 있는 AI 분석 환경 만들기: 추천팀의 컨텍스트 설계",
-     "url": "https://tech.kakao.com/posts/844",
-     "source": "Kakao Tech",
-     "category": "플랫폼 테크",
-     "summary": "안녕하세요. 카카오톡 숏폼 추천 모델을 개발하고 있는 루퍼트(rupert)입니다. 저희 추천팀은 추천 지표 분석에 AI 에이전트를 사용합니다. AI 에이전트에게 분석을 요청하면, 에이전트가 미리 정리해 둔 지침 문서(CLAUDE.md)를 읽고 SQL을 작성해 기존 Hadoop 환경에서 실행한 뒤 집계 결과를 리포트로 완성합니다. 지난 글에서는 데이터 엔지니어, 분석가만 알고 있던 로그 데이터",
-     "date": "2026-10-27",
-     "logo_domain": "kakao.com",
-     "topics": [
-      "genai",
-      "agent"
-     ]
-    },
-    {
-     "title": "How OpenAI turned its coding tools into dots, an always-on personal assistant - TechCrunch",
-     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNSUVCM0RUdHY3cXA1MUhJRW43ejN5Q1dmM3Nia1ZYck1mR3N1cUV6YkFLN2k2RUo1UEhOR1ppWHFWaHZPdlgtN2NiTWdJREJoTXRtU1NuVlFVOTB3VFBBNjJJN2daUTVBeFRTYnRRWnNRLUZvbW14U0dJMVd5NTRmTjlVMkx3aHQ0YVZBRkVyV0tKYnV6dHdzR2E4NVltOG5CcGZqcHZNb1NNcHBsWGVzbQ?oc=5",
-     "source": "TechCrunch",
-     "category": "IT 미디어",
-     "summary": "How OpenAI turned its coding tools into dots, an always-on personal assistant TechCrunch",
-     "date": "2026-10-27",
-     "logo_domain": "techcrunch.com",
-     "topics": [
-      "genai",
-      "devops"
-     ]
     }
    ]
   },
   {
    "id": "devops",
    "name": "소프트웨어 개발",
-   "count": 6,
-   "baseline_avg": 4.0,
-   "growth_pct": 50,
-   "spread": 3,
+   "count": 3,
+   "baseline_avg": 1.5,
+   "growth_pct": 133,
+   "spread": 1,
    "sources": [
-    "Forrester",
-    "Naver D2",
-    "TechCrunch"
+    "Naver D2"
    ],
-   "score": 12.3,
+   "score": 7.16,
    "keywords": [
     "개발자",
-    "software",
     "백엔드",
-    "kubernetes",
-    "developer"
+    "kubernetes"
    ],
    "series": [
-    3,
-    4,
-    5,
-    5,
     2,
-    7,
-    3,
+    1,
+    1,
     2,
-    6,
-    5,
-    3,
-    6
+    1,
+    1,
+    1,
+    1,
+    2,
+    1,
+    2,
+    3
    ],
    "articles": [
     {
@@ -866,18 +356,6 @@
      ]
     },
     {
-     "title": "Predictions 2027: AI Turns Up The Heat On Software Development",
-     "url": "https://www.forrester.com/blogs/predictions-2027-software-development/",
-     "source": "Forrester",
-     "category": "글로벌 컨설팅",
-     "summary": "As AI accelerates software development, teams will need to rethink everything from developer roles to testing and quality. Forrester’s 2027 predictions explore what happens as AI becomes more deeply embedded in how softw",
-     "date": "2026-10-30",
-     "logo_domain": "forrester.com",
-     "topics": [
-      "devops"
-     ]
-    },
-    {
      "title": "사이드카의 선언적 관리: OpenKruise SidecarSet 도입과 운영",
      "url": "https://d2.naver.com/helloworld/2983631",
      "source": "Naver D2",
@@ -888,19 +366,6 @@
      "topics": [
       "data",
       "security",
-      "devops"
-     ]
-    },
-    {
-     "title": "Predictions 2027: The Outcome Economy Hits Enterprise Software, And Reality Hits Back",
-     "url": "https://www.forrester.com/blogs/predictions-2027-the-outcome-economy-hits-enterprise-software-and-reality-hits-back/",
-     "source": "Forrester",
-     "category": "글로벌 컨설팅",
-     "summary": "Enterprise software no longer creates value on its own. Instead, the value comes from outcomes, and these outcomes are delivered via workflows that span business apps, data, people, and AI. In 2027, technology leaders wi",
-     "date": "2026-10-28",
-     "logo_domain": "forrester.com",
-     "topics": [
-      "talent",
       "devops"
      ]
     },
@@ -915,601 +380,38 @@
      "topics": [
       "devops"
      ]
-    },
-    {
-     "title": "How OpenAI turned its coding tools into dots, an always-on personal assistant - TechCrunch",
-     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNSUVCM0RUdHY3cXA1MUhJRW43ejN5Q1dmM3Nia1ZYck1mR3N1cUV6YkFLN2k2RUo1UEhOR1ppWHFWaHZPdlgtN2NiTWdJREJoTXRtU1NuVlFVOTB3VFBBNjJJN2daUTVBeFRTYnRRWnNRLUZvbW14U0dJMVd5NTRmTjlVMkx3aHQ0YVZBRkVyV0tKYnV6dHdzR2E4NVltOG5CcGZqcHZNb1NNcHBsWGVzbQ?oc=5",
-     "source": "TechCrunch",
-     "category": "IT 미디어",
-     "summary": "How OpenAI turned its coding tools into dots, an always-on personal assistant TechCrunch",
-     "date": "2026-10-27",
-     "logo_domain": "techcrunch.com",
-     "topics": [
-      "genai",
-      "devops"
-     ]
-    }
-   ]
-  },
-  {
-   "id": "startup",
-   "name": "스타트업·투자",
-   "count": 6,
-   "baseline_avg": 5.8,
-   "growth_pct": 4,
-   "spread": 3,
-   "sources": [
-    "Forrester",
-    "McKinsey & Company",
-    "TechCrunch"
-   ],
-   "score": 11.48,
-   "keywords": [
-    "ipo",
-    "startup",
-    "founder",
-    "founders",
-    "m&a"
-   ],
-   "series": [
-    7,
-    6,
-    6,
-    5,
-    3,
-    6,
-    4,
-    6,
-    4,
-    5,
-    8,
-    6
-   ],
-   "articles": [
-    {
-     "title": "Shapers and Founders: Scaling without losing soul",
-     "url": "https://www.mckinsey.com/featured-insights/future-of-asia/future-of-asia-podcasts/shapers-and-founders-scaling-without-losing-soul",
-     "source": "McKinsey & Company",
-     "category": "글로벌 컨설팅",
-     "summary": "A closer look at Asia’s successful founder-CEOs reveals how they have scaled their businesses without sacrificing their entrepreneurial spirit.",
-     "date": "2026-10-30",
-     "logo_domain": "mckinsey.com",
-     "topics": [
-      "startup"
-     ]
-    },
-    {
-     "title": "Salesforce’s M&A spree continues with a reported $375M deal for defense tech startup Rune - TechCrunch",
-     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOTjlYUmFUdGdUUExXR0JlYW15ZGUwRmxMaU9vVnd2VkN6eXNhZldneHp0YkF1VXlzNmlCZ0NaSm1UMjVWYU1ZTTREOVg2NGRxLUxsTEdibWpUM2R1VGdWZmtUT0I4blNObFRIbTFHNk1LczZSYjNRdHFuSExlZHJNR0FxOGFGTXRaYU1fTUU2aFpjck5sUDNUUkxsUV9JTFQzTjk1ZjBvWTd6Ri16RUZNM1YzM2RYSnpDRW9PaG5B?oc=5",
-     "source": "TechCrunch",
-     "category": "IT 미디어",
-     "summary": "Salesforce’s M&A spree continues with a reported $375M deal for defense tech startup Rune TechCrunch",
-     "date": "2026-10-30",
-     "logo_domain": "techcrunch.com",
-     "topics": [
-      "cx",
-      "startup"
-     ]
-    },
-    {
-     "title": "Anthropic’s Founders’ Letter Has The Right Ideals, But Reality Will Decide",
-     "url": "https://www.forrester.com/blogs/anthropics-founders-letter-has-the-right-ideals-but-reality-will-decide/",
-     "source": "Forrester",
-     "category": "글로벌 컨설팅",
-     "summary": "Here we go. Anthropic filed its S-1 on October 26, the formal start of its IPO. The financials will get the headlines, but read the founders’ letter at the beginning of the S-1. It describes how AI should be brought into",
-     "date": "2026-10-29",
-     "logo_domain": "forrester.com",
-     "topics": [
-      "genai",
-      "startup"
-     ]
-    },
-    {
-     "title": "Founder Summit: Save up to $100 on your pass - TechCrunch",
-     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQTDNvb3VZYnNyLXhHSnlmb1lRYUpycloxdy05cGo3WFlkTHg5MEtPNUhDYVpIYkJQQ2E2N1BTWTVQbFJTaHNlTUJDd0dTbUh1bHpCX3BxZTNIZmZLSFluZEV4M3J5MThRdG54WE9KSnlOX0pJYkUzc3hHYVN3enRlUFJlTlFfaldWRS1OZXRZZThPenFPX1ZUZTl2RVRnMldjM0s1MnhoWmZ3UQ?oc=5",
-     "source": "TechCrunch",
-     "category": "IT 미디어",
-     "summary": "Founder Summit: Save up to $100 on your pass TechCrunch",
-     "date": "2026-10-28",
-     "logo_domain": "techcrunch.com",
-     "topics": [
-      "startup"
-     ]
-    },
-    {
-     "title": "Anthropic’s S-1 Hands Enterprise AI Buyers Better Leverage",
-     "url": "https://www.forrester.com/blogs/anthropics-s-1-hands-enterprise-ai-buyers-better-leverage/",
-     "source": "Forrester",
-     "category": "글로벌 컨설팅",
-     "summary": "Back in June, we argued that Anthropic’s proposed IPO would change the economics of enterprise AI, reasoning that a public listing brings discipline: Pricing would “get real,” capital would chase acquisitions, and Anthro",
-     "date": "2026-10-27",
-     "logo_domain": "forrester.com",
-     "topics": [
-      "genai",
-      "startup"
-     ]
-    },
-    {
-     "title": "Nvidia backs Indian startup helping companies run AI models with fewer GPUs - TechCrunch",
-     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQVU1oenJIXzh6LWNpZ2tHNnh3RWptVTFTS25tOUtjd0RxaDE1eEJBT2MyVkRUOS1GSjFUS0xoQ0w0OUxiOEY0Q3ZjMlFEcG82UlU5ejlLSk1BOVpvRkRucldrM2tWV2lZQmtPZ1RFYkIycjZ6a1VKSUxzb3ZwZ1l0VW4tanZyc2lVNk9ESjB5MnVsLVJZbmYwRlFoMXhTeUZpWXpVY0IyUFZpS1FPOVNv?oc=5",
-     "source": "TechCrunch",
-     "category": "IT 미디어",
-     "summary": "Nvidia backs Indian startup helping companies run AI models with fewer GPUs TechCrunch",
-     "date": "2026-10-27",
-     "logo_domain": "techcrunch.com",
-     "topics": [
-      "infra",
-      "startup"
-     ]
-    }
-   ]
-  },
-  {
-   "id": "dx",
-   "name": "디지털 전환",
-   "count": 3,
-   "baseline_avg": 1.2,
-   "growth_pct": 140,
-   "spread": 3,
-   "sources": [
-    "Forrester",
-    "SK AX",
-    "Samsung SDS 인사이트"
-   ],
-   "score": 11.2,
-   "keywords": [
-    "modernization",
-    "erp"
-   ],
-   "series": [
-    0,
-    2,
-    1,
-    1,
-    1,
-    2,
-    2,
-    3,
-    0,
-    0,
-    2,
-    3
-   ],
-   "articles": [
-    {
-     "title": "CloudAWS Migration and Modernization Services Competency로 검증된 SK AX의 클라우드 전환·현대화 역량",
-     "url": "https://www.skax.co.kr/insight/trend/3906",
-     "source": "SK AX",
-     "category": "한국 대기업",
-     "summary": "",
-     "date": "2026-10-29",
-     "logo_domain": "skax.co.kr",
-     "topics": [
-      "ai-strategy",
-      "cloud",
-      "dx"
-     ]
-    },
-    {
-     "title": "Governments Can’t Just Adopt Emerging Technology — They Must Shape It",
-     "url": "https://www.forrester.com/blogs/governments-cant-just-adopt-emerging-technology-they-must-shape-it/",
-     "source": "Forrester",
-     "category": "글로벌 컨설팅",
-     "summary": "Government technology leaders face a growing challenge. Emerging technologies are advancing quickly, but deciding what to do about them is becoming harder. It’s about more than just deciding on the technologies that gove",
-     "date": "2026-10-28",
-     "logo_domain": "forrester.com",
-     "topics": [
-      "dx",
-      "public",
-      "talent"
-     ]
-    },
-    {
-     "title": "차세대 ERP, 신규 구축만이 정답은 아닙니다",
-     "url": "https://www.samsungsds.com/kr/insights/next-generation-erp-conversion.html",
-     "source": "Samsung SDS 인사이트",
-     "category": "한국 대기업",
-     "summary": "",
-     "date": "2026-10-28",
-     "logo_domain": "samsungsds.com",
-     "topics": [
-      "dx"
-     ]
-    }
-   ]
-  },
-  {
-   "id": "finance",
-   "name": "금융 IT",
-   "count": 4,
-   "baseline_avg": 2.2,
-   "growth_pct": 78,
-   "spread": 2,
-   "sources": [
-    "Forrester",
-    "McKinsey & Company"
-   ],
-   "score": 10.56,
-   "keywords": [
-    "banks",
-    "banking",
-    "insurance"
-   ],
-   "series": [
-    4,
-    1,
-    3,
-    2,
-    1,
-    5,
-    4,
-    2,
-    2,
-    1,
-    4,
-    4
-   ],
-   "articles": [
-    {
-     "title": "Closing banking’s AI value gap: A CEO guide",
-     "url": "https://www.mckinsey.com/industries/financial-services/our-insights/closing-bankings-ai-value-gap-a-ceo-guide",
-     "source": "McKinsey & Company",
-     "category": "글로벌 컨설팅",
-     "summary": "As AI adoption races ahead, great value is being left behind. Leaders need an operating model that turns investment into AI capital that can be deployed again and again.",
-     "date": "2026-10-30",
-     "logo_domain": "mckinsey.com",
-     "topics": [
-      "ai-strategy",
-      "finance",
-      "talent"
-     ]
-    },
-    {
-     "title": "Waniwani’s CEO on the agentic future of insurance distribution",
-     "url": "https://www.mckinsey.com/industries/financial-services/our-insights/waniwanis-ceo-on-the-agentic-future-of-insurance-distribution",
-     "source": "McKinsey & Company",
-     "category": "글로벌 컨설팅",
-     "summary": "AI agents could fundamentally change the economics of insurance distribution. Waniwani CEO Robin Diligent explains the opportunities, risks, and implications for insurers.",
-     "date": "2026-10-30",
-     "logo_domain": "mckinsey.com",
-     "topics": [
-      "agent",
-      "finance",
-      "talent"
-     ]
-    },
-    {
-     "title": "Banking on AI: How a new operating model can transform distressed credit management",
-     "url": "https://www.mckinsey.com/capabilities/risk-and-resilience/our-insights/banking-on-ai-how-a-new-operating-model-can-transform-distressed-credit-management",
-     "source": "McKinsey & Company",
-     "category": "글로벌 컨설팅",
-     "summary": "Banks increasingly deploy AI in distressed credit management. But few have adjusted their operating models to deliver distinctive customer experiences and optimize financial outcomes and recovery costs.",
-     "date": "2026-10-29",
-     "logo_domain": "mckinsey.com",
-     "topics": [
-      "finance"
-     ]
-    },
-    {
-     "title": "Banks Can’t Block Their Way Into The Agentic Future",
-     "url": "https://www.forrester.com/blogs/banks-cant-block-their-way-into-the-agentic-future/",
-     "source": "Forrester",
-     "category": "글로벌 컨설팅",
-     "summary": "Five banks have moved to block third-party AI agents from operating inside customer accounts and making transactions. Given the risks and uncertainties surrounding agentic AI, those banks’ response to AI agents having ac",
-     "date": "2026-10-27",
-     "logo_domain": "forrester.com",
-     "topics": [
-      "agent",
-      "security",
-      "finance"
-     ]
-    }
-   ]
-  },
-  {
-   "id": "cx",
-   "name": "리테일·고객경험",
-   "count": 5,
-   "baseline_avg": 8.2,
-   "growth_pct": -39,
-   "spread": 3,
-   "sources": [
-    "Forrester",
-    "McKinsey & Company",
-    "TechCrunch"
-   ],
-   "score": 10.52,
-   "keywords": [
-    "consumers",
-    "retail",
-    "revenue",
-    "salesforce"
-   ],
-   "series": [
-    1,
-    3,
-    7,
-    7,
-    13,
-    9,
-    11,
-    6,
-    4,
-    12,
-    11,
-    5
-   ],
-   "articles": [
-    {
-     "title": "AI Search Is Growing Faster Than Its Business Model",
-     "url": "https://www.forrester.com/blogs/ai-search-is-growing-faster-than-its-business-model/",
-     "source": "Forrester",
-     "category": "글로벌 컨설팅",
-     "summary": "Big Tech earnings this week put a spotlight on the monetization dilemma at the heart of AI-integrated search. The growth of Google’s AI Mode is proving to be a double-edged sword: Investments in conversational search are",
-     "date": "2026-10-30",
-     "logo_domain": "forrester.com",
-     "topics": [
-      "cx"
-     ]
-    },
-    {
-     "title": "Salesforce’s M&A spree continues with a reported $375M deal for defense tech startup Rune - TechCrunch",
-     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOTjlYUmFUdGdUUExXR0JlYW15ZGUwRmxMaU9vVnd2VkN6eXNhZldneHp0YkF1VXlzNmlCZ0NaSm1UMjVWYU1ZTTREOVg2NGRxLUxsTEdibWpUM2R1VGdWZmtUT0I4blNObFRIbTFHNk1LczZSYjNRdHFuSExlZHJNR0FxOGFGTXRaYU1fTUU2aFpjck5sUDNUUkxsUV9JTFQzTjk1ZjBvWTd6Ri16RUZNM1YzM2RYSnpDRW9PaG5B?oc=5",
-     "source": "TechCrunch",
-     "category": "IT 미디어",
-     "summary": "Salesforce’s M&A spree continues with a reported $375M deal for defense tech startup Rune TechCrunch",
-     "date": "2026-10-30",
-     "logo_domain": "techcrunch.com",
-     "topics": [
-      "cx",
-      "startup"
-     ]
-    },
-    {
-     "title": "Loyalty Service Providers Elevate Customer Loyalty To An Enterprise Capability",
-     "url": "https://www.forrester.com/blogs/loyalty-service-providers-elevate-customer-loyalty-to-an-enterprise-capability/",
-     "source": "Forrester",
-     "category": "글로벌 컨설팅",
-     "summary": "A rapidly evolving technology landscape changes how consumers discover brands, evaluate choices, and make decisions. This shift exposes a weakness in many loyalty strategies that rely on points and discounts alone to sus",
-     "date": "2026-10-29",
-     "logo_domain": "forrester.com",
-     "topics": [
-      "cx"
-     ]
-    },
-    {
-     "title": "Who wins when AI does the shopping? New evidence on agentic commerce",
-     "url": "https://www.mckinsey.com/capabilities/growth-marketing-and-sales/our-insights/who-wins-when-ai-does-the-shopping-new-evidence-on-agentic-commerce",
-     "source": "McKinsey & Company",
-     "category": "글로벌 컨설팅",
-     "summary": "Analysis of about 21,000 consumers indicates how AI shopping behavior is growing and evolving, with early evidence showing companies are not yet equipped to meet the rising demand.",
-     "date": "2026-10-28",
-     "logo_domain": "mckinsey.com",
-     "topics": [
-      "agent",
-      "cx"
-     ]
-    },
-    {
-     "title": "Don’t Block All The Bots — They Might Be Shopping For Your Customers",
-     "url": "https://www.forrester.com/blogs/dont-block-all-the-bots-they-might-be-shopping-for-your-customers/",
-     "source": "Forrester",
-     "category": "글로벌 컨설팅",
-     "summary": "Bot and agent management is crucial for preventing attacks from unwanted bots. But in retail, blocking all agents can block shoppers, too.",
-     "date": "2026-10-28",
-     "logo_domain": "forrester.com",
-     "topics": [
-      "agent",
-      "cx"
-     ]
-    }
-   ]
-  },
-  {
-   "id": "data",
-   "name": "데이터·분석",
-   "count": 3,
-   "baseline_avg": 1.5,
-   "growth_pct": 100,
-   "spread": 3,
-   "sources": [
-    "EY",
-    "McKinsey & Company",
-    "Naver D2"
-   ],
-   "score": 10.5,
-   "keywords": [
-    "analytics",
-    "데이터베이스"
-   ],
-   "series": [
-    0,
-    0,
-    1,
-    3,
-    2,
-    3,
-    1,
-    2,
-    2,
-    1,
-    1,
-    3
-   ],
-   "articles": [
-    {
-     "title": "사이드카의 선언적 관리: OpenKruise SidecarSet 도입과 운영",
-     "url": "https://d2.naver.com/helloworld/2983631",
-     "source": "Naver D2",
-     "category": "플랫폼 테크",
-     "summary": "Kubernetes에서 서비스를 운영하다 보면 메인 컨테이너 옆에 사이드카(sidecar) 컨테이너를 붙이는 일이 흔합니다. 사이드카에는 로그와 메트릭 수집, 프록시처럼 주 기능은 아니지만 같은 Pod 안에서 함께 실행되어야 하는 기능이 포함됩니다. 저희 팀이 운영하는 관리형 데이터베이스 서비스도 DB 인스턴스를 Pod 단위로 실행하고, 그 Pod에 DB 컨테이너 외에 헬스 체크, 메트릭과 ",
-     "date": "2026-10-30",
-     "logo_domain": "naver.com",
-     "topics": [
-      "data",
-      "security",
-      "devops"
-     ]
-    },
-    {
-     "title": "The algorithm isn’t the advantage–the team is",
-     "url": "https://www.mckinsey.com/industries/financial-services/our-insights/the-algorithm-isnt-the-advantage-the-team-is",
-     "source": "McKinsey & Company",
-     "category": "글로벌 컨설팅",
-     "summary": "FICO CEO Will Lansing says a strong ownership culture, not a smarter computational method, will set the data analytics company apart from competitors in this AI era.",
-     "date": "2026-10-29",
-     "logo_domain": "mckinsey.com",
-     "topics": [
-      "data",
-      "talent"
-     ]
-    },
-    {
-     "title": "Associate Analyst - Data Analytics - Risk Management Services Job Details - EY Careers",
-     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOeXpHaTRPM0VocEZXQm5xNUVBYXUxbWFmUmNIYXhKMDdydDE0LV9hcXJhaEI4T0xuTTFDWjJ3VGszUXN6dF9uWFZ2MVZ6VGdEdTFqWmxINkd2bmQ5bWxUWkpNZ1hBQ0ZNVmJUQ296V1FOcktiakpIclpNU0FVbkFFUG0tQm9LQjFUZ2lMQ19WZndHeUJoNWhtb2VIVlp5S1hhOGxxeWZXc3Rya0diSEEyUEdfbnp2TFRM?oc=5",
-     "source": "EY",
-     "category": "글로벌 컨설팅",
-     "summary": "Associate Analyst - Data Analytics - Risk Management Services Job Details EY Careers",
-     "date": "2026-10-29",
-     "logo_domain": "ey.com",
-     "topics": [
-      "data"
-     ]
-    }
-   ]
-  },
-  {
-   "id": "security",
-   "name": "사이버보안",
-   "count": 5,
-   "baseline_avg": 6.8,
-   "growth_pct": -26,
-   "spread": 3,
-   "sources": [
-    "Forrester",
-    "IT조선",
-    "Naver D2"
-   ],
-   "score": 10.28,
-   "keywords": [
-    "security",
-    "보안",
-    "privacy",
-    "사이버"
-   ],
-   "series": [
-    4,
-    6,
-    4,
-    2,
-    6,
-    3,
-    4,
-    8,
-    6,
-    5,
-    8,
-    5
-   ],
-   "articles": [
-    {
-     "title": "사이드카의 선언적 관리: OpenKruise SidecarSet 도입과 운영",
-     "url": "https://d2.naver.com/helloworld/2983631",
-     "source": "Naver D2",
-     "category": "플랫폼 테크",
-     "summary": "Kubernetes에서 서비스를 운영하다 보면 메인 컨테이너 옆에 사이드카(sidecar) 컨테이너를 붙이는 일이 흔합니다. 사이드카에는 로그와 메트릭 수집, 프록시처럼 주 기능은 아니지만 같은 Pod 안에서 함께 실행되어야 하는 기능이 포함됩니다. 저희 팀이 운영하는 관리형 데이터베이스 서비스도 DB 인스턴스를 Pod 단위로 실행하고, 그 Pod에 DB 컨테이너 외에 헬스 체크, 메트릭과 ",
-     "date": "2026-10-30",
-     "logo_domain": "naver.com",
-     "topics": [
-      "data",
-      "security",
-      "devops"
-     ]
-    },
-    {
-     "title": "PHP2Shell And The IT Visibility Crisis: Do You Know What You Have?",
-     "url": "https://www.forrester.com/blogs/php2shell-and-the-it-visibility-crisis-do-you-know-what-you-have/",
-     "source": "Forrester",
-     "category": "글로벌 컨설팅",
-     "summary": "IT Visibility Is No Longer A “Nice To Have” The PHP2Shell security event is rapidly becoming a board-level conversation. Two critical PHP vulnerabilities allow unauthenticated remote code execution, and security authorit",
-     "date": "2026-10-29",
-     "logo_domain": "forrester.com",
-     "topics": [
-      "security"
-     ]
-    },
-    {
-     "title": "라쿠텐 마리타임, 부산서 ‘해사 AI·기술 서밋’ 개최… 선박 사이버보안 협력 논의 - IT조선",
-     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1OV3hkWG9oLUNFN1BPUlJRcHJmWjhJMkxYMnJQUVpyN05BNzJObTYzNzJlRjFFSkxFWW5Hb2x3QnNfWXd4NXFTa1lBemlVRktTdDRsUXhTRE5tQU5ZVnU1TGFrTkk1b3RsTHoxNW5SWG43NFVQ0gF0QVVfeXFMTU5XeGRYb2gtQ0U3UE9SUlFwcmZaOEkyTFgyclBRWnI3TkE3Mk5tNjM3MmVGMUVKTEVZbkdvbHdCc19Zd3g1cVNrWUF6aVVGS1N0NGxReFNETm1BTllWdTVMYWtOSTVvdGxMejE1blJYbjc0VVA?oc=5",
-     "source": "IT조선",
-     "category": "IT 미디어",
-     "summary": "라쿠텐 마리타임, 부산서 ‘해사 AI·기술 서밋’ 개최… 선박 사이버보안 협력 논의 IT조선",
-     "date": "2026-10-29",
-     "logo_domain": "it.chosun.com",
-     "topics": [
-      "security"
-     ]
-    },
-    {
-     "title": "The eMudhra Certificate Authority Incident Is A Wake-Up Call For Enterprise PKI",
-     "url": "https://www.forrester.com/blogs/the-emudhra-certificate-authority-incident-is-a-wake-up-call-for-enterprise-pki/",
-     "source": "Forrester",
-     "category": "글로벌 컨설팅",
-     "summary": "The private key of a certificate authority (CA) should be one of the most secure secrets in digital infrastructure. In eMudhra’s case, eight CA private keys turned out to not be very secret. In fact, they were so weak th",
-     "date": "2026-10-27",
-     "logo_domain": "forrester.com",
-     "topics": [
-      "security"
-     ]
-    },
-    {
-     "title": "Banks Can’t Block Their Way Into The Agentic Future",
-     "url": "https://www.forrester.com/blogs/banks-cant-block-their-way-into-the-agentic-future/",
-     "source": "Forrester",
-     "category": "글로벌 컨설팅",
-     "summary": "Five banks have moved to block third-party AI agents from operating inside customer accounts and making transactions. Given the risks and uncertainties surrounding agentic AI, those banks’ response to AI agents having ac",
-     "date": "2026-10-27",
-     "logo_domain": "forrester.com",
-     "topics": [
-      "agent",
-      "security",
-      "finance"
-     ]
     }
    ]
   },
   {
    "id": "infra",
    "name": "반도체·AI 인프라",
-   "count": 3,
-   "baseline_avg": 2.2,
-   "growth_pct": 33,
-   "spread": 3,
+   "count": 2,
+   "baseline_avg": 1.2,
+   "growth_pct": 55,
+   "spread": 2,
    "sources": [
     "Samsung SDS 인사이트",
-    "TechCrunch",
     "현대오토에버 GN"
    ],
-   "score": 8.36,
+   "score": 6.5,
    "keywords": [
-    "gpus",
-    "nvidia",
     "gpu",
     "데이터센터"
    ],
    "series": [
-    4,
     3,
-    1,
     2,
-    2,
-    12,
-    1,
-    4,
+    0,
+    0,
+    0,
+    8,
     1,
     3,
+    0,
     1,
-    3
+    1,
+    2
    ],
    "articles": [
     {
@@ -1535,179 +437,122 @@
      "topics": [
       "infra"
      ]
-    },
-    {
-     "title": "Nvidia backs Indian startup helping companies run AI models with fewer GPUs - TechCrunch",
-     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQVU1oenJIXzh6LWNpZ2tHNnh3RWptVTFTS25tOUtjd0RxaDE1eEJBT2MyVkRUOS1GSjFUS0xoQ0w0OUxiOEY0Q3ZjMlFEcG82UlU5ejlLSk1BOVpvRkRucldrM2tWV2lZQmtPZ1RFYkIycjZ6a1VKSUxzb3ZwZ1l0VW4tanZyc2lVNk9ESjB5MnVsLVJZbmYwRlFoMXhTeUZpWXpVY0IyUFZpS1FPOVNv?oc=5",
-     "source": "TechCrunch",
-     "category": "IT 미디어",
-     "summary": "Nvidia backs Indian startup helping companies run AI models with fewer GPUs TechCrunch",
-     "date": "2026-10-27",
-     "logo_domain": "techcrunch.com",
-     "topics": [
-      "infra",
-      "startup"
-     ]
     }
    ]
   },
   {
-   "id": "manufacturing",
-   "name": "제조·공급망",
+   "id": "security",
+   "name": "사이버보안",
    "count": 2,
-   "baseline_avg": 3.8,
-   "growth_pct": -47,
+   "baseline_avg": 1.2,
+   "growth_pct": 55,
    "spread": 2,
    "sources": [
-    "Forrester",
-    "McKinsey & Company"
+    "IT조선",
+    "Naver D2"
    ],
-   "score": 5.06,
+   "score": 5.9,
    "keywords": [
-    "supply chain",
-    "industrial"
+    "보안",
+    "사이버"
    ],
    "series": [
-    2,
-    2,
-    3,
-    2,
-    3,
-    4,
-    6,
-    5,
     1,
-    4,
-    5,
+    1,
+    1,
+    2,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    3,
     2
    ],
    "articles": [
     {
-     "title": "Wärtsilä CEO Håkan Agnevall: Focus, flexibility, and the next wave of growth",
-     "url": "https://www.mckinsey.com/industries/industrials/our-insights/wartsila-ceo-hakan-agnevall-focus-flexibility-and-the-next-wave-of-growth",
-     "source": "McKinsey & Company",
-     "category": "글로벌 컨설팅",
-     "summary": "Industrial leaders can turn disruption into growth by sharpening their focus, scaling to meet surging data-center power demand, and putting AI and continuous improvement to work.",
+     "title": "사이드카의 선언적 관리: OpenKruise SidecarSet 도입과 운영",
+     "url": "https://d2.naver.com/helloworld/2983631",
+     "source": "Naver D2",
+     "category": "플랫폼 테크",
+     "summary": "Kubernetes에서 서비스를 운영하다 보면 메인 컨테이너 옆에 사이드카(sidecar) 컨테이너를 붙이는 일이 흔합니다. 사이드카에는 로그와 메트릭 수집, 프록시처럼 주 기능은 아니지만 같은 Pod 안에서 함께 실행되어야 하는 기능이 포함됩니다. 저희 팀이 운영하는 관리형 데이터베이스 서비스도 DB 인스턴스를 Pod 단위로 실행하고, 그 Pod에 DB 컨테이너 외에 헬스 체크, 메트릭과 ",
      "date": "2026-10-30",
-     "logo_domain": "mckinsey.com",
+     "logo_domain": "naver.com",
      "topics": [
-      "manufacturing",
-      "energy",
-      "talent"
+      "data",
+      "security",
+      "devops"
      ]
     },
     {
-     "title": "I’m Digging Into Price Optimization And Management — Here’s What I’m Learning",
-     "url": "https://www.forrester.com/blogs/im-digging-into-price-optimization-and-management-heres-what-im-learning/",
-     "source": "Forrester",
-     "category": "글로벌 컨설팅",
-     "summary": "I’ve spent much of my career thinking about B2B pricing. Before becoming an analyst, I managed global B2B businesses with lots of SKUs and channels and the pricing complexity that comes with a far-flung supply chain, tra",
-     "date": "2026-10-28",
-     "logo_domain": "forrester.com",
+     "title": "라쿠텐 마리타임, 부산서 ‘해사 AI·기술 서밋’ 개최… 선박 사이버보안 협력 논의 - IT조선",
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1OV3hkWG9oLUNFN1BPUlJRcHJmWjhJMkxYMnJQUVpyN05BNzJObTYzNzJlRjFFSkxFWW5Hb2x3QnNfWXd4NXFTa1lBemlVRktTdDRsUXhTRE5tQU5ZVnU1TGFrTkk1b3RsTHoxNW5SWG43NFVQ0gF0QVVfeXFMTU5XeGRYb2gtQ0U3UE9SUlFwcmZaOEkyTFgyclBRWnI3TkE3Mk5tNjM3MmVGMUVKTEVZbkdvbHdCc19Zd3g1cVNrWUF6aVVGS1N0NGxReFNETm1BTllWdTVMYWtOSTVvdGxMejE1blJYbjc0VVA?oc=5",
+     "source": "IT조선",
+     "category": "IT 미디어",
+     "summary": "라쿠텐 마리타임, 부산서 ‘해사 AI·기술 서밋’ 개최… 선박 사이버보안 협력 논의 IT조선",
+     "date": "2026-10-29",
+     "logo_domain": "it.chosun.com",
      "topics": [
-      "manufacturing"
+      "security"
      ]
     }
    ]
   },
   {
-   "id": "public",
-   "name": "공공 디지털",
+   "id": "genai",
+   "name": "생성형 AI",
    "count": 2,
-   "baseline_avg": 3.0,
-   "growth_pct": -33,
-   "spread": 1,
+   "baseline_avg": 1.8,
+   "growth_pct": 11,
+   "spread": 2,
    "sources": [
-    "Forrester"
+    "Kakao Tech",
+    "Toss Tech"
    ],
-   "score": 3.84,
+   "score": 5.22,
    "keywords": [
-    "government",
-    "public sector"
+    "llm",
+    "claude"
    ],
    "series": [
-    4,
+    2,
     6,
+    2,
     0,
-    1,
     0,
     3,
-    4,
-    8,
     1,
     2,
+    0,
     1,
+    4,
     2
    ],
    "articles": [
     {
-     "title": "Google Public Sector Summit 2026: AI Moves From Possibility To Mission",
-     "url": "https://www.forrester.com/blogs/google-public-sector-summit-2026-ai-moves-from-possibility-to-mission/",
-     "source": "Forrester",
-     "category": "글로벌 컨설팅",
-     "summary": "When Forrester wrote about the creation of Google Public Sector in 2022, the question was whether Google could build the industry credentials to compete more seriously for government business. Four years later, the conve",
-     "date": "2026-10-30",
-     "logo_domain": "forrester.com",
+     "title": "손가락 튕기기로 LLM 비용 줄이기",
+     "url": "https://toss.tech/article/snap-llm-cost-reduction",
+     "source": "Toss Tech",
+     "category": "플랫폼 테크",
+     "summary": "토스에서 늘어나는 LLM 비용을 빠르게 줄이는 방법을 소개합니다.",
+     "date": "2026-10-27",
+     "logo_domain": "toss.im",
      "topics": [
-      "public"
+      "genai"
      ]
     },
     {
-     "title": "Governments Can’t Just Adopt Emerging Technology — They Must Shape It",
-     "url": "https://www.forrester.com/blogs/governments-cant-just-adopt-emerging-technology-they-must-shape-it/",
-     "source": "Forrester",
-     "category": "글로벌 컨설팅",
-     "summary": "Government technology leaders face a growing challenge. Emerging technologies are advancing quickly, but deciding what to do about them is becoming harder. It’s about more than just deciding on the technologies that gove",
-     "date": "2026-10-28",
-     "logo_domain": "forrester.com",
+     "title": "팀이 신뢰할 수 있는 AI 분석 환경 만들기: 추천팀의 컨텍스트 설계",
+     "url": "https://tech.kakao.com/posts/844",
+     "source": "Kakao Tech",
+     "category": "플랫폼 테크",
+     "summary": "안녕하세요. 카카오톡 숏폼 추천 모델을 개발하고 있는 루퍼트(rupert)입니다. 저희 추천팀은 추천 지표 분석에 AI 에이전트를 사용합니다. AI 에이전트에게 분석을 요청하면, 에이전트가 미리 정리해 둔 지침 문서(CLAUDE.md)를 읽고 SQL을 작성해 기존 Hadoop 환경에서 실행한 뒤 집계 결과를 리포트로 완성합니다. 지난 글에서는 데이터 엔지니어, 분석가만 알고 있던 로그 데이터",
+     "date": "2026-10-27",
+     "logo_domain": "kakao.com",
      "topics": [
-      "dx",
-      "public",
-      "talent"
-     ]
-    }
-   ]
-  },
-  {
-   "id": "robotics",
-   "name": "로봇·피지컬 AI",
-   "count": 1,
-   "baseline_avg": 2.5,
-   "growth_pct": null,
-   "spread": 1,
-   "sources": [
-    "Forrester"
-   ],
-   "score": 3.0,
-   "keywords": [
-    "robotics",
-    "automation"
-   ],
-   "series": [
-    3,
-    1,
-    1,
-    0,
-    0,
-    8,
-    1,
-    4,
-    1,
-    3,
-    2,
-    1
-   ],
-   "articles": [
-    {
-     "title": "Predictions 2027: Automation Initiatives Become More Considered",
-     "url": "https://www.forrester.com/blogs/predictions-2027-automation-initiatives-become-more-considered/",
-     "source": "Forrester",
-     "category": "글로벌 컨설팅",
-     "summary": "Forrester analyst Paul Miller introduces our predictions for automation and robotics in 2027.",
-     "date": "2026-10-28",
-     "logo_domain": "forrester.com",
-     "topics": [
-      "robotics"
+      "genai",
+      "agent"
      ]
     }
    ]
@@ -1716,7 +561,7 @@
    "id": "cloud",
    "name": "클라우드",
    "count": 1,
-   "baseline_avg": 3.8,
+   "baseline_avg": 2.0,
    "growth_pct": null,
    "spread": 1,
    "sources": [
@@ -1727,17 +572,17 @@
     "클라우드"
    ],
    "series": [
-    4,
-    1,
-    2,
-    4,
-    3,
     3,
     1,
-    6,
+    0,
+    4,
     1,
+    1,
+    0,
+    5,
+    1,
+    0,
     2,
-    6,
     1
    ],
    "articles": [
@@ -1758,8 +603,193 @@
    ]
   },
   {
-   "id": "mobility",
-   "name": "모빌리티",
+   "id": "agent",
+   "name": "AI 에이전트",
+   "count": 1,
+   "baseline_avg": 2.5,
+   "growth_pct": null,
+   "spread": 1,
+   "sources": [
+    "Kakao Tech"
+   ],
+   "score": 2.5,
+   "keywords": [
+    "에이전트"
+   ],
+   "series": [
+    0,
+    2,
+    1,
+    5,
+    0,
+    3,
+    1,
+    5,
+    1,
+    1,
+    3,
+    1
+   ],
+   "articles": [
+    {
+     "title": "팀이 신뢰할 수 있는 AI 분석 환경 만들기: 추천팀의 컨텍스트 설계",
+     "url": "https://tech.kakao.com/posts/844",
+     "source": "Kakao Tech",
+     "category": "플랫폼 테크",
+     "summary": "안녕하세요. 카카오톡 숏폼 추천 모델을 개발하고 있는 루퍼트(rupert)입니다. 저희 추천팀은 추천 지표 분석에 AI 에이전트를 사용합니다. AI 에이전트에게 분석을 요청하면, 에이전트가 미리 정리해 둔 지침 문서(CLAUDE.md)를 읽고 SQL을 작성해 기존 Hadoop 환경에서 실행한 뒤 집계 결과를 리포트로 완성합니다. 지난 글에서는 데이터 엔지니어, 분석가만 알고 있던 로그 데이터",
+     "date": "2026-10-27",
+     "logo_domain": "kakao.com",
+     "topics": [
+      "genai",
+      "agent"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "data",
+   "name": "데이터·분석",
+   "count": 1,
+   "baseline_avg": 0.5,
+   "growth_pct": null,
+   "spread": 1,
+   "sources": [
+    "Naver D2"
+   ],
+   "score": 2.5,
+   "keywords": [
+    "데이터베이스"
+   ],
+   "series": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    2,
+    0,
+    0,
+    0,
+    1
+   ],
+   "articles": [
+    {
+     "title": "사이드카의 선언적 관리: OpenKruise SidecarSet 도입과 운영",
+     "url": "https://d2.naver.com/helloworld/2983631",
+     "source": "Naver D2",
+     "category": "플랫폼 테크",
+     "summary": "Kubernetes에서 서비스를 운영하다 보면 메인 컨테이너 옆에 사이드카(sidecar) 컨테이너를 붙이는 일이 흔합니다. 사이드카에는 로그와 메트릭 수집, 프록시처럼 주 기능은 아니지만 같은 Pod 안에서 함께 실행되어야 하는 기능이 포함됩니다. 저희 팀이 운영하는 관리형 데이터베이스 서비스도 DB 인스턴스를 Pod 단위로 실행하고, 그 Pod에 DB 컨테이너 외에 헬스 체크, 메트릭과 ",
+     "date": "2026-10-30",
+     "logo_domain": "naver.com",
+     "topics": [
+      "data",
+      "security",
+      "devops"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "talent",
+   "name": "인재·조직",
+   "count": 1,
+   "baseline_avg": 0.8,
+   "growth_pct": null,
+   "spread": 1,
+   "sources": [
+    "Naver D2"
+   ],
+   "score": 2.5,
+   "keywords": [
+    "조직"
+   ],
+   "series": [
+    1,
+    2,
+    4,
+    5,
+    0,
+    2,
+    9,
+    3,
+    0,
+    0,
+    0,
+    1
+   ],
+   "articles": [
+    {
+     "title": "모두가 함께 성장하는 기술 축제, NAVER Engineering Day 10년의 여정",
+     "url": "https://d2.naver.com/news/0907869",
+     "source": "Naver D2",
+     "category": "플랫폼 테크",
+     "summary": "기술은 혼자 완성되지 않습니다. ​ 한 사람이 발견한 문제와 해결 과정이 동료에게 전해지고, 그 경험이 또 다른 시도와 개선으로 이어질 때 조직의 기술은 앞으로 나아갑니다. ​ NAVER Engineering Day는 이런 믿음에서 출발했습니다. 2016년, 실무에서 얻은 개발 경험과 새로운 기술 및 플랫폼을 도입하며 배운 점을 나누는 사내 개발자 행사로 시작해 올해 10주년을 맞았습니다. ",
+     "date": "2026-10-31",
+     "logo_domain": "naver.com",
+     "topics": [
+      "talent",
+      "devops"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "public",
+   "name": "공공 디지털",
+   "count": 0,
+   "baseline_avg": 2.2,
+   "growth_pct": null,
+   "spread": 0,
+   "sources": [],
+   "score": 0,
+   "keywords": [],
+   "series": [
+    2,
+    6,
+    0,
+    1,
+    0,
+    2,
+    4,
+    7,
+    0,
+    2,
+    0,
+    0
+   ],
+   "articles": []
+  },
+  {
+   "id": "finance",
+   "name": "금융 IT",
+   "count": 0,
+   "baseline_avg": 1.0,
+   "growth_pct": null,
+   "spread": 0,
+   "sources": [],
+   "score": 0,
+   "keywords": [],
+   "series": [
+    0,
+    0,
+    1,
+    0,
+    0,
+    2,
+    0,
+    0,
+    1,
+    1,
+    2,
+    0
+   ],
+   "articles": []
+  },
+  {
+   "id": "manufacturing",
+   "name": "제조·공급망",
    "count": 0,
    "baseline_avg": 1.5,
    "growth_pct": null,
@@ -1770,22 +800,48 @@
    "series": [
     0,
     0,
+    1,
     0,
+    0,
+    2,
     1,
     2,
-    3,
-    2,
-    0,
     1,
+    0,
     3,
-    2,
     0
    ],
    "articles": []
   },
   {
-   "id": "health",
-   "name": "헬스케어",
+   "id": "mobility",
+   "name": "모빌리티",
+   "count": 0,
+   "baseline_avg": 0.0,
+   "growth_pct": null,
+   "spread": 0,
+   "sources": [],
+   "score": 0,
+   "keywords": [],
+   "series": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "articles": []
+  },
+  {
+   "id": "robotics",
+   "name": "로봇·피지컬 AI",
    "count": 0,
    "baseline_avg": 1.2,
    "growth_pct": null,
@@ -1794,17 +850,95 @@
    "score": 0,
    "keywords": [],
    "series": [
-    14,
     2,
-    4,
+    0,
+    1,
     0,
     0,
     6,
+    1,
+    1,
+    1,
     2,
+    1,
+    0
+   ],
+   "articles": []
+  },
+  {
+   "id": "health",
+   "name": "헬스케어",
+   "count": 0,
+   "baseline_avg": 0.2,
+   "growth_pct": null,
+   "spread": 0,
+   "sources": [],
+   "score": 0,
+   "keywords": [],
+   "series": [
+    12,
+    0,
+    1,
+    0,
+    0,
     3,
     0,
     1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "articles": []
+  },
+  {
+   "id": "cx",
+   "name": "리테일·고객경험",
+   "count": 0,
+   "baseline_avg": 0.2,
+   "growth_pct": null,
+   "spread": 0,
+   "sources": [],
+   "score": 0,
+   "keywords": [],
+   "series": [
+    0,
     1,
+    0,
+    1,
+    0,
+    2,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   "articles": []
+  },
+  {
+   "id": "startup",
+   "name": "스타트업·투자",
+   "count": 0,
+   "baseline_avg": 0.0,
+   "growth_pct": null,
+   "spread": 0,
+   "sources": [],
+   "score": 0,
+   "keywords": [],
+   "series": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
     0
    ],
    "articles": []
@@ -1813,24 +947,24 @@
    "id": "frontier",
    "name": "양자·차세대 기술",
    "count": 0,
-   "baseline_avg": 0.5,
+   "baseline_avg": 0.0,
    "growth_pct": null,
    "spread": 0,
    "sources": [],
    "score": 0,
    "keywords": [],
    "series": [
-    2,
-    0,
-    1,
     0,
     0,
     0,
     0,
     0,
-    1,
     0,
-    1,
+    0,
+    0,
+    0,
+    0,
+    0,
     0
    ],
    "articles": []
@@ -1885,140 +1019,6 @@
    ]
   },
   {
-   "title": "Shapers and Founders: Scaling without losing soul",
-   "url": "https://www.mckinsey.com/featured-insights/future-of-asia/future-of-asia-podcasts/shapers-and-founders-scaling-without-losing-soul",
-   "source": "McKinsey & Company",
-   "category": "글로벌 컨설팅",
-   "summary": "A closer look at Asia’s successful founder-CEOs reveals how they have scaled their businesses without sacrificing their entrepreneurial spirit.",
-   "date": "2026-10-30",
-   "logo_domain": "mckinsey.com",
-   "topics": [
-    "startup"
-   ]
-  },
-  {
-   "title": "Closing banking’s AI value gap: A CEO guide",
-   "url": "https://www.mckinsey.com/industries/financial-services/our-insights/closing-bankings-ai-value-gap-a-ceo-guide",
-   "source": "McKinsey & Company",
-   "category": "글로벌 컨설팅",
-   "summary": "As AI adoption races ahead, great value is being left behind. Leaders need an operating model that turns investment into AI capital that can be deployed again and again.",
-   "date": "2026-10-30",
-   "logo_domain": "mckinsey.com",
-   "topics": [
-    "ai-strategy",
-    "finance",
-    "talent"
-   ]
-  },
-  {
-   "title": "Overcoming the R&D bottleneck: Building a causal decision system",
-   "url": "https://www.mckinsey.com/industries/life-sciences/our-insights/overcoming-the-r-and-d-bottleneck-building-a-causal-decision-system",
-   "source": "McKinsey & Company",
-   "category": "글로벌 컨설팅",
-   "summary": "Tackling stalled development productivity requires sharp decision making. Leading biopharma are replacing fragmented analysis with connected, causal decision systems to optimize speed, cost, and success rates.",
-   "date": "2026-10-30",
-   "logo_domain": "mckinsey.com",
-   "topics": []
-  },
-  {
-   "title": "Waniwani’s CEO on the agentic future of insurance distribution",
-   "url": "https://www.mckinsey.com/industries/financial-services/our-insights/waniwanis-ceo-on-the-agentic-future-of-insurance-distribution",
-   "source": "McKinsey & Company",
-   "category": "글로벌 컨설팅",
-   "summary": "AI agents could fundamentally change the economics of insurance distribution. Waniwani CEO Robin Diligent explains the opportunities, risks, and implications for insurers.",
-   "date": "2026-10-30",
-   "logo_domain": "mckinsey.com",
-   "topics": [
-    "agent",
-    "finance",
-    "talent"
-   ]
-  },
-  {
-   "title": "Wärtsilä CEO Håkan Agnevall: Focus, flexibility, and the next wave of growth",
-   "url": "https://www.mckinsey.com/industries/industrials/our-insights/wartsila-ceo-hakan-agnevall-focus-flexibility-and-the-next-wave-of-growth",
-   "source": "McKinsey & Company",
-   "category": "글로벌 컨설팅",
-   "summary": "Industrial leaders can turn disruption into growth by sharpening their focus, scaling to meet surging data-center power demand, and putting AI and continuous improvement to work.",
-   "date": "2026-10-30",
-   "logo_domain": "mckinsey.com",
-   "topics": [
-    "manufacturing",
-    "energy",
-    "talent"
-   ]
-  },
-  {
-   "title": "AI Search Is Growing Faster Than Its Business Model",
-   "url": "https://www.forrester.com/blogs/ai-search-is-growing-faster-than-its-business-model/",
-   "source": "Forrester",
-   "category": "글로벌 컨설팅",
-   "summary": "Big Tech earnings this week put a spotlight on the monetization dilemma at the heart of AI-integrated search. The growth of Google’s AI Mode is proving to be a double-edged sword: Investments in conversational search are",
-   "date": "2026-10-30",
-   "logo_domain": "forrester.com",
-   "topics": [
-    "cx"
-   ]
-  },
-  {
-   "title": "Your Customers’ AI Agents Will Never Give Up",
-   "url": "https://www.forrester.com/blogs/your-customers-ai-agents-will-never-give-up/",
-   "source": "Forrester",
-   "category": "글로벌 컨설팅",
-   "summary": "Personal AI agents will increase service volume — and will expose unresolved demand that customer effort used to keep out of sight. Use that unresolved demand to find problems now that customers shouldn’t need to chase y",
-   "date": "2026-10-30",
-   "logo_domain": "forrester.com",
-   "topics": [
-    "agent"
-   ]
-  },
-  {
-   "title": "Predictions 2027: AI Turns Up The Heat On Software Development",
-   "url": "https://www.forrester.com/blogs/predictions-2027-software-development/",
-   "source": "Forrester",
-   "category": "글로벌 컨설팅",
-   "summary": "As AI accelerates software development, teams will need to rethink everything from developer roles to testing and quality. Forrester’s 2027 predictions explore what happens as AI becomes more deeply embedded in how softw",
-   "date": "2026-10-30",
-   "logo_domain": "forrester.com",
-   "topics": [
-    "devops"
-   ]
-  },
-  {
-   "title": "DoorDash + Instacart: A Good Idea But Not For The Reasons They Say",
-   "url": "https://www.forrester.com/blogs/doordash-instacart-a-good-idea-but-not-for-the-reasons-they-say/",
-   "source": "Forrester",
-   "category": "글로벌 컨설팅",
-   "summary": "DoorDash announced on October 29 that it will buy Instacart for about $17 billion. Read our analysis.",
-   "date": "2026-10-30",
-   "logo_domain": "forrester.com",
-   "topics": []
-  },
-  {
-   "title": "Google Public Sector Summit 2026: AI Moves From Possibility To Mission",
-   "url": "https://www.forrester.com/blogs/google-public-sector-summit-2026-ai-moves-from-possibility-to-mission/",
-   "source": "Forrester",
-   "category": "글로벌 컨설팅",
-   "summary": "When Forrester wrote about the creation of Google Public Sector in 2022, the question was whether Google could build the industry credentials to compete more seriously for government business. Four years later, the conve",
-   "date": "2026-10-30",
-   "logo_domain": "forrester.com",
-   "topics": [
-    "public"
-   ]
-  },
-  {
-   "title": "Bob Bowman on winning: Show up and do your work",
-   "url": "https://www.mckinsey.com/featured-insights/bob-bowman-on-winning-show-up-and-do-your-work",
-   "source": "McKinsey & Company",
-   "category": "글로벌 컨설팅",
-   "summary": "The coach who guided Michael Phelps to 23 Olympic gold medals explains why consistency beats motivation and what leaders can borrow from how he builds championship teams.",
-   "date": "2026-10-30",
-   "logo_domain": "mckinsey.com",
-   "topics": [
-    "talent"
-   ]
-  },
-  {
    "title": "현대차그룹, 새만금 AI 데이터센터 내년 3월 착공…사업 본격화 - www.ebn.co.kr",
    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5uUFBjc1FUTWViRzMzZk5ubWd0Ni1hS2lyRElzT2NBT0ZNU25WTF9ta0xpaHQzSmdUWWk5WVh5MGVOWHdVRk4wcWZBSnEtU0MxZFpUelpUX19CZnFta1V4bHRZYmRGelF5?oc=5",
    "source": "현대오토에버 GN",
@@ -2042,115 +1042,6 @@
     "data",
     "security",
     "devops"
-   ]
-  },
-  {
-   "title": "Salesforce’s M&A spree continues with a reported $375M deal for defense tech startup Rune - TechCrunch",
-   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOTjlYUmFUdGdUUExXR0JlYW15ZGUwRmxMaU9vVnd2VkN6eXNhZldneHp0YkF1VXlzNmlCZ0NaSm1UMjVWYU1ZTTREOVg2NGRxLUxsTEdibWpUM2R1VGdWZmtUT0I4blNObFRIbTFHNk1LczZSYjNRdHFuSExlZHJNR0FxOGFGTXRaYU1fTUU2aFpjck5sUDNUUkxsUV9JTFQzTjk1ZjBvWTd6Ri16RUZNM1YzM2RYSnpDRW9PaG5B?oc=5",
-   "source": "TechCrunch",
-   "category": "IT 미디어",
-   "summary": "Salesforce’s M&A spree continues with a reported $375M deal for defense tech startup Rune TechCrunch",
-   "date": "2026-10-30",
-   "logo_domain": "techcrunch.com",
-   "topics": [
-    "cx",
-    "startup"
-   ]
-  },
-  {
-   "title": "The algorithm isn’t the advantage–the team is",
-   "url": "https://www.mckinsey.com/industries/financial-services/our-insights/the-algorithm-isnt-the-advantage-the-team-is",
-   "source": "McKinsey & Company",
-   "category": "글로벌 컨설팅",
-   "summary": "FICO CEO Will Lansing says a strong ownership culture, not a smarter computational method, will set the data analytics company apart from competitors in this AI era.",
-   "date": "2026-10-29",
-   "logo_domain": "mckinsey.com",
-   "topics": [
-    "data",
-    "talent"
-   ]
-  },
-  {
-   "title": "Banking on AI: How a new operating model can transform distressed credit management",
-   "url": "https://www.mckinsey.com/capabilities/risk-and-resilience/our-insights/banking-on-ai-how-a-new-operating-model-can-transform-distressed-credit-management",
-   "source": "McKinsey & Company",
-   "category": "글로벌 컨설팅",
-   "summary": "Banks increasingly deploy AI in distressed credit management. But few have adjusted their operating models to deliver distinctive customer experiences and optimize financial outcomes and recovery costs.",
-   "date": "2026-10-29",
-   "logo_domain": "mckinsey.com",
-   "topics": [
-    "finance"
-   ]
-  },
-  {
-   "title": "Couchbase Converges The Agent Data Stack Around Operational Data",
-   "url": "https://www.forrester.com/blogs/couchbase-converges-the-agent-data-stack-around-operational-data/",
-   "source": "Forrester",
-   "category": "글로벌 컨설팅",
-   "summary": "AI agents executing complex workflows may need to combine operational and analytical data, persistent memory, semantic retrieval, and access to tools within a single reasoning loop. Together, these services make up the a",
-   "date": "2026-10-29",
-   "logo_domain": "forrester.com",
-   "topics": [
-    "agent"
-   ]
-  },
-  {
-   "title": "Data Wins The Media Agency Cola Wars",
-   "url": "https://www.forrester.com/blogs/data-wins-the-media-agency-cola-wars/",
-   "source": "Forrester",
-   "category": "글로벌 컨설팅",
-   "summary": "WPP and Omnicom’s recent success with the Coca-Cola Company’s global and North American media assignments can be summed up in one word: data. In fact, Coca-Cola and PepsiCo’s recent media agency reviews reveal how two co",
-   "date": "2026-10-29",
-   "logo_domain": "forrester.com",
-   "topics": []
-  },
-  {
-   "title": "Loyalty Service Providers Elevate Customer Loyalty To An Enterprise Capability",
-   "url": "https://www.forrester.com/blogs/loyalty-service-providers-elevate-customer-loyalty-to-an-enterprise-capability/",
-   "source": "Forrester",
-   "category": "글로벌 컨설팅",
-   "summary": "A rapidly evolving technology landscape changes how consumers discover brands, evaluate choices, and make decisions. This shift exposes a weakness in many loyalty strategies that rely on points and discounts alone to sus",
-   "date": "2026-10-29",
-   "logo_domain": "forrester.com",
-   "topics": [
-    "cx"
-   ]
-  },
-  {
-   "title": "PHP2Shell And The IT Visibility Crisis: Do You Know What You Have?",
-   "url": "https://www.forrester.com/blogs/php2shell-and-the-it-visibility-crisis-do-you-know-what-you-have/",
-   "source": "Forrester",
-   "category": "글로벌 컨설팅",
-   "summary": "IT Visibility Is No Longer A “Nice To Have” The PHP2Shell security event is rapidly becoming a board-level conversation. Two critical PHP vulnerabilities allow unauthenticated remote code execution, and security authorit",
-   "date": "2026-10-29",
-   "logo_domain": "forrester.com",
-   "topics": [
-    "security"
-   ]
-  },
-  {
-   "title": "Anthropic’s Founders’ Letter Has The Right Ideals, But Reality Will Decide",
-   "url": "https://www.forrester.com/blogs/anthropics-founders-letter-has-the-right-ideals-but-reality-will-decide/",
-   "source": "Forrester",
-   "category": "글로벌 컨설팅",
-   "summary": "Here we go. Anthropic filed its S-1 on October 26, the formal start of its IPO. The financials will get the headlines, but read the founders’ letter at the beginning of the S-1. It describes how AI should be brought into",
-   "date": "2026-10-29",
-   "logo_domain": "forrester.com",
-   "topics": [
-    "genai",
-    "startup"
-   ]
-  },
-  {
-   "title": "Associate Analyst - Data Analytics - Risk Management Services Job Details - EY Careers",
-   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOeXpHaTRPM0VocEZXQm5xNUVBYXUxbWFmUmNIYXhKMDdydDE0LV9hcXJhaEI4T0xuTTFDWjJ3VGszUXN6dF9uWFZ2MVZ6VGdEdTFqWmxINkd2bmQ5bWxUWkpNZ1hBQ0ZNVmJUQ296V1FOcktiakpIclpNU0FVbkFFUG0tQm9LQjFUZ2lMQ19WZndHeUJoNWhtb2VIVlp5S1hhOGxxeWZXc3Rya0diSEEyUEdfbnp2TFRM?oc=5",
-   "source": "EY",
-   "category": "글로벌 컨설팅",
-   "summary": "Associate Analyst - Data Analytics - Risk Management Services Job Details EY Careers",
-   "date": "2026-10-29",
-   "logo_domain": "ey.com",
-   "topics": [
-    "data"
    ]
   },
   {
@@ -2201,132 +1092,6 @@
    "logo_domain": "it.chosun.com",
    "topics": [
     "security"
-   ]
-  },
-  {
-   "title": "Ex-Palantir execs launch Dream with $17M from a16z to build AI world models for construction - TechCrunch",
-   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPVWVUY0hVNUJSME55aGtFTlNPbTVyTmpId3pmd09TOWtaNk1YeTV4TENmNWY5dzhLeTQ2THNBVEFzRjNhQnhhZTR2V3pSN0ZsQ2d4MU9LeUJYVEI3Y1hScXBzcVZrVHVNTTZpTjRDbTN2OXB1MXJ4Xzh5YkR0MTJtY09kazlVV1UySzAzbHVLdXNWUmZEMnI4S3d0LVdvNU9ZVk00Ymcxa1ZSV3RGT3EyZVE3NU1NTE11SmcxdE12alJFQmNl?oc=5",
-   "source": "TechCrunch",
-   "category": "IT 미디어",
-   "summary": "Ex-Palantir execs launch Dream with $17M from a16z to build AI world models for construction TechCrunch",
-   "date": "2026-10-29",
-   "logo_domain": "techcrunch.com",
-   "topics": [
-    "ai-strategy"
-   ]
-  },
-  {
-   "title": "Rewiring securities services for a new era of competition and growth",
-   "url": "https://www.mckinsey.com/industries/financial-services/our-insights/rewiring-securities-services-for-a-new-era-of-competition-and-growth",
-   "source": "McKinsey & Company",
-   "category": "글로벌 컨설팅",
-   "summary": "Disruptive forces—from real-time settlement to agentic AI—are changing the dynamics of the securities services industry. How can leaders capture the next horizon of growth?",
-   "date": "2026-10-28",
-   "logo_domain": "mckinsey.com",
-   "topics": [
-    "agent",
-    "talent"
-   ]
-  },
-  {
-   "title": "Agentic AI in strategic sourcing: Hype or hero?",
-   "url": "https://www.mckinsey.com/capabilities/operations/our-insights/agentic-ai-in-strategic-sourcing-hype-or-hero",
-   "source": "McKinsey & Company",
-   "category": "글로벌 컨설팅",
-   "summary": "As more procurement functions invest in agentic AI to capture savings and drive efficiency, the question is increasingly: Is it worth it?",
-   "date": "2026-10-28",
-   "logo_domain": "mckinsey.com",
-   "topics": [
-    "agent"
-   ]
-  },
-  {
-   "title": "Who wins when AI does the shopping? New evidence on agentic commerce",
-   "url": "https://www.mckinsey.com/capabilities/growth-marketing-and-sales/our-insights/who-wins-when-ai-does-the-shopping-new-evidence-on-agentic-commerce",
-   "source": "McKinsey & Company",
-   "category": "글로벌 컨설팅",
-   "summary": "Analysis of about 21,000 consumers indicates how AI shopping behavior is growing and evolving, with early evidence showing companies are not yet equipped to meet the rising demand.",
-   "date": "2026-10-28",
-   "logo_domain": "mckinsey.com",
-   "topics": [
-    "agent",
-    "cx"
-   ]
-  },
-  {
-   "title": "Governments Can’t Just Adopt Emerging Technology — They Must Shape It",
-   "url": "https://www.forrester.com/blogs/governments-cant-just-adopt-emerging-technology-they-must-shape-it/",
-   "source": "Forrester",
-   "category": "글로벌 컨설팅",
-   "summary": "Government technology leaders face a growing challenge. Emerging technologies are advancing quickly, but deciding what to do about them is becoming harder. It’s about more than just deciding on the technologies that gove",
-   "date": "2026-10-28",
-   "logo_domain": "forrester.com",
-   "topics": [
-    "dx",
-    "public",
-    "talent"
-   ]
-  },
-  {
-   "title": "I’m Digging Into Price Optimization And Management — Here’s What I’m Learning",
-   "url": "https://www.forrester.com/blogs/im-digging-into-price-optimization-and-management-heres-what-im-learning/",
-   "source": "Forrester",
-   "category": "글로벌 컨설팅",
-   "summary": "I’ve spent much of my career thinking about B2B pricing. Before becoming an analyst, I managed global B2B businesses with lots of SKUs and channels and the pricing complexity that comes with a far-flung supply chain, tra",
-   "date": "2026-10-28",
-   "logo_domain": "forrester.com",
-   "topics": [
-    "manufacturing"
-   ]
-  },
-  {
-   "title": "Don’t Block All The Bots — They Might Be Shopping For Your Customers",
-   "url": "https://www.forrester.com/blogs/dont-block-all-the-bots-they-might-be-shopping-for-your-customers/",
-   "source": "Forrester",
-   "category": "글로벌 컨설팅",
-   "summary": "Bot and agent management is crucial for preventing attacks from unwanted bots. But in retail, blocking all agents can block shoppers, too.",
-   "date": "2026-10-28",
-   "logo_domain": "forrester.com",
-   "topics": [
-    "agent",
-    "cx"
-   ]
-  },
-  {
-   "title": "Predictions 2027: The Outcome Economy Hits Enterprise Software, And Reality Hits Back",
-   "url": "https://www.forrester.com/blogs/predictions-2027-the-outcome-economy-hits-enterprise-software-and-reality-hits-back/",
-   "source": "Forrester",
-   "category": "글로벌 컨설팅",
-   "summary": "Enterprise software no longer creates value on its own. Instead, the value comes from outcomes, and these outcomes are delivered via workflows that span business apps, data, people, and AI. In 2027, technology leaders wi",
-   "date": "2026-10-28",
-   "logo_domain": "forrester.com",
-   "topics": [
-    "talent",
-    "devops"
-   ]
-  },
-  {
-   "title": "Predictions 2027: Automation Initiatives Become More Considered",
-   "url": "https://www.forrester.com/blogs/predictions-2027-automation-initiatives-become-more-considered/",
-   "source": "Forrester",
-   "category": "글로벌 컨설팅",
-   "summary": "Forrester analyst Paul Miller introduces our predictions for automation and robotics in 2027.",
-   "date": "2026-10-28",
-   "logo_domain": "forrester.com",
-   "topics": [
-    "robotics"
-   ]
-  },
-  {
-   "title": "AI & Machine Learning Engineering Consultant - Databricks - Senior - Consulting - Location OPEN - EY Careers",
-   "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQZjEzaHEzVEwwb2s2UnRlaWJGaHNmRGNYWUVFLXo5akJCWGVERmtEbTc2X19VS2lBQUdGYTA3emVnOGRtS3drUUZxQjZDb09qNkgxcWNwdjJCcHZSc1dJMnZLUUlxVTFGMzAwYldvbjJXajhCLUh5Rno2SE5WTDlubXB4dllBM2swTnhWQ19XNlhQa0taaWs1MEZ4dVY0Vy1LMVBMZm14eWpLV2ZRUGhtakFqU0VrZXFMeng2dGMzblJkd2Y5VXM4dHJ1bTJEdzVzOWxRMVItU3J4R2otcTRXTnBzS3lNdms?oc=5",
-   "source": "EY",
-   "category": "글로벌 컨설팅",
-   "summary": "AI & Machine Learning Engineering Consultant - Databricks - Senior - Consulting - Location OPEN EY Careers",
-   "date": "2026-10-28",
-   "logo_domain": "ey.com",
-   "topics": [
-    "ai-strategy"
    ]
   },
   {
@@ -2450,108 +1215,6 @@
    ]
   },
   {
-   "title": "Founder Summit: Save up to $100 on your pass - TechCrunch",
-   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQTDNvb3VZYnNyLXhHSnlmb1lRYUpycloxdy05cGo3WFlkTHg5MEtPNUhDYVpIYkJQQ2E2N1BTWTVQbFJTaHNlTUJDd0dTbUh1bHpCX3BxZTNIZmZLSFluZEV4M3J5MThRdG54WE9KSnlOX0pJYkUzc3hHYVN3enRlUFJlTlFfaldWRS1OZXRZZThPenFPX1ZUZTl2RVRnMldjM0s1MnhoWmZ3UQ?oc=5",
-   "source": "TechCrunch",
-   "category": "IT 미디어",
-   "summary": "Founder Summit: Save up to $100 on your pass TechCrunch",
-   "date": "2026-10-28",
-   "logo_domain": "techcrunch.com",
-   "topics": [
-    "startup"
-   ]
-  },
-  {
-   "title": "What AI can’t replace—and why it matters for value",
-   "url": "https://www.mckinsey.com/capabilities/people-and-organization/our-insights/what-ai-cant-replace-and-why-it-matters-for-value",
-   "source": "McKinsey & Company",
-   "category": "글로벌 컨설팅",
-   "summary": "AI may be deepening our crisis of connection, says Stanford research psychologist Jamil Zaki. Managing change with empathy helps leaders build trust, strengthen relationships, and get the most out of their AI investments",
-   "date": "2026-10-27",
-   "logo_domain": "mckinsey.com",
-   "topics": [
-    "talent"
-   ]
-  },
-  {
-   "title": "‘Hold course and adapt as you go’: An interview with Manon van Beek",
-   "url": "https://www.mckinsey.com/capabilities/people-and-organization/our-insights/hold-course-and-adapt-as-you-go-an-interview-with-manon-van-beek",
-   "source": "McKinsey & Company",
-   "category": "글로벌 컨설팅",
-   "summary": "As she prepares to step down, the CEO of leading European grid operator TenneT reflects on scaling energy infrastructure, navigating geopolitical shocks, and building resilience amid uncertainty.",
-   "date": "2026-10-27",
-   "logo_domain": "mckinsey.com",
-   "topics": [
-    "energy",
-    "talent"
-   ]
-  },
-  {
-   "title": "Tokenomics: The Economics Of AI Value Realization",
-   "url": "https://www.forrester.com/blogs/tokenomics-the-economics-of-ai-value-realization/",
-   "source": "Forrester",
-   "category": "글로벌 컨설팅",
-   "summary": "What is Tokenomics? How do I manage token costs? Does tokenomics matter if I only purchase AI copilot subscriptions? Questions like these dominate the bulk of my client conversations. Tech leaders believe tokenomics is s",
-   "date": "2026-10-27",
-   "logo_domain": "forrester.com",
-   "topics": [
-    "agent",
-    "ai-strategy",
-    "talent"
-   ]
-  },
-  {
-   "title": "Anthropic’s S-1 Hands Enterprise AI Buyers Better Leverage",
-   "url": "https://www.forrester.com/blogs/anthropics-s-1-hands-enterprise-ai-buyers-better-leverage/",
-   "source": "Forrester",
-   "category": "글로벌 컨설팅",
-   "summary": "Back in June, we argued that Anthropic’s proposed IPO would change the economics of enterprise AI, reasoning that a public listing brings discipline: Pricing would “get real,” capital would chase acquisitions, and Anthro",
-   "date": "2026-10-27",
-   "logo_domain": "forrester.com",
-   "topics": [
-    "genai",
-    "startup"
-   ]
-  },
-  {
-   "title": "The eMudhra Certificate Authority Incident Is A Wake-Up Call For Enterprise PKI",
-   "url": "https://www.forrester.com/blogs/the-emudhra-certificate-authority-incident-is-a-wake-up-call-for-enterprise-pki/",
-   "source": "Forrester",
-   "category": "글로벌 컨설팅",
-   "summary": "The private key of a certificate authority (CA) should be one of the most secure secrets in digital infrastructure. In eMudhra’s case, eight CA private keys turned out to not be very secret. In fact, they were so weak th",
-   "date": "2026-10-27",
-   "logo_domain": "forrester.com",
-   "topics": [
-    "security"
-   ]
-  },
-  {
-   "title": "Banks Can’t Block Their Way Into The Agentic Future",
-   "url": "https://www.forrester.com/blogs/banks-cant-block-their-way-into-the-agentic-future/",
-   "source": "Forrester",
-   "category": "글로벌 컨설팅",
-   "summary": "Five banks have moved to block third-party AI agents from operating inside customer accounts and making transactions. Given the risks and uncertainties surrounding agentic AI, those banks’ response to AI agents having ac",
-   "date": "2026-10-27",
-   "logo_domain": "forrester.com",
-   "topics": [
-    "agent",
-    "security",
-    "finance"
-   ]
-  },
-  {
-   "title": "LogicMonitor Elevate 2026: AI Doesn’t Care About Your IT Silos — Neither Should You",
-   "url": "https://www.forrester.com/blogs/logicmonitor-elevate-2026-ai-doesnt-care-about-your-it-silos-neither-should-you/",
-   "source": "Forrester",
-   "category": "글로벌 컨설팅",
-   "summary": "At LogicMonitor Elevate 2026 in Chicago, one thing became clear: The company’s strategy is evolving from monitoring individual technologies toward orchestrating work, experiences, and outcomes. One of the biggest themes ",
-   "date": "2026-10-27",
-   "logo_domain": "forrester.com",
-   "topics": [
-    "talent"
-   ]
-  },
-  {
    "title": "빠른 AI 도입, '환각세'도 고객 신뢰 상실도 피하려면?",
    "url": "https://www.samsungsds.com/kr/insights/ai-hallucination-tax-customer-trust.html",
    "source": "Samsung SDS 인사이트",
@@ -2586,32 +1249,6 @@
    "topics": [
     "genai",
     "agent"
-   ]
-  },
-  {
-   "title": "Nvidia backs Indian startup helping companies run AI models with fewer GPUs - TechCrunch",
-   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQVU1oenJIXzh6LWNpZ2tHNnh3RWptVTFTS25tOUtjd0RxaDE1eEJBT2MyVkRUOS1GSjFUS0xoQ0w0OUxiOEY0Q3ZjMlFEcG82UlU5ejlLSk1BOVpvRkRucldrM2tWV2lZQmtPZ1RFYkIycjZ6a1VKSUxzb3ZwZ1l0VW4tanZyc2lVNk9ESjB5MnVsLVJZbmYwRlFoMXhTeUZpWXpVY0IyUFZpS1FPOVNv?oc=5",
-   "source": "TechCrunch",
-   "category": "IT 미디어",
-   "summary": "Nvidia backs Indian startup helping companies run AI models with fewer GPUs TechCrunch",
-   "date": "2026-10-27",
-   "logo_domain": "techcrunch.com",
-   "topics": [
-    "infra",
-    "startup"
-   ]
-  },
-  {
-   "title": "How OpenAI turned its coding tools into dots, an always-on personal assistant - TechCrunch",
-   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNSUVCM0RUdHY3cXA1MUhJRW43ejN5Q1dmM3Nia1ZYck1mR3N1cUV6YkFLN2k2RUo1UEhOR1ppWHFWaHZPdlgtN2NiTWdJREJoTXRtU1NuVlFVOTB3VFBBNjJJN2daUTVBeFRTYnRRWnNRLUZvbW14U0dJMVd5NTRmTjlVMkx3aHQ0YVZBRkVyV0tKYnV6dHdzR2E4NVltOG5CcGZqcHZNb1NNcHBsWGVzbQ?oc=5",
-   "source": "TechCrunch",
-   "category": "IT 미디어",
-   "summary": "How OpenAI turned its coding tools into dots, an always-on personal assistant TechCrunch",
-   "date": "2026-10-27",
-   "logo_domain": "techcrunch.com",
-   "topics": [
-    "genai",
-    "devops"
    ]
   }
  ]

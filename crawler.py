@@ -1,7 +1,7 @@
 """
-crawler.py - 주요 컨설팅펌 및 테크 기업 RSS/웹 크롤러
-* 글로벌 컨설팅·한국 대기업·플랫폼 테크 → 회사 공식 사이트에서 직접 수집
-* IT 미디어 → RSS/Google News
+crawler.py - 국내(한글) IT 소스 RSS/웹 크롤러
+* 한국 대기업·플랫폼 테크 → 회사 공식 사이트에서 직접 수집
+* IT 미디어·국내 연구기관 → RSS/Google News
 """
 import feedparser
 import httpx
@@ -30,24 +30,11 @@ HEADERS = {
 def gnews(query: str) -> str:
     return f"https://news.google.com/rss/search?q={quote(query)}&hl=ko&gl=KR&ceid=KR:ko"
 
-def gnews_en(query: str) -> str:
-    return f"https://news.google.com/rss/search?q={quote(query)}&hl=en&gl=US&ceid=US:en"
-
 
 GUARANTEED_GROUPS = {
-    # 글로벌 컨설팅
-    "McKinsey":   {"McKinsey & Company"},
-    "Deloitte":   {"Deloitte Insights"},
-    "BCG":        {"BCG"},
-    "PwC":        {"PwC"},
-    "KPMG":       {"KPMG"},
-    "EY":         {"EY"},
-    "Accenture":  {"Accenture"},
-    "Gartner":    {"Gartner"},
-    "Forrester":  {"Forrester"},
     # 한국 대기업
     "Samsung SDS": {"Samsung SDS 인사이트", "Samsung SDS GN"},
-    "LG CNS":      {"LG CNS 인사이트"},
+    "LG CNS":      {"LG CNS 인사이트", "LG CNS GN"},
     "SK AX":       {"SK AX", "SK AX GN"},
     "KT":          {"KT Enterprise"},
     "현대오토에버": {"현대오토에버", "현대오토에버 GN"},
@@ -59,6 +46,9 @@ GNEWS_CORP_FALLBACK = [
     {"name": "Samsung SDS GN", "category": "한국 대기업",
      "url": gnews("삼성SDS 인사이트 AI 클라우드 DX 기술"),
      "logo_domain": "samsungsds.com"},
+    {"name": "LG CNS GN", "category": "한국 대기업",
+     "url": gnews("LG CNS AI 클라우드 DX"),
+     "logo_domain": "lgcns.com"},
     {"name": "SK AX GN", "category": "한국 대기업",
      "url": gnews("SK AX SKAX AI 디지털전환 인사이트"),
      "logo_domain": "skax.co.kr"},
@@ -72,32 +62,6 @@ GNEWS_CORP_FALLBACK = [
 # 직접 RSS — 회사 공식 RSS 피드
 # ════════════════════════════════════════════════════════════
 DIRECT_RSS = [
-    # ── 글로벌 컨설팅 (공식 RSS) ────────────────────────────
-    {"name": "McKinsey & Company", "category": "글로벌 컨설팅",
-     "url": "https://www.mckinsey.com/insights/rss",
-     "logo_domain": "mckinsey.com"},
-    {"name": "Deloitte Insights",  "category": "글로벌 컨설팅",
-     "url": "https://www2.deloitte.com/us/en/insights/rss.xml",
-     "logo_domain": "deloitte.com"},
-    {"name": "BCG",                "category": "글로벌 컨설팅",
-     "url": "https://www.bcg.com/rss/publications.xml",
-     "logo_domain": "bcg.com"},
-    {"name": "Accenture",          "category": "글로벌 컨설팅",
-     "url": "https://newsroom.accenture.com/rss/rss.rss",
-     "logo_domain": "accenture.com"},
-    {"name": "Gartner",            "category": "글로벌 컨설팅",
-     "url": "https://www.gartner.com/en/newsroom/press-releases.xml",
-     "logo_domain": "gartner.com"},
-    {"name": "Forrester",          "category": "글로벌 컨설팅",
-     "url": "https://www.forrester.com/blogs/feed/",
-     "logo_domain": "forrester.com"},
-    {"name": "HBR 디지털·IT",      "category": "글로벌 컨설팅",
-     "url": "https://hbr.org/feeds/topics/information-technology.rss",
-     "logo_domain": "hbr.org"},
-    {"name": "MIT Sloan Review",   "category": "글로벌 컨설팅",
-     "url": "https://sloanreview.mit.edu/topic/technology-innovation/feed/",
-     "logo_domain": "sloanreview.mit.edu"},
-
     # ── 플랫폼 테크 (공식 기술 블로그 RSS) ──────────────────
     {"name": "Naver D2",           "category": "플랫폼 테크",
      "url": "https://d2.naver.com/d2.atom",
@@ -111,31 +75,25 @@ DIRECT_RSS = [
 
     # ── IT 미디어 (직접 RSS) ─────────────────────────────────
     {"name": "전자신문",           "category": "IT 미디어",
-     "url": "https://www.etnews.com/rss/allArticleRss.xml",
+     "url": "https://rss.etnews.com/Section901.xml",
      "logo_domain": "etnews.com"},
-    {"name": "지디넷코리아",       "category": "IT 미디어",
-     "url": "https://zdnet.co.kr/rss/",
-     "logo_domain": "zdnet.co.kr"},
+    {"name": "AI타임즈",           "category": "IT 미디어",
+     "url": "https://www.aitimes.com/rss/allArticle.xml",
+     "logo_domain": "aitimes.com"},
+    {"name": "바이라인네트워크",   "category": "IT 미디어",
+     "url": "https://byline.network/feed/",
+     "logo_domain": "byline.network"},
+    {"name": "데이터넷",           "category": "IT 미디어",
+     "url": "https://www.datanet.co.kr/rss/allArticle.xml",
+     "logo_domain": "datanet.co.kr"},
 ]
 
 
 # ════════════════════════════════════════════════════════════
 # Google News RSS
-# — RSS가 없는 컨설팅사는 site: 연산자로 공식 사이트 글만 수집
-# — IT 미디어는 일반 뉴스 검색
+# — RSS가 없는 매체는 site: 연산자로 해당 매체 기사만 수집
 # ════════════════════════════════════════════════════════════
 GNEWS_SOURCES = [
-    # 글로벌 컨설팅 — 공식 사이트 글만 (site: 연산자)
-    {"name": "PwC",  "category": "글로벌 컨설팅",
-     "url": gnews_en("site:pwc.com AI technology insights"),
-     "logo_domain": "pwc.com"},
-    {"name": "KPMG", "category": "글로벌 컨설팅",
-     "url": gnews_en("site:kpmg.com AI digital transformation insights"),
-     "logo_domain": "kpmg.com"},
-    {"name": "EY",   "category": "글로벌 컨설팅",
-     "url": gnews_en("site:ey.com AI technology insights"),
-     "logo_domain": "ey.com"},
-
     # 국내 연구기관 — Google News (공식 사이트 위주)
     {"name": "IITP", "category": "국내 연구기관",
      "url": gnews("IITP 정보통신기획평가원 AI ICT 기술동향"),
@@ -144,16 +102,13 @@ GNEWS_SOURCES = [
      "url": gnews("NIA 한국지능정보사회진흥원 AI 디지털"),
      "logo_domain": "nia.or.kr"},
 
-    # IT 미디어 — 뉴스 기사 수집
+    # IT 미디어 — RSS가 없는 매체
+    {"name": "지디넷코리아", "category": "IT 미디어",
+     "url": gnews("site:zdnet.co.kr AI 클라우드"),
+     "logo_domain": "zdnet.co.kr"},
     {"name": "IT조선",      "category": "IT 미디어",
-     "url": gnews("IT조선 인공지능 AI 디지털"),
+     "url": gnews("site:it.chosun.com AI 디지털"),
      "logo_domain": "it.chosun.com"},
-    {"name": "AI타임즈",    "category": "IT 미디어",
-     "url": gnews("AI타임즈 인공지능 기술"),
-     "logo_domain": "aitimes.com"},
-    {"name": "TechCrunch",  "category": "IT 미디어",
-     "url": gnews_en("TechCrunch AI startup technology enterprise"),
-     "logo_domain": "techcrunch.com"},
 ]
 
 
@@ -276,6 +231,7 @@ async def _fetch_web(client: httpx.AsyncClient, source: dict) -> list[dict]:
                 if len(t) > len(title): title = t
             if not title: title = a_tag.get_text(strip=True)
             if len(title) < 10 or len(title) > 200: continue
+            if title.endswith("이동"): continue  # "메인 페이지로 이동" 같은 내비게이션 링크
 
             seen.add(href)
             articles.append({

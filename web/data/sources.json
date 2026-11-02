@@ -1,25 +1,12 @@
 {
-  "total": 27,
+  "total": 17,
   "category_colors": {
-    "글로벌 컨설팅": "#7c3aed",
     "국내 연구기관": "#0891b2",
     "한국 대기업":   "#0284c7",
     "플랫폼 테크":   "#059669",
     "IT 미디어":     "#d97706"
   },
   "sources": [
-    {"name": "McKinsey & Company", "name_ko": "맥킨지",             "category": "글로벌 컨설팅", "url": "https://www.mckinsey.com/insights",                          "logo_domain": "mckinsey.com",       "type": "rss",  "description": "맥킨지 글로벌 인사이트 공식 RSS"},
-    {"name": "Deloitte Insights",  "name_ko": "딜로이트 인사이트",  "category": "글로벌 컨설팅", "url": "https://www2.deloitte.com/us/en/insights/rss.xml",           "logo_domain": "deloitte.com",       "type": "rss",  "description": "딜로이트 글로벌 인사이트 공식 RSS"},
-    {"name": "BCG",                "name_ko": "보스턴컨설팅그룹",   "category": "글로벌 컨설팅", "url": "https://www.bcg.com/rss/publications.xml",                   "logo_domain": "bcg.com",            "type": "rss",  "description": "BCG 공식 인사이트 RSS"},
-    {"name": "PwC",                "name_ko": "PwC 삼일회계법인",   "category": "글로벌 컨설팅", "url": "https://www.pwc.com/kr/ko/insights/issue-brief.html",        "logo_domain": "pwc.com",            "type": "rss",  "description": "PwC 공식 사이트 인사이트 (Google News)"},
-    {"name": "KPMG",               "name_ko": "KPMG",               "category": "글로벌 컨설팅", "url": "https://kpmg.com/kr/ko/ai/kpmg-ai-insight.html",            "logo_domain": "kpmg.com",           "type": "rss",  "description": "KPMG 공식 사이트 인사이트 (Google News)"},
-    {"name": "EY",                 "name_ko": "EY 한영",            "category": "글로벌 컨설팅", "url": "https://www.ey.com/ko_kr/insights",                          "logo_domain": "ey.com",             "type": "rss",  "description": "EY 공식 사이트 인사이트 (Google News)"},
-    {"name": "Accenture",          "name_ko": "액센츄어",           "category": "글로벌 컨설팅", "url": "https://newsroom.accenture.com/rss/rss.rss",                 "logo_domain": "accenture.com",      "type": "rss",  "description": "액센츄어 뉴스룸 공식 RSS"},
-    {"name": "Gartner",            "name_ko": "가트너",             "category": "글로벌 컨설팅", "url": "https://www.gartner.com/en/newsroom/press-releases.xml",     "logo_domain": "gartner.com",        "type": "rss",  "description": "가트너 뉴스룸 공식 RSS"},
-    {"name": "Forrester",          "name_ko": "포레스터",           "category": "글로벌 컨설팅", "url": "https://www.forrester.com/blogs/feed/",                      "logo_domain": "forrester.com",      "type": "rss",  "description": "포레스터 블로그 공식 RSS"},
-    {"name": "HBR 디지털·IT",      "name_ko": "하버드 비즈니스 리뷰","category": "글로벌 컨설팅", "url": "https://hbr.org/feeds/topics/information-technology.rss",    "logo_domain": "hbr.org",            "type": "rss",  "description": "HBR IT·디지털 공식 RSS"},
-    {"name": "MIT Sloan Review",   "name_ko": "MIT 슬론 매니지먼트", "category": "글로벌 컨설팅", "url": "https://sloanreview.mit.edu/topic/technology-innovation/feed/","logo_domain": "sloanreview.mit.edu","type": "rss",  "description": "MIT Sloan 기술혁신 공식 RSS"},
-
     {"name": "IITP",               "name_ko": "정보통신기획평가원",  "category": "국내 연구기관", "url": "https://www.iitp.kr/web/lay1/program/S1T62C65/itfind/list.do","logo_domain": "iitp.kr",           "type": "rss",  "description": "IITP 주간기술동향 · ICT Brief"},
     {"name": "NIA",                "name_ko": "한국지능정보사회진흥원","category": "국내 연구기관","url": "https://www.nia.or.kr/site/nia_kor/ex/bbs/List.do?cbIdx=25932","logo_domain": "nia.or.kr",         "type": "rss",  "description": "NIA AI·디지털 보고서"},
 
@@ -35,9 +22,10 @@
     {"name": "Toss Tech",          "name_ko": "토스 테크",           "category": "플랫폼 테크",   "url": "https://toss.tech/",                                         "logo_domain": "toss.im",            "type": "rss",  "description": "토스 기술 블로그 공식 RSS"},
 
     {"name": "전자신문",           "name_ko": "전자신문",            "category": "IT 미디어",     "url": "https://www.etnews.com/",                                    "logo_domain": "etnews.com",         "type": "rss",  "description": "전자신문 IT·AI 뉴스 RSS"},
-    {"name": "지디넷코리아",       "name_ko": "지디넷코리아",        "category": "IT 미디어",     "url": "https://zdnet.co.kr/",                                       "logo_domain": "zdnet.co.kr",        "type": "rss",  "description": "지디넷코리아 IT 뉴스 RSS"},
+    {"name": "지디넷코리아",       "name_ko": "지디넷코리아",        "category": "IT 미디어",     "url": "https://zdnet.co.kr/",                                       "logo_domain": "zdnet.co.kr",        "type": "rss",  "description": "지디넷코리아 AI·클라우드 뉴스"},
     {"name": "IT조선",             "name_ko": "IT조선",              "category": "IT 미디어",     "url": "https://it.chosun.com/",                                     "logo_domain": "it.chosun.com",      "type": "rss",  "description": "IT조선 AI·디지털 뉴스"},
-    {"name": "AI타임즈",           "name_ko": "AI타임즈",            "category": "IT 미디어",     "url": "https://www.aitimes.com/",                                   "logo_domain": "aitimes.com",        "type": "rss",  "description": "AI타임즈 인공지능 뉴스"},
-    {"name": "TechCrunch",         "name_ko": "테크크런치",          "category": "IT 미디어",     "url": "https://techcrunch.com/",                                    "logo_domain": "techcrunch.com",     "type": "rss",  "description": "테크크런치 AI·스타트업 뉴스"}
+    {"name": "AI타임즈",           "name_ko": "AI타임즈",            "category": "IT 미디어",     "url": "https://www.aitimes.com/",                                   "logo_domain": "aitimes.com",        "type": "rss",  "description": "AI타임즈 인공지능 뉴스 RSS"},
+    {"name": "바이라인네트워크",   "name_ko": "바이라인네트워크",    "category": "IT 미디어",     "url": "https://byline.network/",                                    "logo_domain": "byline.network",     "type": "rss",  "description": "바이라인네트워크 IT 산업 분석 RSS"},
+    {"name": "데이터넷",           "name_ko": "데이터넷",            "category": "IT 미디어",     "url": "https://www.datanet.co.kr/",                                 "logo_domain": "datanet.co.kr",      "type": "rss",  "description": "데이터넷 기업 IT·보안 뉴스 RSS"}
   ]
 }

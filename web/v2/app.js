@@ -169,7 +169,7 @@ function openTopic(id, { push = true } = {}) {
     <div class="stats">
       <div class="stat"><div class="stat-label">이번 주</div><div class="stat-val">${t.count}건</div></div>
       <div class="stat"><div class="stat-label">4주 평균</div><div class="stat-val">${t.baseline_avg}건</div></div>
-      <div class="stat"><div class="stat-label">증감</div><div class="stat-val ${gCls}">${gText}</div></div>
+      <div class="stat"><div class="stat-label">비중 변화</div><div class="stat-val ${gCls}">${gText}</div></div>
     </div>
     <div class="d-section"><div class="d-title">최근 12주 추이</div><div class="chart">${chart(t.series, state.data.series_labels)}</div></div>
     ${t.keywords.length ? `<div class="d-section"><div class="d-title">자주 나온 키워드</div><div class="kw">${t.keywords.map((k) => `<span>${esc(k)}</span>`).join('')}</div></div>` : ''}

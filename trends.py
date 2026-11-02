@@ -3,8 +3,9 @@ trends.py - 누적 리포트에서 토픽별 트렌드를 계산해 web/data/tre
 실행: python trends.py  (main.py 실행 후)
 
 - 이번 주: 기준일 포함 최근 7일
-- 비교 기준: 그 직전 4주의 주평균
+- 증감: 전체 글 중 토픽 비중을 직전 4주와 비교 (소스 구성이 바뀌어도 왜곡되지 않도록)
 - 추이: 최근 12주 주간 건수
+- 한글 제목 글만 사용 (과거 리포트의 해외 글 제외)
 """
 import glob
 import json
@@ -23,6 +24,7 @@ SERIES_WEEKS = 12
 NEW_KW_LOOKBACK_DAYS = 90
 MIN_COUNT_FOR_GROWTH = 2
 DATE_RE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
+HANGUL_RE = re.compile("[가-힣]")
 
 
 def load_reports() -> list[dict]:
@@ -77,7 +79,7 @@ def collect_articles(reports: list[dict], ref: date) -> list[dict]:
         first_seen = parse_day(r.get("date"))
         for a in r.get("articles", []):
             key = a.get("url") or (a.get("source", "") + a.get("title", ""))
-            if not key or key in seen:
+            if not key or key in seen or not HANGUL_RE.search(a.get("title", "")):
                 continue
             pub = parse_day(a.get("published"))
             # 게시일이 없거나 미래면 처음 수집된 날로 대체
@@ -110,14 +112,23 @@ def main():
     def week_index(d: date) -> int:
         return (d - series_start).days // WEEK
 
-    stats = {t["id"]: {"week": [], "baseline": 0, "sources": set(), "weighted": 0.0,
+    # 같은 소스가 같은 날 쓴 글은 1건으로 센다: 보도자료 하나가 트렌드로 부풀려지는 것을 막기 위함
+    stats = {t["id"]: {"week": [], "baseline": 0, "week_keys": set(), "base_keys": set(),
+                       "sources": set(), "weighted": 0.0,
                        "series": [0] * SERIES_WEEKS, "keywords": {}} for t in topics}
     kw_week: dict[str, int] = {}
     kw_before: set[str] = set()
     feed = []
+    week_keys_all: set = set()
+    base_keys_all: set = set()
 
     for a in collect_articles(reports, ref):
         day = a["_day"]
+        key = (a.get("source", ""), day)
+        if day >= week_start:
+            week_keys_all.add(key)
+        elif day >= base_start:
+            base_keys_all.add(key)
         hits = classify(f"{a.get('title', '')} {a.get('summary', '')}", matchers)
         a["_topics"] = list(hits)
         all_kws = {k for kws in hits.values() for k in kws}
@@ -136,11 +147,14 @@ def main():
             if day >= week_start:
                 s["week"].append(a)
                 s["sources"].add(a.get("source", ""))
-                s["weighted"] += weights.get(a.get("category"), 1.0)
+                if key not in s["week_keys"]:
+                    s["week_keys"].add(key)
+                    s["weighted"] += weights.get(a.get("category"), 1.0)
                 for k in kws:
                     s["keywords"][k] = s["keywords"].get(k, 0) + 1
             elif day >= base_start:
                 s["baseline"] += 1
+                s["base_keys"].add(key)
 
     def slim(a: dict) -> dict:
         return {
@@ -163,12 +177,15 @@ def main():
         s = stats[t["id"]]
         count = len(s["week"])
         avg = s["baseline"] / BASELINE_WEEKS
-        if not has_baseline or count < MIN_COUNT_FOR_GROWTH:
+        week_n, base_n = len(s["week_keys"]), len(s["base_keys"])
+        if not has_baseline or week_n < MIN_COUNT_FOR_GROWTH:
             growth = None
-        elif avg < 0.5:
+        elif base_n < BASELINE_WEEKS / 2:
             growth = "new"
         else:
-            growth = round((count - avg) / avg * 100)
+            share_now = week_n / len(week_keys_all)
+            share_base = base_n / len(base_keys_all)
+            growth = round((share_now / share_base - 1) * 100)
         spread = len(s["sources"])
         g = 150 if growth == "new" else (growth or 0)
         score = s["weighted"] + 1.5 * spread + min(max(g, -100), 300) / 50 if count else 0
