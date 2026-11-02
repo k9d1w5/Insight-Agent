@@ -1,9 +1,9 @@
 {
  "date": "2026-11-02",
- "generated_at": "2026-11-02 15:28",
+ "generated_at": "2026-11-02 15:32",
  "week_start": "2026-10-27",
  "history_days": 201,
- "week_total": 23,
+ "week_total": 22,
  "source_count": 8,
  "series_labels": [
   "08/11",
@@ -29,8 +29,8 @@
   {
    "id": "ai-strategy",
    "name": "AI 전략·도입",
-   "count": 6,
-   "baseline_avg": 8.2,
+   "count": 5,
+   "baseline_avg": 7.5,
    "growth_pct": -22,
    "spread": 4,
    "sources": [
@@ -47,17 +47,17 @@
    ],
    "series": [
     5,
-    16,
-    12,
-    8,
-    8,
     13,
+    12,
     7,
-    14,
+    7,
+    13,
+    6,
+    12,
     1,
-    10,
+    9,
     8,
-    6
+    5
    ],
    "articles": [
     {
@@ -101,18 +101,6 @@
     {
      "title": "NIA, AI 대전환 시대 ‘디지털 포용’ 민관 협력 강화 - 정보통신신문",
      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1NNlZ5RVp3UTRWd3V2a3hMdU1CclNET3NFdFZXNm1ENmJEanotQUkzZGVyTkVjQW1XZkhIcUF6R0tIOTB6OHJiZkViT0ZMb0xoaW9GTk8zODMyRFBVQi1hSldMMWxJdzNv0gFsQVVfeXFMTXpsSmtqNGJQT1VvaUVMR2xONFZyWVphdXFYcmxaZWF5d2ZBbmZOaUN3ZGxOMEVuS0NNYTdzOS1TWm5VTXpqRjVBcElTUUNSeV9RWXB5ZDYzU0c2ak1oM0hQMExhelVfenIzNGFq?oc=5",
-     "source": "NIA",
-     "category": "국내 연구기관",
-     "summary": "NIA, AI 대전환 시대 ‘디지털 포용’ 민관 협력 강화 정보통신신문",
-     "date": "2026-10-28",
-     "logo_domain": "nia.or.kr",
-     "topics": [
-      "ai-strategy"
-     ]
-    },
-    {
-     "title": "NIA, AI 대전환 시대 ‘디지털 포용’ 민관 협력 강화 - 정보통신신문",
-     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE16bEprajRiUE9Vb2lFTEdsTjRWcllaYXVxWHJsWmVheXdmQW5mTmlDd2RsTjBFbktDTWE3czktU1puVU16akY1QXBJU1FDUnlfUVlweWQ2M1NHNmpNaDNIUDBMYXpVX3pyMzRhatIBbEFVX3lxTE16bEprajRiUE9Vb2lFTEdsTjRWcllaYXVxWHJsWmVheXdmQW5mTmlDd2RsTjBFbktDTWE3czktU1puVU16akY1QXBJU1FDUnlfUVlweWQ2M1NHNmpNaDNIUDBMYXpVX3pyMzRhag?oc=5",
      "source": "NIA",
      "category": "국내 연구기관",
      "summary": "NIA, AI 대전환 시대 ‘디지털 포용’ 민관 협력 강화 정보통신신문",
@@ -405,7 +393,7 @@
     0,
     0,
     0,
-    8,
+    6,
     1,
     3,
     0,
@@ -521,7 +509,7 @@
     2,
     0,
     0,
-    3,
+    2,
     1,
     2,
     0,
@@ -606,7 +594,7 @@
    "id": "agent",
    "name": "AI 에이전트",
    "count": 1,
-   "baseline_avg": 2.5,
+   "baseline_avg": 2.2,
    "growth_pct": null,
    "spread": 1,
    "sources": [
@@ -624,7 +612,7 @@
     0,
     3,
     1,
-    5,
+    4,
     1,
     1,
     3,
@@ -739,7 +727,7 @@
    "id": "public",
    "name": "공공 디지털",
    "count": 0,
-   "baseline_avg": 2.2,
+   "baseline_avg": 2.0,
    "growth_pct": null,
    "spread": 0,
    "sources": [],
@@ -747,13 +735,13 @@
    "keywords": [],
    "series": [
     2,
-    6,
+    5,
     0,
     1,
     0,
     2,
     4,
-    7,
+    6,
     0,
     2,
     0,
@@ -765,7 +753,7 @@
    "id": "finance",
    "name": "금융 IT",
    "count": 0,
-   "baseline_avg": 1.0,
+   "baseline_avg": 0.8,
    "growth_pct": null,
    "spread": 0,
    "sources": [],
@@ -782,7 +770,7 @@
     0,
     1,
     1,
-    2,
+    1,
     0
    ],
    "articles": []
@@ -791,7 +779,7 @@
    "id": "manufacturing",
    "name": "제조·공급망",
    "count": 0,
-   "baseline_avg": 1.5,
+   "baseline_avg": 1.2,
    "growth_pct": null,
    "spread": 0,
    "sources": [],
@@ -805,7 +793,7 @@
     0,
     2,
     1,
-    2,
+    1,
     1,
     0,
     3,
@@ -855,7 +843,7 @@
     1,
     0,
     0,
-    6,
+    4,
     1,
     1,
     1,
@@ -876,7 +864,7 @@
    "score": 0,
    "keywords": [],
    "series": [
-    12,
+    8,
     0,
     1,
     0,
@@ -1157,18 +1145,6 @@
   {
    "title": "NIA, AI 대전환 시대 ‘디지털 포용’ 민관 협력 강화 - 정보통신신문",
    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1NNlZ5RVp3UTRWd3V2a3hMdU1CclNET3NFdFZXNm1ENmJEanotQUkzZGVyTkVjQW1XZkhIcUF6R0tIOTB6OHJiZkViT0ZMb0xoaW9GTk8zODMyRFBVQi1hSldMMWxJdzNv0gFsQVVfeXFMTXpsSmtqNGJQT1VvaUVMR2xONFZyWVphdXFYcmxaZWF5d2ZBbmZOaUN3ZGxOMEVuS0NNYTdzOS1TWm5VTXpqRjVBcElTUUNSeV9RWXB5ZDYzU0c2ak1oM0hQMExhelVfenIzNGFq?oc=5",
-   "source": "NIA",
-   "category": "국내 연구기관",
-   "summary": "NIA, AI 대전환 시대 ‘디지털 포용’ 민관 협력 강화 정보통신신문",
-   "date": "2026-10-28",
-   "logo_domain": "nia.or.kr",
-   "topics": [
-    "ai-strategy"
-   ]
-  },
-  {
-   "title": "NIA, AI 대전환 시대 ‘디지털 포용’ 민관 협력 강화 - 정보통신신문",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE16bEprajRiUE9Vb2lFTEdsTjRWcllaYXVxWHJsWmVheXdmQW5mTmlDd2RsTjBFbktDTWE3czktU1puVU16akY1QXBJU1FDUnlfUVlweWQ2M1NHNmpNaDNIUDBMYXpVX3pyMzRhatIBbEFVX3lxTE16bEprajRiUE9Vb2lFTEdsTjRWcllaYXVxWHJsWmVheXdmQW5mTmlDd2RsTjBFbktDTWE3czktU1puVU16akY1QXBJU1FDUnlfUVlweWQ2M1NHNmpNaDNIUDBMYXpVX3pyMzRhag?oc=5",
    "source": "NIA",
    "category": "국내 연구기관",
    "summary": "NIA, AI 대전환 시대 ‘디지털 포용’ 민관 협력 강화 정보통신신문",

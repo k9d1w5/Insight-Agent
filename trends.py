@@ -75,12 +75,18 @@ def parse_day(s: str | None) -> date | None:
 
 def collect_articles(reports: list[dict], ref: date) -> list[dict]:
     seen: dict[str, dict] = {}
+    titles: set[tuple[str, str]] = set()
     for r in reports:
         first_seen = parse_day(r.get("date"))
         for a in r.get("articles", []):
             key = a.get("url") or (a.get("source", "") + a.get("title", ""))
             if not key or key in seen or not HANGUL_RE.search(a.get("title", "")):
                 continue
+            # Google News 링크는 같은 글도 달라질 수 있어 제목으로도 중복을 거른다
+            title_key = (a.get("source", ""), a.get("title", ""))
+            if title_key in titles:
+                continue
+            titles.add(title_key)
             pub = parse_day(a.get("published"))
             # 게시일이 없거나 미래면 처음 수집된 날로 대체
             day = pub if pub and pub <= ref else first_seen

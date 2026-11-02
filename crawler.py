@@ -32,6 +32,10 @@ def gnews(query: str) -> str:
 
 
 GUARANTEED_GROUPS = {
+    # 컨설팅펌
+    "삼일PwC":     {"삼일PwC"},
+    "삼정KPMG":    {"삼정KPMG"},
+    "딜로이트 안진": {"딜로이트 안진"},
     # 한국 대기업
     "Samsung SDS": {"Samsung SDS 인사이트", "Samsung SDS GN"},
     "LG CNS":      {"LG CNS 인사이트", "LG CNS GN"},
@@ -93,7 +97,23 @@ DIRECT_RSS = [
 # Google News RSS
 # — RSS가 없는 매체는 site: 연산자로 해당 매체 기사만 수집
 # ════════════════════════════════════════════════════════════
+FIRM_EXCLUDE_TITLE = ["채용", "Newsletter", "뉴스레터", "뉴스룸", "| EY"]
+
 GNEWS_SOURCES = [
+    # 컨설팅펌 국내 법인 — 공식 사이트 글만 (site: 연산자)
+    {"name": "삼일PwC", "category": "컨설팅펌",
+     "url": gnews("site:pwc.com/kr when:14d"),
+     "logo_domain": "pwc.com",
+     "strip_suffix": "PwC", "exclude_title": FIRM_EXCLUDE_TITLE},
+    {"name": "삼정KPMG", "category": "컨설팅펌",
+     "url": gnews("site:kpmg.com/kr when:14d"),
+     "logo_domain": "kpmg.com",
+     "strip_suffix": "kpmg.com", "exclude_title": FIRM_EXCLUDE_TITLE},
+    {"name": "딜로이트 안진", "category": "컨설팅펌",
+     "url": gnews("site:deloitte.com/kr when:14d"),
+     "logo_domain": "deloitte.com",
+     "strip_suffix": "Deloitte", "exclude_title": FIRM_EXCLUDE_TITLE},
+
     # 국내 연구기관 — Google News (공식 사이트 위주)
     {"name": "IITP", "category": "국내 연구기관",
      "url": gnews("IITP 정보통신기획평가원 AI ICT 기술동향"),
@@ -120,6 +140,12 @@ WEB_SOURCES = [
     # JS 렌더링 사이트(삼성SDS·SK AX·현대오토에버·에커튼)는
     # playwright_crawler.py 에서 별도 처리
     {
+        "name": "EY한영", "category": "컨설팅펌",
+        "url": "https://www.ey.com/ko_kr/insights",
+        "logo_domain": "ey.com",
+        "link_pattern": "/ko_kr/insights/",
+    },
+    {
         "name": "KT Enterprise", "category": "한국 대기업",
         "url": "https://enterprise.kt.com/bt/dBoxing.do?tId=506",
         "logo_domain": "kt.com",
@@ -141,6 +167,14 @@ def _parse_entry(entry, source: dict, cutoff=None) -> dict | None:
     """RSS 엔트리 → 아티클 dict. cutoff 이전이면 None."""
     title = entry.get("title", "").strip()
     if not title:
+        return None
+
+    suffix = source.get("strip_suffix")
+    if suffix and title.endswith(f" - {suffix}"):
+        title = title[:-len(suffix) - 3].strip()
+    excludes = source.get("exclude_title")
+    # 짧은 제목은 "세무자문"처럼 글이 아닌 서비스 소개 페이지
+    if excludes and (len(title) < 10 or any(w in title for w in excludes)):
         return None
 
     pub_date = None
@@ -174,7 +208,9 @@ async def _fetch_rss(client: httpx.AsyncClient, source: dict) -> list[dict]:
         feed   = feedparser.parse(resp.text)
         cutoff = datetime.now() - timedelta(days=14)
 
-        for entry in feed.entries[:30]:
+        # Google News는 관련도순이라 최신순으로 정렬해야 새 글이 잘리지 않는다
+        entries = sorted(feed.entries, key=lambda e: tuple(e.get("published_parsed") or ()), reverse=True)
+        for entry in entries[:30]:
             art = _parse_entry(entry, source, cutoff=cutoff)
             if art:
                 articles.append(art)
@@ -196,7 +232,8 @@ async def _fetch_rss_fallback(client: httpx.AsyncClient, source: dict) -> list[d
         resp = await client.get(source["url"], timeout=20.0, follow_redirects=True)
         resp.raise_for_status()
         feed = feedparser.parse(resp.text)
-        for entry in feed.entries[:10]:
+        entries = sorted(feed.entries, key=lambda e: tuple(e.get("published_parsed") or ()), reverse=True)
+        for entry in entries[:10]:
             art = _parse_entry(entry, source, cutoff=None)
             if art:
                 print(f"  ↩ {source['name']}: 폴백 1개 (날짜 무관 최신)")

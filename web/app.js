@@ -19,6 +19,7 @@ function getLogoHtml(source, logoDomain, cssClass = 'source-logo') {
 
 const CAT_COLORS = {
   '글로벌 컨설팅': '#7c3aed',
+  '컨설팅펌':     '#7c3aed',
   '국내 연구기관': '#0891b2',
   '한국 대기업':   '#0284c7',
   '플랫폼 테크':   '#059669',
@@ -267,7 +268,7 @@ async function renderTrendChart() {
   const gridColor = isDark ? 'rgba(255,255,255,.06)' : '#f1f5f9';
   const last7    = index.reports.slice(0, 7).reverse();
   const labels   = last7.map(r => r.date.slice(5).replace('-', '/'));
-  const cats     = ['글로벌 컨설팅','한국 대기업','플랫폼 테크','IT 미디어','국내 연구기관'];
+  const cats     = ['컨설팅펌','한국 대기업','플랫폼 테크','IT 미디어','국내 연구기관'];
   const datasets = cats.map(cat => ({
     label: cat,
     data: last7.map(r => (r.categories || {})[cat] || 0),

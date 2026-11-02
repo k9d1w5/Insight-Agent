@@ -1,12 +1,18 @@
 {
-  "total": 17,
+  "total": 21,
   "category_colors": {
+    "컨설팅펌":     "#7c3aed",
     "국내 연구기관": "#0891b2",
     "한국 대기업":   "#0284c7",
     "플랫폼 테크":   "#059669",
     "IT 미디어":     "#d97706"
   },
   "sources": [
+    {"name": "삼일PwC",            "name_ko": "삼일PwC",             "category": "컨설팅펌",     "url": "https://www.pwc.com/kr/ko/insights.html",                    "logo_domain": "pwc.com",            "type": "rss",  "description": "삼일PwC 공식 사이트 글 (Google News)"},
+    {"name": "삼정KPMG",           "name_ko": "삼정KPMG",            "category": "컨설팅펌",     "url": "https://kpmg.com/kr/ko/insights.html",                       "logo_domain": "kpmg.com",           "type": "rss",  "description": "삼정KPMG 공식 사이트 글 (Google News)"},
+    {"name": "딜로이트 안진",      "name_ko": "딜로이트 안진",       "category": "컨설팅펌",     "url": "https://www.deloitte.com/kr/ko.html",                        "logo_domain": "deloitte.com",       "type": "rss",  "description": "딜로이트 안진 공식 사이트 글 (Google News)"},
+    {"name": "EY한영",             "name_ko": "EY한영",              "category": "컨설팅펌",     "url": "https://www.ey.com/ko_kr/insights",                          "logo_domain": "ey.com",             "type": "web",  "description": "EY한영 인사이트 공식 홈페이지"},
+
     {"name": "IITP",               "name_ko": "정보통신기획평가원",  "category": "국내 연구기관", "url": "https://www.iitp.kr/web/lay1/program/S1T62C65/itfind/list.do","logo_domain": "iitp.kr",           "type": "rss",  "description": "IITP 주간기술동향 · ICT Brief"},
     {"name": "NIA",                "name_ko": "한국지능정보사회진흥원","category": "국내 연구기관","url": "https://www.nia.or.kr/site/nia_kor/ex/bbs/List.do?cbIdx=25932","logo_domain": "nia.or.kr",         "type": "rss",  "description": "NIA AI·디지털 보고서"},
 
