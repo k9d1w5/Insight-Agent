@@ -1,13 +1,13 @@
 {
-  "date": "2026-11-13",
-  "generated_at": "2026-11-13 12:09:45",
-  "total_articles": 75,
+  "date": "2026-11-14",
+  "generated_at": "2026-11-14 11:55:50",
+  "total_articles": 74,
   "categories": {
     "플랫폼 테크": 9,
     "IT 미디어": 30,
-    "컨설팅펌": 13,
-    "국내 연구기관": 7,
-    "한국 대기업": 16
+    "컨설팅펌": 17,
+    "국내 연구기관": 3,
+    "한국 대기업": 15
   },
   "articles": [
     {
@@ -16,7 +16,7 @@
       "title": "Chaos Mesh로 Kubernetes 앱의 장애 내구성 검증하기",
       "url": "https://d2.naver.com/helloworld/6523094",
       "summary": "네이버 사내 기술 교류 행사인 NAVER Engineering Day 10th 에서 발표되었던 세션을 공개합니다. ​ ​ 발표 내용 Kubernetes 상에서 가상 인프라 장애를 통해 시스템을 사전에 검증하고 장애를 예방하는 기술을 소개합니다. ​ 발표 대상 Chaos Engineering 도입을 고민중인 개발자 ​ 목차 도입 : Chaos Engineering PART 1. Chaos Mesh 소개 Chaos Mesh 란 주입 매커니즘 Workflow PART 2. 실제 서비스에 적용하기 장애 제어와 테스트 테스트 구성과 자동화 주의사항 ​ ​ ◎ NAVER Engineering Day란? ​ NAVER에서는 사내 개발 경험과 기술 트렌드를 교류를 할 수 있는 프로그램이 많이 있습니다. 그중 이제는 매회 평균 100개 이상의 발표가 이루어지는 NAVER Engineering Day를 빼놓을 수 없는데요. 2016년부터 시작된 ENGINEERING DAY는 실무에서의 기술 개발 경험",
-      "published": "2026-11-13 03:08",
+      "published": "2026-11-14 02:54",
       "logo_domain": "naver.com"
     },
     {
@@ -25,7 +25,7 @@
       "title": "AI 산출물이 프로덕션이 되기까지-AI와 디자인시스템이 함께 일하는 법",
       "url": "https://d2.naver.com/helloworld/2568242",
       "summary": "네이버 사내 기술 교류 행사인 NAVER Engineering Day 10th 에서 발표되었던 세션을 공개합니다. ​ ​ 발표 내용 AI변화와 함께 성장하는 디자인시스템을 소개합니다. ​ AI 산출물이 프로덕션으로 이어지지 못하는 5가지 이유 스펙·HTML·이미지 어떤 입력이든 Figma로 모으는 전략과, Figma를 중심에 둔 이유 AI와 설계자가 같은 블록으로 조립하도록 컴포넌트·디자인 토큰·design.md로 설계 의도를 표현하는 방법 접근성·인터랙션·엣지 케이스가 담긴 코드 컴포넌트와 Code Connect로 Figma와 코드를 잇는 방법 이미지 → Figma, Figma → 마크업, Figma ↔ 마크업 비교 데모 (Claude Code 플러그인 defign-toolkit) Figma의 높은 자유도를 보완하는 deFign assistant 도입 후 달라진 점과 앞으로의 방향 (Spec → Code) ​ 발표 대상 AI로 만든 결과물을 실제 서비스로 옮기는 데 드는 재작업이 ",
-      "published": "2026-11-13 03:08",
+      "published": "2026-11-14 02:54",
       "logo_domain": "naver.com"
     },
     {
@@ -34,7 +34,7 @@
       "title": "검수도 답변도 호출도 AI가? 커머스API의 2026",
       "url": "https://d2.naver.com/helloworld/7749530",
       "summary": "네이버 사내 기술 교류 행사인 NAVER Engineering Day 10th 에서 발표되었던 세션을 공개합니다. ​ ​ 발표 내용 같은 API 스펙이 AI 에게 검수되고, 문의 답변의 근거가 되고, tool 로 호출되기까지 — 커머스API 플랫폼이 올해 진행한 AI native 과제 세 건의 설계 결정과 운영 결과를 소개합니다. ​ 발표 대상 API 를 만들거나 운영하는 백엔드 개발자 게이트웨이·플랫폼 운영자 LLM·MCP 를 서비스에 연결하려는 개발자 ​ 목차 도입 : 우리가 맡은 플랫폼과 AI 로 할 수 있게 된 것 1장. 라우팅 룰 AI 검수 - 자동화 규칙 50개를 데이터로 만들고, 판단이 필요한 규칙까지 자동으로 검수하는 엔진 2장. MCP G/W(MCP 게이트웨이) - 도구화 API 명세를 AI 에이전트가 부르는 Tool 로 바꾸고, 같은 검수와 통제를 거치게 한 창구 3장. 기술지원 운영 업무 AI 지원 - 영역 확대 흩어진 지식을 지식 자산으로 모아, AI 가 읽는 ",
-      "published": "2026-11-13 03:08",
+      "published": "2026-11-14 02:54",
       "logo_domain": "naver.com"
     },
     {
@@ -43,7 +43,7 @@
       "title": "Socket.IO 서버를 여러 Pod에서 운영하기",
       "url": "https://d2.naver.com/helloworld/3517874",
       "summary": "네이버 사내 기술 교류 행사인 NAVER Engineering Day 10th 에서 발표되었던 세션을 공개합니다. ​ ​ 발표 내용 Socket.IO와 n3r 기반의 소켓 서버를 자체 구축하면서, 여러 Pod 사이의 이벤트 전달과 안정적인 연결 유지를 위한 설계와 검증 과정, 운영 경험을 정리해 공유합니다. ​ <참고> 영상속 사내용어 n3r = 네이버 사내 쿠버네티스 기반 컨테이너 플랫폼 ​ 발표 대상 WebSocket이나 Socket.IO 서버를 Kubernetes 위에서 여러 인스턴스로 운영하려는 백엔드 개발자 ​ 목차 배경 기존 플랫폼의 제약과 신규 소켓 서버 구축 목표 기본 개념 Socket.IO의 역할과 다중 Pod 환경의 연결 특성 설계 연결 인증, Pod 간 이벤트 전달, 자료구조와 사용자 흐름 운영 타임아웃, 오토스케일과 재분산, 배포와 연결 종료 검증 부하 시험과 배포 전략 비교, 결과에 따른 설계 보완 정리 다중 Pod 소켓 서버를 설계하고 운영하며 배운 점 ​ ",
-      "published": "2026-11-13 03:08",
+      "published": "2026-11-14 02:54",
       "logo_domain": "naver.com"
     },
     {
@@ -52,7 +52,7 @@
       "title": "AI 스킬 만들기 10계명: Figma→Code 자동화 실전기",
       "url": "https://d2.naver.com/helloworld/8562180",
       "summary": "이 글에서 예로 든 스킬은 naver/design-to-ui 라는 이름의 오픈 소스로 공개되어 있습니다. 들어가며: 같은 모델, 다른 결과 AI 코딩 도구를 쓰다 보면 프롬프트에서 같은 설명을 매번 반복하게 됩니다. \"이건 아이콘이니까 에셋으로 받아\", \"이건 그래프니까 Canvas로 그려\", \"색상은 하드코딩하지 말고 디자인 토큰을 써\" 같은 설명이 그렇습니다. Figma 디자인을 Android 코드로 옮길 때도 마찬가지였습니다. 그래서 Claude의 스킬(Agent Skills) 기능이 공개되자마자 Figma 디자인을 Android UI로 변환하는 스킬을 만들기 시작했습니다. 목표는 프롬프트 한 번으로 완성도 높은 UI를 얻는 것이었습니다. 스킬의 효과는 생각보다 컸습니다. 2026년 3월, 같은 모델(Claude Opus 4.6)과 같은 프롬프트에 Figma Desktop MCP 서버까지 똑같이 쓰고 스킬만 바꿔 화면 하나를 조건마다 한 번씩 변환해 보았습니다. 그 결과는 다음",
-      "published": "2026-11-13 03:08",
+      "published": "2026-11-14 02:54",
       "logo_domain": "naver.com"
     },
     {
@@ -94,181 +94,181 @@
     {
       "source": "전자신문",
       "category": "IT 미디어",
-      "title": "젠슨 황, 불륜녀 '中 스파이' 확정되면…“최대 징역 20년”",
-      "url": "https://www.etnews.com/20261113000136",
-      "summary": "엔비디아 전 최고경영자(CEO) 젠슨 황이 불륜 상대로 지목된 앨리스 황의 중국 스파이 의혹과 관련해 최대 징역 20년형에 처해질 수 있다는 분석이 나왔다. 앨리스 황을 통한 미국 정부 기밀 유출이나 엔비디아 반도체의 중국 우회수출에 관여한 사실이 드러날 경우 형사처벌을 피하기 어려울 수 있다는 관측이다. 12일 니혼게이자이신문 등 외신에 따르면 황 전 CEO가 앨리스 황에게 기밀을 전달하거나 엔비디아 반도체의 중국 우회수출에 관여한 것으로 확",
-      "published": "2026-11-13 02:08",
+      "title": "친청, '최민희 감찰'에 최고위 대신 기자회견…빛바랜 李 '경제' 행보",
+      "url": "https://www.etnews.com/20261113000167",
+      "summary": "이재명 대통령이 기업 현장 방문에 이어 자본시장 활성화 대책을 직접 챙기는 등 경제·민생 행보에 집중하고 있다. 다만 더불어민주당 내 계파 갈등이 격화하면서 빛이 바래는 모습이다. 최민희 최고위원의 실언으로 촉발된 윤리감찰 지시가 친청(친 정청래)계 최고위원의 집단 반발로 확산됐기 때문이다. 이 대통령이 경제 성과를 민생 개선으로 연결하는 데 주력하는 사이 여당 지도부는 민생을 챙기기는커녕 공개 충돌을 이어간 셈이다. 이재명 대통령은 13일 서",
+      "published": "2026-11-13 22:10",
       "logo_domain": "etnews.com"
     },
     {
       "source": "전자신문",
       "category": "IT 미디어",
-      "title": "배낭에 8대까지 휴대…손으로 던지는 '공격 드론'",
-      "url": "https://www.etnews.com/20261112000358",
-      "summary": "손으로 던지면 날아가 장갑차를 타격하는 소형 공격 드론이 공개됐습니다. 미국 방산 스타트업 엑스다운(XDOWN)은 최근 투척형 공격 드론 '스터드(STUD)'의 타격 시험에 성공했다고 밝혔습니다. 이 드론은 길이 약 44.5cm, 무게 2.36kg으로 최고 속도는 시속 305km입니다. 비행거리는 약 64km이며 최대 25분간 비행할 수 있습니다. 별도의 발사 장비가 필요 없고 군용 배낭 하나에 최대 8대를 휴대할 수 있습니다. 회사 측은 50",
-      "published": "2026-11-13 02:05",
+      "title": "50대 청소부 외모가 배우급…“기억을 잃은 재벌 회장님 아니냐” SNS 난리",
+      "url": "https://www.etnews.com/20261113000282",
+      "summary": "중국의 한 50대 청소부가 배우를 연상케 하는 외모로 온라인에서 화제를 모으고 있다. 유명 배우들과 닮았다는 반응이 쏟아졌지만, 정작 본인은 유명세에 흔들리지 않고 청소 업무를 계속하겠다는 뜻을 밝혔다. 13일(현지시간) 홍콩 사우스차이나모닝포스트(SCMP)에 따르면 중국 랴오닝성 선양의 한 고급 쇼핑몰에서 일하는 청소부 천징푸(55)씨는 최근 근무 모습이 담긴 영상이 소셜미디어(SNS)에서 확산하면서 유명해졌다. 누리꾼들은 천씨의 외모가 중국",
+      "published": "2026-11-13 21:00",
       "logo_domain": "etnews.com"
     },
     {
       "source": "전자신문",
       "category": "IT 미디어",
-      "title": "메르세데스-벤츠, 독일 공장 폐쇄 검토…“국내 투자 중단”",
-      "url": "https://www.etnews.com/20261113000122",
-      "summary": "메르세데스-벤츠가 독일 내 공장 폐쇄 논의를 공식화했다. 한델스블라트 등에 따르면 벤츠는 12일(현지시간) 사내 게시판에 경영진 인터뷰 형식의 글을 올려 독일 내 모든 투자를 중단하고 공장 폐쇄를 검토하겠다고 밝혔다. 브리타 제거 인사 담당 이사는 “(비용 절감에 대한) 집중적 논의에도 현재로서 해결의 실마리가 보이지 않는다”며 “독일에서 어떠한 공장을 유지할 수 있을 지 구체적이고 자세하게 논의할 수밖에 없다”고 말했다. 앞서 벤츠는 9월 비",
-      "published": "2026-11-13 01:53",
+      "title": "우울증·골다골증 경고에도…日 2030 여성, 저체중에 목숨 거는 까닭",
+      "url": "https://www.etnews.com/20261113000176",
+      "summary": "일본 젊은 여성들 사이에서 마른 몸매를 이상적인 외모로 여기는 인식이 퍼지면서 건강 악화에 대한 경고음이 커지고 있다. 10일(현지시간) 일본 후지뉴스네트워크(FNN)에 따르면 소네 히로히토 니가타대 교수는 최근 젊은 여성층에서 저체중과 영양 결핍 문제가 두드러지고 있다고 밝혔다. 일본의 20~30대 여성 가운데 약 20%는 저체중에 해당하는 것으로 전해졌다. 일반적으로 체질량지수(BMI·체중을 키의 제곱으로 나눈 값)가 18.5에 미치지 못하",
+      "published": "2026-11-13 21:00",
       "logo_domain": "etnews.com"
     },
     {
       "source": "전자신문",
       "category": "IT 미디어",
-      "title": "李 “정부·與, 노력했지만 여전히 부족…자본시장 신뢰 회복에 집중”",
-      "url": "https://www.etnews.com/20261113000109",
-      "summary": "이재명 대통령이 자본시장의 가장 큰 목표로 '신뢰 회복'을 꺼냈다. 이 대통령은 자본시장 신뢰 회복을 위한 다양한 조치를 통해 코리아디스카운트를 해소해 정상화를 이루겠다고 다짐했다. 이 대통령은 13일 서울 여의도 한국거래소에서 열린 '자본시장 정책 간담회'에서 “목표는 명확하다. 자산시장의 정상화, 금융시장이 정상화되는 것”이라며 “정부가 시장신뢰 회복에 집중하겠다”라고 말했다. 이날 이 대통령은 '상승장'을 의미하는 붉은색 계열의 넥타이를",
-      "published": "2026-11-13 01:37",
+      "title": "캠핑하다 실종된 호주 10대 소년, 엿새만에 발견…“감자칩 1봉과 개울물로 버텨”",
+      "url": "https://www.etnews.com/20261113000127",
+      "summary": "호주에서 캠핑 도중 실종된 10대 소년이 엿새 만에 극적으로 구조됐다. 낯선 산속에서 길을 잃은 소년은 감자칩 한 봉지와 개울물에 의지하며 구조를 기다린 것으로 알려졌다. 12일(현지시간) 미국 피플지와 호주 시드니모닝헤럴드 등에 따르면 지난 6일 호주 빅토리아주 월할라에서 실종된 윌리엄 바클리(17)가 이날 오후 경찰 헬기에 의해 발견됐다. 자폐스펙트럼장애가 있는 윌리엄은 지난 6일 친구와 함께 캠핑하기 위해 멜버른에서 약 185㎞ 떨어진 월",
+      "published": "2026-11-13 13:30",
       "logo_domain": "etnews.com"
     },
     {
       "source": "전자신문",
       "category": "IT 미디어",
-      "title": "MS 주요 서비스 대규모 장애…국내 기업도 업무 차질",
-      "url": "https://www.etnews.com/20261113000090",
-      "summary": "마이크로소프트(MS)의 업무용 서비스인 MS365와 아웃룩, 팀스에서 대규모 접속 장애가 발생했다. 오픈AI와 앤스로픽의 MS365 연동 기능까지 영향을 받으면서 장애 여파가 확산했다. 국내 기업 업무에도 차질이 빚어지고 있다. 12일(현지시간) 로이터통신에 따르면 장애 추적 사이트 다운디텍터에는 이날 미 동부시간 오후 2시 7분 기준 아웃룩 관련 신고가 9만7000건 이상 접수됐다. MS365 관련 신고는 3만8000건 이상, 팀스는 약 45",
-      "published": "2026-11-13 01:28",
+      "title": "삼성·구글·젠틀몬스터 AI 안경, 1차 예판 완판…체험예약도 마감",
+      "url": "https://www.etnews.com/20261113000294",
+      "summary": "삼성전자와 구글, 젠틀몬스터가 협업한 인공지능(AI) 안경 '인텔리전트 아이웨어'가 정식 출시 전부터 초기 반응을 끌어내고 있다. 사전예약을 시작한 지 수 시간 만에 주요 제품이 품절됐고, 미국 뉴욕에서 진행하는 일반 공개 행사도 예약이 모두 찬 것으로 파악됐다. 13일 업계에 따르면 젠틀몬스터는 전날 한국과 미국에서 인텔리전트 아이웨어 컬렉션 사전예약을 시작했다. 예약 개시 이후 수 시간 만에 주요 제품이 품절됐다. 현재 공식 온라인 스토어를",
+      "published": "2026-11-13 09:08",
       "logo_domain": "etnews.com"
     },
     {
       "source": "AI타임즈",
       "category": "IT 미디어",
-      "title": "LGU+, 카테나-X 통한 국내 제조기업 글로벌 공급망 진입 지원",
-      "url": "https://www.aitimes.com/news/articleView.html?idxno=217363",
-      "summary": "LG유플러스(대표 홍범식)는 카테나-X·코피니티-X·IBCT와 '한국 제조업 데이터 신뢰 생태계 구축 협약'을 맺고 국내 제조기업의 글로벌 데이터 공급망 진입을 지원한다고 13일 밝혔다.카테나-X는 자동차 제조사와 부품사가 탄소배출량과 부품 생산·이력 등을 공통 기준으로 교환하는 데이터 생태계이며, 코피니티-X는 카테나-X 운영사다. IBCT는 국내 제조기업의 카테나-X 참여를 지원하는 데이터 스페이스 전문기업이다.최근 글로벌 공급망에서 탄소배출량과 생산·이력 등 제품 데이터 제공 역량이 중요해진 만큼 표준화된 방식으로 데이터를 주",
-      "published": "2026-11-13 11:50",
+      "title": "딥시크·문샷 등 중국 4개사, 수출 통제 '블랙웰' 사용 흔적 발견",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217397",
+      "summary": "딥시크와 문샷 AI 등 중국 주요 AI 기업들이 미국의 수출 통제를 받는 엔비디아 최신 '블랙웰' GPU를 AI 모델 개발에 사용한 정황이 발견됐다. 공개된 모델 가중치에서 블랙웰 특유의 숫자 배열을 찾아낸 것으로, 중국 기업들의 첨단 GPU 사용 의혹을 뒷받침하는 구체적인 기술적 증거가 제시됐다.비영리 연구단체 언엠플로이먼트 랩스(Unemployment Labs)의 윌 드퓌 연구원은 12일(현지시간) 연구 보고서를 통해 중국 AI 기업 4곳이 공개한 모델 6종에서 엔비디아 블랙웰 GPU와 일치하는 초기 가중치 패턴을 발견했다고 밝",
+      "published": "2026-11-14 11:18",
       "logo_domain": "aitimes.com"
     },
     {
       "source": "AI타임즈",
       "category": "IT 미디어",
-      "title": "마키나락스, 3분기 만에 지난해 연매출 실현...영업손실은 지속",
-      "url": "https://www.aitimes.com/news/articleView.html?idxno=217359",
-      "summary": "마키나락스(대표 윤성호)는 올해 1~3분기 누적 매출이 143억원으로 지난해 연간 매출(115억원)을 넘어 섰다고 13일 밝혔다.전년 동기(49억원)보다 190% 증가한 규모로 지난해 연간 매출의 124%에 해당한다. 3분기 연결 기준 매출은 분기 기준 역대 최대인 72억원으로 집계됐다. 전년 동기(23억원) 대비 214% 늘었고 직전 분기(40억원)보다는 81% 증가했다.분기 별로는 ▲1분기 30억원 ▲2분기 40억원 ▲3분기 72억원으로 매 분기 성장세를 이어 갔다. 마키나락스는 상반기 다양한 고객군을 중심으로 확대된 수주가 3",
-      "published": "2026-11-13 11:49",
+      "title": "앤트로픽 IPO, 중국·홍콩 투자자 공모주 배정 제한…미국 안보 규제 영향",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217402",
+      "summary": "앤트로픽의 기업공개(IPO)에서 중국 본토와 홍콩 기관투자자들이 공모주를 배정받기 어려운 것으로 알려졌다. 미국의 방산 기술 수출 통제 규정이 제한 근거로 거론되면서, 미국과 중국의 AI 기술 경쟁이 첨단 AI 기업의 투자 시장에도 영향을 미치고 있다.블룸버그는 13일(현지시간) 소식통들을 인용해 일부 투자은행이 앤트로픽 IPO에 참여하려는 중국과 홍콩 기관투자자의 주문을 거절하거나 실제 주식을 배정받기 어려울 것이라고 안내했다고 보도했다. 미국의 국제무기거래규정(ITAR)이 이러한 제한의 근거 중 하나로 거론됐다.ITAR는 미국의",
+      "published": "2026-11-14 10:53",
       "logo_domain": "aitimes.com"
     },
     {
       "source": "AI타임즈",
       "category": "IT 미디어",
-      "title": "중국, 젠슨 황 사태에 반발…\"미국 기술 제재 구실 안 돼\"",
-      "url": "https://www.aitimes.com/news/articleView.html?idxno=217358",
-      "summary": "중국이 젠슨 황 전 엔비디아 CEO를 둘러싼 간첩 의혹을 미국의 대중국 기술 제재 강화 명분으로 활용하지 말라고 경고했다. 그동안 중국에 대한 반도체 수출 규제 완화를 주장해 온 황 전 CEO가 물러나면서, 미국 내 강경론에 힘이 실리고 중국 AI 산업의 첨단 반도체 확보가 어려워질 수 있다는 관측이 나온다.파이낸셜타임스와 로이터 등에 따르면, 마오닝 중국 외교부 대변인은 12일 베이징에서 열린 정례 기자회견에서 미국의 대중국 기술 봉쇄 움직임을 비판했다.그는 \"미국은 기술 봉쇄를 위한 구실로 이른바 중국 간첩이라는 이야기를 날조하",
-      "published": "2026-11-13 11:40",
+      "title": "오픈AI, AI 에이전트가 대신 결제하는 '챗GPT 월렛' 출시",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217400",
+      "summary": "오픈AI가 AI 에이전트가 사용자를 대신해 상품을 구매하고 결제까지 처리할 수 있는 '챗GPT 월렛(ChatGPT Wallet)'을 출시했다. 실제 카드번호를 AI에 노출하지 않고 사용자의 생체인증을 거쳐 결제하는 방식으로, 기존 쇼핑몰의 결제 시스템을 그대로 활용해 AI 에이전트 기반 상거래 시장을 공략한다.오픈AI는 13일(현지시간) 공식 블로그를 통해 아메리칸 익스프레스, 마스터카드, 비자와 협력해 개발한 챗GPT 월렛을 공개했다.미국에 거주하는 18세 이상 '챗GPT 프로' 가입자 가운데 적격 미국 발행 카드와 미국 청구지",
+      "published": "2026-11-14 10:41",
       "logo_domain": "aitimes.com"
     },
     {
       "source": "AI타임즈",
       "category": "IT 미디어",
-      "title": "[AI리더의 서가] AI 컴플라이언스 실무가이드",
-      "url": "https://www.aitimes.com/news/articleView.html?idxno=217033",
-      "summary": "AI 컴플라이언스 실무가이드법무법인 화우 AI센터 | 법률신문사2026년 7월 30일추천이유기업이 AI를 안전하게 개발하고 운영하기 위해 알아야 할 법적 리스크와 대응 방안을 종합적으로 제시합니다. 저자는 한국과 EU, 미국 등의 규제를 비교하고 헬스케어·금융·자율주행 등 산업별 쟁점을 분석하며, 즉시 활용 가능한 가이드라인과 체크리스트를 제공합니다.상세보기 연말은 기업이 내년 사업계획을 짜는 시기다. 올해는 계획서에 새 항목이 하나 더 붙는다. 지난 1월 22일 「 인공지능 발전과 신뢰 기반 조성 등에 관한 기본법 」, 이른바 A",
-      "published": "2026-11-13 09:00",
+      "title": "[AI 이슈트렌드] 젠슨 황 퇴진 쇼크 속 트럼프 행보·앤트로픽 개인정보 유출 등 화제",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217404",
+      "summary": "AI타임스와 이스트에이드의 11월 둘째 주(11월6~12일) 이슈 분석 결과, 젠슨 황 엔비디아 CEO의 퇴진과 잇따른 강력 사건을 비롯해 트럼프 대통령의 중간선거 이후 행보 등이 상위권을 차지했다.이번 주 검색량 1위는 '젠슨황 불륜 조사(4.81%)'가 차지했다. 젠슨 황 엔비디아 CEO가 불륜 논란과 중국 스파이 관련 의혹 등이 불거진 끝에 사임했다. 엔비디아는 콜레트 크레스 최고재무책임자(CFO)를 임시 CEO로 임명하고 내외부 후보자를 검토해 정식 CEO를 선임할 예정이다.젠슨 황 퇴진과 유가 급등 등이 겹치며 기술주 전반",
+      "published": "2026-11-14 10:27",
       "logo_domain": "aitimes.com"
     },
     {
       "source": "AI타임즈",
       "category": "IT 미디어",
-      "title": "트럼프 \"젠슨 황 후임은 팀 쿡\"…엔비디아, 차기 CEO 물색 본격화",
-      "url": "https://www.aitimes.com/news/articleView.html?idxno=217353",
-      "summary": "도널드 트럼프 미국 대통령이 젠슨 황의 뒤를 이을 엔비디아 CEO로 팀 쿡 전 애플 CEO를 공개 추천했다. 엔비디아가 외부 전문업체와 함께 정식 후임자를 찾고 있는 가운데, 이안 벅과 르네 하스 등 반도체 업계 인사들도 후보로 거론되고 있다.트럼프 대통령은 12일(현지시간) 트루스소셜을 통해 쿡 전 CEO를 엔비디아의 차기 수장으로 추천했다. \"훌륭한 일을 해 온 젠슨 황이 사임한 지금, 그를 대신할 사람은 애플의 팀 쿡뿐\"이라며 \"전설이 전설을 대신한다\"라고 밝혔다.쿡은 지난 9월 15년간 맡아 온 애플 CEO에서 물러나 현재",
-      "published": "2026-11-13 08:21",
+      "title": "스페이스X, 영상 생성 AI '그록 이매진' 개발팀 대부분 해고...AI 코딩에 집중",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217399",
+      "summary": "스페이스X가 이미지·영상 생성 AI '그록 이매진(Grok Imagine)' 개발팀 대부분을 해고했다. 오픈AI가 영상 생성 서비스 '소라'를 종료한 데 이어 머스크의 AI 사업도 코딩과 에이전트에 자원을 집중하면서, 미국 주요 AI 기업들의 사업 우선순위가 바뀌고 있다.디 인포메이션은 13일(현지시간) 소식통들을 인용해 스페이스X가 지난주 그록 이매진 개발 인력 약 60명을 해고했다고 보도했다.현재 제품을 유지하는 인력은 소수만 남은 것으로 알려졌다. 서비스는 계속 제공되고 있지만, 전담 개발팀이 사실상 사라지면서 향후 업데이트와",
+      "published": "2026-11-14 10:15",
       "logo_domain": "aitimes.com"
     },
     {
       "source": "바이라인네트워크",
       "category": "IT 미디어",
-      "title": "AI 에이전트만 모인 부서 만든 신한투자증권",
-      "url": "https://byline.network/2026/11/1111-10/",
-      "summary": "신한투자증권이 직원 업무 지원부터 투자자 대상 서비스까지 인공지능(AI) 활용 범위를 넓히고 있다. AI 에이전트만으로 구성된 부서를 운영하며 홀세일(기관 영업) 업무를 지원하고 있으며, 모바일트레이딩시스템(MTS)에는 고객의 투자 아이디어를 구체적인 검색 조건으로 바꿔주는 AI 서비스를 도입한다.",
-      "published": "2026-11-13 02:47",
+      "title": "마이크로소프트365 장애, 30시간 넘게 이어져",
+      "url": "https://byline.network/2026/11/14-661/",
+      "summary": "아웃룩을 비롯한 마이크로소프트의 서비스 장애가 30시간 넘게 이어지고 있다. 역대 최악의 사태로 마이크로소프트의 복구 시도는 계속 실패하다 하루를 넘겨서야 안정화 단계에 접어들었다.",
+      "published": "2026-11-14 01:47",
       "logo_domain": "byline.network"
     },
     {
       "source": "바이라인네트워크",
       "category": "IT 미디어",
-      "title": "AI가 만든 새로운 경험, 어떻게 사업으로 만들 수 있을까",
-      "url": "https://byline.network/2026/11/284983429340248240203/",
-      "summary": "“올해의 화두는 결국 AI입니다. 오늘 저희가 준비한 세션들은 결국 한 가지 질문으로 모이게 됩니다. 지금 저희가 당연하게 보는 것들 중 무엇이 가장 먼저 바뀔 것이냐는 겁니다.” 김치원 카카오벤처스 부대표는 10일 서울 강남구 디캠프 선릉에서 열린 ‘KV 인사이트풀데이 2026’에서 이같이 말했다. 카카오벤처스 투자 심사역과 분야별 전문가들이 산업의 주요 현황과 사업 기회를 공유하는 자리다.",
-      "published": "2026-11-13 01:37",
+      "title": "KMS랩, 포스코 차세대 포털에 온프레미스 AI 공급",
+      "url": "https://byline.network/2026/11/1113-10/",
+      "summary": "KMS랩이 자체 개발한 온프레미스 AI 풀스택으로 포스코의 차세대 전사 포털 시스템 구축 사업을 수주하고 1차 시스템 오픈을 완료했다. 26년간 축적한 데이터 처리 기술과 정부의 GPU 지원을 바탕으로 AI 솔루션을 개발·고도화했으며, 7개월간의 기술 검증을 거쳐 대규모 기업 환경에 적용했다. CES 2027 AI 부문 혁신상을 수상한 AI 지식 플랫폼을 앞세워 피지컬 AI와 글로벌 B2B 시장으로 사업을 확대할 계획이다.",
+      "published": "2026-11-13 08:45",
       "logo_domain": "byline.network"
     },
     {
       "source": "바이라인네트워크",
       "category": "IT 미디어",
-      "title": "구글, 플래시 후속 ‘제미나이 4 하이드로젠’ 출시",
-      "url": "https://byline.network/2026/11/13-726/",
-      "summary": "구글이 효율형 AI 모델인 플래시 시리즈의 최신 버전 ‘제미나이 4 하이드로젠(Hydrogen)’을 공개했다. 프런티어급 에디션인 카본과 아르곤 공개에 이어 하이드로젠을 출시하면서 제미나이 모델 포트폴리오를 최신 버전으로 재정비하고 있다.",
-      "published": "2026-11-13 00:22",
+      "title": "AI가 라이브 만들고, 크리에이터가 판로 넓힌다…모비두의 ‘올웨이즈 온’ 전략",
+      "url": "https://byline.network/2026/11/13_291283845/",
+      "summary": "라이브커머스 솔루션 기업 모비두가 실험에 나섭니다. AI와 크리에이터를 통해 정해진 시간에만 상품을 판매하던 라이브커머스를 언제든 구매할 수 있는 ‘올웨이즈 온(Always On)’ 커머스로 바꾸겠다는 구상입니다.",
+      "published": "2026-11-13 07:27",
       "logo_domain": "byline.network"
     },
     {
       "source": "바이라인네트워크",
       "category": "IT 미디어",
-      "title": "[커머스BN] 네이버가 물류센터를 가지면 무슨 일이 벌어질까",
-      "url": "https://byline.network/2026/11/13_2918273-6/",
-      "summary": "올해 초부터 물류 사업 강화를 준비해 온 네이버가 물류 전문 자회사를 설립하기로 결정했습니다. 2030년까지 1조원 가까이 투자해 물류센터를 직접 임차하고 배송 인프라를 확충하겠다는 계획입니다. 네이버가 물류센터를 직접 임차하고 설비와 시스템까지 구축한다면 기존 협력관계였던 물류업체에는 어떤 역할이 남을까요? 투자 부담을 덜고 운영에 집중할 수 있게 되는 걸까요, 아니면 물류 인프라의 주도권을 네이버에 넘겨주게 되는 걸까요?",
-      "published": "2026-11-12 22:53",
+      "title": "접시닦이에서 AI 황제까지…물러난 젠슨 황의 33년",
+      "url": "https://byline.network/2026/11/jenson-huang/",
+      "summary": "젠슨 황 엔비디아 창업자가 12일(현지시간) 최고경영자(CEO)에서 물러났다. 1993년 회사를 공동 창업한 지 33년 만이다. 그는 대만에서 태어나 어린 나이에 미국으로 건너온 이민자 소년에서 출발해 세계 최초로 시가총액 5조달러를 넘긴 회사의 수장이 되었다. 검은 가죽 재킷 차림으로 무대에 서는 모습 때문에 ‘IT 업계의 록스타’로 불렸지만, 이번에는 사생활 논란 속에서 사임했다.",
+      "published": "2026-11-13 06:44",
       "logo_domain": "byline.network"
     },
     {
       "source": "바이라인네트워크",
       "category": "IT 미디어",
-      "title": "젠슨 황, 엔비디아 CEO 사임…33년 만에 경영 일선서 퇴진",
-      "url": "https://byline.network/2026/11/huang/",
-      "summary": "젠슨 황 엔비디아 창업자가 12일(현지시간) 최고경영자(CEO)에서 물러났다. 중국 정보기관과 연계됐다는 의혹을 받는 중국 국적 기업인과의 불륜에 이어, 직속 여성 임원과도 관계를 맺었다는 보도가 나오면서 이사회가 해임을 논의한 지 하루 만이다.",
-      "published": "2026-11-12 14:46",
+      "title": "AI 에이전트도 관리가 핵심…한컴, 에이전틱 OS 승부수",
+      "url": "https://byline.network/2026/11/1112-14/",
+      "summary": "한글과컴퓨터가 다수의 AI 에이전트를 통합 관리하고 기업 업무에 적용할 수 있는 ‘에이전틱 운영체제(OS)’를 앞세워 기업용 AI 시장 공략에 나선다. 36년간 축적한 문서 데이터 처리 기술을 기반으로 에이전트 간 협업과 업무 자동화는 물론, 보안·권한 통제·비용 관리까지 지원하는 것이 핵심이다. 한컴은 공공·국방·금융 분야를 위한 소버린 에이전틱 OS와 소규모 사업자 대상 클라우드 서비스 노마디안을 통해 시장을 확대할 계획이다.",
+      "published": "2026-11-13 05:40",
       "logo_domain": "byline.network"
     },
     {
       "source": "데이터넷",
       "category": "IT 미디어",
-      "title": "엘리스그룹, 온수∙외기 냉각 적용 ‘B300 모듈형 AI 데이터센터’ 가동",
-      "url": "https://www.datanet.co.kr/news/articleView.html?idxno=300137",
-      "summary": "[데이터넷] AI 풀스택 기업 엘리스그룹(대표 김재원)은 과기정통부의 첨단 GPU 확보·구축·운용 지원 사업에 따라 B300 GPU 인프라를 구축하고, 베타 서비스를 개시했다.과기정통부가 추진하는 이번 사업은 국내 AI 컴퓨팅 인프라를 확충하고 고성능 GPU 자원의 활용 기반 강화가 목적이다. 엘리스그룹은 지난 6월 사업자로 선정된 이후 자체 개발한 모듈형 AI 데이터센터 ’AI PMDC’를 활용해 B300 GPU 운영에 필요한 인프라를 구축 중으로, 베타 서비스 종료 후 연내 정식 서비스를 시작할 예정이다.AI PMDC는 데이터센",
-      "published": "2026-11-13 11:32",
+      "title": "아이티센씨티에스, 3분기 누적 매출 8151억·영업익 244억 … 외형·수익성 성장",
+      "url": "https://www.datanet.co.kr/news/articleView.html?idxno=300165",
+      "summary": "[데이터넷] 아이티센씨티에스(대표 한상욱)는 2026년 3분기 연결 기준 누적 매출 8151억원, 영업이익 244억원, 당기순이익 620억원을 기록하며 외형과 수익성 모두 성장세를 이어갔다고 밝혔다.연결 매출은 전년 동기 대비 13.4% 늘었고, 매출총이익은 24.9% 증가한 1022억원이다. 매출총이익률도 11.4%에서 12.5%로 올랐다. 영업이익은 전년 동기 42억원에서 244억원으로 크게 늘었으며, 당기순이익 역시 407억원 증가한 620억원을 기록했다.3분기 단독 기준으로는 매출 3056억원, 영업이익 141억원으로 전년",
+      "published": "2026-11-13 17:59",
       "logo_domain": "datanet.co.kr"
     },
     {
       "source": "데이터넷",
       "category": "IT 미디어",
-      "title": "AMD, ‘버설 TR’ 디바이스 발표 ··· 반도체 후면에 물리적 공격 방어 기능 내장",
-      "url": "https://www.datanet.co.kr/news/articleView.html?idxno=300136",
-      "summary": "[데이터넷] AMD는 정교한 물리적 공격으로부터 보안 핵심 정보를 보호하는 동시에 2세대 버설 AI 엣지(Versal AI Edge) 시리즈의 고성능 이기종 처리 역량을 제공하도록 설계된 버설 변조 방지(TR: Tamper-Resistant) 디바이스를 발표했다. 버설 TR 디바이스는 반도체 후면에 물리적 공격을 방어 기능을 내장한 업계 최초의 적응형 SoC다.3D 액티브 온 액티브(Active-on-Active) 기술을 통해 센서 기반 보호 다이를 메인 컴퓨팅 다이에 접합함으로써 디바이스 후면 전체를 보호한다. 이를 통해 민감한",
-      "published": "2026-11-13 11:17",
+      "title": "“AI가 찾고, AI가 키운다” … 리마엔터, 아티스트 발굴·관리 서비스 출시",
+      "url": "https://www.datanet.co.kr/news/articleView.html?idxno=300164",
+      "summary": "[데이터넷] 리마엔터테인먼트(대표 장순호)는 AI 아티스트 발굴 서비스 ‘리마 스타(RIMA Star)’와 AI 매니지먼트 플랫폼 ‘리마 로드스타(RIMA Lodestar)’를 글로벌 출시하고, 일본 마쿠하리 메세에서 열린 ‘넥스테크 위크 도쿄 2026’에서 처음 선보였다.‘리마 스타’는 유튜브·치지직·숲·트위치·킥·사운드클라우드 6개 플랫폼에서 독립 뮤지션을 찾아 ‘런칭 잠재력 점수’로 순위를 매기고, K-팝 기획 노하우를 담은 작곡 브리프와 AI 데모 트랙까지 만들어 준다. 발굴한 아티스트는 ‘리마 로드스타’에서 AI 퍼포먼스",
+      "published": "2026-11-13 17:50",
       "logo_domain": "datanet.co.kr"
     },
     {
       "source": "데이터넷",
       "category": "IT 미디어",
-      "title": "서울 AI 허브, 인텔과 손잡고 AI 스타트업 성장 지원",
-      "url": "https://www.datanet.co.kr/news/articleView.html?idxno=300135",
-      "summary": "[데이터넷] 서울시 AI 스타트업 지원 거점인 서울 AI 허브(센터장 변우석)가 인텔코리아(대표 배태원)와 손잡고 국내 AI 스타트업의 기술 경쟁력 강화 및 글로벌 성장을 잇는 협력체계 구축에 나선다. 인텔의 기술력과 글로벌 네트워크를 국내 유망 기업에 연결해 서울 AI 스타트업 생태계를 강화한다는 구상이다.서울 AI 허브는 인텔코리아와 국내 AI 스타트업의 육성 및 기술 경쟁력 강화를 위한 업무협약(MOU)을 체결하고, AI 스타트업 육성과 기술·파트너 생태계 연계를 비롯해 기술검증 및 공동개발 지원, AI 전문인력 양성 등 다양",
-      "published": "2026-11-13 11:00",
+      "title": "이스트소프트, 역대 3분기 최대 매출 달성 ··· 영업 손실 56.8% 감소",
+      "url": "https://www.datanet.co.kr/news/articleView.html?idxno=300163",
+      "summary": "[데이터넷] AI 서비스 전문 기업 이스트소프트(대표 정상원)는 K-IFRS 연결재무제표 기준 2026년 3분기 매출 273억원, 영업손실 19억원을 기록했다고 밝혔다. 매출은 전년 동기 대비 9.5% 증가하며 역대 3분기 중 최대치를 달성했고, 영업손실은 56.8% 줄었다.매출 성장은 AI·SW와 게임 사업이 이끌었다. 3분기 AI·SW 사업 매출은 약 157억원으로 전년 동기 대비 19.2% 증가했고, 게임 부문 매출은 약 75억원으로 40% 늘었다. AI·SW 성장은 실시간 AI 아바타 생성 서비스 ‘페르소 인터랙티브’, 공공",
+      "published": "2026-11-13 17:35",
       "logo_domain": "datanet.co.kr"
     },
     {
       "source": "데이터넷",
       "category": "IT 미디어",
-      "title": "에이직랜드, TSMC 대만 OIP 참가 … ASIC 설계·양산 역량 선보여",
-      "url": "https://www.datanet.co.kr/news/articleView.html?idxno=300134",
-      "summary": "[데이터넷] 주문형 반도체(ASIC) 디자인 솔루션 전문기업 에이직랜드(대표 이종민)가 TSMC의 대만 OIP(Open Innovation Platform) 포럼에 3년 연속 참가해 AI 서버·스토리지·AI SoC 등 AI 확산에 맞춘 고객사 실물칩을 전시했다.에이직랜드는 지난 9월 북미 포럼에 이어 TSMC 본사가 위치한 신주에서도 글로벌 팹리스 및 OIP 파트너들을 만나 맞춤형 ASIC 설계·양산 역량을 소개했다. 특히 TSMC의 핵심 거점에서 글로벌 파트너와의 기술 교류를 강화하고, 신규 비즈니스 접점을 확대했다.AI 활용이",
-      "published": "2026-11-13 10:45",
+      "title": "KT엠모바일, 홈페이지 새 단장 … “원하는 요금제 쉽고 빠르게 찾는다”",
+      "url": "https://www.datanet.co.kr/news/articleView.html?idxno=300162",
+      "summary": "[데이터넷] 알뜰폰 사업자 KT엠모바일(대표 김의현)은 고객이 자신에게 맞는 요금제를 보다 쉽고 빠르게 탐색하고 가입할 수 있도록 공식 홈페이지인 다이렉트몰을 새롭게 단장했다.이번 새 단장은 고객이 요금제를 선택하는 방식에 맞춰 자신에게 적합한 상품을 보다 쉽고 직관적으로 찾을 수 있도록 한 것이 핵심이다. 빠르게 요금제를 선택하려는 고객에게는 데이터 사용량 기반의 맞춤 추천을, 다양한 상품을 꼼꼼하게 비교하려는 고객에게는 상세 조건별 탐색 기능을 제공한다.먼저 빠른 탐색을 원하는 고객을 위해 데이터 사용량 구간별 맞춤 추천을 신설",
+      "published": "2026-11-13 16:49",
       "logo_domain": "datanet.co.kr"
     },
     {
       "source": "데이터넷",
       "category": "IT 미디어",
-      "title": "한컴, AI 매출 비중 30% 돌파 … AI 중심으로 사업 포트폴리오 재편",
-      "url": "https://www.datanet.co.kr/news/articleView.html?idxno=300132",
-      "summary": "[데이터넷] 한컴(대표 김연수)은 AI 매출 비중이 30%를 넘어섰다고 밝혔다. 상반기 13.7% 수준이던 AI 매출 비중은 3분기 들어 30.7%로 두 배 넘게 커졌다.AI 사업이 성장을 견인하면서 매출도 증가세를 이어갔다. 한컴은 올해 3분기 별도 기준 매출 483억원, 영업이익 97억원을 기록했다. 매출은 전년 동기 대비 9.6% 늘었고, 영업이익률은 20.1%다. 연결 기준 매출은 920억원으로 9.5% 증가했고, 연결 영업이익은 92억원, 영업이익률은 10%다.3분기 AI 매출은 148억원으로 전분기(82억원)보다 80%",
-      "published": "2026-11-13 10:38",
+      "title": "노타, 3분기 매출 전년 동기比 51% 성장 ··· 수주잔고 154억",
+      "url": "https://www.datanet.co.kr/news/articleView.html?idxno=300161",
+      "summary": "[데이터넷] AI 추론 효율화 기업 노타(대표 채명수)는 2026년 3분기 연결 기준 매출이 전년 동기 대비 51% 성장했다고 밝혔다. 올해 최대 분기 매출을 달성한 동시에 영업손실은 전분기 대비 약 42% 축소하며 외형 성장과 수익성 개선을 함께 이뤘다.AI 최적화 플랫폼과 산업별 AI 솔루션 사업이 모두 성장한 가운데, 글로벌 반도체 고객 기반 확대와 산업현장 AI 도입 성과가 실적 성장으로 이어졌다. 특히 기존 모바일 및 온디바이스 AI 중심의 사업 영역을 데이터센터, 피지컬 AI, 엔터프라이즈 AX 등으로 확장하며 새로운 성",
+      "published": "2026-11-13 16:43",
       "logo_domain": "datanet.co.kr"
     },
     {
@@ -283,10 +283,28 @@
     {
       "source": "삼일PwC",
       "category": "컨설팅펌",
+      "title": "삼일PwC “중견기업 AX, 기술 도입 넘어 데이터·업무 구조 재설계해야”",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBOWFE5MDBBd3NvaTdUamJtbWRGR2tYX0h6aWt1NHE2d1dmVHdHam5ZMFFjNlVpaXZsd2hPWGtUY290WkNPd1ZMdGozNUQ5ak8zUzhDajEzdGd1V0Q3dHplZmlWdjlCQQ?oc=5",
+      "summary": "삼일PwC “중견기업 AX, 기술 도입 넘어 데이터·업무 구조 재설계해야” PwC",
+      "published": "2026-11-11 08:00",
+      "logo_domain": "pwc.com"
+    },
+    {
+      "source": "삼일PwC",
+      "category": "컨설팅펌",
       "title": "G-Zero 시대의 미국, 변하지 않는 전략과 달라지는 사업환경",
       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE8yMmtvV3FpOWt0VHBQc1pwS3JmbTdZaGxnaWRvMUhLaUFFZmZHX1dHTlJEVEx4WUJISEliUDlSeklsSDhtVHNUN3JzNnQ0U1RxZGlTeXUwVGF0dnBqQXBxNTFFTGpLTlMxYWtBaGU4U2lOMi1GNlRkSTRScm8?oc=5",
       "summary": "G-Zero 시대의 미국, 변하지 않는 전략과 달라지는 사업환경 PwC",
       "published": "2026-11-11 03:15",
+      "logo_domain": "pwc.com"
+    },
+    {
+      "source": "삼일PwC",
+      "category": "컨설팅펌",
+      "title": "삼일PwC, ‘2026 로보월드’서 AI·로봇기업 성장 전략 자문",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1LRkttUmJtWVdPMk9JeWpiVlZrcDZMNzdLWmItUEdFZzkxc0N1eHIwYTRJSkJLTU5UOGFhbEFmNjlQWC1TMVlsbkVZRS1ZNkdsTExfU3Q1VmpHU2V3OFNxUWZzdW9Udw?oc=5",
+      "summary": "삼일PwC, ‘2026 로보월드’서 AI·로봇기업 성장 전략 자문 PwC",
+      "published": "2026-11-10 08:00",
       "logo_domain": "pwc.com"
     },
     {
@@ -297,6 +315,42 @@
       "summary": "삼일PwC “G제로 시대, 지정학 리스크 대응력이 경영 핵심 의제” PwC",
       "published": "2026-11-09 08:00",
       "logo_domain": "pwc.com"
+    },
+    {
+      "source": "삼정KPMG",
+      "category": "컨설팅펌",
+      "title": "삼정KPMG, 공공 AX 컨설팅 역량 강화…전략부터 법·제도 검토까지 일원화",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE53aVFyMzloZlczZUs5U09aWHg4VXlTczMtOTduYU5KeF9EM1hsdzB0QkNLOHVacGlMYWdtNVo2TXBzejl4dTFwZm9NVTFuNU45emVJWENLMGx6TzhiMFdDalpYMlcwQURmVW1qWnRPZkNlaVZXc1h4QzFxT1lLUQ?oc=5",
+      "summary": "삼정KPMG, 공공 AX 컨설팅 역량 강화…전략부터 법·제도 검토까지 일원화 kpmg.com",
+      "published": "2026-11-13 10:59",
+      "logo_domain": "kpmg.com"
+    },
+    {
+      "source": "삼정KPMG",
+      "category": "컨설팅펌",
+      "title": "삼정KPMG \"전시장 넘어 복합 인프라로…K-MICE, 호텔·공연 결합해야\"",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1ab1ZWUl9iYW1uZzVnMi1XdGNSLXVHaTlBcUVocDRuNXdMUXJjQVZHblozMHAyYzJ1SzhSRTZhR3ZrSTVGdnhtNnNyT1ExMlE0VHA3UXNKRjB0MDB5QnFIOFc5LXVKazVLYzY1ZlVHWVdTMEhGdWs3RXBHdFk0QQ?oc=5",
+      "summary": "삼정KPMG \"전시장 넘어 복합 인프라로…K-MICE, 호텔·공연 결합해야\" kpmg.com",
+      "published": "2026-11-11 08:00",
+      "logo_domain": "kpmg.com"
+    },
+    {
+      "source": "딜로이트 안진",
+      "category": "컨설팅펌",
+      "title": "미국 중간선거 ‘블루나미’ 배경과 ‘포스트 트럼프’ 관전 포인트",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxObWQ0Q3VMemFPYXhGSUY3VWt0S2ExVFFsNDJEMkk2bkNWQWotUTlHblZFLWVnakxsejBRVmxSeVcwN1lCNDdfWkVWMTg2dDZoLW1YN25xQmdlOU01OWRTNkNpZ1lpLTViTzU0T2k1c29ZYlFmVUtlUzc5U013ajJZRHlzQ3V5bkdCZGxPdXNfeGw?oc=5",
+      "summary": "미국 중간선거 ‘블루나미’ 배경과 ‘포스트 트럼프’ 관전 포인트 Deloitte",
+      "published": "2026-11-13 17:56",
+      "logo_domain": "deloitte.com"
+    },
+    {
+      "source": "딜로이트 안진",
+      "category": "컨설팅펌",
+      "title": "Trump 2.0 후반기 정책 지형 변화와 한국 산업의 대응",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQZGlUQ0RoYkl1cEJ0WGZ6RzYtNUxWS25vSXA0MXFRU2ctMlc2QjZwTzNleVFkVk9uVnZqTEE4MWlWWDFRZ0RzaTVNaGtQZ3paWGxOZy1rdkxYVXBucEN4Q2pzcHlCdkVFQTh3YXFCX1lBejVyd3ZsbXE1ZEJLMTdfaXNsbkdrR2V2UHBHaw?oc=5",
+      "summary": "Trump 2.0 후반기 정책 지형 변화와 한국 산업의 대응 Deloitte",
+      "published": "2026-11-13 05:34",
+      "logo_domain": "deloitte.com"
     },
     {
       "source": "딜로이트 안진",
@@ -326,39 +380,12 @@
       "logo_domain": "deloitte.com"
     },
     {
-      "source": "딜로이트 안진",
-      "category": "컨설팅펌",
-      "title": "COP31과 ‘초과 온난화’ 경로… 감축 목표, 적응 노력 강화 불가피",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPYzFGalktbEd2TVNpR0tlMG9wX3Q5MXRVS05TbzFJZkV6V1VUQ0lzaWh0UF9UZ2xHbDhmWENMTE5ZOUVkMWhwUWl0QUFHYVNTaklFLXU2aFF3ZFd1ZDJmdS00LWNrdXlwTTVxZFp5VzlXWmVmQnc4VHV2LUc5STVISWx2cXZCMk9BcmZzZV9yM2Y?oc=5",
-      "summary": "COP31과 ‘초과 온난화’ 경로… 감축 목표, 적응 노력 강화 불가피 Deloitte",
-      "published": "2026-11-06 08:38",
-      "logo_domain": "deloitte.com"
-    },
-    {
-      "source": "딜로이트 안진",
-      "category": "컨설팅펌",
-      "title": "AI 토크노믹스: 토큰 기반의 TCO 분석과 AI 비용 최적화 전략",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOY2JoSk42elVOUkQ3QUpEWF91V0VsaVVQa0ZnU3ZWVjR1b0tYV0pqUzZwOUFpUWtvdDB1VF9mMG1Eb1RqZ2tMUG9rYzUydnNNLUQ4aHpaZ1FWUUN4YTJyMWR3dmJ0N3ZCcWRIZ0RzejRzS0VjdXVKNm9sRHFkS1g4V1NHMHpuNmNXVTIyRks3WDNZU1k?oc=5",
-      "summary": "AI 토크노믹스: 토큰 기반의 TCO 분석과 AI 비용 최적화 전략 Deloitte",
-      "published": "2026-11-04 16:13",
-      "logo_domain": "deloitte.com"
-    },
-    {
       "source": "IITP",
       "category": "국내 연구기관",
       "title": "\"AI 기술 경쟁 다음 무대는\"…2027년 AI·ICT 기술 전망 한눈에 - 뉴시스",
       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBRb0I0ZjNIOHhFeEp6TUxfeXJCbExmZVVvMUNuTGVyMGFMYjJ0dEdKbDhXcWxrNXNoRWZDa2VSMC16MkNITFhtMVVqS2JkVHJoaTBmR3J2N3oyQkZoV0ZCcU15WE1LSzA1bzVkTEczTUFPN2hiT0pzNdIBeEFVX3lxTFBRb0I0ZjNIOHhFeEp6TUxfeXJCbExmZVVvMUNuTGVyMGFMYjJ0dEdKbDhXcWxrNXNoRWZDa2VSMC16MkNITFhtMVVqS2JkVHJoaTBmR3J2N3oyQkZoV0ZCcU15WE1LSzA1bzVkTEczTUFPN2hiT0pzNQ?oc=5",
       "summary": "\"AI 기술 경쟁 다음 무대는\"…2027년 AI·ICT 기술 전망 한눈에 뉴시스",
       "published": "2026-11-11 01:00",
-      "logo_domain": "iitp.kr"
-    },
-    {
-      "source": "IITP",
-      "category": "국내 연구기관",
-      "title": "과기정통부, 2027 AI·ICT 기술전망 컨퍼런스 11일 개최 - 아주경제",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE4zZ2tUcXQzdlFBaktlRVJ4UTVkQ0VCQjdnT0E3TGpxN2dZWW5ERk5Oclpqd21iZERkRlBrOXpnTWhuRjdGeWZ1V0RnLVV2QU5ZR2FveS10QTfSAVhBVV95cUxOM2drVHF0M3ZRQWpLZUVSeFE1ZENFQkI3Z09BN0xqcTdnWVluREZOTnJaandtYmREZEZQazl6Z01obkY3RnlmdVdEZy1VdkFOWUdhb3ktdEE3?oc=5",
-      "summary": "과기정통부, 2027 AI·ICT 기술전망 컨퍼런스 11일 개최 아주경제",
-      "published": "2026-11-06 01:10",
       "logo_domain": "iitp.kr"
     },
     {
@@ -380,120 +407,93 @@
       "logo_domain": "nia.or.kr"
     },
     {
-      "source": "NIA",
-      "category": "국내 연구기관",
-      "title": "대외경제협력기금, ‘개도국 협력 워크숍’ 개최…AI로 디지털 전환 지원 - 비즈월드",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5aN1pQME9oQ3M1S1d1dHJaZURqd1FqaEJzcV9OZUt1bFBJMWVEWkpZZjZGVEtPMVR2bUFQQlpTeHAwRXc5SHlZVEJLSHNEX2pnNG9oN2hQSUcyMFo0aGs4M2VPbTFab1Y1X3c?oc=5",
-      "summary": "대외경제협력기금, ‘개도국 협력 워크숍’ 개최…AI로 디지털 전환 지원 비즈월드",
-      "published": "2026-11-11 00:13",
-      "logo_domain": "nia.or.kr"
-    },
-    {
-      "source": "NIA",
-      "category": "국내 연구기관",
-      "title": "수출입은행, 19개 개발도상국과 AI·디지털 ODA 협력 확대 추진 - 폴리뉴스 Polinews",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE10bllBQVNsTjRtMWZQdG5obGJET005ZGVFR1dqR0N3RGZLTFc5eXZhSmRsc2ZzTTNpREhTanJ4NDF2b2xZdE9ucFJIbFVhbE56U2U2aUF1WjJ0azUwbU1Gakd6aXFIemVKUlBVYUFB?oc=5",
-      "summary": "수출입은행, 19개 개발도상국과 AI·디지털 ODA 협력 확대 추진 폴리뉴스 Polinews",
-      "published": "2026-11-10 06:52",
-      "logo_domain": "nia.or.kr"
-    },
-    {
-      "source": "NIA",
-      "category": "국내 연구기관",
-      "title": "수출입은행, ‘EDCF 워크숍’ 개최…AI·디지털 전환 지원 - 아시아투데이",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBwaDU5SExuc3pVTWVrYUVqSnc3VGt4eVc3SzItcmNVUUNlRDdzYlFKME43Q0YtTGFpUDkzMUlpbDNzTFVZcmtQbmlpTGF6NTJXWFNRaUlIb1RGc21yVUZqeXU0bEZ3SjBULTdIN01n?oc=5",
-      "summary": "수출입은행, ‘EDCF 워크숍’ 개최…AI·디지털 전환 지원 아시아투데이",
-      "published": "2026-11-10 05:40",
-      "logo_domain": "nia.or.kr"
-    },
-    {
       "source": "지디넷코리아",
       "category": "IT 미디어",
-      "title": "\"국방 AI 최대 숙제는 데이터\"...코난, 정보분석 AI 첫 공개 - 지디넷코리아",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFAzclRxSEhEQVBOa3FBN0paRlJtNjZtYkFaNEJPNy10NVlBZTlFX2NFbUxvY245TGtRX3NSM2Vud29XeWk1NjNBb2NUODBtY2xVdmFpam1R?oc=5",
-      "summary": "\"국방 AI 최대 숙제는 데이터\"...코난, 정보분석 AI 첫 공개 지디넷코리아",
-      "published": "2026-11-13 02:09",
+      "title": "코히어, 소버린 AI 투자와 기업 도입 증가로 일본에 대한 의지 강화 - 지디넷코리아",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9Xd1U4TTdHWnNITFktemw2RmdMMHhITWNCMVVBOEJMb1JMZTFnRnNudnpEUTdtQXcyd1pqWmc5V3JTREpfMk9qMGtPTzlHT2FkWF9jTjVR?oc=5",
+      "summary": "코히어, 소버린 AI 투자와 기업 도입 증가로 일본에 대한 의지 강화 지디넷코리아",
+      "published": "2026-11-13 17:10",
       "logo_domain": "zdnet.co.kr"
     },
     {
       "source": "지디넷코리아",
       "category": "IT 미디어",
-      "title": "\"AX 시대, 공공 행정 혁신 해법 제시\"...'12회 GIX 2026' 세종서 성료 - 지디넷코리아",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5md3BXRVN3emt4MjdISjNramRNRWRBRm5xbWZ3NkNpeVlFTjNhTy16QkJyYzhUMWxvNm5FY0ZJUTVpNjJ5SFJVbUtUcUl4MG5LVU9TX1pB?oc=5",
-      "summary": "\"AX 시대, 공공 행정 혁신 해법 제시\"...'12회 GIX 2026' 세종서 성료 지디넷코리아",
-      "published": "2026-11-13 01:31",
+      "title": "슈퍼마이크로, 클라우드, HPC, 에이전틱 AI 워크로드용 6세대 AMD EPYC™ 9006 Series CPU 탑재 차세대 서버 출하 개시 - 지디넷코리아",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBibXhJaHFGTUViMDQ3bjhUMHk2Yk14QzRMYVBJa2wtOXhVS2tXTU5pUm1nMGxYM19fb3Y4TVd5dC1jX2hBUnFHdjhHTHdBTk5kMUJVaklB?oc=5",
+      "summary": "슈퍼마이크로, 클라우드, HPC, 에이전틱 AI 워크로드용 6세대 AMD EPYC™ 9006 Series CPU 탑재 차세대 서버 출하 개시 지디넷코리아",
+      "published": "2026-11-13 16:10",
       "logo_domain": "zdnet.co.kr"
     },
     {
       "source": "지디넷코리아",
       "category": "IT 미디어",
-      "title": "[포스트 젠슨 황] 엔비디아 성장세 이어질까...국내 반도체 공급망도 주목 - 지디넷코리아",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9pQmoyTGFRWk9ybzJzeldSZG1Ib2xfVmNhNFppMzhmQlVKRDJyQXFzQ0RTVGU1b2kxUnNKcEpFRUdxbzk2dy1WX0xsLURYd0JPS2N2ODdB?oc=5",
-      "summary": "[포스트 젠슨 황] 엔비디아 성장세 이어질까...국내 반도체 공급망도 주목 지디넷코리아",
-      "published": "2026-11-12 22:43",
+      "title": "영림원소프트랩, 3분기 영업익 14억원…전년비 8.6% ↑ - 지디넷코리아",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5kQnhnekQ1STZZQkFmdVZ1WEJuWlNaVHhvYXp2bjVSMnBXeVVCdENYX3ZzVHU2UXVlSEwtZHltVXF0Q0p6ODN0SFFQOTVPaWhxbjN2N0xR?oc=5",
+      "summary": "영림원소프트랩, 3분기 영업익 14억원…전년비 8.6% ↑ 지디넷코리아",
+      "published": "2026-11-13 09:34",
       "logo_domain": "zdnet.co.kr"
     },
     {
       "source": "지디넷코리아",
       "category": "IT 미디어",
-      "title": "ZDNet 검색 페이지 - 지디넷코리아",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQSW1kNmdHWUlBXzUyYUp0OEw2ZGhjWVdOelhJX0NoZG9sVnZYM3pUdnNTSU5yOE9IbVprWWJMaWRWU1EtcV9JN0pzQUFuM3VKS0hNQl9yRVU3OE5vV0VneElKRnlqSVlSYkNhZGoxQ01taGc4VkQzd21qbWt6N1cxclk0dmV2RUk?oc=5",
-      "summary": "ZDNet 검색 페이지 지디넷코리아",
-      "published": "2026-11-12 21:43",
+      "title": "아이티센피엔에스, 3분기 영업익 17억원…흑자전환 - 지디넷코리아",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBGVV9yWXBYLWVISDBxQzc4bVJZY1lXRm9WSC1SVHFRbFJhQ2lldm5kR3lYUDhpMWN4TTZjbllQN3lsUWRQbk1xRUVNYmRJTjFJYjZfLXdR?oc=5",
+      "summary": "아이티센피엔에스, 3분기 영업익 17억원…흑자전환 지디넷코리아",
+      "published": "2026-11-13 09:29",
       "logo_domain": "zdnet.co.kr"
     },
     {
       "source": "지디넷코리아",
       "category": "IT 미디어",
-      "title": "스마트인재개발원, '스마트인재원'으로 명칭 변경…AI 교육 전문성 강화 - 지디넷코리아",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1PX0xiaUxNTElpanoxNkMtZnREandPRXRZOEw2RVhfRmRJTEcxblpJVHRHS2dHLWRUUmRyMkxzcmNVM0RFejk0WkVVSXQ1aS1DTGoyV2xR?oc=5",
-      "summary": "스마트인재개발원, '스마트인재원'으로 명칭 변경…AI 교육 전문성 강화 지디넷코리아",
-      "published": "2026-11-12 08:57",
+      "title": "LGU+, 한국 제조 기업 글로벌 공급망 진출 지원 - 지디넷코리아",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE90LWZLMTFJa3NQM2g2UFExb2NlM2JaOXBUeklZY1hrSEktQy1FMXhFbUVhQzZSTnlkS29vSWI2dmFqTUMzVmwxUFdpOXpzdEQ3V3F2TDBn?oc=5",
+      "summary": "LGU+, 한국 제조 기업 글로벌 공급망 진출 지원 지디넷코리아",
+      "published": "2026-11-13 08:20",
       "logo_domain": "zdnet.co.kr"
     },
     {
       "source": "IT조선",
       "category": "IT 미디어",
-      "title": "서울 AI 허브, 인텔과 AI 스타트업 육성 협력 - IT조선",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1vc29BVVdjckNkdW44eWJpU3ZFZE5tbDlFS3ViYzg4QnJmZllMRlNMaXZNb3F4ZlUwU09LeFAyVEp0a2Z4M1lwRFJHS1FBNFZ5eDljVkxnSWVGTFYwcWdiOG9pcmRQb0htdHZyeUpEQzHSAXRBVV95cUxNWUNTek1fX3lBZ0RJRTVBdmpSTHF6cUk5RWx2REpjbTlidkRxUU1QejFjTDJyYkhfQzB2TWRxWHcxOTBaVlo0RXcwWHJLZ0Q3N1hkR2NjNmpta2lmTDdMNE9lekttZVFub0cwRTJZMG5BSEU1RQ?oc=5",
-      "summary": "서울 AI 허브, 인텔과 AI 스타트업 육성 협력 IT조선",
-      "published": "2026-11-13 01:52",
+      "title": "네이버, 헬스케어 기업 세나클 직접 보유… “사업 운영 효율화” - IT조선",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1SQktIbWJJV19GR201SzE0SkUyVkp5b18tQWYtLXBTZ2daZkYtNU9yYnI4aEstMXJ0alFROWttRnhtT0xIWlVHZGs0YnBVUFVfaDdvTUZxR0lBQWNZTE9panJiY2d2YzlDSHNDMlBNWVLSAXRBVV95cUxQUHRLRFVweFZsem82WTZsODRSWnQtTlBVMFlGRUQwU3VRVEREbWs5SVlNREdXMjdNUmlKWUJhMVpzcmIxaVdTZVAzS1VjM19Jei1tem1Zc2RaWXFBdUVNOXM4dXJzZHVObGZmb2JOYkdQNHkxSQ?oc=5",
+      "summary": "네이버, 헬스케어 기업 세나클 직접 보유… “사업 운영 효율화” IT조선",
+      "published": "2026-11-13 08:16",
       "logo_domain": "it.chosun.com"
     },
     {
       "source": "IT조선",
       "category": "IT 미디어",
-      "title": "[르포] VIP 없이 맞은 20돌… 해킹 그늘 드리운 금융보안원 - IT조선",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9qLVVXTGdHVXR1MmVHY3RVVjViQk1mWFdBRDVpcGFqWXFnY3JHWmRqbXFVb0drQmExVGVEMzBsVGVjRVFTbmFNQ1hNaTVaTnRXYmZHcFdSM0RwLTJMUXAwdS1jd1JRSXNmSWJWc2ZwNXXSAXRBVV95cUxOTjNZTVJQWXJwdWZ2Q1A1bmZ2N3lSdTVpLVBrUW5HSHlvNTdrcXFGWlR0RlJac2tubnh5TDJQcE51Y2FpWDR0WE5jZXdpbmE5ZXJjclVuZjN3OUJOYlNRVGh3NmhNdl92V2pxVWdmbnZVMk0yZw?oc=5",
-      "summary": "[르포] VIP 없이 맞은 20돌… 해킹 그늘 드리운 금융보안원 IT조선",
-      "published": "2026-11-12 08:23",
+      "title": "광고 3분 보면 게임 30분… MS, 구독 없는 클라우드 게임 공개 - IT조선",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBxNGY2M0wxMWg4N2JzN2hNV2NwMDJPTVAyY21qaW9uc0IzdW42MzR1M3YyTC04VXdhWDlMaGdyR2thTU9jLXFPdlFKMktkd0ZaMUYxR3pkU1lra1d2eVk5U24xTkNwTHdrNVlCNFVEQWXSAXRBVV95cUxQMUtYMzFvNnpoT3Nta24zV1l0VUJscVBqREZtTXNpREJ1aU9vWWtrRDhsQVpoRUE3dzBpWEc0Z3ZVcnYxMmE1RXQwWXp5cjEwOUhHbmFHaFFRanM4ZTlzdWRPTmRPMk82aGItRktieFYzQXJuNg?oc=5",
+      "summary": "광고 3분 보면 게임 30분… MS, 구독 없는 클라우드 게임 공개 IT조선",
+      "published": "2026-11-13 07:44",
       "logo_domain": "it.chosun.com"
     },
     {
       "source": "IT조선",
       "category": "IT 미디어",
-      "title": "메가존클라우드, 공공기관 AWS 도입 기간 줄인다 - IT조선",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA0NUliWkQzUWhsb1FpakY1aV80TmZaZjhEakdscmRPcjFWNjI2ejdQbWtHZC15MXFmZGU5SkNYVFlMTWpPZmtNa2JoUFh6dE9tRHFiQV9aY1ZFSXM5dFVvaGRkUGxXNXY5STBMMHJscnfSAXRBVV95cUxOR3JnX3NpUnpSanoxcFllZ05EbUQ1WjZuYkp6UmNGOVF5RE5ORDJLT3VmRmxGTFh1LTZyYjZDWHN0Y1dBcExKN2t5MzBrQnJyME5YZ3ZEc2NCUlk2NVk0Ym1FNG1XcFp1cVQ4VFo3Uy1pQVRnNA?oc=5",
-      "summary": "메가존클라우드, 공공기관 AWS 도입 기간 줄인다 IT조선",
-      "published": "2026-11-12 08:18",
+      "title": "아이티센글로벌, 3분기 누적 매출 7.1조…순익 1208억 - IT조선",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5CTTlDdDZJdER5aTZ1cDVQS3NLTDlYNzJzczhNNDc2RkVoaTVUTUd2amcwSDRxTUV4RXFxOFQ5WkxCU0dHaTNyZ3BBRjBMRzU4VDJXZkI5ajhUTDNaX3hPc3dlMTlQM3NoaEhZV24waUXSAXRBVV95cUxNUi1tTk9nSDlKTkQxbXFmS1N5ZWctRlRMNkd0SFl0aEJyejd2NkhRTzhjU2xDME9aVlM0aGtNY1o4T2JnWjdEZWt6RklJblFLeHpqVHFISGNIYlBSOEtLd0QyX1VFak1MUDd2clhlSXBtUXFXSw?oc=5",
+      "summary": "아이티센글로벌, 3분기 누적 매출 7.1조…순익 1208억 IT조선",
+      "published": "2026-11-13 07:22",
       "logo_domain": "it.chosun.com"
     },
     {
       "source": "IT조선",
       "category": "IT 미디어",
-      "title": "초록우산, 연말 캠페인 ‘산타원정대’ 시작 - IT조선",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9WNXEzZXR6bmpVYmVWQ2dZWEdwWE9KUFZDN2RVX0pVazYwN0hPZGhWMWxCQU0tcV9KMndXM1ppUTNLUXdMYlJjZjMwdWEtZ25FUnBVaFFmcDUwcjdtelo3OFZOTTc5X0lDWlFxVHFwUFDSAXRBVV95cUxQdWZYcHhVZXJVcWNHaXRwYmxDaHZCRWtuWWRsUmdMbTd1aExEdEtsZGU4RnU4MU1kWUx2eDFUQWlyTG1vSXhZVWlhSXVid2pQRm9EZ1RHZXByZHozNmlzTW9icWxkMTVzUHRZbkNSZVNHWmNrMQ?oc=5",
-      "summary": "초록우산, 연말 캠페인 ‘산타원정대’ 시작 IT조선",
-      "published": "2026-11-12 06:09",
+      "title": "미래에셋은 런던, 한투는 월가… 글로벌 투자 서비스 경쟁 - IT조선",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9HZWotcEpFUVZhLXJza1pwMHNBNkVwM25IUUtOaEp6cVRpeVNUa3puOWh1SWxZTGlhX2VyaHFVU2M3OUJOUm9UV1VXMk5ibkw0S2p6U1dOWWpRMHdNUDYtMXRTT3VMaFZxSjBCdWdGV0LSAXRBVV95cUxPR1FzOEJfcG9wYTItcDlvTnBvOWdqRUkwZW5aaHFMV0JqbXRySnQ1QnNQcmNXeUQyb3pDZm16c0xvQVAtMUxGaEQ1YzRhaTMza3M1VXkwc045b3lxaHJZeEVOdVBrd3NsTUVHYzh1Y3NBb3NGUg?oc=5",
+      "summary": "미래에셋은 런던, 한투는 월가… 글로벌 투자 서비스 경쟁 IT조선",
+      "published": "2026-11-13 07:09",
       "logo_domain": "it.chosun.com"
     },
     {
       "source": "IT조선",
       "category": "IT 미디어",
-      "title": "금융보안원 “AI, 스스로 판단 공격… 대응 어려워져” - IT조선",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE82NFVNUTFWZk1VQmlCUHQybVI2Z2NRY1IycE84bktjb1A4Y3RjNk1CSjJYNWJxYWV2OEUyVzkwZDBiQ29Ob3Etb1dfSmlJLUdYNDRPeVV0VGFpSDFmUUluSUl5c01scEpERm5RNUU4bjnSAXRBVV95cUxQMGJBTi1WMDUxdkQyaE9UU01xa015SXYwQmNnTmNlVzI4WUx4VllldzZfODJ2dmhMbTFMdnA0OXMyd0d5bFp4U1lxMERQXy1aOVNIRXNJR2d0N3NUSTFwN1Jhb0lWYkpQTDNlREJOM1pGSFloTA?oc=5",
-      "summary": "금융보안원 “AI, 스스로 판단 공격… 대응 어려워져” IT조선",
-      "published": "2026-11-12 05:23",
+      "title": "아이티센클로잇, 3분기 누적 영업익 28억…흑자전환 - IT조선",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1lYW9IX2xjdDJEdnR2b0EtS3kzcEdsOUxrOHlxSnQ3S1k5WUlMdHVwLXJ4UkFLOUR5dS15ZEtuTnJ1eHhQdlhQWFQzOFZtTUw5TGJWeTF1eENPcVpGT04tbTg4YS03cmduRDlfNjhLZVXSAXRBVV95cUxQbHBBeTFsWXFMT1ZzWE1sbWYxaDF3S3didlZ6QWEwTkt3ZWk3OWc2U2pKN25va282X3gwMmwwZmpiVmtmRGk5NkVuMnI0NGp2RzRrQlIySUtPVFhNMklIb0VsUDA3MUptQVpISUs3Y3JCZDUyTw?oc=5",
+      "summary": "아이티센클로잇, 3분기 누적 영업익 28억…흑자전환 IT조선",
+      "published": "2026-11-13 06:22",
       "logo_domain": "it.chosun.com"
     },
     {
@@ -502,7 +502,7 @@
       "title": "왜 지금 Responsible AI는 기업 경영의 출발점이 될까요?",
       "url": "https://www.ey.com/ko_kr/insights/consulting/why-responsible-ai-comes-first-in-business",
       "summary": "",
-      "published": "2026-11-13 12:08",
+      "published": "2026-11-14 11:54",
       "logo_domain": "ey.com"
     },
     {
@@ -511,7 +511,7 @@
       "title": "한국 소비자는 AI를 어디까지 신뢰하고 있을까요?",
       "url": "https://www.ey.com/ko_kr/insights/ai/how-far-do-korean-consumers-trust-ai",
       "summary": "",
-      "published": "2026-11-13 12:08",
+      "published": "2026-11-14 11:54",
       "logo_domain": "ey.com"
     },
     {
@@ -520,7 +520,7 @@
       "title": "불확실성 속에서 향후 한국 CEO들은 어떠한 전략 과제를 추진할까요?",
       "url": "https://www.ey.com/ko_kr/insights/ceo/2026-ceo-outlook-global-report",
       "summary": "",
-      "published": "2026-11-13 12:08",
+      "published": "2026-11-14 11:54",
       "logo_domain": "ey.com"
     },
     {
@@ -529,7 +529,7 @@
       "title": "금융 AI는 비용 절감을 넘어 어떻게 새로운 가치를 창출할 수 있을까요?",
       "url": "https://www.ey.com/ko_kr/insights/financial-services/how-can-financial-ai-create-value-beyond-cost-savings",
       "summary": "",
-      "published": "2026-11-13 12:08",
+      "published": "2026-11-14 11:54",
       "logo_domain": "ey.com"
     },
     {
@@ -538,7 +538,7 @@
       "title": "AI와 생산성 향상은 한국 CEO들의 성장 전략을 어떻게 바꾸고 있을까요?",
       "url": "https://www.ey.com/ko_kr/insights/ceo/2026-10-ceo-outlook-global-report",
       "summary": "",
-      "published": "2026-11-13 12:08",
+      "published": "2026-11-14 11:54",
       "logo_domain": "ey.com"
     },
     {
@@ -551,21 +551,12 @@
       "logo_domain": "lgcns.com"
     },
     {
-      "source": "LG CNS GN",
-      "category": "한국 대기업",
-      "title": "LG CNS, 3분기 영업이익 1382억원…AI·클라우드·금융 사업 성장 - 팍스경제TV",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1tN3FYSGc0V1Y4ZWdtUE5Ic2NSYm1zT1FFOUhRXzN3WS15ZkRsRlVEUmYteWtTdTkta0hDdl9BVkR5VzhfWlVrYlVDWW1vdUE3MTRPUE9peXRKWU4xY3haQ1lmWHNjS2s5?oc=5",
-      "summary": "LG CNS, 3분기 영업이익 1382억원…AI·클라우드·금융 사업 성장 팍스경제TV",
-      "published": "2026-10-30 07:00",
-      "logo_domain": "lgcns.com"
-    },
-    {
       "source": "Samsung SDS 인사이트",
       "category": "한국 대기업",
-      "title": "AI가 실행하는 시대, 기업은 어떻게 조직되어야 하는가?",
-      "url": "https://www.samsungsds.com/kr/insights/building-a-successful-ai-driven-organization.html",
+      "title": "AI 시대, S&OP를 다시 설계하다: Continuous & Value-Driven Planning",
+      "url": "https://www.samsungsds.com/kr/insights/sop-continuous-value-driven-planning.html",
       "summary": "",
-      "published": "2026-11-13 12:08",
+      "published": "2026-11-14 11:54",
       "logo_domain": "samsungsds.com"
     },
     {
@@ -574,7 +565,7 @@
       "title": "FDE의 부상: 엔터프라이즈 AI 도입 모델은 어떻게 바뀌고 있는가",
       "url": "https://www.samsungsds.com/kr/insights/the-rise-of-the-forward-deployed-engineer.html",
       "summary": "",
-      "published": "2026-11-13 12:08",
+      "published": "2026-11-14 11:54",
       "logo_domain": "samsungsds.com"
     },
     {
@@ -583,7 +574,7 @@
       "title": "2026년 사이버 보안 위협 트렌드 전망 및 대응",
       "url": "https://www.samsungsds.com/kr/insights/cybersecurity-threats-and-response-2026.html",
       "summary": "",
-      "published": "2026-11-13 12:08",
+      "published": "2026-11-14 11:54",
       "logo_domain": "samsungsds.com"
     },
     {
@@ -592,7 +583,7 @@
       "title": "공공 AX, 이제는 실행이다: 사례로 보는 공공 AI 전환 전략",
       "url": "https://www.samsungsds.com/kr/insights/public-ax-strategy-by-case.html",
       "summary": "",
-      "published": "2026-11-13 12:08",
+      "published": "2026-11-14 11:54",
       "logo_domain": "samsungsds.com"
     },
     {
@@ -601,7 +592,7 @@
       "title": "에이전틱 AI는 평준화 되지만, 기업의 운영 역량은 평준화되지 않는다",
       "url": "https://www.samsungsds.com/kr/insights/agentic-ai-enterprise-operational-capability.html",
       "summary": "",
-      "published": "2026-11-13 12:08",
+      "published": "2026-11-14 11:54",
       "logo_domain": "samsungsds.com"
     },
     {
@@ -610,7 +601,7 @@
       "title": "2026년 가트너 10대 전략 기술 트렌드: 기업 운영의 중심으로 선 AI, 기업 생존 전략을 좌우할 핵심 기술은?",
       "url": "https://www.skax.co.kr/insight/trend/3544",
       "summary": "",
-      "published": "2026-11-13 12:08",
+      "published": "2026-11-14 11:55",
       "logo_domain": "skax.co.kr"
     },
     {
@@ -619,7 +610,7 @@
       "title": "IMAGINE AX 2026 리뷰: AI를 쓰는 기업에서, AI가 일하는 기업으로",
       "url": "https://www.skax.co.kr/insight/trend/3780",
       "summary": "",
-      "published": "2026-11-13 12:08",
+      "published": "2026-11-14 11:55",
       "logo_domain": "skax.co.kr"
     },
     {
@@ -628,7 +619,7 @@
       "title": "AI 인재 육성의 새로운 기준, AXgenticWire AI Talent Lab",
       "url": "https://www.skax.co.kr/insight/trend/3782",
       "summary": "",
-      "published": "2026-11-13 12:08",
+      "published": "2026-11-14 11:55",
       "logo_domain": "skax.co.kr"
     },
     {
@@ -637,7 +628,7 @@
       "title": "SK AX, 에이전틱 AI 시대에 최적화된 AX 대표 브랜드 ‘AXgenticWire’ 런칭",
       "url": "https://www.skax.co.kr/insight/trend/3676",
       "summary": "",
-      "published": "2026-11-13 12:08",
+      "published": "2026-11-14 11:55",
       "logo_domain": "skax.co.kr"
     },
     {
@@ -646,7 +637,7 @@
       "title": "AI에이전트 하네스가 가른 AI 성과 격차, 모델보다 중요한 기업의 운영 체계화",
       "url": "https://www.skax.co.kr/insight/trend/3910",
       "summary": "",
-      "published": "2026-11-13 12:08",
+      "published": "2026-11-14 11:55",
       "logo_domain": "skax.co.kr"
     },
     {
@@ -655,7 +646,7 @@
       "title": "[리포트 다운로드] AI 규제 원년, ISO 42001 기반 인공지능 경영시스템(AIMS) 구축 | 10월 MI리포트",
       "url": "https://www.ackerton.com/insightReport/view?bbsNo=146",
       "summary": "",
-      "published": "2026-11-13 12:09",
+      "published": "2026-11-14 11:55",
       "logo_domain": "ackerton.com"
     },
     {
@@ -664,7 +655,7 @@
       "title": "[리포트 다운로드] AI 시대의 Market Intelligence: 정보 수집을 넘어 상시 의사결정 지원 체계로 | 10월 MI리포트",
       "url": "https://www.ackerton.com/insightReport/view?bbsNo=145",
       "summary": "",
-      "published": "2026-11-13 12:09",
+      "published": "2026-11-14 11:55",
       "logo_domain": "ackerton.com"
     },
     {
@@ -673,7 +664,7 @@
       "title": "[리포트 다운로드] sLLM 확산 시대, 기업의 시스템 개발구축환경은 어떻게 달라지고 있는가 | 10월 MI리포트",
       "url": "https://www.ackerton.com/insightReport/view?bbsNo=144",
       "summary": "",
-      "published": "2026-11-13 12:09",
+      "published": "2026-11-14 11:55",
       "logo_domain": "ackerton.com"
     },
     {
@@ -682,7 +673,7 @@
       "title": "[리포트 다운로드] AI 도입 이후의 과제: AI Platform Operations로 전환하는 기업 AI 운영 전략 | 10월 MI리포트",
       "url": "https://www.ackerton.com/insightReport/view?bbsNo=143",
       "summary": "",
-      "published": "2026-11-13 12:09",
+      "published": "2026-11-14 11:55",
       "logo_domain": "ackerton.com"
     }
   ]
